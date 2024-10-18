@@ -1,7 +1,7 @@
 import Link from "next/link";
 const AboutMe = () => {
   return (
-    <div className="about-container mt-10  flex justify-around gap-5">
+    <div className="about-container my-20  flex justify-around gap-5">
       <img
         className="h-[30rem]  bg-green-500"
         src="About Profile Pic.png"

@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutSection/AboutMe"
+import Experience from "./components/ExperienceSection/Experience"
 import IntroSection from "./components/IntroSection/IntroSection"
 import NavBar from "./components/NavBar/Nav"
 
@@ -9,6 +10,7 @@ const Home =()=>{
 <NavBar/>
 <IntroSection/>
 <AboutMe/>
+<Experience/>
   </div>
 }
 
