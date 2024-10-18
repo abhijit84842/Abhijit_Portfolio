@@ -5,9 +5,9 @@ const IntroSection = () => {
   return (
     <div className='intro-container   flex justify-between'>
         <div className='left-container w-[50%] text-white mt-20 ml-20 '>
-          <p className='text-3xl font-semibold'>Hi, It's Me</p>
-          <p className='text-5xl font-extrabold mt-2'>Abhijit Das</p>
-          <p className='text-4xl font-semibold mt-5'>And I'm a MERN Stack Developer</p>
+          <p className='text-3xl font-semibold'> <span className='text-[#F61E1E]'>Hi</span>, It's Me</p>
+          <p className='text-5xl font-extrabold mt-2 text-[#FB2A2A]'>Abhijit Das</p>
+          <p className='text-4xl font-semibold mt-5'>And I'm a <span className='text-[#0B44FF]'>MERN Stack Developer</span></p>
           <div className='sub-intro w-[100%] ml-5 mt-2'>
             <p>I am a passionate and versatile full stack developer with expertise in both front-end and back-end technologies. I specialize in building efficient, scalable, and user-friendly applications, utilizing a wide range of modern tools and frameworks. From crafting seamless user interfaces to ensuring robust server-side logic.</p>
           </div>
@@ -32,8 +32,8 @@ const IntroSection = () => {
             <img src="CV Download.png" alt="loading" /></a>
           </div>
         </div>
-        <div className='right-container mr-20  mt-10'>
-          <img className='h-[30rem]' src="Profile Pic.png" alt="" />
+        <div className='right-container mr-20  mt-5'>
+          <img className='h-[40rem]' src="Profile Pic.png" alt="" />
         </div>
     </div>
   )
