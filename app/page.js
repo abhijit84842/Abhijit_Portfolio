@@ -1,3 +1,4 @@
+import AboutMe from "./components/AboutSection/AboutMe"
 import IntroSection from "./components/IntroSection/IntroSection"
 import NavBar from "./components/NavBar/Nav"
 
@@ -7,6 +8,7 @@ const Home =()=>{
   
 <NavBar/>
 <IntroSection/>
+<AboutMe/>
   </div>
 }
 
