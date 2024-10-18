@@ -13,7 +13,7 @@ const AboutMe = () => {
           <p className="text-[#F61E1E] text-4xl font-semibold">About Me</p>
         </div>
         <div className="paragrap text-white w-[100%] mt-10 ml-5 ">
-          <p className="tracking-tight leading-8">
+          <p className=" text-xl leading-8">
             I'm a dedicated full stack developer with a strong passion for
             crafting dynamic and responsive web applications. With hands-on
             experience in front-end technologies like HTML, CSS, JavaScript, and
