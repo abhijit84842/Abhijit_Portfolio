@@ -7,7 +7,7 @@ const Skills = () => {
         Skills
       </h1>
       <div className="skills-type bg-stone-700 mx-20">
-        <div className="tech-heading mt-5">
+        <div className="tech-heading mt-5 p-5">
           <h2 className="text-[#FB2A2A] text-3xl">Technical Skills</h2>
         </div>
 
@@ -119,8 +119,6 @@ const Skills = () => {
           </div>
         </div>
 
-      
-
         <div className="programming-lang bg-zinc-800 p-5 my-10 mx-5 ">
           <h3 className="text-2xl text-white font-semibold">
             Backend Technology
@@ -196,9 +194,49 @@ const Skills = () => {
             </div>
           </div>
         </div>
-
-    
-      
+        <div className=" mt-10  p-5 ">
+          <div className="p-5">
+            <h2 className="text-[#FB2A2A] text-3xl">Professional Skills</h2>
+          </div>
+          <div className="bg-zinc-800 flex justify-start gap-20 my-5 p-5">
+            <div className=" p-5 flex flex-col items-center gap-5">
+              <img
+                className="w-[6rem]"
+                src="/skills/communication skills 1.png"
+                alt="loading.."
+              />
+              <p className="text-lg text-white font-semibold">
+                Communication Skill
+              </p>
+            </div>
+            <div className=" p-5 flex flex-col items-center gap-5">
+              <img
+                className="w-[6rem]"
+                src="/skills/team work 1.png"
+                alt="loading.."
+              />
+              <p className="text-lg text-white font-semibold">Team Work</p>
+            </div>
+            <div className="p-5 flex flex-col items-center gap-7 ">
+              <img
+                className="w-[6rem]"
+                src="/skills/problem 1.png"
+                alt="loading.."
+              />
+              <p className="text-lg text-white font-semibold">
+                Problem Solving
+              </p>
+            </div>
+            <div className=" p-5 flex flex-col items-center gap-7 ">
+              <img
+                className="w-[6rem]"
+                src="/skills/creativity 1.png"
+                alt="loading.."
+              />
+              <p className="text-lg text-white font-semibold">Creativity</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
