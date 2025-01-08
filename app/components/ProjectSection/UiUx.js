@@ -71,7 +71,7 @@ const UiUx = () => {
         </div>
         <div className="flex justify-center">
           <button className="bg-[#1E49F6] p-5  text-2xl rounded-full">
-            See More Projects...
+            See More Designs...
           </button>
         </div>
       </div>
