@@ -72,7 +72,7 @@ const MernStackProject = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center my-10">
         <button className="bg-[#1E49F6] p-5  text-2xl rounded-full">
           See More Projects...
         </button>
