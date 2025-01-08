@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutSection/AboutMe";
+import ContactMe from "./components/Contact/ContactMe";
 import Experience from "./components/ExperienceSection/Experience";
 import IntroSection from "./components/IntroSection/IntroSection";
 import NavBar from "./components/NavBar/Nav";
@@ -14,6 +15,7 @@ const Home = () => {
       <Experience />
       <Skills />
       <MyProject/>
+      <ContactMe/>
     </div>
   );
 };
