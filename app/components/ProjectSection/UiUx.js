@@ -1,5 +1,6 @@
 import React from "react";
-
+import { FaLink } from "react-icons/fa";
+import Link from "next/link";
 const UiUx = () => {
   return (
     <div className="uiux  mx-10 my-20">
@@ -28,8 +29,9 @@ const UiUx = () => {
                   digital branding.
                 </p>
               </div>
-              <div className="mt-20 ml-20">
-                <p>See details...</p>
+              <div className="mt-10 ml-10 flex gap-2 ">
+              <FaLink />
+                <Link className="text-amber-400" href={""}>See Details..</Link>
               </div>
             </div>
             <div className="right w-[50%]">
@@ -63,8 +65,9 @@ const UiUx = () => {
                   visual hierarchy, and branding.
                 </p>
               </div>
-              <div className="mt-20 ml-20">
-                <p>See details...</p>
+              <div className="mt-10 ml-10 flex gap-2 ">
+              <FaLink />
+                <Link className="text-amber-400" href={""}>See Details..</Link>
               </div>
             </div>
           </div>

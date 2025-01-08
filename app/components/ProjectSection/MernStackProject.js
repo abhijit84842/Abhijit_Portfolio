@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import React from 'react'
+import { FaLink } from "react-icons/fa";
 
 const MernStackProject = () => {
   return (
@@ -29,9 +31,10 @@ const MernStackProject = () => {
                 with a focus on security, scalability, and clean design.
               </p>
             </div>
-            <div className="mt-20 ml-20">
-              <p>See details...</p>
-            </div>
+            <div className="mt-10 ml-10 flex gap-2 ">
+              <FaLink />
+                <Link className="text-amber-400" href={""}>   Visit Project..</Link>
+              </div>
           </div>
           <div className="right w-[50%]">
             <img src="/Projects/citysling.png" alt="loading.." />
@@ -66,9 +69,10 @@ const MernStackProject = () => {
                 applications with an emphasis on security and performance.
               </p>
             </div>
-            <div className="mt-20 ml-20">
-              <p>See details...</p>
-            </div>
+            <div className="mt-10 ml-10 flex gap-2 ">
+              <FaLink />
+                <Link className="text-amber-400" href={""}>   Visit Project..</Link>
+              </div>
           </div>
         </div>
       </div>
