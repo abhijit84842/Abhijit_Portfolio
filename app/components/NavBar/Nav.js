@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const NavBar = () => {
   return (
     <div className="flex justify-between mt-2">
@@ -6,19 +8,22 @@ const NavBar = () => {
       </div>
       <nav className="flex gap-20 mr-20 text-xl font-semibold text-white">
         <div className="text-[#F61E1E]">
-          Home
+          <Link href={"/"}>Home</Link>
         </div>
         <div>
-          About Me
+          <Link href={""}>About Me</Link>
         </div>
         <div>
-          Skills
+        <Link href={""}>Skills</Link>
         </div>
         <div>
-          Projects
+        <Link href={""}>Exprience</Link>
         </div>
         <div>
-          Contact
+        <Link href={""}>Projects</Link>
+        </div>
+        <div>
+        <Link href={""}>Contact Me</Link>
         </div>
       </nav>
     </div>

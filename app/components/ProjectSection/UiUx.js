@@ -6,7 +6,7 @@ const UiUx = () => {
       <h1 className="text-2xl text-[#0B44FF] font-semibold mb-5">
         UI & UX Design
       </h1>
-      <div className="uiux-box bg-[#18181B] p-3">
+      <div className="uiux-box bg-[#18181B] p-3 rounded-[2rem]">
         <div className="design-box-2">
           <h2 className="ml-10 text-lg font-semibold text-[#FB2A2A]">
             Design 1

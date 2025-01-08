@@ -6,7 +6,7 @@ const ContactMe = () => {
       <h1 className="text-[#FB2A2A] flex justify-center  text-4xl font-semibold my-20">
         Contact Me
       </h1>
-      <div className="contact-sub-container bg-[#18181B] mx-10 my-10 flex justify-between gap-20 p-5">
+      <div className="contact-sub-container bg-[#18181B] mx-10 my-10 flex justify-between gap-20 p-5 rounded-[2rem]">
         <div className="contact-left w-[50%] flex justify-center p-5">
           <img
             className="w-[35rem] h-[35rem]"

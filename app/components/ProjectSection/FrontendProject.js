@@ -3,10 +3,10 @@ import React from 'react'
 const FrontendProject = () => {
   return (
     <div className="frontend-projects  mx-10">
-    <h1 className="text-2xl text-[#0B44FF] font-semibold mb-5">
+    <h1 className="text-2xl text-[#0B44FF] font-semibold mb-5 ">
       Frontend Projects
     </h1>
-    <div className="frontend-project-box bg-[#18181B] p-3">
+    <div className="frontend-project-box bg-[#18181B] p-3 rounded-[2rem]">
       <div className="project-box-2">
         <h2 className="ml-10 text-lg font-semibold text-[#FB2A2A]">
           Project 1
