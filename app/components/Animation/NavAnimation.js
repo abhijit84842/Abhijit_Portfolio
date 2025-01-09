@@ -3,6 +3,7 @@ import React from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import Link from "next/link"
+import AboutMe from "../AboutSection/AboutMe";
 
 const NavAnimation = () => {
     useGSAP(()=>{
@@ -19,19 +20,19 @@ const NavAnimation = () => {
         <Link href={"/"}>Home</Link>
       </div>
       <div className="navLink">
-        <Link href={""}>About Me</Link>
+        <Link href={"#about"}>About Me</Link>
       </div>
       <div className="navLink">
-        <Link href={""}>Skills</Link>
+        <Link href={"#skills"}>Skills</Link>
       </div>
       <div className="navLink">
-        <Link href={""}>Exprience</Link>
+        <Link href={"#exprience"}>Exprience</Link>
       </div>
       <div className="navLink">
         <Link href={""}>Projects</Link>
       </div>
       <div className="navLink">
-        <Link href={""}>Contact Me</Link>
+        <Link href={"#contact"}>Contact Me</Link>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ import OthersSkills from "./OthersSkills";
 
 const Skills = () => {
   return (
-    <div className="skills-container my-20">
+    <div className="skills-container my-20" id="skills">
       <h1 className="text-[#FB2A2A] flex justify-center text-4xl font-semibold my-20">
         Skills
       </h1>
