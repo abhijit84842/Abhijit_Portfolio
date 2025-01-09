@@ -21,18 +21,23 @@ const NavAnimation = () => {
       </div>
       <div className="navLink">
         <Link href={"#about"}>About Me</Link>
+        <div className="blank"></div>
       </div>
       <div className="navLink">
         <Link href={"#skills"}>Skills</Link>
+        <div className="blank"></div>
       </div>
       <div className="navLink">
         <Link href={"#exprience"}>Exprience</Link>
+        <div className="blank"></div>
       </div>
       <div className="navLink">
         <Link href={""}>Projects</Link>
+        <div className="blank"></div>
       </div>
       <div className="navLink">
         <Link href={"#contact"}>Contact Me</Link>
+        <div className="blank"></div>
       </div>
     </div>
   );
