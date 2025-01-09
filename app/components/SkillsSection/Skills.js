@@ -6,6 +6,7 @@ import BackendSkills from "./BackendSkills";
 import AnimationSkills from "./AnimationSkills";
 import UiDesignSkills from "./UiDesignSkills";
 import ProfessionalSkills from "./ProfessionalSkills";
+import OthersSkills from "./OthersSkills";
 
 const Skills = () => {
   return (
@@ -27,6 +28,7 @@ const Skills = () => {
         <DataBase />
         <AnimationSkills />
         <UiDesignSkills />
+        <OthersSkills/>
         <ProfessionalSkills />
       </div>
     </div>
