@@ -32,13 +32,21 @@ const BackendSkills = () => {
         />
         <p className="text-white text-lg font-semibold">JWT</p>
       </div>
-      <div className="jwt-auth p-5 flex flex-col items-center gap-7">
+      <div className="socket-io p-5 flex flex-col items-center gap-7">
         <img
           className="w-[5rem]"
           src="/skills/socket.png"
           alt="loading.."
         />
         <p className="text-white text-lg font-semibold">Socket.Io</p>
+      </div>
+      <div className="mongoDb-aggregation p-5 flex flex-col items-center gap-2 ">
+        <img
+          className="w-[10rem]"
+          src="/skills/aggregation.png"
+          alt="loading.."
+        />
+        <p className="text-white text-lg font-semibold">Aggregation Pipeline</p>
       </div>
     </div>
   </div>
