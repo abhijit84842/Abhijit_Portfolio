@@ -1,66 +1,20 @@
-"use client"
+import FrontendProjectsShow from "@/app/components/FrontendProjetcs/FrontendProjectsShow";
+import FullStackProjectsShow from "@/app/components/FullStackProjects/FullStackProjectsShow";
+import OthersProjectsShow from "@/app/components/OthersProjectsShow/OthersProjectsShow";
 import React from "react";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
-
-import styles from "./ProjectAll.module.css"
-
-// import required modules
-import { EffectCoverflow, Pagination } from 'swiper/modules';
-
-
 const page = () => {
-  return <>
-  <Swiper
-        effect={'coverflow'}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={'auto'}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        }}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination]}
-        className={styles.mySwiper}
-      >
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-        </SwiperSlide>
-      </Swiper>
-  </>;
+  return (
+    <div className="allprojects-main-container">
+      <h1 className="flex justify-center text-5xl font-semibold mt-10">All Projects</h1>
+      <div className=" bg-zinc-900 mx-10 rounded-lg p-4 my-10">
+      <FullStackProjectsShow/>
+      <FrontendProjectsShow/>
+      <OthersProjectsShow/>
+      </div>
+     
+    </div>
+  );
 };
 
 export default page;
