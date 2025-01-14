@@ -3,7 +3,7 @@ import React from 'react'
 
 const FullStackProjectsShow = () => {
   return (
-    <div className="sub-container bg-slate-800 p-5 my-5 rounded-lg">
+    <div className="sub-container bg-slate-800 p-5 my-10 rounded-lg">
         <div className="frotend-projects-box">
             <h2 className="mt-5 text-2xl mb-5 text-red-500">Full Stack Projects</h2>
             <div className="flex justify-between">

@@ -3,7 +3,7 @@ import React from 'react'
 
 const OthersProjectsShow = () => {
   return (
-    <div className="sub-container bg-slate-800 p-5 my-5 rounded-lg">
+    <div className="sub-container bg-slate-800 p-5 my-10 rounded-lg">
     <div className="others-projects-box">
         <h2 className="mt-5 text-2xl mb-5 text-red-500">Others Projects</h2>
         <div className="flex justify-between">
