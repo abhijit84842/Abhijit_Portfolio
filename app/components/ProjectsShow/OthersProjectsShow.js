@@ -25,8 +25,6 @@ const OthersProjectsShow = () => {
         </div>
        
     </div>
-    <div className="frontend-projects-box"></div>
-    <div className="others-projects-box"></div>
   </div>
   )
 }

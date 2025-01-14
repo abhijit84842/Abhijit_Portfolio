@@ -1,6 +1,7 @@
-import FrontendProjectsShow from "@/app/components/FrontendProjetcs/FrontendProjectsShow";
-import FullStackProjectsShow from "@/app/components/FullStackProjects/FullStackProjectsShow";
-import OthersProjectsShow from "@/app/components/OthersProjectsShow/OthersProjectsShow";
+
+import FrontendProjectsShow from "@/app/components/ProjectsShow/FrontendProjectsShow";
+import FullStackProjectsShow from "@/app/components/ProjectsShow/FullStackProjectsShow";
+import OthersProjectsShow from "@/app/components/ProjectsShow/OthersProjectsShow";
 import React from "react";
 
 const page = () => {
