@@ -10,7 +10,7 @@ const ContactMe = () => {
       <div className="contact-sub-container bg-[#18181B] mx-10 my-10 flex justify-between gap-20 p-5 rounded-[2rem]">
         <div className="contact-left w-[50%] flex justify-center p-5">
           <Image
-            src="/Contact/contact.png"
+            src="/Contact/Contact.png"
             alt="loading.."
             loading="lazy"
             width={500}
