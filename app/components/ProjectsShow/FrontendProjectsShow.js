@@ -47,7 +47,7 @@ const FrontendProjectsShow = () => {
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                 View World Travel Agency
               </p>
-              <p className="text-black">
+              <p className="text-black text-sm">
                 The project features smooth animations using GSAP and Swiper JS
                 for interactive sliders, providing an engaging user experience.
                 The website incorporates essential tools like react-hook-form
@@ -71,7 +71,7 @@ const FrontendProjectsShow = () => {
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                 Wear Collections E-com
               </p>
-              <p className="text-black ">
+              <p className="text-black text-sm">
                 A e-com website developed using React Js,HTML,CSS and
                 Javascript.Designed with a focus on smooth user experience. This
                 project highlights my skills in creating interactive,
@@ -94,7 +94,7 @@ const FrontendProjectsShow = () => {
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                 Myntra Clone
               </p>
-              <p className="text-black ">
+              <p className="text-black text-sm">
                 The Myntra Clone project is a simplified replica of the popular
                 e-commerce platform, built using React.js, HTML, and CSS. This
                 application features a dynamic product catalog powered by dummy
@@ -117,7 +117,7 @@ const FrontendProjectsShow = () => {
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                 BMI Calculator
               </p>
-              <p className="text-black ">
+              <p className="text-black text-sm">
                 BMI Calculator project is a user-friendly React.js application
                 designed to help users quickly and accurately calculate their
                 Body Mass Index (BMI).For styling use CSS. The calculator takes
@@ -141,7 +141,7 @@ const FrontendProjectsShow = () => {
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                 Weather App Using React Js
               </p>
-              <p className="text-black ">
+              <p className="text-black text-sm">
                 This is a weather application built using React.js
                 for functionality and CSS for styling. The app allows users to
                 search for weather information for different locations,
