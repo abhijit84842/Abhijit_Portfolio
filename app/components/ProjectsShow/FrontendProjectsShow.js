@@ -12,6 +12,7 @@ import "swiper/css/pagination";
 import styles from "./ProjectShow.module.css";
 // import required modules
 import { FreeMode, Pagination, Autoplay } from "swiper/modules";
+import Image from "next/image";
 
 const FrontendProjectsShow = () => {
   return (
@@ -39,11 +40,13 @@ const FrontendProjectsShow = () => {
           <SwiperSlide>
             {" "}
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
-              <img
-                className="w-[20rem]"
+              <Image
                 src="/ProjectShow/TravelAgency.png"
                 alt="loading.."
+                width={500}
+                height={500}
               />
+
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                 View World Travel Agency
               </p>
@@ -63,11 +66,13 @@ const FrontendProjectsShow = () => {
           <SwiperSlide>
             {" "}
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
-              <img
-                className="w-[20rem]"
+              <Image
                 src="/ProjectShow/Wear Collections Img.png"
                 alt="loading.."
+                width={500}
+                height={500}
               />
+
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                 Wear Collections E-com
               </p>
@@ -86,11 +91,13 @@ const FrontendProjectsShow = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
-              <img
-                className="w-[20rem]"
+              <Image
                 src="/ProjectShow/Myntra Clone.png"
                 alt="loading.."
+                width={500}
+                height={500}
               />
+
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                 Myntra Clone
               </p>
@@ -109,11 +116,13 @@ const FrontendProjectsShow = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
-              <img
-                className="w-[20rem]"
+              <Image
                 src="/ProjectShow/BmiCalculator.png"
                 alt="loading.."
+                width={500}
+                height={500}
               />
+
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                 BMI Calculator
               </p>
@@ -133,17 +142,19 @@ const FrontendProjectsShow = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
-              <img
-                className="w-[20rem]"
+              <Image
                 src="/ProjectShow/Weather App.png"
                 alt="loading.."
+                width={500}
+                height={500}
               />
+
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                 Weather App Using React Js
               </p>
               <p className="text-black text-sm">
-                This is a weather application built using React.js
-                for functionality and CSS for styling. The app allows users to
+                This is a weather application built using React.js for
+                functionality and CSS for styling. The app allows users to
                 search for weather information for different locations,
                 providing real-time updates fetched from a weather API. It
                 includes key features like displaying temperature, humidity, and
