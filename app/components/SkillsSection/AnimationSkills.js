@@ -8,7 +8,7 @@ const AnimationSkills = () => {
       <div className="prolang  flex justify-start gap-20 mt-5">
         <div className="gsap  w-[7rem] min-w-[7rem] h-[11rem] p-5 flex flex-col items-center gap-8">
           <Image
-            src="/skills/gsap.png"
+            src="/Skills/gsapskills.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -19,7 +19,7 @@ const AnimationSkills = () => {
         </div>
         <div className="swiper w-[7rem] min-w-[7rem] h-[11rem] p-5 flex flex-col items-center gap-8">
           <Image
-            src="/skills/swiper.png"
+            src="/Skills/swiperskills.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -30,7 +30,7 @@ const AnimationSkills = () => {
         </div>
         <div className="canva w-[8rem] min-w-[7rem] h-[11rem] p-5 flex flex-col items-center gap-8 ">
           <Image
-            src="/skills/scroll.png"
+            src="/Skills/scrollskills.png"
             alt="loading.."
             loading="lazy"
             width={100}

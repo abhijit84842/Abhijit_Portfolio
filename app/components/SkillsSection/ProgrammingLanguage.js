@@ -10,7 +10,7 @@ const ProgrammingLanguage = () => {
       <div className="prolang  flex justify-start gap-20 mt-5">
       <div className="javascript p-5 flex flex-col items-center gap-4">
           <Image
-            src="/skills/javascript 1.png"
+            src="/Skills/javascriptskills.png"
             alt="loading.."
             loading="lazy"
             width={50}
@@ -20,7 +20,7 @@ const ProgrammingLanguage = () => {
         </div>
         <div className="python p-5 flex flex-col items-center gap-4">
           <Image
-            src="/skills/python 1.png"
+            src="/Skills/pythonskills.png"
             alt="loading.."
             loading="lazy"
             width={55}
@@ -31,7 +31,7 @@ const ProgrammingLanguage = () => {
         </div>
         <div className="java p-5 flex flex-col items-center gap-4">
           <Image
-            src="/skills/java 1.png"
+            src="/Skills/javaskills.png"
             alt="loading.."
             loading="lazy"
             width={70}

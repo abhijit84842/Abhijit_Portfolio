@@ -8,7 +8,7 @@ const DataBase = () => {
       <div className="prolang  flex justify-start gap-20 mt-5">
         <div className="mongoDB p-5 flex flex-col items-center gap-6">
           <Image
-            src="/skills/mongoDB 1.png"
+            src="/Skills/mongoDBskills.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -19,7 +19,7 @@ const DataBase = () => {
         </div>
         <div className="mySQL p-5 flex flex-col items-center gap-5">
           <Image
-            src="/skills/MYSQL.png"
+            src="/Skills/MYSQLskills.png"
             alt="loading.."
             loading="lazy"
             width={70}

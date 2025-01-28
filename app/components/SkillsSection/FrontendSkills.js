@@ -8,7 +8,7 @@ const FrontendSkills = () => {
       <div className="prolang flex justify-start gap-7 mt-5">
         <div className="html5  w-[7rem] min-w-[7rem] h-[11rem] p-5 flex flex-col items-center gap-7">
           <Image
-            src="/skills/html5 1.png"
+            src="/Skills/htmlskills.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -19,7 +19,7 @@ const FrontendSkills = () => {
         </div>
         <div className="css3 w-[7rem] min-w-[7rem]  h-[11rem]  p-5 flex flex-col items-center gap-7">
           <Image
-            src="/skills/css 3 1.png"
+            src="/Skills/cssskills.png"
             alt="loading.."
             loading="lazy"
             width={100}
@@ -30,7 +30,7 @@ const FrontendSkills = () => {
         </div>
         <div className="javascript w-[7rem] min-w-[7rem] h-[11rem]  p-5 flex flex-col items-center gap-8 ">
           <Image
-            src="/skills/javascript 1.png"
+            src="/Skills/javascriptskills.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -41,7 +41,7 @@ const FrontendSkills = () => {
         </div>
         <div className="reactjs w-[7rem] min-w-[7rem] h-[11rem]    p-2 flex flex-col items-center gap-8">
           <Image
-            src="/skills/react.png"
+            src="/Skills/reactskills.png"
             alt="loading.."
             loading="lazy"
             width={115}
@@ -52,7 +52,7 @@ const FrontendSkills = () => {
         </div>
         <div className="redux-toolkit w-[7rem] min-w-[7rem]  h-[11rem]  p-5 flex flex-col items-center gap-8">
           <Image
-            src="/skills/redux 1.png"
+            src="/Skills/reduxskills.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -63,7 +63,7 @@ const FrontendSkills = () => {
         </div>
         <div className="nextjs w-[7rem] min-w-[7rem] h-[11rem]  p-5 flex flex-col items-center gap-9">
           <Image
-            src="/skills/next js 2 1.png"
+            src="/Skills/nextjsskills.png"
             alt="loading.."
             loading="lazy"
             width={90}
@@ -74,7 +74,7 @@ const FrontendSkills = () => {
         </div>
         <div className="ejs w-[7rem] min-w-[7rem] h-[11rem]  p-5 flex flex-col items-center gap-14">
           <Image
-            src="/skills/ejs.png"
+            src="/Skills/ejsskills.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -85,7 +85,7 @@ const FrontendSkills = () => {
         </div>
         <div className="tailwindcss w-[7rem] min-w-[7rem] h-[11rem]  p-5 flex flex-col items-center gap-12">
           <Image
-            src="/skills/Tailwind css.png"
+            src="/Skills/tailwindcssskills.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -96,7 +96,7 @@ const FrontendSkills = () => {
         </div>
         <div className="bootstrap w-[7rem] min-w-[7rem] h-[11rem]  p-5 flex flex-col items-center gap-12">
           <Image
-            src="/skills/bootstrap--v2 1.png"
+            src="/Skills/bootstrapskills.png"
             alt="loading.."
             loading="lazy"
             width={70}

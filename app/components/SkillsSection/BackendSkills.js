@@ -8,7 +8,7 @@ const BackendSkills = () => {
       <div className="nodejs  flex justify-start gap-20 mt-5">
         <div className="python p-5 flex flex-col items-center gap-5">
           <Image
-            src="/skills/node js 1.png"
+            src="/Skills/nodejsskills.png"
             alt="loading..."
             loading="lazy"
             width={70}
@@ -19,7 +19,7 @@ const BackendSkills = () => {
         </div>
         <div className="express-js p-5 flex flex-col items-center gap-8">
           <Image
-            src="/skills/express 1.png"
+            src="/Skills/expressskills.png"
             alt="loading..."
             loading="lazy"
             width={70}
@@ -30,7 +30,7 @@ const BackendSkills = () => {
         </div>
         <div className="jwt-auth p-5 flex flex-col items-center gap-7">
           <Image
-            src="/skills/jwt 1.png"
+            src="/Skills/jwtskills.png"
             alt="loading..."
             loading="lazy"
             width={70}
@@ -41,7 +41,7 @@ const BackendSkills = () => {
         </div>
         <div className="socket-io p-5 flex flex-col items-center gap-7">
           <Image
-            src="/skills/socket.png"
+            src="/Skills/socketskills.png"
             alt="loading..."
             loading="lazy"
             width={70}
@@ -52,7 +52,7 @@ const BackendSkills = () => {
         </div>
         <div className="mongoDb-aggregation p-5 flex flex-col items-center gap-9 ">
           <Image
-            src="/skills/aggregation.png"
+            src="/Skills/aggregationskills.png"
             alt="loading..."
             loading="lazy"
             width={100}

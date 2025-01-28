@@ -12,7 +12,7 @@ const ProfessionalSkills = () => {
       <div className="bg-zinc-800 flex justify-start gap-20 my-5 p-5 rounded-lg">
         <div className=" p-5 flex flex-col items-center gap-5">
           <Image
-            src="/skills/communication skills 1.png"
+            src="/Skills/communicationskills.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -25,7 +25,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className=" p-5 flex flex-col items-center gap-5">
           <Image
-            src="/skills/team work 1.png"
+            src="/Skills/teamworkskills.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -36,7 +36,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className="p-5 flex flex-col items-center gap-7 ">
           <Image
-            src="/skills/problem 1.png"
+            src="/Skills/problemskills.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -47,7 +47,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className=" p-5 flex flex-col items-center gap-7 ">
           <Image
-            src="/skills/creativity 1.png"
+            src="/Skills/creativityskills.png"
             alt="loading.."
             loading="lazy"
             width={70}

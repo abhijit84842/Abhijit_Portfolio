@@ -8,7 +8,7 @@ const OthersSkills = () => {
       <div className="prolang  flex justify-start gap-20 mt-5">
         <div className="figma p-5 flex flex-col items-center gap-2">
           <Image
-            src="/skills/git.png"
+            src="/Skills/gitskills.png"
             alt="loading.."
             loading="lazy"
             width={70}
