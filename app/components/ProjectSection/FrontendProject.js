@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaLink } from "react-icons/fa";
@@ -31,12 +32,21 @@ const FrontendProject = () => {
                 </p>
               </div>
               <div className="mt-10 ml-10 flex gap-2 ">
-              <FaLink />
-                <Link className="text-amber-400" href={""}>   Visit Project..</Link>
+                <FaLink />
+                <Link className="text-amber-400" href={""}>
+                  {" "}
+                  Visit Project..
+                </Link>
               </div>
             </div>
             <div className="right w-[50%]">
-              <img src="/Projects/travelagency.png" alt="loading.." />
+              <Image
+                src="/Projects/travelagency.png"
+                alt="loading.."
+                loading="lazy"
+                width={500}
+                height={500}
+              />
             </div>
           </div>
         </div>
@@ -48,7 +58,13 @@ const FrontendProject = () => {
           </h2>
           <div className="my-5 ml-10 flex justify-end gap-20">
             <div className="right w-[50%]">
-              <img src="/Projects/wear.png" alt="loading.." />
+              <Image
+                src="/Projects/wear.png"
+                alt="loading.."
+                loading="lazy"
+                width={500}
+                height={500}
+              />
             </div>
             <div className="left w-[80%] h-[20rem]">
               <h2 className="text-2xl">Wear Collection E-com Website</h2>
@@ -68,8 +84,11 @@ const FrontendProject = () => {
                 </p>
               </div>
               <div className="mt-10 ml-10 flex gap-2 ">
-              <FaLink />
-                <Link className="text-amber-400" href={""}>   Visit Project..</Link>
+                <FaLink />
+                <Link className="text-amber-400" href={""}>
+                  {" "}
+                  Visit Project..
+                </Link>
               </div>
             </div>
           </div>

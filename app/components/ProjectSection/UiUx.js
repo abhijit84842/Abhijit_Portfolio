@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLink } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 const UiUx = () => {
   return (
     <div className="uiux  mx-10 my-20">
@@ -30,12 +31,20 @@ const UiUx = () => {
                 </p>
               </div>
               <div className="mt-10 ml-10 flex gap-2 ">
-              <FaLink />
-                <Link className="text-amber-400" href={""}>See Details..</Link>
+                <FaLink />
+                <Link className="text-amber-400" href={""}>
+                  See Details..
+                </Link>
               </div>
             </div>
             <div className="right w-[50%]">
-              <img src="/uiux/design1.png" alt="loading.." />
+              <Image
+                src="/uiux/design1.png"
+                alt="loading.."
+                loading="lazy"
+                width={500}
+                height={500}
+              />
             </div>
           </div>
         </div>
@@ -47,7 +56,13 @@ const UiUx = () => {
           </h2>
           <div className="my-5 ml-10 flex justify-end gap-20">
             <div className="right w-[50%]">
-              <img src="/uiux/design2.png" alt="loading.." />
+              <Image
+                src="/uiux/design2.png"
+                alt="loading.."
+                loading="lazy"
+                width={500}
+                height={500}
+              />
             </div>
             <div className="left w-[80%] h-[20rem]">
               <h2 className="text-2xl">Portfolio Design</h2>
@@ -66,8 +81,10 @@ const UiUx = () => {
                 </p>
               </div>
               <div className="mt-10 ml-10 flex gap-2 ">
-              <FaLink />
-                <Link className="text-amber-400" href={""}>See Details..</Link>
+                <FaLink />
+                <Link className="text-amber-400" href={""}>
+                  See Details..
+                </Link>
               </div>
             </div>
           </div>
