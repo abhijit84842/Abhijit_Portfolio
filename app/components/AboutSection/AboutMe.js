@@ -1,11 +1,16 @@
+import Image from "next/image";
 import Link from "next/link";
 const AboutMe = () => {
   return (
-    <div className="about-container my-20  flex justify-around gap-5" id="about">
-      <img
-        className="h-[30rem]  bg-green-500"
-        src="About Profile Pic.png"
+    <div
+      className="about-container my-20  flex justify-around gap-5"
+      id="about"
+    >
+      <Image
+        src="/aboutprofilepic.png"
         alt="loading.."
+        width={400}
+        height={400}
       />
 
       <div className="about-right  w-[50%] mt-20">
@@ -29,9 +34,10 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="bg-red-500  mt-10 ml-5 w-[20%] p-2 rounded-full text-white font-semibold ">
-        <Link className="ml-2" href="#">More About Me</Link>
+          <Link className="ml-2" href="#">
+            More About Me
+          </Link>
         </div>
-
       </div>
     </div>
   );

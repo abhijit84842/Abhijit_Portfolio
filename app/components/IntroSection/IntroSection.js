@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import Image from "next/image";
 
 const IntroSection = () => {
   useGSAP(() => {
@@ -54,35 +55,43 @@ const IntroSection = () => {
         <div className="social-links flex gap-10 mt-5">
           <div className="github">
             <Link href="#">
-              <img
-                className="linkedinimg w-[3rem] rounded-full"
+              <Image
                 src="/Social Links/linkedin.png"
                 alt="loading.."
+                width={55}
+                height={55}
               />
             </Link>
           </div>
           <div className="github">
             <Link href="#">
-              <img
-                className="linkedinimg  w-[3.6rem] rounded-full"
+              <Image
                 src="/Social Links/github.png"
                 alt="loading.."
+                width={60}
+                height={60}
               />
             </Link>
           </div>
           <div className="whatsapp">
             <Link href="#">
-              <img
-                className=" linkedinimg w-[3.2rem] rounded-full"
+              <Image
                 src="/Social Links/whatsapp.png"
                 alt="loading.."
+                width={55}
+                height={55}
               />
             </Link>
           </div>
         </div>
         <div className="CV-download mt-10 ml-5 ">
           <a href="/CV/Resume.pdf">
-            <img src="CV Download.png" alt="loading" />
+            <Image
+              src="/cvdownload.png"
+              alt="loading.."
+              width={200}
+              height={200}
+            />
           </a>
         </div>
       </div>
