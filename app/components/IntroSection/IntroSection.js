@@ -98,7 +98,8 @@ const IntroSection = () => {
 
       <div className="right-container mr-20  mt-5">
         <div className="animation-box-profileimg">
-          <img className="profile-img h-[40rem]" src="Profile Pic.png" alt="" />
+          <Image src="/profilepic.png" alt="loading.." width={550} height={550}/>
+     
         </div>
       </div>
     </div>
