@@ -12,6 +12,7 @@ const OthersProjectsShow = () => {
             <Image
               src="/Projects/citysling.png"
               alt="loading.."
+              loading="lazy"
               width={500}
               height={500}
             />
@@ -33,6 +34,7 @@ const OthersProjectsShow = () => {
             <Image
               src="/Projects/citysling.png"
               alt="loading.."
+              loading="lazy"
               width={500}
               height={500}
             />
@@ -55,6 +57,7 @@ const OthersProjectsShow = () => {
             <Image
               src="/Projects/citysling.png"
               alt="loading.."
+              loading="lazy"
               width={500}
               height={500}
             />

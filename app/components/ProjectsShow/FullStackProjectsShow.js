@@ -43,6 +43,7 @@ const FullStackProjectsShow = () => {
               <Image
                 src="/ProjectShow/CitySlingImg.png"
                 alt="loading...."
+                loading="lazy"
                 width={500}
                 height={500}
               />
@@ -69,6 +70,7 @@ const FullStackProjectsShow = () => {
               <Image
                 src="/ProjectShow/FoodPlaza.png"
                 alt="loading..."
+                loading="lazy"
                 width={500}
                 height={500}
               />

@@ -43,6 +43,7 @@ const FrontendProjectsShow = () => {
               <Image
                 src="/ProjectShow/TravelAgency.png"
                 alt="loading.."
+                loading="lazy"
                 width={500}
                 height={500}
               />
@@ -69,6 +70,7 @@ const FrontendProjectsShow = () => {
               <Image
                 src="/ProjectShow/Wear Collections Img.png"
                 alt="loading.."
+                loading="lazy"
                 width={500}
                 height={500}
               />
@@ -94,6 +96,7 @@ const FrontendProjectsShow = () => {
               <Image
                 src="/ProjectShow/Myntra Clone.png"
                 alt="loading.."
+                loading="lazy"
                 width={500}
                 height={500}
               />
@@ -119,6 +122,7 @@ const FrontendProjectsShow = () => {
               <Image
                 src="/ProjectShow/BmiCalculator.png"
                 alt="loading.."
+                loading="lazy"
                 width={500}
                 height={500}
               />
@@ -145,6 +149,7 @@ const FrontendProjectsShow = () => {
               <Image
                 src="/ProjectShow/Weather App.png"
                 alt="loading.."
+                loading="lazy"
                 width={500}
                 height={500}
               />
