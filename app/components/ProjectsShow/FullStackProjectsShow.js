@@ -67,17 +67,14 @@ const FullStackProjectsShow = () => {
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
               <img
                 className="w-[20rem]"
-                src="/ProjectShow/Wear Collections Img.png"
+                src="/ProjectShow/FoodPlaza.png"
                 alt="loading.."
               />
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
-                Wear Collections E-com
+                Food Plaza Restaurant Website
               </p>
-              <p className="text-black ">
-                A e-com website developed using React Js,HTML,CSS and
-                Javascript.Designed with a focus on smooth user experience. This
-                project highlights my skills in creating interactive,
-                user-friendly web applications.
+              <p className="text-black text-sm">
+              Food Plaza, showcases a wide variety of meal options, including breakfast, lunch, and dinner, to provide users with a complete dining experience. Developed with the MERN stack (MongoDB, Express, React, Node.js).a search feature for easy menu navigation. Styled with CSS for a clean, appealing interface.
                 <span>
                   <Link className="text-blue-700" href={""}>
                     See more..
