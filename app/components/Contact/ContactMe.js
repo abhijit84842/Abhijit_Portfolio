@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const ContactMe = () => {
@@ -8,10 +9,12 @@ const ContactMe = () => {
       </h1>
       <div className="contact-sub-container bg-[#18181B] mx-10 my-10 flex justify-between gap-20 p-5 rounded-[2rem]">
         <div className="contact-left w-[50%] flex justify-center p-5">
-          <img
-            className="w-[35rem] h-[35rem]"
+          <Image
             src="/Contact/contact.png"
-            alt=""
+            alt="loading.."
+            loading="lazy"
+            width={500}
+            height={400}
           />
         </div>
         <div className="contact-right  w-[40%] p-10">
@@ -41,11 +44,13 @@ const ContactMe = () => {
               placeholder="Message.."
             ></textarea>
             <div className="flex justify-center">
-            <button className="bg-red-500 text-2xl w-[15rem] p-2 rounded-full" type="submit" >
-              Send Message
-            </button>
+              <button
+                className="bg-red-500 text-2xl w-[15rem] p-2 rounded-full"
+                type="submit"
+              >
+                Send Message
+              </button>
             </div>
-            
           </form>
         </div>
       </div>
