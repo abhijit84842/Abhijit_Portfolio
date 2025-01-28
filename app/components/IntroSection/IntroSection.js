@@ -25,7 +25,7 @@ const IntroSection = () => {
         <div className="intro-paragrap">
           <div className="intro-animation">
             <p className="text-3xl font-semibold">
-              <span className="text-[#F61E1E]">Hi</span>, It's Me
+              <span className="text-[#F61E1E]">Hi</span>, Its Me
             </p>
           </div>
           <div className="intro-animation">
@@ -35,7 +35,7 @@ const IntroSection = () => {
           </div>
           <div className="intro-animation">
             <p className="text-4xl font-semibold mt-5">
-              And I'm a{" "}
+              And I am a{" "}
               <span className="text-[#0B44FF]">MERN Stack Developer</span>
             </p>
           </div>

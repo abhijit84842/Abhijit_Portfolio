@@ -28,8 +28,8 @@ const AboutMe = () => {
             approach to development. I enjoy solving complex challenges,
             optimizing code, and building solutions that are both functional and
             user-centric. Whether working on individual projects or
-            collaborating within a team, I’m always focused on delivering
-            top-quality results.When I’m not coding, I’m exploring new
+            collaborating within a team, I am always focused on delivering
+            top-quality results.When I am not coding, I am exploring new
             technologies, contributing to open-source projects, or honing my
             skills to stay ahead in the ever-evolving tech world.
           </p>
