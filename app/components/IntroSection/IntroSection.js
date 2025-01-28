@@ -58,6 +58,7 @@ const IntroSection = () => {
               <Image
                 src="/Social Links/linkedin.png"
                 alt="loading.."
+                loading="lazy"
                 width={55}
                 height={55}
               />
@@ -68,6 +69,7 @@ const IntroSection = () => {
               <Image
                 src="/Social Links/github.png"
                 alt="loading.."
+                loading="lazy"
                 width={60}
                 height={60}
               />
@@ -78,6 +80,7 @@ const IntroSection = () => {
               <Image
                 src="/Social Links/whatsapp.png"
                 alt="loading.."
+                loading="lazy"
                 width={55}
                 height={55}
               />
@@ -89,6 +92,7 @@ const IntroSection = () => {
             <Image
               src="/cvdownload.png"
               alt="loading.."
+              loading="lazy"
               width={200}
               height={200}
             />
@@ -98,8 +102,13 @@ const IntroSection = () => {
 
       <div className="right-container mr-20  mt-5">
         <div className="animation-box-profileimg">
-          <Image src="/profilepic.png" alt="loading.." width={550} height={550}/>
-     
+          <Image
+            src="/profilepic.png"
+            alt="loading.."
+            loading="lazy"
+            width={550}
+            height={550}
+          />
         </div>
       </div>
     </div>

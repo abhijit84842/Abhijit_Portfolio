@@ -9,6 +9,7 @@ const AboutMe = () => {
       <Image
         src="/aboutprofilepic.png"
         alt="loading.."
+        loading="lazy"
         width={400}
         height={400}
       />

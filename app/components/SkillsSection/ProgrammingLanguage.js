@@ -12,6 +12,7 @@ const ProgrammingLanguage = () => {
           <Image
             src="/skills/javascript 1.png"
             alt="loading.."
+            loading="lazy"
             width={50}
             height={50}
           />
@@ -21,6 +22,7 @@ const ProgrammingLanguage = () => {
           <Image
             src="/skills/python 1.png"
             alt="loading.."
+            loading="lazy"
             width={55}
             height={55}
           />
@@ -31,6 +33,7 @@ const ProgrammingLanguage = () => {
           <Image
             src="/skills/java 1.png"
             alt="loading.."
+            loading="lazy"
             width={70}
             height={70}
           />
