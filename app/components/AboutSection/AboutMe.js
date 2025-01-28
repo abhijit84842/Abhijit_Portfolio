@@ -20,7 +20,7 @@ const AboutMe = () => {
         </div>
         <div className="paragrap text-white w-[100%] mt-10 ml-5 ">
           <p className=" text-xl leading-8">
-            I'm a dedicated full stack developer with a strong passion for
+            I am a dedicated full stack developer with a strong passion for
             crafting dynamic and responsive web applications. With hands-on
             experience in front-end technologies like HTML, CSS, JavaScript, and
             frameworks such as React, as well as back-end expertise in Node.js,
