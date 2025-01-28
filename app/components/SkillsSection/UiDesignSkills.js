@@ -8,7 +8,7 @@ const UiDesignSkills = () => {
       <div className="prolang  flex justify-start gap-20 mt-5">
         <div className="figma p-5 flex flex-col items-center gap-2">
           <Image
-            src="/skills/figma 1.png"
+            src="/Skills/figmaskills.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -19,7 +19,7 @@ const UiDesignSkills = () => {
         </div>
         <div className="canva p-5 flex flex-col items-center gap-3">
           <Image
-            src="/skills/canva 1.png"
+            src="/Skills/canvaskills.png"
             alt="loading.."
             loading="lazy"
             width={70}
