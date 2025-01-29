@@ -1,3 +1,4 @@
+/*
 "use client";
 import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
@@ -48,3 +49,5 @@ const page = () => {
 };
 
 export default page;
+
+*/
