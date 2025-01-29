@@ -19,7 +19,7 @@ const page = () => {
       </div>
       <div className="flex justify-start gap-20">
     <Link className="bg-red-500 text-2xl p-2 rounded-md" href={"#"}>Admin Login</Link>
-    <Link className="bg-green-500 text-2xl p-2 rounded-md" href={"#"}>Add Projects</Link>
+    <Link className="bg-green-500 text-2xl p-2 rounded-md" href={"/pages/admin/addproject"}>Add Projects</Link>
       </div>
         </div>
     

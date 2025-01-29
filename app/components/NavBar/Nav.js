@@ -43,9 +43,9 @@ const NavBar = () => {
           <Link href={"#contact"}>Contact Me</Link>
           <div className="blank"></div>
         </div>
-        <div  className="navLink">
+        {/* <div  className="navLink">
           <Link href={"/pages/admin"}>Profile</Link>
-        </div>
+        </div> */}
       </nav>
     </div>
   );
