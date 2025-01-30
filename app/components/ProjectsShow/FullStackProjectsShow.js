@@ -57,7 +57,7 @@ const FullStackProjectsShow = () => {
                 MongoDB Atlas data storage and includes authentication with JWT
                 and password encryption with bcrypt to protect user data.
                 <span>
-                  <Link className="text-blue-700" href={""}>
+                  <Link className="text-blue-700" href={"/pages/projectall/cityslingoverview"}>
                     See more..
                   </Link>
                 </span>
@@ -84,7 +84,7 @@ const FullStackProjectsShow = () => {
                 Express, React, Node.js).a search feature for easy menu
                 navigation. Styled with CSS for a clean, appealing interface.
                 <span>
-                  <Link className="text-blue-700" href={""}>
+                  <Link className="text-blue-700" href={"/pages/projectall/foodplazaoverview"}>
                     See more..
                   </Link>
                 </span>
