@@ -21,7 +21,7 @@ const CitySling = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <div className="main-container p-10">
-      <h1 className="flex justify-center text-3xl font-semibold mb-10">
+      <h1 className="flex justify-center text-5xl font-semibold mb-10">
         City Sling E-com Website Overview
       </h1>
       <div className="sub-container bg-zinc-700 rounded-lg p-3">
