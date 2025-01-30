@@ -43,7 +43,7 @@ const CitySling = () => {
         >
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/cityoverviewone.PNG"
+              src="/Overview/fullstackprojects/cityoverview1.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
