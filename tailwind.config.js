@@ -13,5 +13,10 @@ module.exports = {
       },
     },
   },
+  variants: {
+    extend: {
+      textColor: ['visited'], // Enables 'visited' for text color
+    },
+  },
   plugins: [],
 };
