@@ -14,7 +14,7 @@ import "swiper/css/thumbs";
 import styles from "./Projectoverview.module.css";
 
 // import required modules
-import { FreeMode, Navigation, Thumbs } from "swiper/modules";
+import { FreeMode, Navigation, Thumbs, Autoplay } from "swiper/modules";
 import Link from "next/link";
 
 const CitySling = () => {
@@ -37,7 +37,12 @@ const CitySling = () => {
           spaceBetween={10}
           navigation={true}
           thumbs={{ swiper: thumbsSwiper }}
-          modules={[FreeMode, Navigation, Thumbs]}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          loop={true}
+          modules={[FreeMode, Navigation, Thumbs, Autoplay]}
           className={styles.mySwiper2}
         >
           <SwiperSlide>
@@ -67,6 +72,14 @@ const CitySling = () => {
           <SwiperSlide>
             <Image
               src="/Overview/fullstackprojects/citysling/cityslingoverview12.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview17.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -139,6 +152,22 @@ const CitySling = () => {
           <SwiperSlide>
             <Image
               src="/Overview/fullstackprojects/citysling/cityslingoverview7.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview18.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview19.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -189,6 +218,14 @@ const CitySling = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview17.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
               src="/Overview/fullstackprojects/citysling/cityslingoverview14.PNG"
               alt="loading.."
               loading="lazy"
@@ -254,6 +291,22 @@ const CitySling = () => {
           <SwiperSlide className={styles.slides}>
             <Image
               src="/Overview/fullstackprojects/citysling/cityslingoverview7.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview18.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview19.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
