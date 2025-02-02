@@ -195,6 +195,7 @@ const FoodPlaza = () => {
           <SwiperSlide className={styles.slides}>
             <Image
               src="/Overview/fullstackprojects/foodplaza/foodplaza9.PNG"
+              alt="loading.."
               loading="lazy"
               layout="fill"
             />
@@ -255,7 +256,7 @@ const FoodPlaza = () => {
               3. Admin Authentication
             </h3>
             <li className="ml-10">
-              Only admin users can log in and manage the restaurant's menu.
+              Only admin users can log in and manage the restaurant&apos;s menu.
             </li>
             <li className="ml-10">Admin can add food update and delete.</li>
             <li className="ml-10">Track orders and update order statuses.</li>
