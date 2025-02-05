@@ -47,7 +47,7 @@ const WearCollection = () => {
         >
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza1.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection1.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -55,7 +55,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza2.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection2.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -63,7 +63,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza3.PNG"
+             src="/Overview/frontendprojects/wearcollectionimg/wearcollection3.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -71,7 +71,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza4.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection4.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -79,7 +79,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza5.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection5.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -87,7 +87,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza6.PNG"
+             src="/Overview/frontendprojects/wearcollectionimg/wearcollection6.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -95,7 +95,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza7.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection7.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -103,7 +103,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza8.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection8.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -111,7 +111,15 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza9.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection9.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection10.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -130,7 +138,7 @@ const WearCollection = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza1.PNG"
+            src="/Overview/frontendprojects/wearcollectionimg/wearcollection1.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -138,7 +146,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza2.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection2.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -146,7 +154,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza3.PNG"
+            src="/Overview/frontendprojects/wearcollectionimg/wearcollection3.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -154,7 +162,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza4.PNG"
+             src="/Overview/frontendprojects/wearcollectionimg/wearcollection4.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -162,7 +170,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza5.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection5.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -170,7 +178,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza6.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection6.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -178,7 +186,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza7.PNG"
+               src="/Overview/frontendprojects/wearcollectionimg/wearcollection7.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -186,7 +194,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza8.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection8.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -194,7 +202,15 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza9.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection9.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection10.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
