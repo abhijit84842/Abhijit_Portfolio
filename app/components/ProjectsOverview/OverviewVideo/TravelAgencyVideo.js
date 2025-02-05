@@ -1,7 +1,11 @@
 import dynamic from "next/dynamic";
 import React from "react";
 
-const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
+const ReactPlayer = dynamic(() => import("react-player"), { 
+  ssr: false, //Prevent SSR hydration errors
+  loading:()=> <p>Loading video...</p>, // Optional: show loading text or spinner
+
+ });
 const TravelAgencyVideo = () => {
   return (
     <div>
