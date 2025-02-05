@@ -63,7 +63,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-             src="/Overview/frontendprojects/wearcollectionimg/wearcollection3.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection3.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -87,7 +87,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-             src="/Overview/frontendprojects/wearcollectionimg/wearcollection6.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection6.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -138,7 +138,7 @@ const WearCollection = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-            src="/Overview/frontendprojects/wearcollectionimg/wearcollection1.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection1.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -154,7 +154,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-            src="/Overview/frontendprojects/wearcollectionimg/wearcollection3.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection3.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -162,7 +162,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-             src="/Overview/frontendprojects/wearcollectionimg/wearcollection4.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection4.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -186,7 +186,7 @@ const WearCollection = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-               src="/Overview/frontendprojects/wearcollectionimg/wearcollection7.PNG"
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection7.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -224,25 +224,32 @@ const WearCollection = () => {
           </h2>
           <div className="description px-10">
             <p>
-              Food Plaza is a dynamic and user-friendly restaurant website
-              designed to provide a seamless online food browsing experience.
-              The website allows users to explore a variety of meals, including
-              breakfast, lunch, and dinner, with detailed descriptions and
-              affordable pricing. Built using the MERN stack (MongoDB, Express,
-              React, Node.js), this full-stack project follows the MVC
-              architecture for structured and scalable development. The website
-              features a secure authentication system where only the admin has
-              access to manage food items and update restaurant information.
-              Admin authentication is managed through JWT tokens, ensuring
-              secure login and session handling. Passwords are securely stored
-              using bcrypt encryption to enhance security. For handling images,
-              the website leverages Multer to encode and upload food images.
-              Additionally, messages are implemented to provide real-time alert
-              notifications for user actions like authentication and data
-              modifications. The backend is powered by Node.js and Express.js,
-              with MongoDB Atlas as the database solution for efficient data
-              management.The development process is streamlined with Nodemon,
-              which enables automatic server restarts during code changes.
+              WearCollection is a modern and user-friendly e-commerce website
+              built using React.js, designed to provide a seamless shopping
+              experience for customers. This project focuses on showcasing a
+              diverse range of clothing products categorized into three main
+              sections: Men, Women, and Kids. The website features a dynamic UI
+              with smooth navigation, a well-structured product display, and an
+              interactive shopping cart system. The homepage welcomes users with
+              a visually appealing Hero Section, highlighting featured products
+              and offers. The Navigation Bar ensures easy browsing across
+              different categories, enhancing user experience. Each product page
+              displays detailed information, along with a &quot;Similar
+              Products&quot; section, which suggests related items to keep
+              customers engaged. A fully functional Cart Section is integrated,
+              allowing users to add or remove items effortlessly. The website
+              efficiently manages state using Redux Toolkit and Context API,
+              ensuring a smooth and optimized shopping experience. React Router
+              DOM is implemented for seamless page transitions, making
+              navigation fast and efficient. For styling, CSS3 and Bootstrap are
+              used to create a clean and responsive design, ensuring
+              compatibility across various devices. The Footer Section includes
+              essential links, customer support information, and social media
+              connections, adding a professional touch to the website.
+              WearCollection is an excellent demonstration of a scalable and
+              interactive e-commerce frontend, combining powerful state
+              management, smooth UI components, and an intuitive user
+              experience.
             </p>
           </div>
         </div>
@@ -252,101 +259,60 @@ const WearCollection = () => {
           </h2>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              1. View Food Categories
+              1. Three Clothing Categories
             </h3>
             <li className="ml-10">
-              Users can browse through different food categories like breakfast,
-              lunch, and dinner.
+              Men, Women, and Kids sections for easy browsing.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              2. Affordable Pricing
+              2. Dynamic Hero Section -
             </h3>
             <li className="ml-10">
-              Displays food items with budget-friendly prices
+              Showcases featured products and offers with a stylish design.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              3. Admin Authentication
+              3. Functional Cart System -
             </h3>
             <li className="ml-10">
-              Only admin users can log in and manage the restaurant&apos;s menu.
-            </li>
-            <li className="ml-10">Admin can add food update and delete.</li>
-            <li className="ml-10">Track orders and update order statuses.</li>
-            <li className="ml-10">
-              Monitor website performance and customer activity.
+              Users can add, remove, and manage cart items efficiently.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              4. Image Handling & Storage
+              4. Similar Products Display -
             </h3>
             <li className="ml-10">
-              Multer for image encoding and secure storage.
-            </li>
-            <li className="ml-10">
-              Efficiently handles large image uploads without performance
-              issues.
+              Suggests related items below product pages to enhance shopping
+              experience.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              5. Development & Deployment
+              5. State Management with Redux Toolkit & Context API -
             </h3>
             <li className="ml-10">
-              Nodemon for development (auto-reloading for better efficiency).
+              Ensures smooth and efficient state handling.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              6. Password Encryption
+              6. React Router DOM -
             </h3>
             <li className="ml-10">
-              User passwords are securely hashed using bcrypt.
+              Enables seamless navigation across different pages.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              7. Secure JWT Authentication
+              7. Navigation Bar & Footer -
             </h3>
             <li className="ml-10">
-              Ensures safe and protected access to admin functionalities.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              8. Email Verification
-            </h3>
-            <li className="ml-10">
-              Ensures that only verified admin can log in and perform actions.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">9. MVC Architecture</h3>
-            <li className="ml-10">
-              Organizes the project into models, views, and controllers for
-              better code management.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              9. Middleware Implementation
-            </h3>
-            <li className="ml-10">
-              Enhances security, logging, error handling, and request validation
-              for better backend management.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              11. MongoDB Atlas Database
-            </h3>
-            <li className="ml-10">
-              Stores all food items, admin credentials, and restaurant details
-              efficiently.
+              Well-structured navigation for smooth browsing and a footer with
+              essential details.
             </li>
           </ul>
         </div>
@@ -360,51 +326,11 @@ const WearCollection = () => {
             <li className="ml-10">
               React.js - For building a dynamic and interactive user interface.
             </li>
-            <li className="ml-10">CSS3 - For styling best design.</li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">Backend:</h3>
-            <li className="ml-10">
-              Node.js - For building the backend logic and APIs.
-            </li>
-            <li className="ml-10">
-              Express.js - For handling server-side routes and requests.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">Database & Storage:</h3>
-            <li className="ml-10">
-              MongoDB Atlas - For storing user data, products, and orders.
-            </li>
-            <li className="ml-10">
-              Mongoose - For efficient data handling and schema validation.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              Authentication & Security:
-            </h3>
-            <li className="ml-10">
-              JWT (JSON Web Token) - For secure authentication.
-            </li>
-            <li className="ml-10">
-              Bcrypt - For hashing and encrypting passwords.
-            </li>
-            <li className="ml-10">
-              Multer - For secure image upload and encoding.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              Development & Monitoring:
-            </h3>
-            <li className="ml-10">
-              Nodemon - For auto-reloading during development.
-            </li>
-            <li className="ml-10">
-              MVC Architecture - Ensuring a structured, maintainable, and
-              scalable codebase.
-            </li>
+            <li className="ml-10">Redux Toolkit - For efficient and scalable state management.</li>
+            <li className="ml-10">Context API - Additional state handling for better flexibility.</li>
+            <li className="ml-10">React Router DOM - Manages navigation between different pages.</li>
+            <li className="ml-10">CSS3 - Custom styling for a modern and sleek UI.</li>
+            <li className="ml-10">Bootstrap - Enhances layout and responsiveness with pre-designed components.</li>
           </ul>
         </div>
         <div className="github-link">
@@ -413,7 +339,7 @@ const WearCollection = () => {
           </h2>
           <Link
             className="ml-10 text-blue-500"
-            href="https://github.com/abhijit84842/Web_Development_Projects_2024/tree/master/Frontend%20Project(React%20Js)/Food_Plaza_app_Using%20React"
+            href="https://github.com/abhijit84842/Web_Development_Projects_2024/tree/master/MERN%20Stack%20Project/Wear%20Collection%20E-commerce/Frontend"
           >
             See Project on gitHub
           </Link>
