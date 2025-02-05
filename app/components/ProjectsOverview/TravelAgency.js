@@ -156,25 +156,27 @@ const TravelAgency = () => {
           </h2>
           <div className="description px-10">
             <p>
-              Food Plaza is a dynamic and user-friendly restaurant website
-              designed to provide a seamless online food browsing experience.
-              The website allows users to explore a variety of meals, including
-              breakfast, lunch, and dinner, with detailed descriptions and
-              affordable pricing. Built using the MERN stack (MongoDB, Express,
-              React, Node.js), this full-stack project follows the MVC
-              architecture for structured and scalable development. The website
-              features a secure authentication system where only the admin has
-              access to manage food items and update restaurant information.
-              Admin authentication is managed through JWT tokens, ensuring
-              secure login and session handling. Passwords are securely stored
-              using bcrypt encryption to enhance security. For handling images,
-              the website leverages Multer to encode and upload food images.
-              Additionally, messages are implemented to provide real-time alert
-              notifications for user actions like authentication and data
-              modifications. The backend is powered by Node.js and Express.js,
-              with MongoDB Atlas as the database solution for efficient data
-              management.The development process is streamlined with Nodemon,
-              which enables automatic server restarts during code changes.
+              ViewWorld Travel Agency is a visually stunning and interactive
+              travel booking platform built using React.js. This project is
+              designed to provide an engaging and smooth user experience through
+              animations and dynamic content. The website showcases breathtaking
+              destinations with an immersive design that captivates users from
+              the first interaction. The landing page introduces users to the
+              agency&apos;s services with a sleek and modern UI, incorporating
+              GSAP animations and smooth scroll effects powered by
+              ScrollTrigger. The gallery section beautifully displays
+              high-quality images of different travel destinations, enhanced
+              with hover scaling effects to add interactivity. The "Book Now"
+              section allows users to easily make travel reservations using a
+              well-validated form built with React Hook Form. The "Reviews"
+              section features animated customer testimonials, creating a
+              dynamic and trustworthy feel. The "Contact Us" section ensures
+              easy communication between the users and the agency, while the
+              footer adds a polished finishing touch with essential links and
+              information. This project is an excellent showcase of modern
+              front-end development techniques, blending animation,
+              interactivity, and responsive design to create a seamless travel
+              booking experience.
             </p>
           </div>
         </div>
@@ -184,101 +186,61 @@ const TravelAgency = () => {
           </h2>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              1. View Food Categories
+              1. GSAP Animations & ScrollTrigger
             </h3>
             <li className="ml-10">
-              Users can browse through different food categories like breakfast,
-              lunch, and dinner.
+              Smooth scrolling, entrance animations, and interactive motion
+              effects.
+            </li>
+          </ul>
+          <ul className="ml-10 list-disc mt-2">
+            <h3 className="text-lg font-semibold mb-2">2. Landing Page</h3>
+            <li className="ml-10">
+              Eye-catching hero section with engaging animations.
+            </li>
+          </ul>
+          <ul className="ml-10 list-disc mt-2">
+            <h3 className="text-lg font-semibold mb-2">3. Gallery Section</h3>
+            <li className="ml-10">
+              High-quality images with hover scale effects for a visually
+              appealing experience.
+            </li>
+          </ul>
+          <ul className="ml-10 list-disc mt-2">
+            <h3 className="text-lg font-semibold mb-2">4. Book Now Section</h3>
+            <li className="ml-10">
+              A fully functional booking form with validation using React Hook
+              Form.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              2. Affordable Pricing
+              5. Animated Review Section
             </h3>
             <li className="ml-10">
-              Displays food items with budget-friendly prices
+              Customer testimonials displayed with beautiful animations.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              3. Admin Authentication
+              6. Contact Us Section
             </h3>
             <li className="ml-10">
-              Only admin users can log in and manage the restaurant&apos;s menu.
+              Simple and effective form to facilitate user inquiries.
             </li>
-            <li className="ml-10">Admin can add food update and delete.</li>
-            <li className="ml-10">Track orders and update order statuses.</li>
+          </ul>
+          <ul className="ml-10 list-disc mt-2">
+            <h3 className="text-lg font-semibold mb-2">7. Smooth Navigation</h3>
             <li className="ml-10">
-              Monitor website performance and customer activity.
+              Implemented with React Router DOM for seamless page transitions.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              4. Image Handling & Storage
+              8. Beautiful Footer Section
             </h3>
             <li className="ml-10">
-              Multer for image encoding and secure storage.
-            </li>
-            <li className="ml-10">
-              Efficiently handles large image uploads without performance
-              issues.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              5. Development & Deployment
-            </h3>
-            <li className="ml-10">
-              Nodemon for development (auto-reloading for better efficiency).
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              6. Password Encryption
-            </h3>
-            <li className="ml-10">
-              User passwords are securely hashed using bcrypt.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              7. Secure JWT Authentication
-            </h3>
-            <li className="ml-10">
-              Ensures safe and protected access to admin functionalities.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              8. Email Verification
-            </h3>
-            <li className="ml-10">
-              Ensures that only verified admin can log in and perform actions.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">9. MVC Architecture</h3>
-            <li className="ml-10">
-              Organizes the project into models, views, and controllers for
-              better code management.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              9. Middleware Implementation
-            </h3>
-            <li className="ml-10">
-              Enhances security, logging, error handling, and request validation
-              for better backend management.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              11. MongoDB Atlas Database
-            </h3>
-            <li className="ml-10">
-              Stores all food items, admin credentials, and restaurant details
-              efficiently.
+              A well-structured footer with essential links and company details.
             </li>
           </ul>
         </div>
@@ -288,54 +250,35 @@ const TravelAgency = () => {
             Technology Use :-
           </h2>
           <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">Frontend:</h3>
             <li className="ml-10">
-              React.js - For building a dynamic and interactive user interface.
-            </li>
-            <li className="ml-10">CSS3 - For styling best design.</li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">Backend:</h3>
-            <li className="ml-10">
-              Node.js - For building the backend logic and APIs.
+              <span className="text-xl">React.js -</span> For building a dynamic
+              and interactive user interface.
             </li>
             <li className="ml-10">
-              Express.js - For handling server-side routes and requests.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">Database & Storage:</h3>
-            <li className="ml-10">
-              MongoDB Atlas - For storing user data, products, and orders.
+              <span className="text-xl">
+                GSAP (GreenSock Animation Platform) -
+              </span>{" "}
+              For creating smooth animations and interactive elements.
             </li>
             <li className="ml-10">
-              Mongoose - For efficient data handling and schema validation.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              Authentication & Security:
-            </h3>
-            <li className="ml-10">
-              JWT (JSON Web Token) - For secure authentication.
+              <span className="text-xl ">ScrollTrigger -</span> Enables
+              animation triggers based on scroll position.
             </li>
             <li className="ml-10">
-              Bcrypt - For hashing and encrypting passwords.
+              <span className="text-xl">Swiper.js -</span> Adds a smooth slider
+              effect for the review section.
             </li>
             <li className="ml-10">
-              Multer - For secure image upload and encoding.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              Development & Monitoring:
-            </h3>
-            <li className="ml-10">
-              Nodemon - For auto-reloading during development.
+              <span className="text-xl">React Router DOM -</span> For handling
+              navigation and routing.
             </li>
             <li className="ml-10">
-              MVC Architecture - Ensuring a structured, maintainable, and
-              scalable codebase.
+              <span className="text-xl">Tailwind CSS -</span> For clean, modern,
+              and responsive styling.
+            </li>
+            <li className="ml-10">
+              <span className="text-xl">React Hook Form -</span> For form
+              validation and input management.
             </li>
           </ul>
         </div>
@@ -345,7 +288,7 @@ const TravelAgency = () => {
           </h2>
           <Link
             className="ml-10 text-blue-500"
-            href="https://github.com/abhijit84842/Web_Development_Projects_2024/tree/master/Frontend%20Project(React%20Js)/Food_Plaza_app_Using%20React"
+            href="https://github.com/abhijit84842/Web_Development_Projects_2024/tree/master/Frontend%20Project(React%20Js)/Travel%20Agency%20Using%20React"
           >
             See Project on gitHub
           </Link>
