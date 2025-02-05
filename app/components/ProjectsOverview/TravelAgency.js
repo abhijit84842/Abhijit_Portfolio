@@ -166,11 +166,11 @@ const TravelAgency = () => {
               GSAP animations and smooth scroll effects powered by
               ScrollTrigger. The gallery section beautifully displays
               high-quality images of different travel destinations, enhanced
-              with hover scaling effects to add interactivity. The "Book Now"
+              with hover scaling effects to add interactivity. The &quot;Book Now&quot;
               section allows users to easily make travel reservations using a
-              well-validated form built with React Hook Form. The "Reviews"
+              well-validated form built with React Hook Form. The &quot;Reviews&quot;
               section features animated customer testimonials, creating a
-              dynamic and trustworthy feel. The "Contact Us" section ensures
+              dynamic and trustworthy feel. The &quot;Contact Us&quot; section ensures
               easy communication between the users and the agency, while the
               footer adds a polished finishing touch with essential links and
               information. This project is an excellent showcase of modern
