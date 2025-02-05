@@ -125,6 +125,14 @@ const WearCollection = () => {
               layout="fill"
             />
           </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection11.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
         </Swiper>
 
         <Swiper
@@ -211,6 +219,14 @@ const WearCollection = () => {
           <SwiperSlide className={styles.slides}>
             <Image
               src="/Overview/frontendprojects/wearcollectionimg/wearcollection10.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/frontendprojects/wearcollectionimg/wearcollection11.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
