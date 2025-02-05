@@ -3,7 +3,7 @@ import React from "react";
 
 const ReactPlayer = dynamic(() => import("react-player"), { 
   ssr: false, //Prevent SSR hydration errors
-  loading:()=> <p>Loading video...</p>, // Optional: show loading text or spinner
+  loading:()=> <p className="text-red-500 text-2xl flex justify-center mt-[10rem]">Loading video...</p>, // Optional: show loading text or spinner
 
  });
 const TravelAgencyVideo = () => {
