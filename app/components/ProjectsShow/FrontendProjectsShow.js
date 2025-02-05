@@ -57,7 +57,7 @@ const FrontendProjectsShow = () => {
                 The website incorporates essential tools like react-hook-form
                 for form handling and react-router-dom for navigation.{" "}
                 <span>
-                  <Link className="text-blue-700" href={""}>
+                  <Link className="text-blue-700" href="/pages/projectall/overview/travelagency">
                     See more..
                   </Link>
                 </span>
