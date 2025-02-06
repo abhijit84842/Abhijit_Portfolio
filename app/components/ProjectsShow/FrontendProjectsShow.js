@@ -110,7 +110,7 @@ const FrontendProjectsShow = () => {
                 application features a dynamic product catalog powered by dummy
                 JSON data.
                 <span>
-                  <Link className="text-blue-700" href={""}>
+                  <Link className="text-blue-700" href={"/pages/projectall/overview/myntraoverview"}>
                     See more..
                   </Link>
                 </span>
