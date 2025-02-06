@@ -112,25 +112,29 @@ const MyntraClone = () => {
           </h2>
           <div className="description px-10">
             <p>
-              Food Plaza is a dynamic and user-friendly restaurant website
-              designed to provide a seamless online food browsing experience.
-              The website allows users to explore a variety of meals, including
-              breakfast, lunch, and dinner, with detailed descriptions and
-              affordable pricing. Built using the MERN stack (MongoDB, Express,
-              React, Node.js), this full-stack project follows the MVC
-              architecture for structured and scalable development. The website
-              features a secure authentication system where only the admin has
-              access to manage food items and update restaurant information.
-              Admin authentication is managed through JWT tokens, ensuring
-              secure login and session handling. Passwords are securely stored
-              using bcrypt encryption to enhance security. For handling images,
-              the website leverages Multer to encode and upload food images.
-              Additionally, messages are implemented to provide real-time alert
-              notifications for user actions like authentication and data
-              modifications. The backend is powered by Node.js and Express.js,
-              with MongoDB Atlas as the database solution for efficient data
-              management.The development process is streamlined with Nodemon,
-              which enables automatic server restarts during code changes.
+              The Myntra Clone is a fully functional and visually appealing
+              e-commerce website built using React.js. This project aims to
+              replicate the shopping experience of Myntra by implementing key
+              e-commerce functionalities, including product browsing, cart
+              management, and dynamic price calculations. The homepage displays
+              a well-structured product listing, allowing users to explore
+              various fashion categories. Users can add products to their
+              shopping cart with a simple click. The functional cart page
+              provides a smooth shopping experience by showing selected items,
+              their quantities, and total pricing calculations in real-time. A
+              cross-symbol delete feature is included, enabling users to quickly
+              remove unwanted items from the cart. The pricing is dynamically
+              updated as users add or remove products, ensuring accurate total
+              cost calculation. The project efficiently utilizes the useState
+              hook for state management, making the cart system interactive and
+              responsive. For styling, CSS3 is used to maintain a clean and
+              modern UI, ensuring a visually engaging and mobile-friendly
+              design. The layout is optimized for a seamless user experience,
+              allowing shoppers to navigate effortlessly between different
+              sections. This Myntra Clone is a great demonstration of
+              React&asop;s capability in building scalable and interactive
+              e-commerce interfaces while maintaining performance and
+              efficiency.
             </p>
           </div>
         </div>
@@ -140,101 +144,58 @@ const MyntraClone = () => {
           </h2>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              1. View Food Categories
+              1. Product Listing Page
             </h3>
             <li className="ml-10">
-              Users can browse through different food categories like breakfast,
-              lunch, and dinner.
+              Displays available fashion products in a structured grid format.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              2. Affordable Pricing
+              2. Add to Cart Button
             </h3>
             <li className="ml-10">
-              Displays food items with budget-friendly prices
+              Allows users to add products to their shopping cart effortlessly.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              3. Admin Authentication
+              3. Functional Cart Page
             </h3>
             <li className="ml-10">
-              Only admin users can log in and manage the restaurant&apos;s menu.
-            </li>
-            <li className="ml-10">Admin can add food update and delete.</li>
-            <li className="ml-10">Track orders and update order statuses.</li>
-            <li className="ml-10">
-              Monitor website performance and customer activity.
+              Displays all selected products with real-time updates.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              4. Image Handling & Storage
+              4. Remove from Cart Button
             </h3>
             <li className="ml-10">
-              Multer for image encoding and secure storage.
-            </li>
-            <li className="ml-10">
-              Efficiently handles large image uploads without performance
-              issues.
+              Users can remove individual items from the cart.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              5. Development & Deployment
+              5. Cross Symbol Delete Feature
             </h3>
             <li className="ml-10">
-              Nodemon for development (auto-reloading for better efficiency).
+              A quick way to remove items using an intuitive delete icon.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              6. Password Encryption
+              6. Dynamic Price Calculation
             </h3>
             <li className="ml-10">
-              User passwords are securely hashed using bcrypt.
+              Automatically updates total pricing as items are added or removed.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              7. Secure JWT Authentication
+              7. State Management using useState Hook
             </h3>
             <li className="ml-10">
-              Ensures safe and protected access to admin functionalities.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              8. Email Verification
-            </h3>
-            <li className="ml-10">
-              Ensures that only verified admin can log in and perform actions.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">9. MVC Architecture</h3>
-            <li className="ml-10">
-              Organizes the project into models, views, and controllers for
-              better code management.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              9. Middleware Implementation
-            </h3>
-            <li className="ml-10">
-              Enhances security, logging, error handling, and request validation
-              for better backend management.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              11. MongoDB Atlas Database
-            </h3>
-            <li className="ml-10">
-              Stores all food items, admin credentials, and restaurant details
-              efficiently.
+              Ensures smooth and responsive cart interactions.
             </li>
           </ul>
         </div>
@@ -248,51 +209,10 @@ const MyntraClone = () => {
             <li className="ml-10">
               React.js - For building a dynamic and interactive user interface.
             </li>
-            <li className="ml-10">CSS3 - For styling best design.</li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">Backend:</h3>
             <li className="ml-10">
-              Node.js - For building the backend logic and APIs.
+              useState Hook - Manages cart state and updates UI dynamically.
             </li>
-            <li className="ml-10">
-              Express.js - For handling server-side routes and requests.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">Database & Storage:</h3>
-            <li className="ml-10">
-              MongoDB Atlas - For storing user data, products, and orders.
-            </li>
-            <li className="ml-10">
-              Mongoose - For efficient data handling and schema validation.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              Authentication & Security:
-            </h3>
-            <li className="ml-10">
-              JWT (JSON Web Token) - For secure authentication.
-            </li>
-            <li className="ml-10">
-              Bcrypt - For hashing and encrypting passwords.
-            </li>
-            <li className="ml-10">
-              Multer - For secure image upload and encoding.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              Development & Monitoring:
-            </h3>
-            <li className="ml-10">
-              Nodemon - For auto-reloading during development.
-            </li>
-            <li className="ml-10">
-              MVC Architecture - Ensuring a structured, maintainable, and
-              scalable codebase.
-            </li>
+            <li className="ml-10">CSS3 - Provides a clean, modern design.</li>
           </ul>
         </div>
         <div className="github-link">
@@ -301,7 +221,7 @@ const MyntraClone = () => {
           </h2>
           <Link
             className="ml-10 text-blue-500"
-            href="https://github.com/abhijit84842/Web_Development_Projects_2024/tree/master/Frontend%20Project(React%20Js)/Food_Plaza_app_Using%20React"
+            href="https://github.com/abhijit84842/Web_Development_Projects_2024/tree/master/MERN%20Stack%20Project/Myntra%20Clone%20Using%20React/Myntra%20Clone"
           >
             See Project on gitHub
           </Link>
