@@ -58,7 +58,7 @@ const FrontendProjectsShow = () => {
                 for form handling and react-router-dom for navigation.{" "}
                 <span>
                   <Link
-                    className="text-blue-700"
+                    className="text-blue-700 text-lg"
                     href="/pages/projectall/overview/travelagencyoverview"
                   >
                     See more..
@@ -88,7 +88,7 @@ const FrontendProjectsShow = () => {
                 user-friendly web applications.
                 <span>
                   <Link
-                    className="text-blue-700"
+                    className="text-blue-700 text-lg"
                     href={"/pages/projectall/overview/wearcollectionoverview"}
                   >
                     See more..
@@ -117,7 +117,7 @@ const FrontendProjectsShow = () => {
                 scroll-based effects, and interactive elements....
                 <span>
                   <Link
-                    className="text-blue-700"
+                    className="text-blue-700 text-lg"
                     href={"/pages/projectall/overview/portfoliooverview"}
                   >
                     See more..
@@ -147,7 +147,7 @@ const FrontendProjectsShow = () => {
                 JSON data.
                 <span>
                   <Link
-                    className="text-blue-700"
+                    className="text-blue-700 text-lg"
                     href={"/pages/projectall/overview/myntraoverview"}
                   >
                     See more..
@@ -177,7 +177,10 @@ const FrontendProjectsShow = () => {
                 includes key features like displaying temperature, humidity, and
                 wind speed.
                 <span>
-                  <Link className="text-blue-700" href={"/pages/projectall/overview/weatheroverview"}>
+                  <Link
+                    className="text-blue-700 text-lg"
+                    href={"/pages/projectall/overview/weatheroverview"}
+                  >
                     See more..
                   </Link>
                 </span>
@@ -200,18 +203,20 @@ const FrontendProjectsShow = () => {
               <p className="text-black text-sm">
                 BMI Calculator project is a user-friendly React.js application
                 designed to help users quickly and accurately calculate their
-                Body Mass Index (BMI).For styling use CSS. The calculator takes
-                inputs like height and weight, processes the data, and displays
-                the BMI result instantly.
+                Body Mass Index (BMI).For styling use Tailwind CSS. The
+                calculator takes inputs like height and weight, processes the
+                data, and displays the BMI result instantly.
                 <span>
-                  <Link className="text-blue-700" href={""}>
+                  <Link
+                    className="text-blue-700 text-lg"
+                    href={"/pages/projectall/overview/bmicalculatoroverview"}
+                  >
                     See more..
                   </Link>
                 </span>
               </p>
             </div>
           </SwiperSlide>
-     
         </Swiper>
       </div>
     </div>
