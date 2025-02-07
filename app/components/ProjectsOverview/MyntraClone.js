@@ -207,12 +207,17 @@ const MyntraClone = () => {
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">Frontend:</h3>
             <li className="ml-10">
-              React.js - For building a dynamic and interactive user interface.
+              <span className="text-xl">React.js - </span>For building a dynamic
+              and interactive user interface.
             </li>
             <li className="ml-10">
-              useState Hook - Manages cart state and updates UI dynamically.
+              <span className="text-xl">useState Hook - </span>Manages cart
+              state and updates UI dynamically.
             </li>
-            <li className="ml-10">CSS3 - Provides a clean, modern design.</li>
+            <li className="ml-10">
+              <span className="text-xl">CSS3 - </span>Provides a clean, modern
+              design.
+            </li>
           </ul>
         </div>
         <div className="github-link">

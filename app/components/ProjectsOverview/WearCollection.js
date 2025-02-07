@@ -340,13 +340,13 @@ const WearCollection = () => {
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">Frontend:</h3>
             <li className="ml-10">
-              React.js - For building a dynamic and interactive user interface.
+              <span className="text-xl">React.js - </span>For building a dynamic and interactive user interface.
             </li>
-            <li className="ml-10">Redux Toolkit - For efficient and scalable state management.</li>
-            <li className="ml-10">Context API - Additional state handling for better flexibility.</li>
-            <li className="ml-10">React Router DOM - Manages navigation between different pages.</li>
-            <li className="ml-10">CSS3 - Custom styling for a modern and sleek UI.</li>
-            <li className="ml-10">Bootstrap - Enhances layout and responsiveness with pre-designed components.</li>
+            <li className="ml-10"><span className="text-xl">Redux Toolkit - </span>For efficient and scalable state management.</li>
+            <li className="ml-10"><span className="text-xl">Context API - </span>Additional state handling for better flexibility.</li>
+            <li className="ml-10"><span className="text-xl">React Router DOM - </span>Manages navigation between different pages.</li>
+            <li className="ml-10"><span className="text-xl">CSS3 - </span>Custom styling for a modern and sleek UI.</li>
+            <li className="ml-10"><span className="text-xl">Bootstrap - </span>Enhances layout and responsiveness with pre-designed components.</li>
           </ul>
         </div>
         <div className="github-link">
