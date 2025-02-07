@@ -302,22 +302,22 @@ const Portfolio = () => {
               showcases.
             </li>
             <li className="ml-10">
-            <span className="text-xl">Tailwind CSS - </span>Tailwind CSS- Ensures a clean, modern, and responsive design.
+            <span className="text-xl">Tailwind CSS - </span>Ensures a clean, modern, and responsive design.
             </li>
             <li className="ml-10">
-            <span className="text-xl">React Hook Form - </span>React Hook Form - Handles form validation efficiently.
+            <span className="text-xl">React Hook Form - </span>Handles form validation efficiently.
             </li>
             <li className="ml-10">
-            <span className="text-xl">React Player - </span>React Player- Embeds and plays videos within the portfolio.
+            <span className="text-xl">React Player - </span>Embeds and plays videos within the portfolio.
             </li>
             <li className="ml-10">
-            <span className="text-xl">React Icons - </span>React Icons- Adds intuitive and visually appealing icons.
+            <span className="text-xl">React Icons - </span>Adds intuitive and visually appealing icons.
             </li>
             <li className="ml-10">
-            <span className="text-xl">React DOM - </span>React DOM- Enhances routing and UI interactions.
+            <span className="text-xl">React DOM - </span>Enhances routing and UI interactions.
             </li>
             <li className="ml-10">
-            <span className="text-xl">Vercel Deployment - </span>Vercel Deployment- Ensures fast performance and easy hosting.
+            <span className="text-xl">Vercel Deployment - </span>Ensures fast performance and easy hosting.
             </li>
           </ul>
         </div>
@@ -327,7 +327,7 @@ const Portfolio = () => {
           </h2>
           <Link
             className="ml-10 text-blue-500"
-            href="https://github.com/abhijit84842/Web_Development_Projects_2024/tree/master/Frontend%20Project(React%20Js)/Food_Plaza_app_Using%20React"
+            href="https://github.com/abhijit84842/Abhijit_Portfolio"
           >
             See Project on gitHub
           </Link>
