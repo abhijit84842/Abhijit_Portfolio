@@ -273,7 +273,7 @@ const TravelAgency = () => {
               navigation and routing.
             </li>
             <li className="ml-10">
-              <span className="text-xl">Tailwind CSS -</span> For clean, modern,
+              <span className="text-xl">CSS3 -</span> For clean, modern,
               and responsive styling.
             </li>
             <li className="ml-10">

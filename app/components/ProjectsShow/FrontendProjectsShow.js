@@ -159,6 +159,34 @@ const FrontendProjectsShow = () => {
           <SwiperSlide>
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
               <Image
+                src="/ProjectShow/Weather App.png"
+                alt="loading.."
+                loading="lazy"
+                width={500}
+                height={500}
+              />
+
+              <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
+                Weather App Using React Js
+              </p>
+              <p className="text-black text-sm">
+                This is a weather application built using React.js for
+                functionality and CSS for styling. The app allows users to
+                search for weather information for different locations,
+                providing real-time updates fetched from a weather API. It
+                includes key features like displaying temperature, humidity, and
+                wind speed.
+                <span>
+                  <Link className="text-blue-700" href={"/pages/projectall/overview/weatheroverview"}>
+                    See more..
+                  </Link>
+                </span>
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
+              <Image
                 src="/ProjectShow/BmiCalculator.png"
                 alt="loading.."
                 loading="lazy"
@@ -183,34 +211,7 @@ const FrontendProjectsShow = () => {
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
-              <Image
-                src="/ProjectShow/Weather App.png"
-                alt="loading.."
-                loading="lazy"
-                width={500}
-                height={500}
-              />
-
-              <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
-                Weather App Using React Js
-              </p>
-              <p className="text-black text-sm">
-                This is a weather application built using React.js for
-                functionality and CSS for styling. The app allows users to
-                search for weather information for different locations,
-                providing real-time updates fetched from a weather API. It
-                includes key features like displaying temperature, humidity, and
-                wind speed.
-                <span>
-                  <Link className="text-blue-700" href={""}>
-                    See more..
-                  </Link>
-                </span>
-              </p>
-            </div>
-          </SwiperSlide>
+     
         </Swiper>
       </div>
     </div>
