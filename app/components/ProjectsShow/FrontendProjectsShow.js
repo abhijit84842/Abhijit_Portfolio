@@ -118,7 +118,7 @@ const FrontendProjectsShow = () => {
                 <span>
                   <Link
                     className="text-blue-700"
-                    href={"/pages/projectall/overview/myntraoverview"}
+                    href={"/pages/projectall/overview/portfoliooverview"}
                   >
                     See more..
                   </Link>
