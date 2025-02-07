@@ -47,7 +47,7 @@ const Portfolio = () => {
         >
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza1.PNG"
+              src="/Overview/frontendprojects/portfolioimg/portfolio1.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -55,7 +55,7 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza2.PNG"
+              src="/Overview/frontendprojects/portfolioimg/portfolio2.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -63,7 +63,7 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza3.PNG"
+              src="/Overview/frontendprojects/portfolioimg/portfolio3.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -71,7 +71,7 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza4.PNG"
+              src="/Overview/frontendprojects/portfolioimg/portfolio4.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -79,7 +79,7 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza5.PNG"
+              src="/Overview/frontendprojects/portfolioimg/portfolio5.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -87,7 +87,7 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza6.PNG"
+              src="/Overview/frontendprojects/portfolioimg/portfolio6.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -95,23 +95,7 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza7.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza8.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza9.PNG"
+              src="/Overview/frontendprojects/portfolioimg/portfolio7.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -130,7 +114,7 @@ const Portfolio = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza1.PNG"
+              src="/Overview/frontendprojects/portfolioimg/portfolio1.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -138,7 +122,7 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza2.PNG"
+              src="/Overview/frontendprojects/portfolioimg/portfolio2.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -146,7 +130,7 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza3.PNG"
+              src="/Overview/frontendprojects/portfolioimg/portfolio3.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -154,7 +138,7 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza4.PNG"
+              src="/Overview/frontendprojects/portfolioimg/portfolio4.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -162,7 +146,7 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza5.PNG"
+              src="/Overview/frontendprojects/portfolioimg/portfolio5.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -170,7 +154,7 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza6.PNG"
+              src="/Overview/frontendprojects/portfolioimg/portfolio6.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -178,23 +162,7 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza7.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza8.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza9.PNG"
+              src="/Overview/frontendprojects/portfolioimg/portfolio7.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -208,25 +176,27 @@ const Portfolio = () => {
           </h2>
           <div className="description px-10">
             <p>
-              Food Plaza is a dynamic and user-friendly restaurant website
-              designed to provide a seamless online food browsing experience.
-              The website allows users to explore a variety of meals, including
-              breakfast, lunch, and dinner, with detailed descriptions and
-              affordable pricing. Built using the MERN stack (MongoDB, Express,
-              React, Node.js), this full-stack project follows the MVC
-              architecture for structured and scalable development. The website
-              features a secure authentication system where only the admin has
-              access to manage food items and update restaurant information.
-              Admin authentication is managed through JWT tokens, ensuring
-              secure login and session handling. Passwords are securely stored
-              using bcrypt encryption to enhance security. For handling images,
-              the website leverages Multer to encode and upload food images.
-              Additionally, messages are implemented to provide real-time alert
-              notifications for user actions like authentication and data
-              modifications. The backend is powered by Node.js and Express.js,
-              with MongoDB Atlas as the database solution for efficient data
-              management.The development process is streamlined with Nodemon,
-              which enables automatic server restarts during code changes.
+              This animated portfolio website is a high-performance, visually
+              captivating platform built with Next.js and GSAP animations to
+              create a seamless and interactive user experience. The website
+              showcases projects with dynamic scroll-based effects powered by
+              GSAP ScrollTrigger, enhancing user engagement through smooth
+              animations and transitions. The project showcase section is built
+              using Swiper JS, allowing users to browse through projects with an
+              intuitive and sleek slider. Each project is displayed with
+              high-quality images and detailed descriptions, ensuring a
+              professional and interactive portfolio presentation. For styling,
+              Tailwind CSS is used to maintain a responsive and visually
+              appealing layout, ensuring smooth adaptability across all screen
+              sizes. The site architecture follows the MVC
+              (Model-View-Controller) structure, ensuring clean, maintainable,
+              and production-grade code. The contact form is powered by React
+              Hook Form, providing seamless validation and user-friendly
+              interactions. Additionally, React Player is integrated to showcase
+              video content within the portfolio, enhancing the multimedia
+              experience. The project is deployed on Vercel, ensuring fast
+              loading speeds, server-side rendering, and overall optimization
+              for a production-ready environment.
             </p>
           </div>
         </div>
@@ -236,101 +206,83 @@ const Portfolio = () => {
           </h2>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              1. View Food Categories
+              1. GSAP Animations & ScrollTrigger
             </h3>
             <li className="ml-10">
-              Users can browse through different food categories like breakfast,
-              lunch, and dinner.
+              Smooth entrance animations and scroll-based interactive effects.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              2. Affordable Pricing
+              2. Swiper JS for Project Showcase
             </h3>
             <li className="ml-10">
-              Displays food items with budget-friendly prices
+              A sleek slider displaying projects with images and descriptions.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              3. Admin Authentication
+              3. Responsive UI with Tailwind CSS
             </h3>
             <li className="ml-10">
-              Only admin users can log in and manage the restaurant&apos;s menu.
-            </li>
-            <li className="ml-10">Admin can add food update and delete.</li>
-            <li className="ml-10">Track orders and update order statuses.</li>
-            <li className="ml-10">
-              Monitor website performance and customer activity.
+              Ensures a modern and mobile-friendly design.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              4. Image Handling & Storage
+              4. React Hook Form for Contact Form Validation
             </h3>
             <li className="ml-10">
-              Multer for image encoding and secure storage.
-            </li>
-            <li className="ml-10">
-              Efficiently handles large image uploads without performance
-              issues.
+              Provides seamless and user-friendly form handling.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              5. Development & Deployment
+              5. React Player Integration
             </h3>
             <li className="ml-10">
-              Nodemon for development (auto-reloading for better efficiency).
+              Enables embedding and playing project-related videos.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              6. Password Encryption
+              6. React Icons for Enhanced UI
             </h3>
             <li className="ml-10">
-              User passwords are securely hashed using bcrypt.
+              Adds modern and interactive icons to the interface.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              7. Secure JWT Authentication
+              7. Optimized with MVC Structure
             </h3>
             <li className="ml-10">
-              Ensures safe and protected access to admin functionalities.
+              Ensures scalable and maintainable code organization.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              8. Email Verification
+              8. Production-Grade Code
             </h3>
             <li className="ml-10">
-              Ensures that only verified admin can log in and perform actions.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">9. MVC Architecture</h3>
-            <li className="ml-10">
-              Organizes the project into models, views, and controllers for
-              better code management.
+              Follows best practices for clean and efficient development.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              9. Middleware Implementation
+              9. SEO-Friendly 
             </h3>
             <li className="ml-10">
-              Enhances security, logging, error handling, and request validation
-              for better backend management.
+            Optimized for search engines to enhance discoverability and ranking.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              11. MongoDB Atlas Database
+              10. Deployed on Vercel
             </h3>
             <li className="ml-10">
-              Stores all food items, admin credentials, and restaurant details
-              efficiently.
+              Provides fast performance, server-side rendering, and a reliable
+              hosting solution.
             </li>
           </ul>
         </div>
@@ -342,52 +294,30 @@ const Portfolio = () => {
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">Frontend:</h3>
             <li className="ml-10">
-              React.js - For building a dynamic and interactive user interface.
-            </li>
-            <li className="ml-10">CSS3 - For styling best design.</li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">Backend:</h3>
-            <li className="ml-10">
-              Node.js - For building the backend logic and APIs.
+              <span className="text-xl">Next.js - </span> High-performance React framework with SSR and
+              optimization.
             </li>
             <li className="ml-10">
-              Express.js - For handling server-side routes and requests.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">Database & Storage:</h3>
-            <li className="ml-10">
-              MongoDB Atlas - For storing user data, products, and orders.
+            <span className="text-xl">Swiper JS - </span>Creates interactive carousels and sliders for project
+              showcases.
             </li>
             <li className="ml-10">
-              Mongoose - For efficient data handling and schema validation.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              Authentication & Security:
-            </h3>
-            <li className="ml-10">
-              JWT (JSON Web Token) - For secure authentication.
+            <span className="text-xl">Tailwind CSS - </span>Tailwind CSS- Ensures a clean, modern, and responsive design.
             </li>
             <li className="ml-10">
-              Bcrypt - For hashing and encrypting passwords.
+            <span className="text-xl">React Hook Form - </span>React Hook Form - Handles form validation efficiently.
             </li>
             <li className="ml-10">
-              Multer - For secure image upload and encoding.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              Development & Monitoring:
-            </h3>
-            <li className="ml-10">
-              Nodemon - For auto-reloading during development.
+            <span className="text-xl">React Player - </span>React Player- Embeds and plays videos within the portfolio.
             </li>
             <li className="ml-10">
-              MVC Architecture - Ensuring a structured, maintainable, and
-              scalable codebase.
+            <span className="text-xl">React Icons - </span>React Icons- Adds intuitive and visually appealing icons.
+            </li>
+            <li className="ml-10">
+            <span className="text-xl">React DOM - </span>React DOM- Enhances routing and UI interactions.
+            </li>
+            <li className="ml-10">
+            <span className="text-xl">Vercel Deployment - </span>Vercel Deployment- Ensures fast performance and easy hosting.
             </li>
           </ul>
         </div>
