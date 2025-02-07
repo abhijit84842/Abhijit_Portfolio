@@ -57,7 +57,10 @@ const FrontendProjectsShow = () => {
                 The website incorporates essential tools like react-hook-form
                 for form handling and react-router-dom for navigation.{" "}
                 <span>
-                  <Link className="text-blue-700" href="/pages/projectall/overview/travelagencyoverview">
+                  <Link
+                    className="text-blue-700"
+                    href="/pages/projectall/overview/travelagencyoverview"
+                  >
                     See more..
                   </Link>
                 </span>
@@ -84,13 +87,46 @@ const FrontendProjectsShow = () => {
                 project highlights my skills in creating interactive,
                 user-friendly web applications.
                 <span>
-                  <Link className="text-blue-700" href={"/pages/projectall/overview/wearcollectionoverview"}>
+                  <Link
+                    className="text-blue-700"
+                    href={"/pages/projectall/overview/wearcollectionoverview"}
+                  >
                     See more..
                   </Link>
                 </span>
               </p>
             </div>
           </SwiperSlide>
+          <SwiperSlide>
+            <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
+              <Image
+                src="/ProjectShow/portfolio img.png"
+                alt="loading.."
+                loading="lazy"
+                width={500}
+                height={500}
+              />
+
+              <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
+                Animated Portfolio Using Next Js
+              </p>
+              <p className="text-black text-sm">
+                This Next.js-based animated portfolio website is designed to
+                showcase projects, skills, and experience in a visually engaging
+                way. Built with GSAP animation, it features smooth transitions,
+                scroll-based effects, and interactive elements....
+                <span>
+                  <Link
+                    className="text-blue-700"
+                    href={"/pages/projectall/overview/myntraoverview"}
+                  >
+                    See more..
+                  </Link>
+                </span>
+              </p>
+            </div>
+          </SwiperSlide>
+
           <SwiperSlide>
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
               <Image
@@ -110,7 +146,10 @@ const FrontendProjectsShow = () => {
                 application features a dynamic product catalog powered by dummy
                 JSON data.
                 <span>
-                  <Link className="text-blue-700" href={"/pages/projectall/overview/myntraoverview"}>
+                  <Link
+                    className="text-blue-700"
+                    href={"/pages/projectall/overview/myntraoverview"}
+                  >
                     See more..
                   </Link>
                 </span>
