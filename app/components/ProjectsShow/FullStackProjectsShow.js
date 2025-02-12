@@ -57,7 +57,7 @@ const FullStackProjectsShow = () => {
                 MongoDB Atlas data storage and includes authentication with JWT
                 and password encryption with bcrypt to protect user data.
                 <span>
-                  <Link className="text-blue-700" href={"/pages/projectall/overview/cityslingoverview"}>
+                  <Link className="text-blue-700 text-lg" href={"/pages/projectall/overview/cityslingoverview"}>
                     See more..
                   </Link>
                 </span>
@@ -81,10 +81,9 @@ const FullStackProjectsShow = () => {
                 Food Plaza, showcases a wide variety of meal options, including
                 breakfast, lunch, and dinner, to provide users with a complete
                 dining experience. Developed with the MERN stack (MongoDB,
-                Express, React, Node.js).a search feature for easy menu
-                navigation. Styled with CSS for a clean, appealing interface.
+                Express, React, Node.js).
                 <span>
-                  <Link className="text-blue-700" href={"/pages/projectall/overview/foodplazaoverview"}>
+                  <Link className="text-blue-700 text-lg" href={"/pages/projectall/overview/foodplazaoverview"}>
                     See more..
                   </Link>
                 </span>
