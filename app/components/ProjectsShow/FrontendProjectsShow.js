@@ -29,10 +29,10 @@ const FrontendProjectsShow = () => {
           pagination={{
             clickable: true,
           }}
-          //  autoplay={{
-          //   delay:4500,
-          //   disableOnInteraction:false
-          //  }}
+           autoplay={{
+            delay:4500,
+            disableOnInteraction:false
+           }}
           //  loop={true}
           modules={[FreeMode, Pagination, Autoplay]}
           className={styles.firstSwiper}

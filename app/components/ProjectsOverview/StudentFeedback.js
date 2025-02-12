@@ -47,7 +47,7 @@ const StudentFeedback = () => {
         >
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview1.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback1.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -55,7 +55,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview9.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback2.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -63,7 +63,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview15.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback3.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -71,7 +71,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview12.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback4.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -79,7 +79,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview17.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback5.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -87,7 +87,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview14.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback6.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -95,7 +95,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview8.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback7.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -103,7 +103,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview16.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback8.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -111,7 +111,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview10.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback9.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -119,7 +119,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview3.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback10.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -127,7 +127,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview4.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback11.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -135,7 +135,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview5.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback12.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -143,31 +143,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview11.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview7.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview18.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview19.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback13.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -186,7 +162,7 @@ const StudentFeedback = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview1.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback1.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -194,7 +170,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview9.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback2.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -202,7 +178,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview15.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback3.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -210,7 +186,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview12.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback4.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -218,7 +194,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview17.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback5.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -226,7 +202,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview14.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback6.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -234,7 +210,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview8.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback7.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -242,7 +218,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview16.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback8.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -250,7 +226,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview10.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback9.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -258,7 +234,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview3.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback10.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -266,7 +242,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview4.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback11.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -274,7 +250,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview5.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback12.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -282,31 +258,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview11.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview7.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview18.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview19.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback13.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -320,25 +272,23 @@ const StudentFeedback = () => {
           </h2>
           <div className="description px-10">
             <p>
-              The CitySling Bag E-Commerce Website is a fully functional online
-              store that offers a wide range of stylish and affordable bags for
-              men, women, kids, and travel enthusiasts. Built with a robust
-              full-stack architecture, this project ensures seamless shopping
-              experiences while maintaining security, performance, and
-              user-friendly navigation. The website allows users to browse
-              through an extensive collection of bags, add items to their cart,
-              and securely place orders. It features user and admin
-              authentication, secure password encryption, and email verification
-              to ensure data privacy and protection. The admin panel enables
-              efficient product management, order tracking, and user management.
-              With JWT authentication, the system ensures safe login sessions,
-              while flash messages provide real-time alerts for a smooth user
-              experience. The website follows the MVC (Model-View-Controller)
-              architecture, ensuring a clean and scalable codebase. Data is
-              stored in MongoDB Atlas, while images are securely uploaded using
-              Multer. This project is a perfect blend of modern technologies and
-              best development practices, making it a highly scalable and secure
-              e-commerce platform.
+              The Student Feedback System is a web-based application designed to
+              streamline the process of collecting and managing student feedback
+              for faculty members. Built using PHP, HTML, CSS, and JavaScript,
+              this system allows students to provide feedback based on their
+              roll numbers, ensuring a structured and organized evaluation
+              process. The MySQL database is used to store all feedback data
+              securely. The system features an admin dashboard, where only
+              authenticated administrators can log in using a secure ID and
+              password. Admins have the ability to add, update, and delete
+              faculty members, as well as view feedback provided by students. To
+              enhance security, admin authentication is implemented using
+              sessions, and there is an option to change the admin password. For
+              improved user experience, SweetAlert pop-ups are used for
+              confirmation messages when updating or deleting faculty records.
+              The project is hosted on a local XAMPP server, making it easy to
+              run and test. The system helps institutions manage faculty
+              feedback efficiently, ensuring transparency and data integrity.
             </p>
           </div>
         </div>
@@ -348,81 +298,63 @@ const StudentFeedback = () => {
           </h2>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              1. User Authentication & Security
+              1. Admin Authentication & Security
             </h3>
             <li className="ml-10">
-              Secure JWT-based authentication for users and admin.
+              Secure login system for the admin with an authentication ID and
+              password.
+            </li>
+          </ul>
+          <ul className="ml-10 list-disc mt-2">
+            <h3 className="text-lg font-semibold mb-2">2. Admin Dashboard</h3>
+            <li className="ml-10">
+              Admin can add, update, and delete faculty members.
             </li>
             <li className="ml-10">
-              Bcrypt password encryption to ensure user data protection.
+              Admin can view the feedback submitted for each faculty member.
             </li>
             <li className="ml-10">
-              Email verification to validate users before they can access their
-              accounts.
+              Admin can change their password for security.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              2. User Dashboard & Shopping Experience
+              3. Student Feedback Submission
             </h3>
             <li className="ml-10">
-              Users can browse categories: Mens Bags, Womens Bags, Kids Bags,
-              and Trolley Bags.
-            </li>
-            <li className="ml-10">
-              View product details with high-quality images and descriptions.
-            </li>
-            <li className="ml-10">
-              Add items to the shopping cart and proceed to checkout.
-            </li>
-            <li className="ml-10">
-              Receive flash messages for login, registration, and order updates.
-            </li>
-          </ul>
-          <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">3. Admin Dashboard</h3>
-            <li className="ml-10">
-              Manage products (add, edit, delete bags from inventory).
-            </li>
-            <li className="ml-10">
-              View and manage users (approve, delete, or restrict user access).
-            </li>
-            <li className="ml-10">Track orders and update order statuses.</li>
-            <li className="ml-10">
-              Monitor website performance and customer activity.
+              Students can provide feedback based on their roll numbers.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              4. Image Handling & Storage
+              4. Session Management
             </h3>
             <li className="ml-10">
-              Multer for image encoding and secure storage.
-            </li>
-            <li className="ml-10">
-              Efficiently handles large image uploads without performance
-              issues.
+              Uses PHP sessions to maintain admin login status.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              5. Flash Messages & Alerts
+              5. Confirmation Alerts
             </h3>
             <li className="ml-10">
-              Users receive instant flash messages for login/logout, cart
-              updates, and order confirmations.
+              Implemented SweetAlert for confirmation pop-ups when updating or
+              deleting faculty records.
             </li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
-              6. Development & Deployment
+              6. Database Management
             </h3>
             <li className="ml-10">
-              Nodemon for development (auto-reloading for better efficiency).
+              Stores all data (faculty details, feedback, and admin credentials)
+              securely using MySQL.
             </li>
+          </ul>
+          <ul className="ml-10 list-disc mt-2">
+            <h3 className="text-lg font-semibold mb-2">7. Local Hosting</h3>
             <li className="ml-10">
-              Dotenv for environment variables, keeping API keys and sensitive
-              data secure.
+              The project is deployed and tested using XAMPP Server.
             </li>
           </ul>
         </div>
@@ -432,86 +364,40 @@ const StudentFeedback = () => {
           </h2>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">Frontend:</h3>
-            <li className="ml-10">
-              EJS (Embedded JavaScript) - For dynamic rendering of pages.
-            </li>
-            <li className="ml-10">
-              Tailwind CSS - For fast, efficient, and responsive styling.
-            </li>
+            <li className="ml-10">HTML, CSS, JavaScript</li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">Backend:</h3>
-            <li className="ml-10">
-              Node.js - For building the backend logic and APIs.
-            </li>
-            <li className="ml-10">
-              Express.js - For handling server-side routes and requests.
-            </li>
+            <li className="ml-10">PHP</li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">Database & Storage:</h3>
-            <li className="ml-10">
-              MongoDB Atlas - For storing user data, products, and orders.
-            </li>
-            <li className="ml-10">
-              Mongoose - For efficient data handling and schema validation.
-            </li>
+            <li className="ml-10">MYSQL</li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
             <h3 className="text-lg font-semibold mb-2">
               Authentication & Security:
             </h3>
-            <li className="ml-10">
-              JWT (JSON Web Token) - For secure authentication.
-            </li>
-            <li className="ml-10">
-              Bcrypt - For hashing and encrypting passwords.
-            </li>
-            <li className="ml-10">
-              Multer - For secure image upload and encoding.
-            </li>
-            <li className="ml-10">
-              Dotenv - For managing environment variables securely.
-            </li>
+            <li className="ml-10">Sessions for admin authentication</li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              Admin & User Management:
-            </h3>
-            <li className="ml-10">
-              Flash Messages - For real-time user notifications.
-            </li>
-            <li className="ml-10">
-              Config Package - For easy management of configurations.
-            </li>
+            <h3 className="text-lg font-semibold mb-2">Server:</h3>
+            <li className="ml-10">XAMPP (Apache, MySQL, PHP)</li>
           </ul>
           <ul className="ml-10 list-disc mt-2">
-            <h3 className="text-lg font-semibold mb-2">
-              Development & Monitoring:
-            </h3>
-            <li className="ml-10">
-              Nodemon - For auto-reloading during development.
-            </li>
-            <li className="ml-10">
-              MVC Architecture - Ensuring a structured, maintainable, and
-              scalable codebase.
-            </li>
+            <h3 className="text-lg font-semibold mb-2">UI Enhancements:</h3>
+            <li className="ml-10">SweetAlert for better user interaction</li>
           </ul>
         </div>
         <div className="github-link">
           <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
             GitHub Link :-
           </h2>
-          <Link className="ml-10 text-blue-500" href="https://github.com/abhijit84842/Web_Development_Projects_2024/tree/master/MERN%20Stack%20Project/CitySling_E-com_in_NodeJs">
+          <Link
+            className="ml-10 text-blue-500"
+            href="https://github.com/abhijit84842/Student_Feedback_System_In_PHP"
+          >
             See Project on gitHub
-          </Link>
-        </div>
-        <div className="figma-design">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
-            Figma Design :-
-          </h2>
-          <Link className="ml-10 text-lime-400" href="https://www.figma.com/design/3FH9gGvqy3SRoLwzIbTwlY/CitySling-Banner?node-id=0-1&p=f&t=p9LdIBIXC5G1Y6du-0">
-            See desing on figma
           </Link>
         </div>
       </div>
