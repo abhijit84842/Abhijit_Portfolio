@@ -400,6 +400,14 @@ const StudentFeedback = () => {
             See Project on gitHub
           </Link>
         </div>
+        <div className="figma-design">
+          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+            Download PPT :-
+          </h2>
+          <Link className="ml-10 text-lime-400" href="/Overview/othersprojects/studentfeedback/studentppt/Student_Feedback_System.pptx">
+           Click here to download ppt..
+          </Link>
+        </div>
       </div>
     </div>
   );
