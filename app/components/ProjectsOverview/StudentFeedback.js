@@ -95,7 +95,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback7.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -210,7 +210,7 @@ const StudentFeedback = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback7.PNG"
+              src="/Overview/othersprojects/studentfeedback/feedback.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
