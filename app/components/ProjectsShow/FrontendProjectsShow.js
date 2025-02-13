@@ -29,10 +29,10 @@ const FrontendProjectsShow = () => {
           pagination={{
             clickable: true,
           }}
-           autoplay={{
-            delay:4500,
-            disableOnInteraction:false
-           }}
+          autoplay={{
+            delay: 4500,
+            disableOnInteraction: false,
+          }}
           //  loop={true}
           modules={[FreeMode, Pagination, Autoplay]}
           className={styles.firstSwiper}
@@ -46,6 +46,7 @@ const FrontendProjectsShow = () => {
                 loading="lazy"
                 width={500}
                 height={500}
+                className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
 
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
@@ -76,6 +77,7 @@ const FrontendProjectsShow = () => {
                 loading="lazy"
                 width={500}
                 height={500}
+                className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
 
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
@@ -105,6 +107,7 @@ const FrontendProjectsShow = () => {
                 loading="lazy"
                 width={500}
                 height={500}
+                className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
 
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
@@ -135,6 +138,7 @@ const FrontendProjectsShow = () => {
                 loading="lazy"
                 width={500}
                 height={500}
+                className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
 
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
@@ -164,6 +168,7 @@ const FrontendProjectsShow = () => {
                 loading="lazy"
                 width={500}
                 height={500}
+                className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
 
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
@@ -195,6 +200,7 @@ const FrontendProjectsShow = () => {
                 loading="lazy"
                 width={500}
                 height={500}
+                className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
 
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
