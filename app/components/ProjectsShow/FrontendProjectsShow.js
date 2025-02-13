@@ -40,18 +40,20 @@ const FrontendProjectsShow = () => {
           <SwiperSlide>
             {" "}
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
-              <Image
-                src="/ProjectShow/TravelAgency.png"
-                alt="loading.."
-                loading="lazy"
-                width={500}
-                height={500}
-                className="transition-transform duration-300 ease-in-out hover:scale-110"
-              />
+              <Link href="/pages/projectall/overview/travelagencyoverview">
+                <Image
+                  src="/ProjectShow/TravelAgency.png"
+                  alt="loading.."
+                  loading="lazy"
+                  width={500}
+                  height={500}
+                  className="transition-transform duration-300 ease-in-out hover:scale-110"
+                />
 
-              <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
-                View World Travel Agency
-              </p>
+                <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
+                  View World Travel Agency
+                </p>
+              </Link>
               <p className="text-black text-sm">
                 The project features smooth animations using GSAP and Swiper JS
                 for interactive sliders, providing an engaging user experience.
@@ -71,18 +73,20 @@ const FrontendProjectsShow = () => {
           <SwiperSlide>
             {" "}
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
-              <Image
-                src="/ProjectShow/Wear Collections Img.png"
-                alt="loading.."
-                loading="lazy"
-                width={500}
-                height={500}
-                className="transition-transform duration-300 ease-in-out hover:scale-110"
-              />
+              <Link href="/pages/projectall/overview/wearcollectionoverview">
+                <Image
+                  src="/ProjectShow/Wear Collections Img.png"
+                  alt="loading.."
+                  loading="lazy"
+                  width={500}
+                  height={500}
+                  className="transition-transform duration-300 ease-in-out hover:scale-110"
+                />
 
-              <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
-                Wear Collections E-com
-              </p>
+                <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
+                  Wear Collections E-com
+                </p>
+              </Link>
               <p className="text-black text-sm">
                 A e-com website developed using React Js,HTML,CSS and
                 Javascript.Designed with a focus on smooth user experience. This
@@ -101,18 +105,20 @@ const FrontendProjectsShow = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
-              <Image
-                src="/ProjectShow/portfolio img.png"
-                alt="loading.."
-                loading="lazy"
-                width={500}
-                height={500}
-                className="transition-transform duration-300 ease-in-out hover:scale-110"
-              />
+              <Link href="/pages/projectall/overview/portfoliooverview">
+                <Image
+                  src="/ProjectShow/portfolio img.png"
+                  alt="loading.."
+                  loading="lazy"
+                  width={500}
+                  height={500}
+                  className="transition-transform duration-300 ease-in-out hover:scale-110"
+                />
 
-              <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
-                Animated Portfolio Using Next Js
-              </p>
+                <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
+                  Animated Portfolio Using Next Js
+                </p>
+              </Link>
               <p className="text-black text-sm">
                 This Next.js-based animated portfolio website is designed to
                 showcase projects, skills, and experience in a visually engaging
@@ -132,18 +138,20 @@ const FrontendProjectsShow = () => {
 
           <SwiperSlide>
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
-              <Image
-                src="/ProjectShow/Myntra Clone.png"
-                alt="loading.."
-                loading="lazy"
-                width={500}
-                height={500}
-                className="transition-transform duration-300 ease-in-out hover:scale-110"
-              />
+              <Link href="/pages/projectall/overview/myntraoverview">
+                <Image
+                  src="/ProjectShow/Myntra Clone.png"
+                  alt="loading.."
+                  loading="lazy"
+                  width={500}
+                  height={500}
+                  className="transition-transform duration-300 ease-in-out hover:scale-110"
+                />
 
-              <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
-                Myntra Clone
-              </p>
+                <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
+                  Myntra Clone
+                </p>
+              </Link>
               <p className="text-black text-sm">
                 The Myntra Clone project is a simplified replica of the popular
                 e-commerce platform, built using React.js, HTML, and CSS. This
@@ -162,18 +170,20 @@ const FrontendProjectsShow = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
-              <Image
-                src="/ProjectShow/Weather App.png"
-                alt="loading.."
-                loading="lazy"
-                width={500}
-                height={500}
-                className="transition-transform duration-300 ease-in-out hover:scale-110"
-              />
+              <Link href="/pages/projectall/overview/weatheroverview">
+                <Image
+                  src="/ProjectShow/Weather App.png"
+                  alt="loading.."
+                  loading="lazy"
+                  width={500}
+                  height={500}
+                  className="transition-transform duration-300 ease-in-out hover:scale-110"
+                />
 
-              <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
-                Weather App Using React Js
-              </p>
+                <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
+                  Weather App Using React Js
+                </p>
+              </Link>
               <p className="text-black text-sm">
                 This is a weather application built using React.js for
                 functionality and CSS for styling. The app allows users to
@@ -194,18 +204,20 @@ const FrontendProjectsShow = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
-              <Image
-                src="/ProjectShow/BmiCalculator.png"
-                alt="loading.."
-                loading="lazy"
-                width={500}
-                height={500}
-                className="transition-transform duration-300 ease-in-out hover:scale-110"
-              />
+              <Link href="/pages/projectall/overview/bmicalculatoroverview">
+                <Image
+                  src="/ProjectShow/BmiCalculator.png"
+                  alt="loading.."
+                  loading="lazy"
+                  width={500}
+                  height={500}
+                  className="transition-transform duration-300 ease-in-out hover:scale-110"
+                />
 
-              <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
-                BMI Calculator
-              </p>
+                <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
+                  BMI Calculator
+                </p>
+              </Link>
               <p className="text-black text-sm">
                 BMI Calculator project is a user-friendly React.js application
                 designed to help users quickly and accurately calculate their
