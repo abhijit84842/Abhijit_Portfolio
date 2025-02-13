@@ -48,7 +48,7 @@ const OthersProjectsShow = () => {
                 height={500}
               />
               <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
-                Student Feedback System in Php
+                Student Feedback System Using Php
               </p>
               <p className="text-black text-sm">
                 The Student Feedback System is a web-based platform built with
