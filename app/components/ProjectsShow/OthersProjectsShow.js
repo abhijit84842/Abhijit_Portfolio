@@ -99,7 +99,7 @@ const OthersProjectsShow = () => {
             {" "}
             <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
               <Image
-                src="/ProjectShow/gymmanagement.png"
+                src="/ProjectShow/timetableimg.png"
                 alt="loading...."
                 loading="lazy"
                 width={500}
