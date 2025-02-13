@@ -29,11 +29,11 @@ const OthersProjectsShow = () => {
           pagination={{
             clickable: true,
           }}
-          //  autoplay={{
-          //   delay:4500,
-          //   disableOnInteraction:false
-          //  }}
-          //  loop={true}
+           autoplay={{
+            delay:4500,
+            disableOnInteraction:false
+           }}
+           loop={true}
           modules={[FreeMode, Pagination, Autoplay]}
           className={styles.firstSwiper}
         >
