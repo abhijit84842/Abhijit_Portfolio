@@ -83,12 +83,41 @@ const OthersProjectsShow = () => {
                 The Gym Management System is a web-based application built using
                 PHP that helps gym owners and administrators efficiently manage
                 their gym operations. The system provides functionalities such
-                as member registration, membership plans,
-                trainer management..
+                as member registration, membership plans, trainer management..
                 <span>
                   <Link
                     className="text-blue-700 text-lg"
                     href={"/pages/projectall/overview/gymmanagementoverview"}
+                  >
+                    See more..
+                  </Link>
+                </span>
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
+              <Image
+                src="/ProjectShow/gymmanagement.png"
+                alt="loading...."
+                loading="lazy"
+                width={500}
+                height={500}
+              />
+              <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
+                Automatic Time Table Generator
+              </p>
+              <p className="text-black text-sm">
+                The Automatic Timetable Generator is a web-based system built
+                using PHP, HTML, and CSS that automates the process of creating
+                timetables for educational institutions. It efficiently assigns
+                subjects, faculty, and time slots while ensuring no conflicts in
+                scheduling...
+                <span>
+                  <Link
+                    className="text-blue-700 text-lg"
+                    href={"/pages/projectall/overview/timetableoverview"}
                   >
                     See more..
                   </Link>
