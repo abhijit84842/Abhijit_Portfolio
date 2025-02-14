@@ -14,12 +14,14 @@ const NavBar = () => {
     });
   });
   return (
-    <div className="hidden sm:flex justify-between p-2 bg-slate-900 w-full fixed 2xl:flex justify-between p-2 bg-slate-900 w-full fixed">
+    <div className="main-container hidden flex justify-between p-2 bg-slate-900 w-full fixed lg:flex justify-between p-2 bg-slate-900 w-full fixed">
       <div>
-        <h2 className="sm:ml-0   2xl:ml-20 text-2xl font-semibold text-[#17E5CD]">Abhijit</h2>
+        <h2 className="ml-10 text-xl font-semibold text-[#17E5CD]">
+          Abhijit
+        </h2>
       </div>
 
-      <nav className="animation-box-nav  sm:flex gap-[3rem] mr-5 text-xl font-semibold text-white  2xl:flex gap-20 mr-20 text-xl font-semibold text-white">
+      <nav className="flex gap-8 mr-5 text-lg text-white ">
         <div className="navLink text-[#F61E1E]">
           <Link href={"/"}>Home</Link>
         </div>
