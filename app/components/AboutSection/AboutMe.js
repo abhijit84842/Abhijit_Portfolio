@@ -22,7 +22,7 @@ const AboutMe = () => {
 
         <div className=" about-right  w-[90%]  mt-2">
           <div className="paragrap text-zinc-200 w-[100%] ">
-            <p className=" text-base  p-2 leading-6 tracking-wider ">
+            <p className=" text-base  p-2 leading-6 tracking-wider ml-2">
               I am a dedicated full stack developer with a strong passion for
               crafting dynamic and responsive web applications. With hands-on
               experience in front-end technologies like HTML, CSS, JavaScript,
@@ -44,6 +44,8 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
+
+
 
       <div
         className="hidden about-container my-20  flex justify-around gap-5 lg:flex justify-around gap-5"
