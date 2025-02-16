@@ -10,7 +10,7 @@ const FrontendProject = () => {
         Frontend Projects
       </h1>
 
-      <div className="frontend-project-box bg-[#18181B] p-3 rounded-[2rem] 2xl:hidden">
+      <div className="frontend-project-box bg-[#18181B] p-3 rounded-[2rem] lg:hidden 2xl:hidden">
         <div className="project-box-2">
           <h2 className="ml-5 text-lg font-semibold text-[#FB2A2A]">
             Project 1
@@ -27,7 +27,7 @@ const FrontendProject = () => {
               />
             </div>
             <div className="left  h-[20rem]">
-              <h2 className="text-2xl">Animated Travel Agency Website</h2>
+              <h2 className="text-2xl font-semibold">Animated Travel Agency Website</h2>
               <div className="mt-5">
                 <p className="text-sm">
                   A visually appealing and user-friendly travel agency website
@@ -70,7 +70,7 @@ const FrontendProject = () => {
               />
             </div>
             <div className="left flex flex-col">
-              <h2 className="text-2xl">Wear Collection E-com Website</h2>
+              <h2 className="text-2xl font-semibold">Wear Collection E-com Website</h2>
               <div className="mt-5">
                 <p className="text-sm">
                   This is a fully functional, responsive clothing e-commerce
@@ -103,7 +103,10 @@ const FrontendProject = () => {
         </div>
       </div>
 
-      <div className="hidden 2xl:block frontend-project-box bg-[#18181B] p-3 rounded-[2rem]">
+
+
+
+      <div className="hidden lg:block 2xl:block frontend-project-box bg-[#18181B] p-3 rounded-[2rem]">
         <div className="project-box-2">
           <h2 className="ml-10 text-lg font-semibold text-[#FB2A2A]">
             Project 1
