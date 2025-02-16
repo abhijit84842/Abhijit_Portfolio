@@ -12,7 +12,7 @@ const FrontendProject = () => {
 
       <div className="frontend-project-box bg-[#18181B] p-3 rounded-[2rem] lg:hidden 2xl:hidden">
         <div className="project-box-2">
-          <h2 className="ml-5 text-lg font-semibold text-[#FB2A2A]">
+          <h2 className="ml-5 my-5 text-lg font-semibold text-[#FB2A2A]">
             Project 1
           </h2>
           <div className="my-5 ml-5 flex justify-center flex-col gap-10">
