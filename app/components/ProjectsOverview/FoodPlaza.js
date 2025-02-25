@@ -20,12 +20,12 @@ import Link from "next/link";
 const FoodPlaza = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
-    <div className="main-container p-10">
-      <h1 className="flex justify-center text-5xl font-semibold mb-10">
+    <div className="main-container p-1 2xl:p-10">
+      <h1 className="font-semibold flex justify-center text-xl my-5 lg:text-4xl 2xl:flex 2xl:justify-center 2xl:text-5xl 2xl:mb-10">
         FoodPlaza Restaurant Website
       </h1>
-      <div className="sub-container bg-zinc-700 rounded-lg p-3">
-        <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+      <div className="sub-container bg-zinc-700 rounded-lg p-1 my-5 2xl:p-3">
+        <h2 className="font-semibold text-red-500 ml-2 my-2 lg:my-5 lg:text-2xl  2xl:text-2xl 2xl:py-2 2xl:pl-5">
           Project Images :-
         </h2>
 
@@ -127,6 +127,12 @@ const FoodPlaza = () => {
           watchSlidesProgress={true}
           modules={[FreeMode, Navigation, Thumbs]}
           className={styles.mySwiper}
+          breakpoints={{
+            375: { slidesPerView: 2, spaceBetween: 5 }, // phone SE
+            390: { slidesPerView: 2, spaceBetween: 5 }, // iphone 12 pro
+            1024: { slidesPerView: 3, spaceBetween: 5 }, // ipad tablets
+            1280: { slidesPerView: 4, spaceBetween: 10 }, // for laptop and desktop
+          }}
         >
           <SwiperSlide className={styles.slides}>
             <Image
@@ -202,11 +208,11 @@ const FoodPlaza = () => {
           </SwiperSlide>
         </Swiper>
 
-        <div className="project-description mt-10">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+        <div className="project-description mt-5 2xl:mt-10">
+          <h2 className="font-semibold text-red-500 text-xl my-5 ml-2 2xl:text-2xl 2xl:py-2 2xl:pl-5">
             Project Description :-
           </h2>
-          <div className="description px-10">
+          <div className="description ml-2 2xl:px-10">
             <p>
               Food Plaza is a dynamic and user-friendly restaurant website
               designed to provide a seamless online food browsing experience.
@@ -231,10 +237,10 @@ const FoodPlaza = () => {
           </div>
         </div>
         <div className="project-features">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-5 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             Key Features :-
           </h2>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               1. View Food Categories
             </h3>
@@ -243,7 +249,7 @@ const FoodPlaza = () => {
               lunch, and dinner.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               2. Affordable Pricing
             </h3>
@@ -251,7 +257,7 @@ const FoodPlaza = () => {
               Displays food items with budget-friendly prices
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               3. Admin Authentication
             </h3>
@@ -264,7 +270,7 @@ const FoodPlaza = () => {
               Monitor website performance and customer activity.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               4. Image Handling & Storage
             </h3>
@@ -276,7 +282,7 @@ const FoodPlaza = () => {
               issues.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               5. Development & Deployment
             </h3>
@@ -284,7 +290,7 @@ const FoodPlaza = () => {
               Nodemon for development (auto-reloading for better efficiency).
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               6. Password Encryption
             </h3>
@@ -292,7 +298,7 @@ const FoodPlaza = () => {
               User passwords are securely hashed using bcrypt.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               7. Secure JWT Authentication
             </h3>
@@ -300,7 +306,7 @@ const FoodPlaza = () => {
               Ensures safe and protected access to admin functionalities.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               8. Email Verification
             </h3>
@@ -308,14 +314,14 @@ const FoodPlaza = () => {
               Ensures that only verified admin can log in and perform actions.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">9. MVC Architecture</h3>
             <li className="ml-10">
               Organizes the project into models, views, and controllers for
               better code management.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               9. Middleware Implementation
             </h3>
@@ -324,7 +330,7 @@ const FoodPlaza = () => {
               for better backend management.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               11. MongoDB Atlas Database
             </h3>
@@ -336,17 +342,17 @@ const FoodPlaza = () => {
         </div>
 
         <div className="technology">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-5 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             Technology Use :-
           </h2>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">Frontend:</h3>
             <li className="ml-10">
               React.js - For building a dynamic and interactive user interface.
             </li>
             <li className="ml-10">CSS3 - For styling best design.</li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">Backend:</h3>
             <li className="ml-10">
               Node.js - For building the backend logic and APIs.
@@ -355,7 +361,7 @@ const FoodPlaza = () => {
               Express.js - For handling server-side routes and requests.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">Database & Storage:</h3>
             <li className="ml-10">
               MongoDB Atlas - For storing user data, products, and orders.
@@ -364,7 +370,7 @@ const FoodPlaza = () => {
               Mongoose - For efficient data handling and schema validation.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               Authentication & Security:
             </h3>
@@ -378,7 +384,7 @@ const FoodPlaza = () => {
               Multer - For secure image upload and encoding.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               Development & Monitoring:
             </h3>
@@ -392,7 +398,7 @@ const FoodPlaza = () => {
           </ul>
         </div>
         <div className="github-link">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-2 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             GitHub Link :-
           </h2>
           <Link

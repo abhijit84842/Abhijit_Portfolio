@@ -29,299 +29,296 @@ const CitySling = () => {
           Project Images :-
         </h2>
 
-        {/*Responsive 2xl break point forbig screen */}
-        <div className="swiper-container">
-          <Swiper
-            styles={{
-              "--swiper-navigation-color": "#fff",
-              "--swiper-pagination-color": "#fff",
-            }}
-            spaceBetween={10}
-            navigation={true}
-            thumbs={{ swiper: thumbsSwiper }}
-            // autoplay={{
-            //   delay: 3000,
-            //   disableOnInteraction: false,
-            // }}
-            // loop={true}
-            modules={[FreeMode, Navigation, Thumbs, Autoplay]}
-            className={styles.mySwiper2}
-          >
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview1.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview9.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview15.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview12.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview17.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview14.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview8.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview16.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview10.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview3.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview4.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview5.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview11.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview7.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview18.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview19.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-          </Swiper>
+        <Swiper
+          styles={{
+            "--swiper-navigation-color": "#fff",
+            "--swiper-pagination-color": "#fff",
+          }}
+          spaceBetween={10}
+          navigation={true}
+          thumbs={{ swiper: thumbsSwiper }}
+          // autoplay={{
+          //   delay: 3000,
+          //   disableOnInteraction: false,
+          // }}
+          // loop={true}
+          modules={[FreeMode, Navigation, Thumbs, Autoplay]}
+          className={styles.mySwiper2}
+        >
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview1.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview9.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview15.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview12.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview17.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview14.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview8.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview16.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview10.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview3.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview4.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview5.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview11.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview7.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview18.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview19.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+        </Swiper>
 
-          <Swiper
-            onSwiper={setThumbsSwiper}
-            spaceBetween={10}
-            slidesPerView={4}
-            freeMode={true}
-            watchSlidesProgress={true}
-            modules={[FreeMode, Navigation, Thumbs]}
-            className={styles.mySwiper}
-            breakpoints={{
-              375: { slidesPerView: 2, spaceBetween: 5 }, // phone SE
-              390: { slidesPerView: 2, spaceBetween: 5 }, // iphone 12 pro
-              1024: { slidesPerView: 3, spaceBetween: 5 }, // ipad tablets
-              1280: { slidesPerView: 4, spaceBetween: 10 }, // for laptop and desktop
-            }}
-          >
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview1.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview9.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview15.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview12.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview17.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview14.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview8.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview16.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview10.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview3.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview4.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview5.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview11.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview7.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview18.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slides}>
-              <Image
-                src="/Overview/fullstackprojects/citysling/cityslingoverview19.PNG"
-                alt="loading.."
-                loading="lazy"
-                layout="fill"
-              />
-            </SwiperSlide>
-          </Swiper>
-        </div>
+        <Swiper
+          onSwiper={setThumbsSwiper}
+          spaceBetween={10}
+          slidesPerView={4}
+          freeMode={true}
+          watchSlidesProgress={true}
+          modules={[FreeMode, Navigation, Thumbs]}
+          className={styles.mySwiper}
+          breakpoints={{
+            375: { slidesPerView: 2, spaceBetween: 5 }, // phone SE
+            390: { slidesPerView: 2, spaceBetween: 5 }, // iphone 12 pro
+            1024: { slidesPerView: 3, spaceBetween: 5 }, // ipad tablets
+            1280: { slidesPerView: 4, spaceBetween: 10 }, // for laptop and desktop
+          }}
+        >
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview1.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview9.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview15.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview12.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview17.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview14.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview8.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview16.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview10.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview3.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview4.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview5.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview11.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview7.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview18.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="/Overview/fullstackprojects/citysling/cityslingoverview19.PNG"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+            />
+          </SwiperSlide>
+        </Swiper>
 
         <div className="project-description mt-5 2xl:mt-10">
           <h2 className="font-semibold text-red-500 text-xl my-5 ml-2 2xl:text-2xl 2xl:py-2 2xl:pl-5">
