@@ -59,8 +59,17 @@ const ContactMe = () => {
       </div>
 
 
-      <div className="contact-sub-container hidden  bg-[#18181B] mx-10 my-10 lg:flex lg:justify-between 2xl:flex justify-between gap-20 p-5 rounded-[2rem]">
-        <div className="contact-left w-[50%] flex justify-center p-5">
+      <div className="contact-sub-container hidden  bg-[#18181B] rounded-[2rem]  my-10 lg:mx-2  lg:flex lg:justify-between lg:gap-10 lg:p-2 2xl:flex 2xl:justify-between 2xl:gap-20 2xl:p-5  2xl:mx-10">
+      <div className="contact-left lg:flex lg:justify-center lg:p-2 2xl:hidden">
+          <Image
+            src="/Contact/Contact.png"
+            alt="loading.."
+            loading="lazy"
+            width={400}
+            height={100}
+          />
+        </div>
+        <div className="contact-left w-[50%]  p-5 lg:hidden 2xl:flex 2xl:justify-center">
           <Image
             src="/Contact/Contact.png"
             alt="loading.."
@@ -69,7 +78,7 @@ const ContactMe = () => {
             height={400}
           />
         </div>
-        <div className="contact-right  w-[40%] p-10">
+        <div className="contact-right lg:w-[50%] lg:p-5 2xl:w-[40%] 2xl:p-10 ">
           <form
             className="bg-[#29292F] p-10 flex flex-col justify-center gap-10 rounded-[50px]"
             action=""
