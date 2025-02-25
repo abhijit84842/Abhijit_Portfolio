@@ -31,11 +31,11 @@ const FullStackProjectsShow = () => {
             pagination={{
               clickable: true,
             }}
-             autoplay={{
-              delay:4500,
-              disableOnInteraction:false
-             }}
-             loop={true}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+            //  loop={true}
             modules={[FreeMode, Pagination, Autoplay]}
             className={styles.firstSwiper}
           >
@@ -76,7 +76,7 @@ const FullStackProjectsShow = () => {
 
             <SwiperSlide>
               {" "}
-              <div className="crad  bg-slate-200 w-[20rem] p-3 rounded-lg h-[35rem] ">
+              <div className="crad  bg-slate-200 w-[20rem] p-3 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/foodplazaoverview">
                   <Image
                     src="/ProjectShow/FoodPlaza.png"
@@ -112,23 +112,22 @@ const FullStackProjectsShow = () => {
         {/*Responsive lg breakpoint For ipad pro  */}
         <div className="swiper-container hidden lg:block 2xl:hidden ">
           <Swiper
-            slidesPerView={3}
-            spaceBetween={70}
+            slidesPerView={2.5}
+            spaceBetween={10}
             freeMode={true}
             pagination={{
               clickable: true,
             }}
-             autoplay={{
-              delay:4500,
-              disableOnInteraction:false
-             }}
-             loop={true}
+            autoplay={{
+              delay: 4500,
+              disableOnInteraction: false,
+            }}
             modules={[FreeMode, Pagination, Autoplay]}
             className={styles.firstSwiper}
           >
             <SwiperSlide>
               {" "}
-              <div className="crad  bg-slate-200 w-[20rem] p-4 mb-10 rounded-lg h-[35rem]">
+              <div className="crad  bg-slate-200 w-[20rem] p-4  rounded-lg h-[35rem] mb-2">
                 <Link href="/pages/projectall/overview/cityslingoverview">
                   <Image
                     src="/ProjectShow/CitySlingImg.png"
@@ -205,11 +204,11 @@ const FullStackProjectsShow = () => {
             pagination={{
               clickable: true,
             }}
-             autoplay={{
-              delay:4500,
-              disableOnInteraction:false
-             }}
-             loop={true}
+            autoplay={{
+              delay: 4500,
+              disableOnInteraction: false,
+            }}
+            loop={true}
             modules={[FreeMode, Pagination, Autoplay]}
             className={styles.firstSwiper}
           >
@@ -238,7 +237,7 @@ const FullStackProjectsShow = () => {
                   data.
                   <span>
                     <Link
-                      className="text-blue-700 text-lg"
+                      className="text-blue-700 text-sm"
                       href={"/pages/projectall/overview/cityslingoverview"}
                     >
                       See more..
@@ -271,7 +270,7 @@ const FullStackProjectsShow = () => {
                   (MongoDB, Express, React, Node.js).
                   <span>
                     <Link
-                      className="text-blue-700 text-lg"
+                      className="text-blue-700 text-sm"
                       href={"/pages/projectall/overview/foodplazaoverview"}
                     >
                       See more..
