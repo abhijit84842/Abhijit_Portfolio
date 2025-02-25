@@ -70,7 +70,7 @@
 }
 
 /* Make responsive for iphone 12 pro */
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
   .mySwiper2 {
     height: 12rem;
     width: 100%;
