@@ -44,7 +44,7 @@ const AboutMe = () => {
         y: 100,
         opacity: 0,
         delay: 1,
-        duration: 3,
+        duration: 5,
         scrollTrigger: {
           trigger: ".about-main-container",
           // markers: true,
@@ -87,7 +87,7 @@ const AboutMe = () => {
         y: 100,
         opacity: 0,
         delay: 1,
-        duration: 3,
+        duration: 5,
         scrollTrigger: {
           trigger: ".about-main-container",
           // markers: true,
