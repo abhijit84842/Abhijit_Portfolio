@@ -20,7 +20,7 @@ import Link from "next/link";
 const CitySling = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
-    <div className="main-container p-1 2xl:p-10">
+    <div className="main-container p-2 2xl:p-10">
       <h1 className="font-semibold flex justify-center text-xl my-5 lg:text-4xl 2xl:flex 2xl:justify-center 2xl:text-5xl 2xl:mb-10">
         City Sling E-com Website Overview
       </h1>
@@ -37,11 +37,11 @@ const CitySling = () => {
           spaceBetween={10}
           navigation={true}
           thumbs={{ swiper: thumbsSwiper }}
-          // autoplay={{
-          //   delay: 3000,
-          //   disableOnInteraction: false,
-          // }}
-          // loop={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          loop={true}
           modules={[FreeMode, Navigation, Thumbs, Autoplay]}
           className={styles.mySwiper2}
         >
@@ -184,9 +184,9 @@ const CitySling = () => {
           modules={[FreeMode, Navigation, Thumbs]}
           className={styles.mySwiper}
           breakpoints={{
-            375: { slidesPerView: 2, spaceBetween: 5 }, // phone SE
-            390: { slidesPerView: 2, spaceBetween: 5 }, // iphone 12 pro
-            1024: { slidesPerView: 3, spaceBetween: 5 }, // ipad tablets
+            375: { slidesPerView: 3, spaceBetween: 5 }, // phone SE
+            390: { slidesPerView: 4, spaceBetween: 5 }, // iphone 12 pro
+            1024: { slidesPerView: 4, spaceBetween: 5 }, // ipad tablets
             1280: { slidesPerView: 4, spaceBetween: 10 }, // for laptop and desktop
           }}
         >

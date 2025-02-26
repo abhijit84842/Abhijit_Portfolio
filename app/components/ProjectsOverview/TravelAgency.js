@@ -21,12 +21,12 @@ import TravelAgencyVideo from "./OverviewVideo/TravelAgencyVideo";
 const TravelAgency = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
-    <div className="main-container p-10">
-      <h1 className="flex justify-center text-5xl font-semibold mb-10">
+    <div className="main-container p-2 2xl:p-10">
+      <h1 className="font-semibold flex justify-center text-xl my-5 lg:text-4xl 2xl:flex 2xl:justify-center 2xl:text-5xl 2xl:mb-10">
         Animated Travel Agency Website
       </h1>
-      <div className="sub-container bg-zinc-700 rounded-lg p-3">
-        <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+      <div className="sub-container bg-zinc-700 rounded-lg p-1 my-5 2xl:p-3">
+        <h2 className="font-semibold text-red-500 ml-2 my-2 lg:my-5 lg:text-2xl  2xl:text-2xl 2xl:py-2 2xl:pl-5">
           Project Images :-
         </h2>
 
@@ -99,6 +99,12 @@ const TravelAgency = () => {
           watchSlidesProgress={true}
           modules={[FreeMode, Navigation, Thumbs]}
           className={styles.mySwiper}
+          breakpoints={{
+            375: { slidesPerView: 3, spaceBetween: 5 }, // phone SE
+            390: { slidesPerView: 4, spaceBetween: 5 }, // iphone 12 pro
+            1024: { slidesPerView: 4, spaceBetween: 5 }, // ipad tablets
+            1280: { slidesPerView: 4, spaceBetween: 10 }, // for laptop and desktop
+          }}
         >
           <SwiperSlide className={styles.slides}>
             <Image
@@ -150,11 +156,11 @@ const TravelAgency = () => {
           </SwiperSlide>
         </Swiper>
 
-        <div className="project-description mt-10">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+        <div className="project-description mt-5 2xl:mt-10">
+          <h2 className="font-semibold text-red-500 text-xl my-5 ml-2 2xl:text-2xl 2xl:py-2 2xl:pl-5">
             Project Description :-
           </h2>
-          <div className="description px-10">
+          <div className="description ml-2 2xl:px-10">
             <p>
               ViewWorld Travel Agency is a visually stunning and interactive
               travel booking platform built using React.js. This project is
@@ -181,10 +187,10 @@ const TravelAgency = () => {
           </div>
         </div>
         <div className="project-features">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-5 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             Key Features :-
           </h2>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               1. GSAP Animations & ScrollTrigger
             </h3>
@@ -193,27 +199,27 @@ const TravelAgency = () => {
               effects.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">2. Landing Page</h3>
             <li className="ml-10">
               Eye-catching hero section with engaging animations.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">3. Gallery Section</h3>
             <li className="ml-10">
               High-quality images with hover scale effects for a visually
               appealing experience.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">4. Book Now Section</h3>
             <li className="ml-10">
               A fully functional booking form with validation using React Hook
               Form.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               5. Animated Review Section
             </h3>
@@ -221,7 +227,7 @@ const TravelAgency = () => {
               Customer testimonials displayed with beautiful animations.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               6. Contact Us Section
             </h3>
@@ -229,13 +235,13 @@ const TravelAgency = () => {
               Simple and effective form to facilitate user inquiries.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">7. Smooth Navigation</h3>
             <li className="ml-10">
               Implemented with React Router DOM for seamless page transitions.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               8. Beautiful Footer Section
             </h3>
@@ -246,44 +252,44 @@ const TravelAgency = () => {
         </div>
 
         <div className="technology">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-5 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             Technology Use :-
           </h2>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <li className="ml-10">
-              <span className="text-xl">React.js -</span> For building a dynamic
+              <span className="text-lg">React.js -</span> For building a dynamic
               and interactive user interface.
             </li>
             <li className="ml-10">
-              <span className="text-xl">
+              <span className="text-lg">
                 GSAP (GreenSock Animation Platform) -
               </span>{" "}
               For creating smooth animations and interactive elements.
             </li>
             <li className="ml-10">
-              <span className="text-xl ">ScrollTrigger -</span> Enables
+              <span className="text-lg ">ScrollTrigger -</span> Enables
               animation triggers based on scroll position.
             </li>
             <li className="ml-10">
-              <span className="text-xl">Swiper.js -</span> Adds a smooth slider
+              <span className="text-lg">Swiper.js -</span> Adds a smooth slider
               effect for the review section.
             </li>
             <li className="ml-10">
-              <span className="text-xl">React Router DOM -</span> For handling
+              <span className="text-lg">React Router DOM -</span> For handling
               navigation and routing.
             </li>
             <li className="ml-10">
-              <span className="text-xl">CSS3 -</span> For clean, modern,
+              <span className="text-lg">CSS3 -</span> For clean, modern,
               and responsive styling.
             </li>
             <li className="ml-10">
-              <span className="text-xl">React Hook Form -</span> For form
+              <span className="text-lg">React Hook Form -</span> For form
               validation and input management.
             </li>
           </ul>
         </div>
         <div className="github-link">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-2 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             GitHub Link :-
           </h2>
           <Link
