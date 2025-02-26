@@ -20,12 +20,12 @@ import Link from "next/link";
 const WearCollection = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
-    <div className="main-container p-10">
-      <h1 className="flex justify-center text-5xl font-semibold mb-10">
+    <div className="main-container p-2 2xl:p-10">
+      <h1 className="font-semibold flex justify-center text-xl my-5 lg:text-4xl 2xl:flex 2xl:justify-center 2xl:text-5xl 2xl:mb-10">
         Wear Collection E-com Website
       </h1>
-      <div className="sub-container bg-zinc-700 rounded-lg p-3">
-        <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+      <div className="sub-container bg-zinc-700 rounded-lg p-1 my-5 2xl:p-3">
+        <h2 className="font-semibold text-red-500 ml-2 my-2 lg:my-5 lg:text-2xl  2xl:text-2xl 2xl:py-2 2xl:pl-5">
           Project Images :-
         </h2>
 
@@ -143,6 +143,12 @@ const WearCollection = () => {
           watchSlidesProgress={true}
           modules={[FreeMode, Navigation, Thumbs]}
           className={styles.mySwiper}
+          breakpoints={{
+            375: { slidesPerView: 3, spaceBetween: 5 }, // phone SE
+            390: { slidesPerView: 4, spaceBetween: 5 }, // iphone 12 pro
+            1024: { slidesPerView: 4, spaceBetween: 5 }, // ipad tablets
+            1280: { slidesPerView: 4, spaceBetween: 10 }, // for laptop and desktop
+          }}
         >
           <SwiperSlide className={styles.slides}>
             <Image
@@ -234,11 +240,11 @@ const WearCollection = () => {
           </SwiperSlide>
         </Swiper>
 
-        <div className="project-description mt-10">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+        <div className="project-description mt-5 2xl:mt-10">
+          <h2 className="font-semibold text-red-500 text-xl my-5 ml-2 2xl:text-2xl 2xl:py-2 2xl:pl-5">
             Project Description :-
           </h2>
-          <div className="description px-10">
+          <div className="description ml-2 2xl:px-10">
             <p>
               WearCollection is a modern and user-friendly e-commerce website
               built using React.js, designed to provide a seamless shopping
@@ -270,10 +276,10 @@ const WearCollection = () => {
           </div>
         </div>
         <div className="project-features">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-5 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             Key Features :-
           </h2>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               1. Three Clothing Categories
             </h3>
@@ -281,7 +287,7 @@ const WearCollection = () => {
               Men, Women, and Kids sections for easy browsing.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               2. Dynamic Hero Section -
             </h3>
@@ -289,7 +295,7 @@ const WearCollection = () => {
               Showcases featured products and offers with a stylish design.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               3. Functional Cart System -
             </h3>
@@ -297,7 +303,7 @@ const WearCollection = () => {
               Users can add, remove, and manage cart items efficiently.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               4. Similar Products Display -
             </h3>
@@ -306,7 +312,7 @@ const WearCollection = () => {
               experience.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               5. State Management with Redux Toolkit & Context API -
             </h3>
@@ -314,7 +320,7 @@ const WearCollection = () => {
               Ensures smooth and efficient state handling.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               6. React Router DOM -
             </h3>
@@ -322,7 +328,7 @@ const WearCollection = () => {
               Enables seamless navigation across different pages.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               7. Navigation Bar & Footer -
             </h3>
@@ -334,23 +340,39 @@ const WearCollection = () => {
         </div>
 
         <div className="technology">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-5 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             Technology Use :-
           </h2>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">Frontend:</h3>
-            <li className="ml-10">
-              <span className="text-xl">React.js - </span>For building a dynamic and interactive user interface.
+            <li className="ml-10 text-sm ">
+              <span className="text-lg ">React.js - </span>For building a
+              dynamic and interactive user interface.
             </li>
-            <li className="ml-10"><span className="text-xl">Redux Toolkit - </span>For efficient and scalable state management.</li>
-            <li className="ml-10"><span className="text-xl">Context API - </span>Additional state handling for better flexibility.</li>
-            <li className="ml-10"><span className="text-xl">React Router DOM - </span>Manages navigation between different pages.</li>
-            <li className="ml-10"><span className="text-xl">CSS3 - </span>Custom styling for a modern and sleek UI.</li>
-            <li className="ml-10"><span className="text-xl">Bootstrap - </span>Enhances layout and responsiveness with pre-designed components.</li>
+            <li className="ml-10 text-sm">
+              <span className="text-lg">Redux Toolkit - </span>For efficient and
+              scalable state management.
+            </li>
+            <li className="ml-10 text-sm">
+              <span className="text-lg">Context API - </span>Additional state
+              handling for better flexibility.
+            </li>
+            <li className="ml-10 text-sm">
+              <span className="text-lg">React Router DOM - </span>Manages
+              navigation between different pages.
+            </li>
+            <li className="ml-10 text-sm">
+              <span className="text-lg">CSS3 - </span>Custom styling for a
+              modern and sleek UI.
+            </li>
+            <li className="ml-10 text-sm">
+              <span className="text-lg">Bootstrap - </span>Enhances layout and
+              responsiveness with pre-designed components.
+            </li>
           </ul>
         </div>
         <div className="github-link">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-2 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             GitHub Link :-
           </h2>
           <Link

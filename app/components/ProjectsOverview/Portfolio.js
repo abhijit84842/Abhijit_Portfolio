@@ -20,12 +20,12 @@ import Link from "next/link";
 const Portfolio = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
-    <div className="main-container p-10">
-      <h1 className="flex justify-center text-5xl font-semibold mb-10">
+    <div className="main-container p-2 2xl:p-10">
+      <h1 className="font-semibold flex justify-center text-xl my-5 lg:text-4xl 2xl:flex 2xl:justify-center 2xl:text-5xl 2xl:mb-10">
         Animated Portfolio Using Next Js
       </h1>
-      <div className="sub-container bg-zinc-700 rounded-lg p-3">
-        <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+      <div className="sub-container bg-zinc-700 rounded-lg p-1 my-5 2xl:p-3">
+        <h2 className="font-semibold text-red-500 ml-2 my-2 lg:my-5 lg:text-2xl  2xl:text-2xl 2xl:py-2 2xl:pl-5">
           Project Images :-
         </h2>
 
@@ -111,6 +111,12 @@ const Portfolio = () => {
           watchSlidesProgress={true}
           modules={[FreeMode, Navigation, Thumbs]}
           className={styles.mySwiper}
+          breakpoints={{
+            375: { slidesPerView: 3, spaceBetween: 5 }, // phone SE
+            390: { slidesPerView: 4, spaceBetween: 5 }, // iphone 12 pro
+            1024: { slidesPerView: 4, spaceBetween: 5 }, // ipad tablets
+            1280: { slidesPerView: 4, spaceBetween: 10 }, // for laptop and desktop
+          }}
         >
           <SwiperSlide className={styles.slides}>
             <Image
@@ -170,11 +176,11 @@ const Portfolio = () => {
           </SwiperSlide>
         </Swiper>
 
-        <div className="project-description mt-10">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+        <div className="project-description mt-5 2xl:mt-10">
+          <h2 className="font-semibold text-red-500 text-xl my-5 ml-2 2xl:text-2xl 2xl:py-2 2xl:pl-5">
             Project Description :-
           </h2>
-          <div className="description px-10">
+          <div className="description ml-2 2xl:px-10">
             <p>
               This animated portfolio website is a high-performance, visually
               captivating platform built with Next.js and GSAP animations to
@@ -201,10 +207,10 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="project-features">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-5 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             Key Features :-
           </h2>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               1. GSAP Animations & ScrollTrigger
             </h3>
@@ -212,7 +218,7 @@ const Portfolio = () => {
               Smooth entrance animations and scroll-based interactive effects.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               2. Swiper JS for Project Showcase
             </h3>
@@ -220,7 +226,7 @@ const Portfolio = () => {
               A sleek slider displaying projects with images and descriptions.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               3. Responsive UI with Tailwind CSS
             </h3>
@@ -228,7 +234,7 @@ const Portfolio = () => {
               Ensures a modern and mobile-friendly design.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               4. React Hook Form for Contact Form Validation
             </h3>
@@ -236,7 +242,7 @@ const Portfolio = () => {
               Provides seamless and user-friendly form handling.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               5. React Player Integration
             </h3>
@@ -244,7 +250,7 @@ const Portfolio = () => {
               Enables embedding and playing project-related videos.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               6. React Icons for Enhanced UI
             </h3>
@@ -252,7 +258,7 @@ const Portfolio = () => {
               Adds modern and interactive icons to the interface.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               7. Optimized with MVC Structure
             </h3>
@@ -260,7 +266,7 @@ const Portfolio = () => {
               Ensures scalable and maintainable code organization.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               8. Production-Grade Code
             </h3>
@@ -268,7 +274,7 @@ const Portfolio = () => {
               Follows best practices for clean and efficient development.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               9. SEO-Friendly 
             </h3>
@@ -276,7 +282,7 @@ const Portfolio = () => {
             Optimized for search engines to enhance discoverability and ranking.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               10. Deployed on Vercel
             </h3>
@@ -288,41 +294,41 @@ const Portfolio = () => {
         </div>
 
         <div className="technology">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-5 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             Technology Use :-
           </h2>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">Frontend:</h3>
-            <li className="ml-10">
+            <li className="ml-10 text-sm">
               <span className="text-xl">Next.js - </span> High-performance React framework with SSR and
               optimization.
             </li>
-            <li className="ml-10">
-            <span className="text-xl">Swiper JS - </span>Creates interactive carousels and sliders for project
+            <li className="ml-10 text-sm">
+            <span className="text-lg">Swiper JS - </span>Creates interactive carousels and sliders for project
               showcases.
             </li>
-            <li className="ml-10">
-            <span className="text-xl">Tailwind CSS - </span>Ensures a clean, modern, and responsive design.
+            <li className="ml-10 text-sm">
+            <span className="text-lg">Tailwind CSS - </span>Ensures a clean, modern, and responsive design.
             </li>
-            <li className="ml-10">
-            <span className="text-xl">React Hook Form - </span>Handles form validation efficiently.
+            <li className="ml-10 text-sm">
+            <span className="text-lg">React Hook Form - </span>Handles form validation efficiently.
             </li>
-            <li className="ml-10">
-            <span className="text-xl">React Player - </span>Embeds and plays videos within the portfolio.
+            <li className="ml-10 text-sm">
+            <span className="text-lg">React Player - </span>Embeds and plays videos within the portfolio.
             </li>
-            <li className="ml-10">
-            <span className="text-xl">React Icons - </span>Adds intuitive and visually appealing icons.
+            <li className="ml-10 text-sm">
+            <span className="text-lg">React Icons - </span>Adds intuitive and visually appealing icons.
             </li>
-            <li className="ml-10">
-            <span className="text-xl">React DOM - </span>Enhances routing and UI interactions.
+            <li className="ml-10 text-sm">
+            <span className="text-lg">React DOM - </span>Enhances routing and UI interactions.
             </li>
-            <li className="ml-10">
-            <span className="text-xl">Vercel Deployment - </span>Ensures fast performance and easy hosting.
+            <li className="ml-10 text-sm">
+            <span className="text-lg">Vercel Deployment - </span>Ensures fast performance and easy hosting.
             </li>
           </ul>
         </div>
         <div className="github-link">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-2 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             GitHub Link :-
           </h2>
           <Link

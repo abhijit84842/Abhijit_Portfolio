@@ -256,33 +256,33 @@ const TravelAgency = () => {
             Technology Use :-
           </h2>
           <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <li className="ml-10">
+            <li className="ml-10 text-sm">
               <span className="text-lg">React.js -</span> For building a dynamic
               and interactive user interface.
             </li>
-            <li className="ml-10">
+            <li className="ml-10 text-sm">
               <span className="text-lg">
                 GSAP (GreenSock Animation Platform) -
               </span>{" "}
               For creating smooth animations and interactive elements.
             </li>
-            <li className="ml-10">
+            <li className="ml-10 text-sm">
               <span className="text-lg ">ScrollTrigger -</span> Enables
               animation triggers based on scroll position.
             </li>
-            <li className="ml-10">
+            <li className="ml-10 text-sm">
               <span className="text-lg">Swiper.js -</span> Adds a smooth slider
               effect for the review section.
             </li>
-            <li className="ml-10">
+            <li className="ml-10 text-sm">
               <span className="text-lg">React Router DOM -</span> For handling
               navigation and routing.
             </li>
-            <li className="ml-10">
+            <li className="ml-10 text-sm">
               <span className="text-lg">CSS3 -</span> For clean, modern,
               and responsive styling.
             </li>
-            <li className="ml-10">
+            <li className="ml-10 text-sm">
               <span className="text-lg">React Hook Form -</span> For form
               validation and input management.
             </li>
