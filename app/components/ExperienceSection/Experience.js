@@ -1,9 +1,76 @@
+"use client";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import gsap from "gsap";
 import React from "react";
 
 const Experience = () => {
+  gsap.registerPlugin(ScrollTrigger);
+
+  let mm = gsap.matchMedia(); // mm for math media
+
+  useGSAP(() => {
+    // Responsive for Mobile
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".experience-heading", {
+        x: 100,
+        opacity: 0,
+        duration: 2,
+        scrollTrigger: {
+          trigger: ".experience-container",
+          // markers:true,
+          start: "top 60%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+
+      gsap.from(".company", {
+        y: 100,
+        opacity: 0,
+        duration: 2,
+        scrollTrigger: {
+          trigger: ".experience-container",
+          // markers: true,
+          start: "top 50%",
+          end: "top 20%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // Responsive For desktop
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".experience-heading", {
+        x: 100,
+        opacity: 0,
+        duration: 2,
+        scrollTrigger: {
+          trigger: ".experience-container",
+          // markers:true,
+          start: "top 80%",
+          end: "top 40%",
+          scrub: 2,
+        },
+      });
+
+      gsap.from(".company", {
+        y: 100,
+        opacity: 0,
+        duration: 2,
+        scrollTrigger: {
+          trigger: ".experience-container",
+          // markers: true,
+          start: "top 70%",
+          end: "top 40%",
+          scrub: 2,
+        },
+      });
+    });
+  });
   return (
     <div className="experience-container my-10 p-5 2xl:p-0" id="exprience">
-      <h1 className="text-[#F61E1E] flex justify-center text-3xl font-semibold 2xl:text-4xl">
+      <h1 className="experience-heading text-[#F61E1E] flex justify-center text-3xl font-semibold 2xl:text-4xl">
         My Experience
       </h1>
       <div className="company    mt-5 2xl:mx-20 2xl:mt-10 2xl:flex justify-between">
@@ -56,14 +123,18 @@ const Experience = () => {
                 <li className="my-2">
                   <p className="text-sm 2xl:text-lg">
                     {" "}
-                    <span className="text-lg font-semibold 2xl:text-xl">UI & UX :- </span>
+                    <span className="text-lg font-semibold 2xl:text-xl">
+                      UI & UX :-{" "}
+                    </span>
                     Figma & Canva
                   </p>
                 </li>
                 <li className="my-2">
                   <p className="text-sm 2xl:text-lg">
-                    <span className="text-lg font-semibold 2xl:text-xl">IDE Use :- </span>VS
-                    Code , stackBlitz
+                    <span className="text-lg font-semibold 2xl:text-xl">
+                      IDE Use :-{" "}
+                    </span>
+                    VS Code , stackBlitz
                   </p>
                 </li>
                 <li className="my-2">
