@@ -20,12 +20,12 @@ import Link from "next/link";
 const MyntraClone = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
-    <div className="main-container p-10">
-      <h1 className="flex justify-center text-5xl font-semibold mb-10">
+    <div className="main-container p-2 2xl:p-10">
+      <h1 className="font-semibold flex justify-center text-xl my-5 lg:text-4xl 2xl:flex 2xl:justify-center 2xl:text-5xl 2xl:mb-10">
         Myntra Clone Using React
       </h1>
-      <div className="sub-container bg-zinc-700 rounded-lg p-3">
-        <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+      <div className="sub-container bg-zinc-700 rounded-lg p-1 my-5 2xl:p-3">
+        <h2 className="font-semibold text-red-500 ml-2 my-2 lg:my-5 lg:text-2xl  2xl:text-2xl 2xl:py-2 2xl:pl-5">
           Project Images :-
         </h2>
 
@@ -79,6 +79,12 @@ const MyntraClone = () => {
           watchSlidesProgress={true}
           modules={[FreeMode, Navigation, Thumbs]}
           className={styles.mySwiper}
+          breakpoints={{
+            375: { slidesPerView: 3, spaceBetween: 5 }, // phone SE
+            390: { slidesPerView: 4, spaceBetween: 5 }, // iphone 12 pro
+            1024: { slidesPerView: 4, spaceBetween: 5 }, // ipad tablets
+            1280: { slidesPerView: 4, spaceBetween: 10 }, // for laptop and desktop
+          }}
         >
           <SwiperSlide className={styles.slides}>
             <Image
@@ -106,11 +112,11 @@ const MyntraClone = () => {
           </SwiperSlide>
         </Swiper>
 
-        <div className="project-description mt-10">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+        <div className="project-description mt-5 2xl:mt-10">
+          <h2 className="font-semibold text-red-500 text-xl my-5 ml-2 2xl:text-2xl 2xl:py-2 2xl:pl-5">
             Project Description :-
           </h2>
-          <div className="description px-10">
+          <div className="description ml-2 2xl:px-10">
             <p>
               The Myntra Clone is a fully functional and visually appealing
               e-commerce website built using React.js. This project aims to
@@ -139,10 +145,10 @@ const MyntraClone = () => {
           </div>
         </div>
         <div className="project-features">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-5 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             Key Features :-
           </h2>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               1. Product Listing Page
             </h3>
@@ -150,7 +156,7 @@ const MyntraClone = () => {
               Displays available fashion products in a structured grid format.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               2. Add to Cart Button
             </h3>
@@ -158,7 +164,7 @@ const MyntraClone = () => {
               Allows users to add products to their shopping cart effortlessly.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               3. Functional Cart Page
             </h3>
@@ -166,7 +172,7 @@ const MyntraClone = () => {
               Displays all selected products with real-time updates.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               4. Remove from Cart Button
             </h3>
@@ -174,7 +180,7 @@ const MyntraClone = () => {
               Users can remove individual items from the cart.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               5. Cross Symbol Delete Feature
             </h3>
@@ -182,7 +188,7 @@ const MyntraClone = () => {
               A quick way to remove items using an intuitive delete icon.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               6. Dynamic Price Calculation
             </h3>
@@ -190,7 +196,7 @@ const MyntraClone = () => {
               Automatically updates total pricing as items are added or removed.
             </li>
           </ul>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">
               7. State Management using useState Hook
             </h3>
@@ -201,27 +207,27 @@ const MyntraClone = () => {
         </div>
 
         <div className="technology">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-5 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             Technology Use :-
           </h2>
-          <ul className="ml-10 list-disc mt-2">
+          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">Frontend:</h3>
-            <li className="ml-10">
-              <span className="text-xl">React.js - </span>For building a dynamic
+            <li className="ml-10 text-sm">
+              <span className="text-lg">React.js - </span>For building a dynamic
               and interactive user interface.
             </li>
-            <li className="ml-10">
-              <span className="text-xl">useState Hook - </span>Manages cart
+            <li className="ml-10 text-sm">
+              <span className="text-lg">useState Hook - </span>Manages cart
               state and updates UI dynamically.
             </li>
-            <li className="ml-10">
-              <span className="text-xl">CSS3 - </span>Provides a clean, modern
+            <li className="ml-10 text-sm">
+              <span className="text-lg">CSS3 - </span>Provides a clean, modern
               design.
             </li>
           </ul>
         </div>
         <div className="github-link">
-          <h2 className="text-2xl font-semibold text-red-500 py-2 pl-5">
+          <h2 className="font-semibold text-red-500 my-2 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             GitHub Link :-
           </h2>
           <Link
