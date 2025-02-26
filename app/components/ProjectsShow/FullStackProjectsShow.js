@@ -32,7 +32,7 @@ const FullStackProjectsShow = () => {
               clickable: true,
             }}
             autoplay={{
-              delay: 3000,
+              delay: 4500,
               disableOnInteraction: false,
             }}
             //  loop={true}
