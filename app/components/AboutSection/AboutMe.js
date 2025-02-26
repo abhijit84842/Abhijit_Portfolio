@@ -9,45 +9,96 @@ const AboutMe = () => {
   // Registered the scrollTrigger plagin.
   gsap.registerPlugin(ScrollTrigger);
 
+  let mm = gsap.matchMedia();
+
   useGSAP(() => {
-    gsap.from(".top-heading-about-me", {
-      x: 100,
-      opacity: 0,
-      duration: 2,
-      scrollTrigger: {
-        trigger: ".about-main-container",
-        // markers:true,
-        start: "top 80%",
-        end: "top 30%",
-        scrub: 2,
-      },
+    // for Mobile Responsive
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".top-heading-about-me", {
+        x: 100,
+        opacity: 0,
+        duration: 2,
+        scrollTrigger: {
+          trigger: ".about-main-container",
+          // markers: true,
+          start: "top 60%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+
+      gsap.from(".about-image", {
+        scale: 0,
+        opacity: 0,
+        duration: 3,
+        scrollTrigger: {
+          trigger: ".about-main-container",
+          // markers:true,
+          start: "top 60%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+
+      gsap.from(".paragrap", {
+        y: 100,
+        opacity: 0,
+        delay: 1,
+        duration: 3,
+        scrollTrigger: {
+          trigger: ".about-main-container",
+          // markers: true,
+          start: "top 20%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
     });
-    gsap.from(".paragrap", {
-      y: 100,
-      opacity: 0,
-      delay: 1,
-      duration: 3,
-      scrollTrigger: {
-        trigger: ".about-main-container",
-        // markers:true,
-        start: "top 50%",
-        end: "top 30%",
-        scrub: 2,
-      },
-    });
-    gsap.from(".about-image", {
-      scale: 0,
-      opacity: 0,
-      duration: 3,
-      scrollTrigger: {
-        trigger: ".about-main-container",
-        // markers:true,
-        start: "top 70%",
-        end: "top 30%",
-        scrub: 2,
-      },
+
+    // For Desktop Responsive
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".top-heading-about-me", {
+        x: 100,
+        opacity: 0,
+        duration: 2,
+        scrollTrigger: {
+          trigger: ".about-main-container",
+          // markers: true,
+          start: "top 70%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+
+      gsap.from(".about-image", {
+        scale: 0,
+        opacity: 0,
+        duration: 3,
+        scrollTrigger: {
+          trigger: ".about-main-container",
+          // markers:true,
+          start: "top 60%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+
+      gsap.from(".paragrap", {
+        y: 100,
+        opacity: 0,
+        delay: 1,
+        duration: 3,
+        scrollTrigger: {
+          trigger: ".about-main-container",
+          // markers: true,
+          start: "top 20%",
+          end: "top 40%",
+          scrub: 2,
+        },
+      });
     });
   });
+
   return (
     <div className="about-main-container">
       {/*Responsive Default */}
