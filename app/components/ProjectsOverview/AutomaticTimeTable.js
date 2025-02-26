@@ -37,11 +37,11 @@ const AutomaticTimeTable = () => {
           spaceBetween={10}
           navigation={true}
           thumbs={{ swiper: thumbsSwiper }}
-          // autoplay={{
-          //   delay: 3000,
-          //   disableOnInteraction: false,
-          // }}
-          // loop={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          loop={true}
           modules={[FreeMode, Navigation, Thumbs, Autoplay]}
           className={styles.mySwiper2}
         >
