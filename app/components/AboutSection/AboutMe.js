@@ -1,13 +1,61 @@
+"use client";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import gsap from "gsap";
 import Image from "next/image";
 import Link from "next/link";
+
 const AboutMe = () => {
+  // Registered the scrollTrigger plagin.
+  gsap.registerPlugin(ScrollTrigger);
+
+  useGSAP(() => {
+    gsap.from(".top-heading-about-me", {
+      x: 100,
+      opacity: 0,
+      duration: 2,
+      scrollTrigger: {
+        trigger: ".about-main-container",
+        // markers:true,
+        start: "top 80%",
+        end: "top 30%",
+        scrub: 2,
+      },
+    });
+    gsap.from(".paragrap", {
+      y: 100,
+      opacity: 0,
+      delay: 1,
+      duration: 3,
+      scrollTrigger: {
+        trigger: ".about-main-container",
+        // markers:true,
+        start: "top 50%",
+        end: "top 30%",
+        scrub: 2,
+      },
+    });
+    gsap.from(".about-image", {
+      scale: 0,
+      opacity: 0,
+      duration: 3,
+      scrollTrigger: {
+        trigger: ".about-main-container",
+        // markers:true,
+        start: "top 70%",
+        end: "top 30%",
+        scrub: 2,
+      },
+    });
+  });
   return (
     <div className="about-main-container">
+      {/*Responsive Default */}
       <div
         className="about-container my-10  flex justify-around flex-col gap-5 lg:hidden"
         id="about"
       >
-        <div className="top-heading  flex justify-center">
+        <div className="top-heading-about-me  flex justify-center">
           <p className="text-[#F61E1E] text-3xl font-semibold">About Me</p>
         </div>
         <div className="flex justify-center">
@@ -17,6 +65,7 @@ const AboutMe = () => {
             loading="lazy"
             width={250}
             height={250}
+            className="about-image"
           />
         </div>
 
@@ -45,8 +94,7 @@ const AboutMe = () => {
         </div>
       </div>
 
-
-
+      {/*Responsive for lg breakpoint */}
       <div
         className="hidden about-container my-20  flex justify-around gap-5 lg:flex justify-around gap-5"
         id="about"
@@ -58,7 +106,7 @@ const AboutMe = () => {
             loading="lazy"
             width={350}
             height={350}
-            className=" mt-20 2xl:hidden "
+            className="about-image mt-20 2xl:hidden "
           />
 
           <Image
@@ -67,12 +115,12 @@ const AboutMe = () => {
             loading="lazy"
             width={400}
             height={400}
-            className="hidden 2xl:block"
+            className="about-image hidden 2xl:block"
           />
         </div>
 
         <div className=" about-right  w-[50%] mt-20">
-          <div className="top-heading  w-[60%]">
+          <div className="top-heading-about-me  w-[60%]">
             <p className="text-[#F61E1E] text-4xl font-semibold">About Me</p>
           </div>
           <div className="paragrap text-white w-[100%] mt-10 ml-5 ">
@@ -92,7 +140,10 @@ const AboutMe = () => {
             </p>
           </div>
           <div className=" flex justify-center mt-10 ">
-            <Link className="bg-red-500 font-semibold p-2 rounded-full 2xl:p-5" href="#">
+            <Link
+              className="bg-red-500 font-semibold p-2 rounded-full 2xl:p-5"
+              href="#"
+            >
               More About Me
             </Link>
           </div>
