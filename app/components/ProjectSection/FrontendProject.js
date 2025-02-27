@@ -23,7 +23,7 @@ const FrontendProject = () => {
         duration: 2,
         delay: 1,
         scrollTrigger: {
-          trigger: ".project-box-1",
+          trigger: ".frontend-project-box-1",
           // markers: true,
           start: "top 50%",
           end: "top 30%",
@@ -39,7 +39,7 @@ const FrontendProject = () => {
         duration: 2,
         delay: 1,
         scrollTrigger: {
-          trigger: ".project-box-2",
+          trigger: ".frontend-project-box-2",
           // markers: true,
           start: "top 50%",
           end: "top 30%",
@@ -50,14 +50,14 @@ const FrontendProject = () => {
 
     // Project -1
     mm.add("(max-width:435px)", () => {
-      gsap.from(".project-name-travel ", {
+      gsap.from(".frontend-project-name-travel ", {
         x: 100,
         opacity: 0,
         scale: 0,
         duration: 3,
         delay: 1,
         scrollTrigger: {
-          trigger: ".project-dsc-travel",
+          trigger: ".frontend-project-dsc-travel",
           // markers: true,
           start: "top 70%",
           end: "top 55%",
@@ -67,14 +67,14 @@ const FrontendProject = () => {
     });
     // Project -2
     mm.add("(max-width:435px)", () => {
-      gsap.from(".project-name-wear ", {
+      gsap.from(".frontend-project-name-wear ", {
         x: 100,
         opacity: 0,
         scale: 0,
         duration: 3,
         delay: 1,
         scrollTrigger: {
-          trigger: ".project-dsc-wear",
+          trigger: ".frontend-project-dsc-wear",
           // markers: true,
           start: "top 70%",
           end: "top 55%",
@@ -85,14 +85,14 @@ const FrontendProject = () => {
 
     // Project -1
     mm.add("(max-width:435px)", () => {
-      gsap.from(".paragrap-travel ", {
+      gsap.from(".frontend-paragrap-travel ", {
         y: 100,
         opacity: 0,
         scale: 0,
         duration: 2,
         delay: 2,
         scrollTrigger: {
-          trigger: ".project-dsc-travel",
+          trigger: ".frontend-project-dsc-travel",
           // markers: true,
           start: "top 60%",
           end: "top 55%",
@@ -103,14 +103,14 @@ const FrontendProject = () => {
 
     // project- 2
     mm.add("(max-width:435px)", () => {
-      gsap.from(".paragrap-wear ", {
+      gsap.from(".frontend-paragrap-wear ", {
         y: 100,
         opacity: 0,
         scale: 0,
         duration: 2,
         delay: 2,
         scrollTrigger: {
-          trigger: ".project-dsc-wear",
+          trigger: ".frontend-project-dsc-wear",
           // markers: true,
           start: "top 60%",
           end: "top 55%",
@@ -128,7 +128,7 @@ const FrontendProject = () => {
         duration: 2,
         delay: 1,
         scrollTrigger: {
-          trigger: ".desktop-project-box-1",
+          trigger: ".desktop-frontend-project-box-1",
           // markers: true,
           start: "top 50%",
           end: "top 30%",
@@ -144,7 +144,7 @@ const FrontendProject = () => {
         duration: 2,
         delay: 1,
         scrollTrigger: {
-          trigger: ".desktop-project-box-2",
+          trigger: ".desktop-frontend-project-box-2",
           // markers: true,
           start: "top 50%",
           end: "top 30%",
@@ -155,14 +155,14 @@ const FrontendProject = () => {
 
     // Project -1
     mm.add("(min-width:1024px)", () => {
-      gsap.from(".project-name-travel", {
+      gsap.from(".frontend-project-name-travel", {
         x: 100,
         opacity: 0,
         scale: 0,
         duration: 3,
         delay: 1,
         scrollTrigger: {
-          trigger: ".desktop-project-dsc-travel",
+          trigger: ".desktop-frontend-project-dsc-travel",
           // markers: true,
           start: "top 45%",
           end: "top 30%",
@@ -172,14 +172,14 @@ const FrontendProject = () => {
     });
     // Project -2
     mm.add("(min-width:1024px)", () => {
-      gsap.from(".project-name-wear ", {
+      gsap.from(".frontend-project-name-wear ", {
         x: 100,
         opacity: 0,
         scale: 0,
         duration: 3,
         delay: 1,
         scrollTrigger: {
-          trigger: ".desktop-project-dsc-wear",
+          trigger: ".desktop-frontend-project-dsc-wear",
           // markers: true,
           start: "top 45%",
           end: "top 30%",
@@ -190,14 +190,14 @@ const FrontendProject = () => {
 
     // Project -1
     mm.add("(min-width:1024px)", () => {
-      gsap.from(".paragrap-travel", {
+      gsap.from(".frontend-paragrap-travel", {
         y: 100,
         opacity: 0,
         scale: 0,
         duration: 5,
         delay: 2,
         scrollTrigger: {
-          trigger: ".desktop-project-dsc-travel",
+          trigger: ".desktop-frontend-project-dsc-travel",
           // markers: true,
           start: "top 35%",
           end: "top 25%",
@@ -208,14 +208,14 @@ const FrontendProject = () => {
 
     // project- 2
     mm.add("(min-width:1024px)", () => {
-      gsap.from(".paragrap-wear ", {
+      gsap.from(".frontend-paragrap-wear ", {
         y: 100,
         opacity: 0,
         scale: 0,
         duration: 2,
         delay: 2,
         scrollTrigger: {
-          trigger: ".desktop-project-dsc-wear",
+          trigger: ".desktop-frontend-project-dsc-wear",
           // markers: true,
           start: "top 35%",
           end: "top 25%",
@@ -232,7 +232,7 @@ const FrontendProject = () => {
 
       {/* Responsive for Mobile */}
       <div className="frontend-project-box bg-[#18181B] p-3 rounded-[2rem] lg:hidden 2xl:hidden">
-        <div className="project-box-1">
+        <div className="frontend-project-box-1">
           <h2 className="ml-5 my-5 text-lg font-semibold text-[#FB2A2A]">
             Project 1
           </h2>
@@ -247,11 +247,11 @@ const FrontendProject = () => {
                 className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="project-dsc-travel left  h-[20rem]">
-              <h2 className="project-name-travel text-2xl font-semibold">
+            <div className="frontend-project-dsc-travel left  h-[20rem]">
+              <h2 className="frontend-project-name-travel text-2xl font-semibold">
                 Animated Travel Agency Website
               </h2>
-              <div className="paragrap-travel mt-5">
+              <div className="frontend-paragrap-travel mt-5">
                 <p className="text-sm">
                   A visually appealing and user-friendly travel agency website
                   built with React. The project features smooth animations using
@@ -277,7 +277,7 @@ const FrontendProject = () => {
         </div>
         <div className="border border-red-500 mx-5 mt-20"></div>
 
-        <div className="project-box-2">
+        <div className="frontend-project-box-2">
           <h2 className="flex justify-end  mr-10 my-10 text-lg font-semibold text-[#FB2A2A]">
             Project 2
           </h2>
@@ -292,11 +292,11 @@ const FrontendProject = () => {
                 className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="project-dsc-wear left flex flex-col">
-              <h2 className="project-name-wear text-2xl font-semibold">
+            <div className="frontend-project-dsc-wear left flex flex-col">
+              <h2 className="frontend-project-name-wear text-2xl font-semibold">
                 Wear Collection E-com Website
               </h2>
-              <div className="paragrap-wear mt-5">
+              <div className="frontend-paragrap-wear mt-5">
                 <p className="text-sm">
                   This is a fully functional, responsive clothing e-commerce
                   website developed using React.js, HTML, CSS, and JavaScript.
@@ -330,16 +330,16 @@ const FrontendProject = () => {
 
       {/* Responsive for Desktop */}
       <div className="hidden lg:block 2xl:block frontend-project-box bg-[#18181B] p-3 rounded-[2rem]">
-        <div className="desktop-project-box-1">
+        <div className="desktop-frontend-project-box-1">
           <h2 className="ml-10 text-lg font-semibold text-[#FB2A2A]">
             Project 1
           </h2>
           <div className="my-5 ml-10 flex justify-end gap-20">
-            <div className="desktop-project-dsc-travel left w-[80%] h-[20rem]">
-              <h2 className="project-name-travel text-2xl">
+            <div className="desktop-frontend-project-dsc-travel left w-[80%] h-[20rem]">
+              <h2 className="frontend-project-name-travel text-2xl">
                 Animated Travel Agency Website
               </h2>
-              <div className="paragrap-travel mt-5">
+              <div className="frontend-paragrap-travel mt-5">
                 <p>
                   A visually appealing and user-friendly travel agency website
                   built with React. The project features smooth animations using
@@ -375,7 +375,7 @@ const FrontendProject = () => {
         </div>
         <div className="border border-red-500 mx-20 my-10"></div>
 
-        <div className="desktop-project-box-2">
+        <div className="desktop-frontend-project-box-2">
           <h2 className="flex justify-end  mr-10 my-10 text-lg font-semibold text-[#FB2A2A]">
             Project 2
           </h2>
@@ -390,11 +390,11 @@ const FrontendProject = () => {
                 className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="desktop-project-dsc-wear left w-[80%] h-[20rem]">
-              <h2 className="project-name-wear text-2xl">
+            <div className="desktop-frontend-project-dsc-wear left w-[80%] h-[20rem]">
+              <h2 className="frontend-project-name-wear text-2xl">
                 Wear Collection E-com Website
               </h2>
-              <div className="paragrap-wear mt-5">
+              <div className="frontend-paragrap-wear mt-5">
                 <p>
                   This is a fully functional, responsive clothing e-commerce
                   website developed using React.js, HTML, CSS, and JavaScript.
