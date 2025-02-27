@@ -1,22 +1,241 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaLink } from "react-icons/fa";
 
 const MernStackProject = () => {
+  gsap.registerPlugin(ScrollTrigger);
+
+  let mm = gsap.matchMedia();
+
+  useGSAP(() => {
+    // Responsive for Mobile
+    // Project -1
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".gsap-mern-image-1 ", {
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".mern-project-box-1",
+          // markers: true,
+          start: "top 50%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+    // Project 2
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".gsap-mern-image-2 ", {
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".mern-project-box-2",
+          // markers: true,
+          start: "top 50%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // Project -1
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".mern-project-name-citysling ", {
+        x: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 3,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".mern-project-dsc-citysling",
+          // markers: true,
+          start: "top 70%",
+          end: "top 55%",
+          scrub: 2,
+        },
+      });
+    });
+    // Project -2
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".mern-project-name-foodplaza ", {
+        x: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 3,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".mern-project-dsc-foodplaza",
+          // markers: true,
+          start: "top 70%",
+          end: "top 55%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // Project -1
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".mern-paragrap-citysling ", {
+        y: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 2,
+        scrollTrigger: {
+          trigger: ".mern-project-dsc-citysling",
+          // markers: true,
+          start: "top 60%",
+          end: "top 55%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // project- 2
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".mern-paragrap-foodplaza ", {
+        y: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 2,
+        scrollTrigger: {
+          trigger: ".mern-project-dsc-foodplaza",
+          // markers: true,
+          start: "top 60%",
+          end: "top 55%",
+          scrub: 2,
+        },
+      });
+    });
+
+    //  Responsive for Desktop (2xl and above)
+    // Project - 1
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".gsap-mern-image-1 ", {
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".desktop-mern-project-box-1",
+          // markers: true,
+          start: "top 50%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+    // Project 2
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".gsap-mern-image-2 ", {
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".desktop-mern-project-box-2",
+          // markers: true,
+          start: "top 50%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // Project -1
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".mern-project-name-citysling", {
+        x: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 3,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".desktop-mern-project-dsc-citysling",
+          // markers: true,
+          start: "top 45%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+    // Project -2
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".mern-project-name-foodplaza ", {
+        x: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 3,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".desktop-mern-project-dsc-foodplaza",
+          // markers: true,
+          start: "top 45%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // Project -1
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".mern-paragrap-citysling", {
+        y: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 5,
+        delay: 2,
+        scrollTrigger: {
+          trigger: ".desktop-mern-project-dsc-citysling",
+          // markers: true,
+          start: "top 35%",
+          end: "top 25%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // project- 2
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".mern-paragrap-foodplaza ", {
+        y: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 2,
+        scrollTrigger: {
+          trigger: ".desktop-mern-project-dsc-foodplaza",
+          // markers: true,
+          start: "top 35%",
+          end: "top 40%",
+          scrub: 2,
+        },
+      });
+    });
+  });
   return (
     <div className="frontend-projects  mx-2 my-10 2xl:my-20 2xl:mx-10">
       <h1 className="text-xl text-[#0B44FF] font-semibold my-5 2xl:text-2xl">
         MERN Stack Projects
       </h1>
 
+      {/* Responsive for Mobile */}
       <div className="mern-project-box bg-[#18181B] p-3 rounded-[2rem] lg:hidden 2xl:hidden">
-        <div className="project-box-2">
+        <div className="mern-project-box-1">
           <h2 className="ml-5 my-5 text-lg font-semibold text-[#FB2A2A]">
             Project 1
           </h2>
           <div className="my-5 ml-5 flex justify-center flex-col  gap-10">
-            <div className="right">
+            <div className="gsap-mern-image-1 right">
               <Image
                 src="/Projects/citysling.png"
                 alt="loading.."
@@ -27,11 +246,11 @@ const MernStackProject = () => {
               />
             </div>
 
-            <div className="left h-[20rem]">
-              <h2 className="text-2xl font-semibold">
+            <div className="mern-project-dsc-citysling left h-[20rem]">
+              <h2 className="mern-project-name-citysling text-2xl font-semibold">
                 CitySling Bag E-Com Website
               </h2>
-              <div className="mt-5">
+              <div className="mern-paragrap-citysling mt-5">
                 <p className="text-sm">
                   This full-stack e-commerce application is designed for a city
                   sling bag store, built using EJS for templating, Node.js for
@@ -58,11 +277,11 @@ const MernStackProject = () => {
         </div>
         <div className="border border-red-500 mx-5 mt-24"></div>
 
-        <div className="project-box-2">
+        <div className="mern-project-box-2">
           <h2 className="flex justify-end  mr-5 my-10 text-lg font-semibold text-[#FB2A2A]">
             Project 2
           </h2>
-          <div className="my-5 ml-5 flex justify-center flex-col gap-10">
+          <div className="gsap-mern-image-2 my-5 ml-5 flex justify-center flex-col gap-10">
             <div className="right ">
               <Image
                 src="/Projects/foodplaza.png"
@@ -73,11 +292,11 @@ const MernStackProject = () => {
                 className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="left h-[20rem]">
-              <h2 className="text-2xl font-semibold">
+            <div className="mern-project-dsc-foodplaza left h-[20rem]">
+              <h2 className="mern-project-name-foodplaza text-2xl font-semibold">
                 Food Plaza Restaurant Website
               </h2>
-              <div className="mt-5">
+              <div className="mern-paragrap-foodplaza mt-5">
                 <p className="text-sm">
                   This full-stack restaurant application, Food Plaza, showcases
                   a wide variety of meal options, including breakfast, lunch,
@@ -110,19 +329,18 @@ const MernStackProject = () => {
         </div>
       </div>
 
-
-
-
-
+      {/*Responsive for Desktop 2xl breakpoint */}
       <div className="mern-project-box hidden lg:block 2xl:block bg-[#18181B] p-3 rounded-[2rem]">
-        <div className="project-box-2">
+        <div className="desktop-mern-project-box-1">
           <h2 className="ml-10 text-lg font-semibold text-[#FB2A2A]">
             Project 1
           </h2>
           <div className="my-5 ml-10 flex justify-end gap-20">
-            <div className="left w-[80%] h-[20rem]">
-              <h2 className="text-2xl">CitySling Bag E-Com Website</h2>
-              <div className="mt-5">
+            <div className="desktop-mern-project-dsc-citysling left w-[80%] h-[20rem]">
+              <h2 className="mern-project-name-citysling text-2xl">
+                CitySling Bag E-Com Website
+              </h2>
+              <div className="mern-paragrap-citysling mt-5">
                 <p>
                   This full-stack e-commerce application is designed for a city
                   sling bag store, built using EJS for templating, Node.js for
@@ -145,7 +363,7 @@ const MernStackProject = () => {
                 </Link>
               </div>
             </div>
-            <div className="right w-[50%]">
+            <div className="gsap-mern-image-1 right w-[50%]">
               <Image
                 src="/Projects/citysling.png"
                 alt="loading.."
@@ -159,12 +377,12 @@ const MernStackProject = () => {
         </div>
         <div className="border border-red-500 mx-20 my-10"></div>
 
-        <div className="project-box-2">
+        <div className="desktop-mern-project-box-2">
           <h2 className="flex justify-end  mr-10 my-10 text-lg font-semibold text-[#FB2A2A]">
             Project 2
           </h2>
           <div className="my-5 ml-10 flex justify-end gap-20">
-            <div className="right w-[50%]">
+            <div className="gsap-mern-image-2 right w-[50%]">
               <Image
                 src="/Projects/foodplaza.png"
                 alt="loading.."
@@ -174,9 +392,11 @@ const MernStackProject = () => {
                 className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="left w-[80%] h-[20rem]">
-              <h2 className="text-2xl">Food Plaza Restaurant Website</h2>
-              <div className="mt-5">
+            <div className="desktop-mern-project-dsc-foodplaza left w-[80%] h-[20rem]">
+              <h2 className="mern-project-name-foodplaza text-2xl">
+                Food Plaza Restaurant Website
+              </h2>
+              <div className="mern-paragrap-foodplaza mt-5">
                 <p>
                   This full-stack restaurant application, Food Plaza, showcases
                   a wide variety of meal options, including breakfast, lunch,

@@ -218,7 +218,7 @@ const FrontendProject = () => {
           trigger: ".desktop-frontend-project-dsc-wear",
           // markers: true,
           start: "top 35%",
-          end: "top 25%",
+          end: "top 40%",
           scrub: 2,
         },
       });
