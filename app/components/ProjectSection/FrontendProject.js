@@ -1,22 +1,243 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaLink } from "react-icons/fa";
 
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+
 const FrontendProject = () => {
+  gsap.registerPlugin(ScrollTrigger);
+
+  let mm = gsap.matchMedia();
+
+  useGSAP(() => {
+    // Responsive for Mobile
+    // Project -1
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".gsap-frontend-image-1 ", {
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".project-box-1",
+          // markers: true,
+          start: "top 50%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+    // Project 2
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".gsap-frontend-image-2 ", {
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".project-box-2",
+          // markers: true,
+          start: "top 50%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // Project -1
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".project-name-travel ", {
+        x: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 3,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".project-dsc-travel",
+          // markers: true,
+          start: "top 70%",
+          end: "top 55%",
+          scrub: 2,
+        },
+      });
+    });
+    // Project -2
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".project-name-wear ", {
+        x: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 3,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".project-dsc-wear",
+          // markers: true,
+          start: "top 70%",
+          end: "top 55%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // Project -1
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".paragrap-travel ", {
+        y: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 2,
+        scrollTrigger: {
+          trigger: ".project-dsc-travel",
+          // markers: true,
+          start: "top 60%",
+          end: "top 55%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // project- 2
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".paragrap-wear ", {
+        y: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 2,
+        scrollTrigger: {
+          trigger: ".project-dsc-wear",
+          // markers: true,
+          start: "top 60%",
+          end: "top 55%",
+          scrub: 2,
+        },
+      });
+    });
+
+    //  Responsive for Desktop (2xl and above)
+    // Project - 1
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".gsap-frontend-image-1 ", {
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".desktop-project-box-1",
+          // markers: true,
+          start: "top 50%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+    // Project 2
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".gsap-frontend-image-2 ", {
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".desktop-project-box-2",
+          // markers: true,
+          start: "top 50%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // Project -1
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".project-name-travel", {
+        x: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 3,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".desktop-project-dsc-travel",
+          // markers: true,
+          start: "top 45%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+    // Project -2
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".project-name-wear ", {
+        x: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 3,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".desktop-project-dsc-wear",
+          // markers: true,
+          start: "top 45%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // Project -1
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".paragrap-travel", {
+        y: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 5,
+        delay: 2,
+        scrollTrigger: {
+          trigger: ".desktop-project-dsc-travel",
+          // markers: true,
+          start: "top 35%",
+          end: "top 25%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // project- 2
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".paragrap-wear ", {
+        y: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 2,
+        scrollTrigger: {
+          trigger: ".desktop-project-dsc-wear",
+          // markers: true,
+          start: "top 35%",
+          end: "top 25%",
+          scrub: 2,
+        },
+      });
+    });
+  });
   return (
     <div className="frontend-projects  mx-2 2xl:mx-10">
       <h1 className="text-xl text-[#0B44FF] font-semibold my-5 2xl:text-2xl ">
         Frontend Projects
       </h1>
 
+      {/* Responsive for Mobile */}
       <div className="frontend-project-box bg-[#18181B] p-3 rounded-[2rem] lg:hidden 2xl:hidden">
-        <div className="project-box-2">
+        <div className="project-box-1">
           <h2 className="ml-5 my-5 text-lg font-semibold text-[#FB2A2A]">
             Project 1
           </h2>
-          <div className="my-5 ml-5 flex justify-center flex-col gap-10">
-            <div className="right">
+          <div className="frontend-project-1 my-5 ml-5 flex justify-center flex-col gap-10">
+            <div className="gsap-frontend-image-1 right">
               <Image
                 src="/Projects/travelagency.png"
                 alt="loading.."
@@ -26,9 +247,11 @@ const FrontendProject = () => {
                 className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="left  h-[20rem]">
-              <h2 className="text-2xl font-semibold">Animated Travel Agency Website</h2>
-              <div className="mt-5">
+            <div className="project-dsc-travel left  h-[20rem]">
+              <h2 className="project-name-travel text-2xl font-semibold">
+                Animated Travel Agency Website
+              </h2>
+              <div className="paragrap-travel mt-5">
                 <p className="text-sm">
                   A visually appealing and user-friendly travel agency website
                   built with React. The project features smooth animations using
@@ -58,8 +281,8 @@ const FrontendProject = () => {
           <h2 className="flex justify-end  mr-10 my-10 text-lg font-semibold text-[#FB2A2A]">
             Project 2
           </h2>
-          <div className="my-5 ml-10 flex justify-center flex-col gap-10">
-            <div className="right">
+          <div className="proejct-2 my-5 ml-5 flex justify-center flex-col gap-10">
+            <div className="gsap-frontend-image-2 right">
               <Image
                 src="/Projects/wear.png"
                 alt="loading.."
@@ -69,9 +292,11 @@ const FrontendProject = () => {
                 className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="left flex flex-col">
-              <h2 className="text-2xl font-semibold">Wear Collection E-com Website</h2>
-              <div className="mt-5">
+            <div className="project-dsc-wear left flex flex-col">
+              <h2 className="project-name-wear text-2xl font-semibold">
+                Wear Collection E-com Website
+              </h2>
+              <div className="paragrap-wear mt-5">
                 <p className="text-sm">
                   This is a fully functional, responsive clothing e-commerce
                   website developed using React.js, HTML, CSS, and JavaScript.
@@ -103,18 +328,18 @@ const FrontendProject = () => {
         </div>
       </div>
 
-
-
-
+      {/* Responsive for Desktop */}
       <div className="hidden lg:block 2xl:block frontend-project-box bg-[#18181B] p-3 rounded-[2rem]">
-        <div className="project-box-2">
+        <div className="desktop-project-box-1">
           <h2 className="ml-10 text-lg font-semibold text-[#FB2A2A]">
             Project 1
           </h2>
           <div className="my-5 ml-10 flex justify-end gap-20">
-            <div className="left w-[80%] h-[20rem]">
-              <h2 className="text-2xl">Animated Travel Agency Website</h2>
-              <div className="mt-5">
+            <div className="desktop-project-dsc-travel left w-[80%] h-[20rem]">
+              <h2 className="project-name-travel text-2xl">
+                Animated Travel Agency Website
+              </h2>
+              <div className="paragrap-travel mt-5">
                 <p>
                   A visually appealing and user-friendly travel agency website
                   built with React. The project features smooth animations using
@@ -136,7 +361,7 @@ const FrontendProject = () => {
                 </Link>
               </div>
             </div>
-            <div className="right w-[50%]">
+            <div className="gsap-frontend-image-1 right w-[50%]">
               <Image
                 src="/Projects/travelagency.png"
                 alt="loading.."
@@ -150,12 +375,12 @@ const FrontendProject = () => {
         </div>
         <div className="border border-red-500 mx-20 my-10"></div>
 
-        <div className="project-box-2">
+        <div className="desktop-project-box-2">
           <h2 className="flex justify-end  mr-10 my-10 text-lg font-semibold text-[#FB2A2A]">
             Project 2
           </h2>
           <div className="my-5 ml-10 flex justify-end gap-20">
-            <div className="right w-[50%]">
+            <div className="gsap-frontend-image-2 right w-[50%]">
               <Image
                 src="/Projects/wear.png"
                 alt="loading.."
@@ -165,9 +390,11 @@ const FrontendProject = () => {
                 className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="left w-[80%] h-[20rem]">
-              <h2 className="text-2xl">Wear Collection E-com Website</h2>
-              <div className="mt-5">
+            <div className="desktop-project-dsc-wear left w-[80%] h-[20rem]">
+              <h2 className="project-name-wear text-2xl">
+                Wear Collection E-com Website
+              </h2>
+              <div className="paragrap-wear mt-5">
                 <p>
                   This is a fully functional, responsive clothing e-commerce
                   website developed using React.js, HTML, CSS, and JavaScript.
