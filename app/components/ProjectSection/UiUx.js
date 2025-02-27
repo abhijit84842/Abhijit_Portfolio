@@ -1,37 +1,257 @@
+"use client"
 import React from "react";
 import { FaLink } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
+
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+
 const UiUx = () => {
+  gsap.registerPlugin(ScrollTrigger);
+
+  let mm = gsap.matchMedia();
+
+  useGSAP(() => {
+    // Responsive for Mobile
+    // Project -1
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".gsap-uiux-image-1 ", {
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".uiux-project-box-1",
+          // markers: true,
+          start: "top 50%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+    // Project 2
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".gsap-uiux-image-2 ", {
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".uiux-project-box-2",
+          // markers: true,
+          start: "top 50%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // Project -1
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".uiux-project-name-citysling ", {
+        x: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 3,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".uiux-project-dsc-citysling",
+          // markers: true,
+          start: "top 70%",
+          end: "top 55%",
+          scrub: 2,
+        },
+      });
+    });
+    // Project -2
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".uiux-project-name-portfolio ", {
+        x: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 3,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".uiux-project-dsc-portfolio",
+          // markers: true,
+          start: "top 70%",
+          end: "top 55%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // Project -1
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".uiux-paragrap-citysling ", {
+        y: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 2,
+        scrollTrigger: {
+          trigger: ".uiux-project-dsc-citysling",
+          // markers: true,
+          start: "top 60%",
+          end: "top 55%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // project- 2
+    mm.add("(max-width:435px)", () => {
+      gsap.from(".uiux-paragrap-portfolio ", {
+        y: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 2,
+        scrollTrigger: {
+          trigger: ".uiux-project-dsc-portfolio",
+          // markers: true,
+          start: "top 60%",
+          end: "top 55%",
+          scrub: 2,
+        },
+      });
+    });
+
+    //  Responsive for Desktop (2xl and above)
+    // Project - 1
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".gsap-uiux-image-1 ", {
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".desktop-uiux-project-box-1",
+          // markers: true,
+          start: "top 50%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+    // Project 2
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".gsap-uiux-image-2 ", {
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".desktop-uiux-project-box-2",
+          // markers: true,
+          start: "top 50%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // Project -1
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".uiux-project-name-citysling", {
+        x: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 3,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".desktop-uiux-project-dsc-citysling",
+          // markers: true,
+          start: "top 45%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+    // Project -2
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".uiux-project-name-portfolio ", {
+        x: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 3,
+        delay: 1,
+        scrollTrigger: {
+          trigger: ".desktop-uiux-project-dsc-portfolio",
+          // markers: true,
+          start: "top 45%",
+          end: "top 30%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // Project -1
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".uiux-paragrap-citysling", {
+        y: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 5,
+        delay: 2,
+        scrollTrigger: {
+          trigger: ".desktop-uiux-project-dsc-citysling",
+          // markers: true,
+          start: "top 35%",
+          end: "top 25%",
+          scrub: 2,
+        },
+      });
+    });
+
+    // project- 2
+    mm.add("(min-width:1024px)", () => {
+      gsap.from(".uiux-paragrap-portfolio ", {
+        y: 100,
+        opacity: 0,
+        scale: 0,
+        duration: 2,
+        delay: 2,
+        scrollTrigger: {
+          trigger: ".desktop-uiux-project-dsc-portfolio",
+          // markers: true,
+          start: "top 35%",
+          end: "top 40%",
+          scrub: 2,
+        },
+      });
+    });
+  });
   return (
     <div className="uiux  mx-2 my-10 2xl:mx-10 2xl:my-20">
       <h1 className="text-xl text-[#0B44FF] font-semibold my-10 2xl:text-2xl">
         UI & UX Design
       </h1>
-
+      {/*Responsive For Mobile */}
       <div className="uiux-box bg-[#18181B] p-3 rounded-[2rem] lg:hidden 2xl:hidden">
-        <div className="design-box-2">
+        <div className="uiux-project-box-1">
           <h2 className="ml-5 my-5 text-lg font-semibold text-[#FB2A2A]">
             Design 1
           </h2>
 
-     
           <div className="my-5 ml-5 flex justify-center flex-col gap-10">
-          <div className="right">
-            <Image
-              src="/uiux/design1.png"
-              alt="loading.."
-              loading="lazy"
-              width={300}
-              height={300}
-              className="transition-transform duration-300 ease-in-out hover:scale-110"
-            />
-          </div>
-            <div className="left h-[20rem]">
-              <h2 className="text-2xl font-semibold">
+            <div className="gsap-uiux-image-1 right">
+              <Image
+                src="/uiux/design1.png"
+                alt="loading.."
+                loading="lazy"
+                width={300}
+                height={300}
+                className="transition-transform duration-300 ease-in-out hover:scale-110"
+              />
+            </div>
+            <div className="uiux-project-dsc-citysling left h-[20rem]">
+              <h2 className="uiux-project-name-citysling text-2xl font-semibold">
                 E-com Website Banner Design
               </h2>
-              <div className="mt-5">
+              <div className="uiux-paragrap-citysling mt-5">
                 <p className="text-sm">
                   This banner, designed in Figma, is crafted to capture user
                   attention and enhance the visual appeal of an e-commerce
@@ -56,12 +276,12 @@ const UiUx = () => {
         </div>
         <div className="border border-red-500 mx-5 mt-20"></div>
 
-        <div className="uiux-box-2">
+        <div className="uiux-project-box-2">
           <h2 className="flex justify-end  mr-10 my-10 text-lg font-semibold text-[#FB2A2A]">
             Design 2
           </h2>
           <div className="my-5 ml-5 flex justify-center flex-col gap-10">
-            <div className="right">
+            <div className="gsap-uiux-image-2 right">
               <Image
                 src="/uiux/design2.png"
                 alt="loading.."
@@ -71,9 +291,11 @@ const UiUx = () => {
                 className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="left h-[20rem]">
-              <h2 className="text-2xl font-semibold">Portfolio Design</h2>
-              <div className="mt-5">
+            <div className="uiux-project-dsc-portfolio left h-[20rem]">
+              <h2 className="uiux-project-name-portfolio text-2xl font-semibold">
+                Portfolio Design
+              </h2>
+              <div className="uiux-paragrap-portfolio mt-5">
                 <p className="text-sm">
                   Designed in Figma, this portfolio website captures a modern,
                   professional look tailored to highlight my projects and skills
@@ -103,23 +325,18 @@ const UiUx = () => {
         </div>
       </div>
 
-
-
-
-
-
-
-
-
+      {/*Responsive for Desktop */}
       <div className="uiux-box hidden lg:block 2xl:block bg-[#18181B] p-3 rounded-[2rem]">
-        <div className="design-box-2">
+        <div className="desktop-uiux-project-box-1">
           <h2 className="ml-10 text-lg font-semibold text-[#FB2A2A]">
             Design 1
           </h2>
           <div className="my-5 ml-10 flex justify-end gap-20">
-            <div className="left w-[80%] h-[20rem]">
-              <h2 className="text-2xl">E-com Website Banner Design</h2>
-              <div className="mt-5">
+            <div className="desktop-uiux-project-dsc-citysling left w-[80%] h-[20rem]">
+              <h2 className="uiux-project-name-citysling text-2xl">
+                E-com Website Banner Design
+              </h2>
+              <div className="uiux-paragrap-citysling mt-5">
                 <p>
                   This banner, designed in Figma, is crafted to capture user
                   attention and enhance the visual appeal of an e-commerce
@@ -140,7 +357,7 @@ const UiUx = () => {
                 </Link>
               </div>
             </div>
-            <div className="right w-[50%]">
+            <div className="gsap-uiux-image-1 right w-[50%]">
               <Image
                 src="/uiux/design1.png"
                 alt="loading.."
@@ -154,12 +371,12 @@ const UiUx = () => {
         </div>
         <div className="border border-red-500 mx-20 my-10"></div>
 
-        <div className="uiux-box-2">
+        <div className="desktop-uiux-project-box-2">
           <h2 className="flex justify-end  mr-10 my-10 text-lg font-semibold text-[#FB2A2A]">
             Design 2
           </h2>
           <div className="my-5 ml-10 flex justify-end gap-20">
-            <div className="right w-[50%]">
+            <div className="gsap-uiux-image-2  right w-[50%]">
               <Image
                 src="/uiux/design2.png"
                 alt="loading.."
@@ -169,9 +386,11 @@ const UiUx = () => {
                 className="transition-transform duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="left w-[80%] h-[20rem]">
-              <h2 className="text-2xl">Portfolio Design</h2>
-              <div className="mt-5">
+            <div className="desktop-uiux-project-dsc-portfolio left w-[80%] h-[20rem]">
+              <h2 className="uiux-project-name-portfolio text-2xl">
+                Portfolio Design
+              </h2>
+              <div className="uiux-paragrap-portfolio mt-5">
                 <p>
                   Designed in Figma, this portfolio website captures a modern,
                   professional look tailored to highlight my projects and skills

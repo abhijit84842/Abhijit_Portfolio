@@ -282,8 +282,8 @@ const MernStackProject = () => {
           <h2 className="flex justify-end  mr-5 my-10 text-lg font-semibold text-[#FB2A2A]">
             Project 2
           </h2>
-          <div className="gsap-mern-image-2 my-5 ml-5 flex justify-center flex-col gap-10">
-            <div className="right ">
+          <div className="my-5 ml-5 flex justify-center flex-col gap-10">
+            <div className="gsap-mern-image-2 right ">
               <Image
                 src="/Projects/foodplaza.png"
                 alt="loading.."
