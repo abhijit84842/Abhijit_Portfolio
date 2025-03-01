@@ -1,12 +1,33 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import emailjs from "@emailjs/browser";
 
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
+import { useForm } from "react-hook-form";
 
 const ContactMe = () => {
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = async (data) => {
+    console.log(data);
+
+    const serviceID = "service_6pyy1rx";
+    const templateID = "template_v48o69h";
+    const publicKey = "7-6v9d4lFnkvMmJi2";
+
+    try {
+      await emailjs.send(serviceID, templateID, data, publicKey);
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
+
   gsap.registerPlugin(ScrollTrigger);
 
   let mm = gsap.matchMedia();
@@ -50,9 +71,9 @@ const ContactMe = () => {
       <h1 className="contact-top-heading text-[#FB2A2A] flex justify-center  text-2xl font-semibold my-10 2xl:my-20 2xl:text-4xl">
         Contact Me
       </h1>
-      {/* Responsive For Mobile */}
-      <div className="contact-sub-container bg-[#18181B] mx-2 my-10 flex justify-center flex-col gap-10 p-2 rounded-[2rem] lg:hidden 2xl:hidden">
-        <div className="contact-left  flex justify-center p-2">
+
+      <div className="contact-sub-container bg-[#18181B] rounded-[2rem]  my-10 mx-2  lg:mx-2  lg:flex lg:justify-between lg:gap-10 lg:p-2 2xl:flex 2xl:justify-between 2xl:gap-20 2xl:p-5  2xl:mx-10">
+        <div className="contact-left  flex justify-center p-2 lg:hidden 2xl:hidden">
           <Image
             src="/Contact/Contact.png"
             alt="loading.."
@@ -61,48 +82,7 @@ const ContactMe = () => {
             height={200}
           />
         </div>
-        <div className="contact-right   p-2">
-          <form
-            className="bg-[#29292F] p-5 flex flex-col justify-center gap-10 rounded-lg"
-            action=""
-          >
-            <input
-              className="h-[3rem] rounded-md p-2 outline-none text-black"
-              type="text"
-              placeholder="Name.."
-            />
-            <input
-              className="h-[3rem] rounded-md p-2 outline-none text-black"
-              type="text"
-              placeholder="Email.."
-            />
-            <input
-              className="h-[3rem] rounded-md p-2 outline-none text-black"
-              type="text"
-              placeholder="Subject.."
-            />
-            <textarea
-              className="h-[10rem] rounded-md p-2 outline-none text-black"
-              name=""
-              id=""
-              placeholder="Message.."
-            ></textarea>
-            <div className="flex justify-center">
-              <button
-                className="bg-red-500 text-2xl w-[15rem] p-2 rounded-full"
-                type="submit"
-              >
-                Send Message
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-
-      {/* Responsive For Desktop */}
-
-      <div className="contact-sub-container hidden  bg-[#18181B] rounded-[2rem]  my-10 lg:mx-2  lg:flex lg:justify-between lg:gap-10 lg:p-2 2xl:flex 2xl:justify-between 2xl:gap-20 2xl:p-5  2xl:mx-10">
-        <div className="contact-left lg:flex lg:justify-center lg:p-2 2xl:hidden">
+        <div className="contact-left hidden lg:flex lg:justify-center lg:p-2 2xl:hidden">
           <Image
             src="/Contact/Contact.png"
             alt="loading.."
@@ -111,7 +91,7 @@ const ContactMe = () => {
             height={100}
           />
         </div>
-        <div className="contact-left w-[50%]  p-5 lg:hidden 2xl:flex 2xl:justify-center">
+        <div className="contact-left w-[50%] hidden  p-5 lg:hidden 2xl:flex 2xl:justify-center">
           <Image
             src="/Contact/Contact.png"
             alt="loading.."
@@ -120,32 +100,50 @@ const ContactMe = () => {
             height={400}
           />
         </div>
-        <div className="contact-right lg:w-[50%] lg:p-5 2xl:w-[40%] 2xl:p-10 ">
+        <div className="contact-right p-5 mt-5 lg:w-[50%] lg:p-5 2xl:w-[40%] 2xl:p-10 ">
           <form
-            className="bg-[#29292F] p-10 flex flex-col justify-center gap-10 rounded-[50px]"
-            action=""
+            className="bg-[#29292F] p-10 flex flex-col justify-center gap-10 rounded-lg lg:rounded-[50px] 2xl:rounded-[50px]"
+            onSubmit={handleSubmit(onSubmit)}
           >
             <input
               className="h-[3rem] rounded-md p-2 outline-none text-black"
               type="text"
+              {...register("from_name", {
+                required: "name is required..",
+              })}
               placeholder="Name.."
             />
+            {errors.from_name && <p>{errors.from_name.message}</p>}
             <input
               className="h-[3rem] rounded-md p-2 outline-none text-black"
               type="text"
+              {...register("from_email", {
+                required: "email required...",
+                pattern: {
+                  value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
+                  message: "Invalid email format",
+                },
+              })}
               placeholder="Email.."
             />
+            {errors.from_email && <p>{errors.from_email.message}</p>}
             <input
               className="h-[3rem] rounded-md p-2 outline-none text-black"
               type="text"
+              {...register("from_subject", {
+                required: "subject is required..",
+              })}
               placeholder="Subject.."
             />
+            {errors.from_subject && <p>{errors.from_subject.message}</p>}
             <textarea
               className="h-[10rem] rounded-md p-2 outline-none text-black"
-              name=""
-              id=""
+              {...register("message", {
+                required: "plz write some messages..",
+              })}
               placeholder="Message.."
             ></textarea>
+            {errors.message && <p>{errors.message.message}</p>}
             <div className="flex justify-center">
               <button
                 className="bg-red-500 text-2xl w-[15rem] p-2 rounded-full"
