@@ -9,19 +9,15 @@ import Skills from "./components/SkillsSection/Skills";
 const Home = () => {
   return (
     <div className="main-container">
-      
       <div className="sub-container">
-      <MenuBar/>
-      <IntroSection />
-      <AboutMe />
-      <Experience />
-      <Skills />
-      <MyProject/>
-      <ContactMe/>
- 
+        <MenuBar />
+        <IntroSection />
+        <AboutMe />
+        <Experience />
+        <Skills />
+        <MyProject />
+        <ContactMe />
       </div>
-   
-     
     </div>
   );
 };

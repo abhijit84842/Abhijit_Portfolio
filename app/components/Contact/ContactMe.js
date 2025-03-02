@@ -6,25 +6,31 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
 import { useForm } from "react-hook-form";
+import { useState } from "react";
 
 const ContactMe = () => {
+  const [disabelButton, setDisableButton] = useState(false);
   const {
     register,
     handleSubmit,
     watch,
+    reset,
     formState: { errors },
   } = useForm();
   const onSubmit = async (data) => {
-    console.log(data);
-
     const serviceID = "service_6pyy1rx";
     const templateID = "template_v48o69h";
     const publicKey = "7-6v9d4lFnkvMmJi2";
 
     try {
-      await emailjs.send(serviceID, templateID, data, publicKey);
+      let res = await emailjs.send(serviceID, templateID, data, publicKey);
+      if (res) {
+        alert("Message sent successfully..");
+        setDisableButton(true);
+        reset()  // Reset the form after submission
+      }
     } catch (error) {
-      console.log(error.message);
+      alert("Message not sent");
     }
   };
 
@@ -145,12 +151,22 @@ const ContactMe = () => {
             ></textarea>
             {errors.message && <p>{errors.message.message}</p>}
             <div className="flex justify-center">
-              <button
-                className="bg-red-500 text-2xl w-[15rem] p-2 rounded-full"
-                type="submit"
-              >
-                Send Message
-              </button>
+              {disabelButton ? (
+                <button
+                  className="bg-red-500 text-2xl w-[15rem] p-2 rounded-full blur-[1px]"
+                  type="submit"
+                  disabled={true}
+                >
+                  Send Message
+                </button>
+              ) : (
+                <button
+                  className="bg-red-500 text-2xl w-[15rem] p-2 rounded-full"
+                  type="submit"
+                >
+                  Send Message
+                </button>
+              )}
             </div>
           </form>
         </div>
