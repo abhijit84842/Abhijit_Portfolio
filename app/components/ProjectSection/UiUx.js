@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { FaLink } from "react-icons/fa";
 import Link from "next/link";
@@ -15,7 +15,7 @@ const UiUx = () => {
 
   useGSAP(() => {
     // Responsive for Mobile
-    // Project -1
+    // Project -1  CitySling E-com
     mm.add("(max-width:435px)", () => {
       gsap.from(".gsap-uiux-image-1 ", {
         opacity: 0,
@@ -31,7 +31,7 @@ const UiUx = () => {
         },
       });
     });
-    // Project 2
+    // Project 2  Portfolio
     mm.add("(max-width:435px)", () => {
       gsap.from(".gsap-uiux-image-2 ", {
         opacity: 0,
@@ -48,7 +48,7 @@ const UiUx = () => {
       });
     });
 
-    // Project -1
+    // Project -1   CitySling E-com
     mm.add("(max-width:435px)", () => {
       gsap.from(".uiux-project-name-citysling ", {
         x: 100,
@@ -58,14 +58,14 @@ const UiUx = () => {
         delay: 1,
         scrollTrigger: {
           trigger: ".uiux-project-dsc-citysling",
-          markers: true,
+          // markers: true,
           start: "top 80%",
-          end: "top 60%",
+          end: "top 70%",
           scrub: 2,
         },
       });
     });
-    // Project -2
+    // Project -2  Portfolio
     mm.add("(max-width:435px)", () => {
       gsap.from(".uiux-project-name-portfolio ", {
         x: 100,
@@ -76,14 +76,14 @@ const UiUx = () => {
         scrollTrigger: {
           trigger: ".uiux-project-dsc-portfolio",
           // markers: true,
-          start: "top 70%",
-          end: "top 55%",
+          start: "top 80%",
+          end: "top 70%",
           scrub: 2,
         },
       });
     });
 
-    // Project -1
+    // Project -1   CitySling E-com
     mm.add("(max-width:435px)", () => {
       gsap.from(".uiux-paragrap-citysling ", {
         y: 100,
@@ -94,14 +94,14 @@ const UiUx = () => {
         scrollTrigger: {
           trigger: ".uiux-project-dsc-citysling",
           // markers: true,
-          start: "top 60%",
-          end: "top 55%",
+          start: "top 70%",
+          end: "top 60%",
           scrub: 2,
         },
       });
     });
 
-    // project- 2
+    // project- 2  Portfolio
     mm.add("(max-width:435px)", () => {
       gsap.from(".uiux-paragrap-portfolio ", {
         y: 100,
@@ -112,15 +112,15 @@ const UiUx = () => {
         scrollTrigger: {
           trigger: ".uiux-project-dsc-portfolio",
           // markers: true,
-          start: "top 60%",
-          end: "top 55%",
+          start: "top 70%",
+          end: "top 60%",
           scrub: 2,
         },
       });
     });
 
     //  Responsive for Desktop (2xl and above)
-    // Project - 1
+    // Project - 1   CitySling E-com
     mm.add("(min-width:1024px)", () => {
       gsap.from(".gsap-uiux-image-1 ", {
         opacity: 0,
@@ -131,12 +131,12 @@ const UiUx = () => {
           trigger: ".desktop-uiux-project-box-1",
           // markers: true,
           start: "top 50%",
-          end: "top 30%",
+          end: "top 55%",
           scrub: 2,
         },
       });
     });
-    // Project 2
+    // Project 2  Portfolio
     mm.add("(min-width:1024px)", () => {
       gsap.from(".gsap-uiux-image-2 ", {
         opacity: 0,
@@ -147,13 +147,13 @@ const UiUx = () => {
           trigger: ".desktop-uiux-project-box-2",
           // markers: true,
           start: "top 50%",
-          end: "top 30%",
+          end: "top 55%",
           scrub: 2,
         },
       });
     });
 
-    // Project -1
+    // Project -1   CitySling E-com
     mm.add("(min-width:1024px)", () => {
       gsap.from(".uiux-project-name-citysling", {
         x: 100,
@@ -164,13 +164,13 @@ const UiUx = () => {
         scrollTrigger: {
           trigger: ".desktop-uiux-project-dsc-citysling",
           // markers: true,
-          start: "top 45%",
-          end: "top 30%",
+          start: "top 40%",
+          end: "top 60%",
           scrub: 2,
         },
       });
     });
-    // Project -2
+    // Project -2  Portfolio
     mm.add("(min-width:1024px)", () => {
       gsap.from(".uiux-project-name-portfolio ", {
         x: 100,
@@ -181,14 +181,14 @@ const UiUx = () => {
         scrollTrigger: {
           trigger: ".desktop-uiux-project-dsc-portfolio",
           // markers: true,
-          start: "top 45%",
-          end: "top 30%",
+          start: "top 40%",
+          end: "top 60%",
           scrub: 2,
         },
       });
     });
 
-    // Project -1
+    // Project -1  CitySling E-com
     mm.add("(min-width:1024px)", () => {
       gsap.from(".uiux-paragrap-citysling", {
         y: 100,
@@ -199,14 +199,14 @@ const UiUx = () => {
         scrollTrigger: {
           trigger: ".desktop-uiux-project-dsc-citysling",
           // markers: true,
-          start: "top 35%",
-          end: "top 25%",
+          start: "top 30%",
+          end: "top 70%",
           scrub: 2,
         },
       });
     });
 
-    // project- 2
+    // project- 2  Portfolio
     mm.add("(min-width:1024px)", () => {
       gsap.from(".uiux-paragrap-portfolio ", {
         y: 100,
@@ -217,8 +217,8 @@ const UiUx = () => {
         scrollTrigger: {
           trigger: ".desktop-uiux-project-dsc-portfolio",
           // markers: true,
-          start: "top 35%",
-          end: "top 40%",
+          start: "top 30%",
+          end: "top 70%",
           scrub: 2,
         },
       });
