@@ -58,8 +58,8 @@ const MernStackProject = () => {
         scrollTrigger: {
           trigger: ".mern-project-dsc-citysling",
           // markers: true,
-          start: "top 70%",
-          end: "top 55%",
+          start: "top 80%",
+          end: "top 70%",
           scrub: 2,
         },
       });
@@ -75,8 +75,8 @@ const MernStackProject = () => {
         scrollTrigger: {
           trigger: ".mern-project-dsc-foodplaza",
           // markers: true,
-          start: "top 70%",
-          end: "top 55%",
+          start: "top 80%",
+          end: "top 70%",
           scrub: 2,
         },
       });
@@ -93,8 +93,8 @@ const MernStackProject = () => {
         scrollTrigger: {
           trigger: ".mern-project-dsc-citysling",
           // markers: true,
-          start: "top 60%",
-          end: "top 55%",
+          start: "top 70%",
+          end: "top 60%",
           scrub: 2,
         },
       });
@@ -111,15 +111,15 @@ const MernStackProject = () => {
         scrollTrigger: {
           trigger: ".mern-project-dsc-foodplaza",
           // markers: true,
-          start: "top 60%",
-          end: "top 55%",
+          start: "top 70%",
+          end: "top 60%",
           scrub: 2,
         },
       });
     });
 
     //  Responsive for Desktop (2xl and above)
-    // Project - 1
+    // Project - 1 CitySling E-com
     mm.add("(min-width:1024px)", () => {
       gsap.from(".gsap-mern-image-1 ", {
         opacity: 0,
@@ -130,12 +130,12 @@ const MernStackProject = () => {
           trigger: ".desktop-mern-project-box-1",
           // markers: true,
           start: "top 50%",
-          end: "top 30%",
+          end: "top 55%",
           scrub: 2,
         },
       });
     });
-    // Project 2
+    // Project 2  FoodPlaza
     mm.add("(min-width:1024px)", () => {
       gsap.from(".gsap-mern-image-2 ", {
         opacity: 0,
@@ -146,13 +146,13 @@ const MernStackProject = () => {
           trigger: ".desktop-mern-project-box-2",
           // markers: true,
           start: "top 50%",
-          end: "top 30%",
+          end: "top 55%",
           scrub: 2,
         },
       });
     });
 
-    // Project -1
+    // Project -1  CitySling E-com
     mm.add("(min-width:1024px)", () => {
       gsap.from(".mern-project-name-citysling", {
         x: 100,
@@ -163,13 +163,13 @@ const MernStackProject = () => {
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-citysling",
           // markers: true,
-          start: "top 45%",
-          end: "top 30%",
+          start: "top 40%",
+          end: "top 60%",
           scrub: 2,
         },
       });
     });
-    // Project -2
+    // Project -2  FoodPlaza
     mm.add("(min-width:1024px)", () => {
       gsap.from(".mern-project-name-foodplaza ", {
         x: 100,
@@ -180,14 +180,14 @@ const MernStackProject = () => {
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-foodplaza",
           // markers: true,
-          start: "top 45%",
-          end: "top 30%",
+          start: "top 40%",
+          end: "top 60%",
           scrub: 2,
         },
       });
     });
 
-    // Project -1
+    // Project -1  CitySling E-com
     mm.add("(min-width:1024px)", () => {
       gsap.from(".mern-paragrap-citysling", {
         y: 100,
@@ -198,14 +198,14 @@ const MernStackProject = () => {
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-citysling",
           // markers: true,
-          start: "top 35%",
-          end: "top 25%",
+          start: "top 30%",
+          end: "top 70%",
           scrub: 2,
         },
       });
     });
 
-    // project- 2
+    // project- 2  FoodPlaza
     mm.add("(min-width:1024px)", () => {
       gsap.from(".mern-paragrap-foodplaza ", {
         y: 100,
@@ -216,8 +216,8 @@ const MernStackProject = () => {
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-foodplaza",
           // markers: true,
-          start: "top 35%",
-          end: "top 40%",
+          start: "top 30%",
+          end: "top 70%",
           scrub: 2,
         },
       });
