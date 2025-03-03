@@ -8,6 +8,8 @@ import gsap from "gsap";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
 
+import { toast } from "react-toastify";
+
 const ContactMe = () => {
   const [disabelButton, setDisableButton] = useState(false);
   const {
@@ -25,12 +27,32 @@ const ContactMe = () => {
     try {
       let res = await emailjs.send(serviceID, templateID, data, publicKey);
       if (res) {
-        alert("Message sent successfully..");
+        toast.success("Message sent successfully..", {
+          position: "top-center",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: false,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+          // transition: Bounce,
+        });
         setDisableButton(true);
-        reset()  // Reset the form after submission
+        reset(); // Reset the form after submission
       }
     } catch (error) {
-      alert("Message not sent");
+      toast.error('Soory! Message not sent..', {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        // transition: Bounce,
+        });
     }
   };
 
