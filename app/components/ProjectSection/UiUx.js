@@ -58,9 +58,9 @@ const UiUx = () => {
         delay: 1,
         scrollTrigger: {
           trigger: ".uiux-project-dsc-citysling",
-          // markers: true,
-          start: "top 70%",
-          end: "top 55%",
+          markers: true,
+          start: "top 80%",
+          end: "top 60%",
           scrub: 2,
         },
       });
