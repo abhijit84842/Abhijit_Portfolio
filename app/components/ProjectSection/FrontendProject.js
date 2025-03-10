@@ -151,7 +151,6 @@ const FrontendProject = () => {
         x: 100,
         opacity: 0,
         scale: 0,
-        delay: 0.5,
         scrollTrigger: {
           trigger: ".desktop-frontend-project-dsc-travel",
           start: "top 47%",
@@ -164,11 +163,9 @@ const FrontendProject = () => {
         x: 100,
         opacity: 0,
         scale: 0,
-        delay: 0.5,
         scrollTrigger: {
           trigger: ".desktop-frontend-project-dsc-wear",
           start: "top 47%",
-      
         },
       });
     });
@@ -179,11 +176,10 @@ const FrontendProject = () => {
         y: 100,
         opacity: 0,
         scale: 0,
-        delay: 1,
+        delay: 0.5,
         scrollTrigger: {
           trigger: ".desktop-frontend-project-dsc-travel",
           start: "top 47%",
-
         },
       });
     });
@@ -194,7 +190,7 @@ const FrontendProject = () => {
         y: 100,
         opacity: 0,
         scale: 0,
-        delay: 0.8,
+        delay: 0.5,
         scrollTrigger: {
           trigger: ".desktop-frontend-project-dsc-wear",
           start: "top 47%",

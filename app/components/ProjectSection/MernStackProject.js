@@ -150,7 +150,6 @@ const MernStackProject = () => {
         x: 100,
         opacity: 0,
         scale: 0,
-        delay: 0.5,
 
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-citysling",
@@ -164,10 +163,10 @@ const MernStackProject = () => {
         x: 100,
         opacity: 0,
         scale: 0,
-        delay: 0.5,
 
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-foodplaza",
+
           start: "top 47%",
         },
       });
@@ -179,7 +178,7 @@ const MernStackProject = () => {
         y: 100,
         opacity: 0,
         scale: 0,
-        delay: 0.8,
+        delay: 0.5,
 
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-citysling",
@@ -194,7 +193,7 @@ const MernStackProject = () => {
         y: 100,
         opacity: 0,
         scale: 0,
-        delay: 0.8,
+        delay: 0.5,
 
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-foodplaza",
