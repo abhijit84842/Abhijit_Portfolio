@@ -163,8 +163,8 @@ const MernStackProject = () => {
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-citysling",
           // markers: true,
-          start: "top 40%",
-          end: "top 60%",
+          start: "top 60%",
+          end: "top 55%",
           scrub: 2,
         },
       });
@@ -180,8 +180,8 @@ const MernStackProject = () => {
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-foodplaza",
           // markers: true,
-          start: "top 40%",
-          end: "top 60%",
+          start: "top 50%",
+          end: "top 45%",
           scrub: 2,
         },
       });
@@ -198,8 +198,8 @@ const MernStackProject = () => {
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-citysling",
           // markers: true,
-          start: "top 30%",
-          end: "top 70%",
+          start: "top 40%",
+          end: "top 35%",
           scrub: 2,
         },
       });
@@ -216,8 +216,8 @@ const MernStackProject = () => {
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-foodplaza",
           // markers: true,
-          start: "top 30%",
-          end: "top 70%",
+          start: "top 35%",
+          end: "top 35%",
           scrub: 2,
         },
       });
