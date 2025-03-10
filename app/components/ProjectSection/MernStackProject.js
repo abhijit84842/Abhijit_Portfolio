@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -124,14 +124,12 @@ const MernStackProject = () => {
       gsap.from(".gsap-mern-image-1 ", {
         opacity: 0,
         scale: 0,
-        duration: 2,
-        delay: 1,
+
         scrollTrigger: {
           trigger: ".desktop-mern-project-box-1",
           // markers: true,
           start: "top 70%",
           end: "top 60%",
-          scrub: 2,
         },
       });
     });
@@ -140,14 +138,12 @@ const MernStackProject = () => {
       gsap.from(".gsap-mern-image-2 ", {
         opacity: 0,
         scale: 0,
-        duration: 2,
-        delay: 1,
+
         scrollTrigger: {
           trigger: ".desktop-mern-project-box-2",
           // markers: true,
           start: "top 60%",
           end: "top 50%",
-          scrub: 2,
         },
       });
     });
@@ -158,14 +154,13 @@ const MernStackProject = () => {
         x: 100,
         opacity: 0,
         scale: 0,
-        duration: 3,
-        delay: 1,
+        delay: 0.5,
+
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-citysling",
           // markers: true,
           start: "top 60%",
           end: "top 55%",
-          scrub: 2,
         },
       });
     });
@@ -175,14 +170,13 @@ const MernStackProject = () => {
         x: 100,
         opacity: 0,
         scale: 0,
-        duration: 3,
-        delay: 1,
+        delay: 0.5,
+
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-foodplaza",
           // markers: true,
           start: "top 50%",
           end: "top 45%",
-          scrub: 2,
         },
       });
     });
@@ -193,14 +187,13 @@ const MernStackProject = () => {
         y: 100,
         opacity: 0,
         scale: 0,
-        duration: 5,
-        delay: 2,
+        delay: 1,
+
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-citysling",
           // markers: true,
           start: "top 40%",
           end: "top 35%",
-          scrub: 2,
         },
       });
     });
@@ -211,14 +204,14 @@ const MernStackProject = () => {
         y: 100,
         opacity: 0,
         scale: 0,
-        duration: 2,
-        delay: 2,
+        delay: 1,
+
         scrollTrigger: {
           trigger: ".desktop-mern-project-dsc-foodplaza",
           // markers: true,
           start: "top 35%",
           end: "top 35%",
-          scrub: 2,
+          // scrub: 2,
         },
       });
     });
