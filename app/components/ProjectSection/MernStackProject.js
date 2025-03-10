@@ -129,8 +129,8 @@ const MernStackProject = () => {
         scrollTrigger: {
           trigger: ".desktop-mern-project-box-1",
           // markers: true,
-          start: "top 50%",
-          end: "top 55%",
+          start: "top 70%",
+          end: "top 60%",
           scrub: 2,
         },
       });
@@ -145,8 +145,8 @@ const MernStackProject = () => {
         scrollTrigger: {
           trigger: ".desktop-mern-project-box-2",
           // markers: true,
-          start: "top 50%",
-          end: "top 55%",
+          start: "top 60%",
+          end: "top 50%",
           scrub: 2,
         },
       });
