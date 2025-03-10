@@ -205,7 +205,7 @@ const MernStackProject = () => {
   return (
     <div className="frontend-projects  mx-2 my-10 2xl:my-20 2xl:mx-10">
       <h1 className="text-xl text-[#0B44FF] font-semibold my-5 2xl:text-2xl">
-        MERN Stack Projects
+        Full Stack Projects
       </h1>
 
       {/* Responsive for Mobile */}
@@ -247,7 +247,10 @@ const MernStackProject = () => {
               </div>
               <div className="mt-5 ml-10 flex gap-2 ">
                 <FaLink />
-                <Link className="text-amber-400" href={""}>
+                <Link
+                  className="text-amber-400"
+                  href={"/pages/projectall/overview/cityslingoverview"}
+                >
                   {" "}
                   Visit Project..
                 </Link>
@@ -294,16 +297,22 @@ const MernStackProject = () => {
               </div>
               <div className="mt-5 ml-10 flex gap-2 ">
                 <FaLink />
-                <Link className="text-amber-400" href={""}>
+                <Link
+                  className="text-amber-400"
+                  href={"/pages/projectall/overview/foodplazaoverview"}
+                >
                   {" "}
                   Visit Project..
                 </Link>
               </div>
             </div>
             <div className="flex justify-center mt-20">
-              <button className="bg-[#1E49F6] p-2  text-xl font-semibold rounded-full">
+              <Link
+                className="bg-[#1E49F6] p-2  text-xl font-semibold rounded-full"
+                href={"/pages/projectall/#fullstackprojects"}
+              >
                 See More Projects
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -337,7 +346,10 @@ const MernStackProject = () => {
               </div>
               <div className="mt-10 ml-10 flex gap-2 ">
                 <FaLink />
-                <Link className="text-amber-400" href={""}>
+                <Link
+                  className="text-amber-400"
+                  href={"/pages/projectall/overview/cityslingoverview"}
+                >
                   {" "}
                   Visit Project..
                 </Link>
@@ -394,7 +406,10 @@ const MernStackProject = () => {
               </div>
               <div className="mt-10 ml-10 flex gap-2 ">
                 <FaLink />
-                <Link className="text-amber-400" href={""}>
+                <Link
+                  className="text-amber-400"
+                  href={"/pages/projectall/overview/foodplazaoverview"}
+                >
                   {" "}
                   Visit Project..
                 </Link>
@@ -403,9 +418,12 @@ const MernStackProject = () => {
           </div>
         </div>
         <div className="flex justify-center my-10">
-          <button className="bg-[#1E49F6] p-5  text-2xl font-semibold rounded-full">
+          <Link
+            className="bg-[#1E49F6] p-5  text-2xl font-semibold rounded-full"
+            href={"/pages/projectall/#fullstackprojects"}
+          >
             See More Projects
-          </button>
+          </Link>
         </div>
       </div>
     </div>

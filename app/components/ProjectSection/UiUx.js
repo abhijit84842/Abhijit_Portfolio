@@ -245,7 +245,12 @@ const UiUx = () => {
               </div>
               <div className="mt-5 ml-10 flex gap-2 ">
                 <FaLink />
-                <Link className="text-amber-400" href={""}>
+                <Link
+                  className="text-amber-400"
+                  href={
+                    "https://www.figma.com/design/3FH9gGvqy3SRoLwzIbTwlY/CitySling-Banner?node-id=0-1&p=f&t=ULWAsnqR4rrWMJAI-0"
+                  }
+                >
                   See Details..
                 </Link>
               </div>
@@ -289,7 +294,12 @@ const UiUx = () => {
               </div>
               <div className="mt-5 ml-10 flex gap-2 ">
                 <FaLink />
-                <Link className="text-amber-400" href={""}>
+                <Link
+                  className="text-amber-400"
+                  href={
+                    "https://www.figma.com/design/qE3irPVyvwIFzd9uDKOmQ2/Abhijit's-PortFolio-Website?t=ULWAsnqR4rrWMJAI-0"
+                  }
+                >
                   See Details..
                 </Link>
               </div>
@@ -297,9 +307,14 @@ const UiUx = () => {
           </div>
         </div>
         <div className="flex justify-center my-10">
-          <button className="bg-[#1E49F6] p-2   text-xl font-semibold rounded-full">
+          <Link
+            className="bg-[#1E49F6] p-2   text-xl font-semibold rounded-full"
+            href={
+              "https://www.figma.com/files/team/1344737290098605304/recents-and-sharing/recently-viewed?fuid=1344737288254071152"
+            }
+          >
             See More Designs
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -330,7 +345,12 @@ const UiUx = () => {
               </div>
               <div className="mt-10 ml-10 flex gap-2 ">
                 <FaLink />
-                <Link className="text-amber-400" href={""}>
+                <Link
+                  className="text-amber-400"
+                  href={
+                    "https://www.figma.com/design/3FH9gGvqy3SRoLwzIbTwlY/CitySling-Banner?node-id=0-1&p=f&t=ULWAsnqR4rrWMJAI-0"
+                  }
+                >
                   See Details..
                 </Link>
               </div>
@@ -384,7 +404,12 @@ const UiUx = () => {
               </div>
               <div className="mt-10 ml-10 flex gap-2 ">
                 <FaLink />
-                <Link className="text-amber-400" href={""}>
+                <Link
+                  className="text-amber-400"
+                  href={
+                    "https://www.figma.com/design/qE3irPVyvwIFzd9uDKOmQ2/Abhijit's-PortFolio-Website?t=ULWAsnqR4rrWMJAI-0"
+                  }
+                >
                   See Details..
                 </Link>
               </div>
@@ -392,9 +417,14 @@ const UiUx = () => {
           </div>
         </div>
         <div className="flex justify-center my-10">
-          <button className="bg-[#1E49F6] p-5  text-2xl font-semibold rounded-full">
-            See More Design
-          </button>
+          <Link
+            className="bg-[#1E49F6] p-5   text-2xl font-semibold rounded-full"
+            href={
+              "https://www.figma.com/files/team/1344737290098605304/recents-and-sharing/recently-viewed?fuid=1344737288254071152"
+            }
+          >
+            See More Designs
+          </Link>
         </div>
       </div>
     </div>

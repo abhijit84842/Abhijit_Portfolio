@@ -88,16 +88,21 @@ const MyProject = () => {
         </h1>
         <div className="projects-nav">
           <div className="flex justify-center  gap-5  text-sm ml-8 lg:flex lg:justify-center lg:gap-10 2xl:flex 2xl:justify-center 2xl:gap-20 2xl:text-2xl">
-            <Link href={"#"} className="gsap-navlink">
+            <Link href={"/pages/projectall/#frontendprojects"} className="gsap-navlink">
               Frontend Projects
             </Link>
-            <Link href={"#"} className="gsap-navlink">
+            <Link href={"/pages/projectall/#fullstackprojects"} className="gsap-navlink">
               Full Stack Projects
             </Link>
-            <Link href={"#"} className="gsap-navlink">
+            <Link
+              href={
+                "https://www.figma.com/files/team/1344737290098605304/recents-and-sharing/recently-viewed?fuid=1344737288254071152"
+              }
+              className="gsap-navlink"
+            >
               UI & UX Design
             </Link>
-            <Link href={"#"} className="gsap-navlink">
+            <Link href={"/pages/projectall/#othersprojects"} className="gsap-navlink">
               Others Projects
             </Link>
           </div>

@@ -16,7 +16,7 @@ import Image from "next/image";
 
 const FrontendProjectsShow = () => {
   return (
-    <div className="sub-container bg-slate-800 rounded-lg p-2 my-5 2xl:p-5 2xl:my-10 ">
+    <div className="sub-container bg-slate-800 rounded-lg p-2 my-5 2xl:p-5 2xl:my-10 " id="frontendprojects">
       <div className="mernstack-projects-box">
         <h2 className="text-red-500 font-semibold my-2 text-xl lg:my-5 lg:text-3xl 2xl:mt-5 2xl:text-3xl 2xl:mb-5 ">
           Frontend Projects

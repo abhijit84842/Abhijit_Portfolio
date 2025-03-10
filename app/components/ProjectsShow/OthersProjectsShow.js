@@ -16,7 +16,7 @@ import Image from "next/image";
 
 const OthersProjectsShow = () => {
   return (
-    <div className="sub-container bg-slate-800 rounded-lg my-5 p-2 2xl:p-5 2xl:my-10 ">
+    <div className="sub-container bg-slate-800 rounded-lg my-5 p-2 2xl:p-5 2xl:my-10 " id="othersprojects">
       <div className="fullstack-projects-box">
         <h2 className=" text-xl text-red-500 font-semibold my-2 lg:my-5 lg:text-3xl 2xl:mt-5 2xl:text-3xl 2xl:mb-5 ">
           Others Projects

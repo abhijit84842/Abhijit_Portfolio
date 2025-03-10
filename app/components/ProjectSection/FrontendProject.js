@@ -241,7 +241,10 @@ const FrontendProject = () => {
               </div>
               <div className="mt-5 ml-10 flex gap-2 ">
                 <FaLink />
-                <Link className="text-amber-400" href={""}>
+                <Link
+                  className="text-amber-400"
+                  href={"/pages/projectall/overview/travelagencyoverview"}
+                >
                   {" "}
                   Visit Project..
                 </Link>
@@ -287,16 +290,22 @@ const FrontendProject = () => {
               </div>
               <div className="mt-5 ml-10 flex gap-2 ">
                 <FaLink />
-                <Link className="text-amber-400" href={""}>
+                <Link
+                  className="text-amber-400"
+                  href={"/pages/projectall/overview/wearcollectionoverview"}
+                >
                   {" "}
                   Visit Project..
                 </Link>
               </div>
             </div>
             <div className="flex justify-center mt-5">
-              <button className="bg-[#1E49F6] p-2  text-xl font-semibold rounded-full">
+              <Link
+                className="bg-[#1E49F6] p-2  text-xl font-semibold rounded-full"
+                href={"/pages/projectall/#frontendprojects"}
+              >
                 See More Projects
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -329,7 +338,10 @@ const FrontendProject = () => {
               </div>
               <div className="mt-10 ml-10 flex gap-2 ">
                 <FaLink />
-                <Link className="text-amber-400" href={""}>
+                <Link
+                  className="text-amber-400"
+                  href={"/pages/projectall/overview/travelagencyoverview"}
+                >
                   {" "}
                   Visit Project..
                 </Link>
@@ -385,7 +397,10 @@ const FrontendProject = () => {
               </div>
               <div className="mt-10 ml-10 flex gap-2 ">
                 <FaLink />
-                <Link className="text-amber-400" href={""}>
+                <Link
+                  className="text-amber-400"
+                  href={"/pages/projectall/overview/wearcollectionoverview"}
+                >
                   {" "}
                   Visit Project..
                 </Link>
@@ -394,9 +409,12 @@ const FrontendProject = () => {
           </div>
         </div>
         <div className="flex justify-center my-10">
-          <button className="bg-[#1E49F6] p-5  text-2xl font-semibold rounded-full">
+          <Link
+            className="bg-[#1E49F6] p-5  text-2xl font-semibold rounded-full"
+            href={"/pages/projectall/#frontendprojects"}
+          >
             See More Projects
-          </button>
+          </Link>
         </div>
       </div>
     </div>
