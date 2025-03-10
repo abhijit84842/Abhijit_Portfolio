@@ -125,14 +125,12 @@ const UiUx = () => {
       gsap.from(".gsap-uiux-image-1 ", {
         opacity: 0,
         scale: 0,
-        duration: 2,
-        delay: 1,
+
         scrollTrigger: {
           trigger: ".desktop-uiux-project-box-1",
           // markers: true,
           start: "top 50%",
           end: "top 55%",
-          scrub: 2,
         },
       });
     });
@@ -141,14 +139,12 @@ const UiUx = () => {
       gsap.from(".gsap-uiux-image-2 ", {
         opacity: 0,
         scale: 0,
-        duration: 2,
-        delay: 1,
+
         scrollTrigger: {
           trigger: ".desktop-uiux-project-box-2",
           // markers: true,
           start: "top 50%",
           end: "top 55%",
-          scrub: 2,
         },
       });
     });
@@ -159,14 +155,13 @@ const UiUx = () => {
         x: 100,
         opacity: 0,
         scale: 0,
-        duration: 3,
-        delay: 1,
+        delay: 0.5,
+
         scrollTrigger: {
           trigger: ".desktop-uiux-project-dsc-citysling",
           // markers: true,
           start: "top 40%",
           end: "top 60%",
-          scrub: 2,
         },
       });
     });
@@ -176,14 +171,13 @@ const UiUx = () => {
         x: 100,
         opacity: 0,
         scale: 0,
-        duration: 3,
-        delay: 1,
+        delay: 0.5,
+
         scrollTrigger: {
           trigger: ".desktop-uiux-project-dsc-portfolio",
           // markers: true,
           start: "top 40%",
           end: "top 60%",
-          scrub: 2,
         },
       });
     });
@@ -194,14 +188,13 @@ const UiUx = () => {
         y: 100,
         opacity: 0,
         scale: 0,
-        duration: 5,
-        delay: 2,
+        delay: 1,
+
         scrollTrigger: {
           trigger: ".desktop-uiux-project-dsc-citysling",
           // markers: true,
           start: "top 30%",
           end: "top 70%",
-          scrub: 2,
         },
       });
     });
@@ -212,14 +205,13 @@ const UiUx = () => {
         y: 100,
         opacity: 0,
         scale: 0,
-        duration: 2,
-        delay: 2,
+        delay: 1,
+
         scrollTrigger: {
           trigger: ".desktop-uiux-project-dsc-portfolio",
           // markers: true,
           start: "top 30%",
           end: "top 70%",
-          scrub: 2,
         },
       });
     });

@@ -125,14 +125,10 @@ const FrontendProject = () => {
       gsap.from(".gsap-frontend-image-1 ", {
         opacity: 0,
         scale: 0,
-        duration: 2,
-        delay: 1,
+
         scrollTrigger: {
           trigger: ".desktop-frontend-project-box-1",
-          // markers: true,
           start: "top 50%",
-          end: "top 30%",
-          scrub: 2,
         },
       });
     });
@@ -141,14 +137,10 @@ const FrontendProject = () => {
       gsap.from(".gsap-frontend-image-2 ", {
         opacity: 0,
         scale: 0,
-        duration: 2,
-        delay: 1,
+
         scrollTrigger: {
           trigger: ".desktop-frontend-project-box-2",
-          // markers: true,
           start: "top 50%",
-          end: "top 30%",
-          scrub: 2,
         },
       });
     });
@@ -159,14 +151,10 @@ const FrontendProject = () => {
         x: 100,
         opacity: 0,
         scale: 0,
-        duration: 3,
-        delay: 1,
+        delay: 0.5,
         scrollTrigger: {
           trigger: ".desktop-frontend-project-dsc-travel",
-          // markers: true,
-          start: "top 45%",
-          end: "top 30%",
-          scrub: 2,
+          start: "top 47%",
         },
       });
     });
@@ -176,14 +164,11 @@ const FrontendProject = () => {
         x: 100,
         opacity: 0,
         scale: 0,
-        duration: 3,
-        delay: 1,
+        delay: 0.5,
         scrollTrigger: {
           trigger: ".desktop-frontend-project-dsc-wear",
-          // markers: true,
-          start: "top 45%",
-          end: "top 30%",
-          scrub: 2,
+          start: "top 47%",
+      
         },
       });
     });
@@ -194,14 +179,11 @@ const FrontendProject = () => {
         y: 100,
         opacity: 0,
         scale: 0,
-        duration: 5,
-        delay: 2,
+        delay: 1,
         scrollTrigger: {
           trigger: ".desktop-frontend-project-dsc-travel",
-          // markers: true,
-          start: "top 35%",
-          end: "top 25%",
-          scrub: 2,
+          start: "top 47%",
+
         },
       });
     });
@@ -212,14 +194,10 @@ const FrontendProject = () => {
         y: 100,
         opacity: 0,
         scale: 0,
-        duration: 2,
-        delay: 2,
+        delay: 0.8,
         scrollTrigger: {
           trigger: ".desktop-frontend-project-dsc-wear",
-          // markers: true,
-          start: "top 35%",
-          end: "top 40%",
-          scrub: 2,
+          start: "top 47%",
         },
       });
     });
