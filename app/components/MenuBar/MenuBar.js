@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import NavBar from "../NavBar/Nav";
 import SideBar from "../SideBar/SideBar";
-import { RiSidebarUnfoldFill } from "react-icons/ri";
+import { ImMenu } from "react-icons/im";
 
 const MenuBar = () => {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -16,8 +16,8 @@ const MenuBar = () => {
 
   return (
     <div>
-      <div className=" mt-1 sm:hidden">
-        <RiSidebarUnfoldFill size={30} onClick={() => ViewSidebar()} />
+      <div className="fixed lg:hidden">
+        <ImMenu size={40} onClick={() => ViewSidebar()}  className="z-40"/>
       </div>
 
       {showSidebar && <SideBar CloseSidebar={CloseSidebar} />}

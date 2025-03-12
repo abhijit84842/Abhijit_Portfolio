@@ -11,6 +11,7 @@ const Home = () => {
     <div className="main-container">
       <div className="sub-container">
         <MenuBar />
+
         <IntroSection />
         <AboutMe />
         <Experience />

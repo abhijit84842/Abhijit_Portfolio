@@ -15,7 +15,7 @@ const SideBar = ({ CloseSidebar }) => {
     });
   });
   return (
-    <div className="main-container bg-slate-900 w-[20rem] h-[100vh] mt-2 rounded-md">
+    <div className="main-container bg-slate-900 w-[20rem] h-[100vh]   fixed z-40">
       <div className="flex justify-end ">
         <IoMdCloseCircleOutline color="red" size={40} onClick={CloseSidebar} />
       </div>
