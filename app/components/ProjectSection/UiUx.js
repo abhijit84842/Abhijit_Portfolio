@@ -128,7 +128,8 @@ const UiUx = () => {
 
         scrollTrigger: {
           trigger: ".desktop-uiux-project-box-1",
-          start: "top 50%",
+          // markers:true,
+          start: "top 90%",
         },
       });
     });
@@ -140,7 +141,8 @@ const UiUx = () => {
 
         scrollTrigger: {
           trigger: ".desktop-uiux-project-box-2",
-          start: "top 50%",
+          // markers:true,
+          start: "top 90%",
         },
       });
     });
@@ -154,7 +156,8 @@ const UiUx = () => {
 
         scrollTrigger: {
           trigger: ".desktop-uiux-project-dsc-citysling",
-          start: "top 47%",
+          // markers:true,
+          start: "top 90%",
         },
       });
     });
@@ -167,7 +170,8 @@ const UiUx = () => {
 
         scrollTrigger: {
           trigger: ".desktop-uiux-project-dsc-portfolio",
-          start: "top 47%",
+          // markers:true,
+          start: "top 90%",
         },
       });
     });
@@ -182,7 +186,7 @@ const UiUx = () => {
 
         scrollTrigger: {
           trigger: ".desktop-uiux-project-dsc-citysling",
-          start: "top 47%",
+          start: "top 90%",
         },
       });
     });
@@ -197,7 +201,7 @@ const UiUx = () => {
 
         scrollTrigger: {
           trigger: ".desktop-uiux-project-dsc-portfolio",
-          start: "top 47%",
+          start: "top 90%",
         },
       });
     });

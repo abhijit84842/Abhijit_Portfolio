@@ -14,7 +14,7 @@ const NavBar = () => {
     });
   });
   return (
-    <div className="hidden main-container flex justify-between p-2 bg-slate-900 w-full fixed lg:flex justify-between p-2 bg-slate-900 w-full">
+    <div className="hidden main-container flex justify-between p-2 bg-slate-900 w-full fixed lg:flex justify-between p-2 bg-slate-900 w-full z-40">
       <div>
         <h2 className="ml-10 text-xl font-semibold text-[#17E5CD]">Abhijit</h2>
       </div>
