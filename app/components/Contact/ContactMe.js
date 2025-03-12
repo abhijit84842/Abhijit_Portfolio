@@ -67,12 +67,11 @@ const ContactMe = () => {
       gsap.from(".contact-top-heading", {
         x: 100,
         opacity: 0,
-        duration: 2,
+        duration: 1,
         scrollTrigger: {
           trigger: ".contact-main",
-          // markers:true,
-          start: "top 60%",
-          end: "top 30%",
+          start: "top 90%",
+          end: "top 50%",
           scrub: 2,
         },
       });
@@ -83,7 +82,7 @@ const ContactMe = () => {
       gsap.from(".contact-top-heading", {
         x: 100,
         opacity: 0,
-        duration: 2,
+        duration: 1,
         scrollTrigger: {
           trigger: ".contact-main",
           start: "top 90%",
