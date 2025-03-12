@@ -2,16 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Default (Light Mode) Styles */
 :root{
-    /* background: rgba(24,24,27,1) */
+  --background: #0a0a0a;  /* Dark background */
+  --foreground: #ededed;  /* Light text */
     overflow-x: hidden;
    
 }
 
+/* Dark Mode Styles */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0a0a0a;  /* Dark background */
+    --foreground: #ededed;  /* Light text */
   }
 }
 
