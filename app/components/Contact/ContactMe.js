@@ -86,9 +86,8 @@ const ContactMe = () => {
         duration: 2,
         scrollTrigger: {
           trigger: ".contact-main",
-          // markers:true,
-          start: "top 70%",
-          end: "top 30%",
+          start: "top 90%",
+          end: "top 50%",
           scrub: 2,
         },
       });
