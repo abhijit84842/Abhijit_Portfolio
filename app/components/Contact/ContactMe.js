@@ -20,6 +20,7 @@ const ContactMe = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = async (data) => {
+    console.log(data)
     const serviceID = "service_6pyy1rx";
     const templateID = "template_v48o69h";
     const publicKey = "7-6v9d4lFnkvMmJi2";
@@ -142,6 +143,24 @@ const ContactMe = () => {
               placeholder="Name.."
             />
             {errors.from_name && <p>{errors.from_name.message}</p>}
+            <input
+              className="h-[3rem] rounded-md p-2 outline-none text-black"
+              type="number"
+              {...register("from_phno", {
+                minLength:{
+                  value:10,
+                  message:"minimum 10 digits required.."
+                },
+                maxLength:{
+                  value:10,
+                  message:"maximum 10 digits alllowed.."
+                },
+              
+                required: "phno is required..",
+              })}
+              placeholder="Ph no.."
+            />
+            {errors.from_phno && <p>{errors.from_phno.message}</p>}
             <input
               className="h-[3rem] rounded-md p-2 outline-none text-black"
               type="text"
