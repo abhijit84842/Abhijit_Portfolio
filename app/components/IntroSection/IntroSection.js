@@ -65,8 +65,8 @@ const IntroSection = () => {
           </div>
 
           <div className="social-links flex gap-10 mt-2">
-            <div className="github">
-              <Link href="#">
+            <div className="linkedin">
+            <Link href={"https://www.linkedin.com/in/abhijit-das-1a41a2234"} target="_blank">
                 <Image
                   src="/Social Links/linkedin.png"
                   alt="loading.."
@@ -77,7 +77,7 @@ const IntroSection = () => {
               </Link>
             </div>
             <div className="github">
-              <Link href="#">
+            <Link href="https://github.com/abhijit84842" target="_blank">
                 <Image
                   src="/Social Links/github.png"
                   alt="loading.."
@@ -88,7 +88,7 @@ const IntroSection = () => {
               </Link>
             </div>
             <div className="whatsapp">
-              <Link href="#">
+            <Link href="https://wa.me/9002527215?text=Hello%2C%20I%20am%20to%20contacting%20with%20you%20from%20your%20portfolio" target="_blank" rel="noopener noreferrer">
                 <Image
                   src="/Social Links/whatsapp.png"
                   alt="loading.."
@@ -113,6 +113,7 @@ const IntroSection = () => {
         </div>
       </div>
 
+{/*Responsive for lg breakpoint */}
       <div className="hidden lg:block">
         <div className="intro-container  flex justify-between">
           <div className="lg:left-container w-[50%] text-white mt-20 ml-5 2xl:ml-20">
@@ -148,7 +149,7 @@ const IntroSection = () => {
 
             <div className="social-links flex gap-10 mt-5">
               <div className="github">
-                <Link href="#">
+                <Link href={"https://www.linkedin.com/in/abhijit-das-1a41a2234"} target="_blank">
                   <Image
                     src="/Social Links/linkedin.png"
                     alt="loading.."
@@ -159,7 +160,7 @@ const IntroSection = () => {
                 </Link>
               </div>
               <div className="github">
-                <Link href="#">
+                <Link href="https://github.com/abhijit84842" target="_blank">
                   <Image
                     src="/Social Links/github.png"
                     alt="loading.."
@@ -170,7 +171,7 @@ const IntroSection = () => {
                 </Link>
               </div>
               <div className="whatsapp">
-                <Link href="#">
+                <Link href="https://wa.me/9002527215?text=Hello%2C%20I%20am%20to%20contacting%20with%20you%20from%20your%20portfolio" target="_blank" rel="noopener noreferrer">
                   <Image
                     src="/Social Links/whatsapp.png"
                     alt="loading.."
