@@ -88,7 +88,7 @@ const IntroSection = () => {
               </Link>
             </div>
             <div className="whatsapp">
-            <Link href="https://wa.me/+919002527215?text=Hello%2C%20I%20am%20to%20contacting%20with%20you%20from%20your%20portfolio" target="_blank" rel="noopener noreferrer">
+            <Link href="https://wa.me/+919002527215" target="_blank" rel="noopener noreferrer">
                 <Image
                   src="/Social Links/whatsapp.png"
                   alt="loading.."
