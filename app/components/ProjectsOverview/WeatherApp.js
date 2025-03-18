@@ -47,7 +47,7 @@ const WeatherApp = () => {
         >
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 1.png"
+              src="/Overview/frontendprojects/weatherapp/weather 1.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -55,7 +55,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 2.png"
+              src="/Overview/frontendprojects/weatherapp/weather 2.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -63,7 +63,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 3.png"
+              src="/Overview/frontendprojects/weatherapp/weather 3.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -71,7 +71,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 4.png"
+              src="/Overview/frontendprojects/weatherapp/weather 4.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -79,7 +79,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 5.png"
+              src="/Overview/frontendprojects/weatherapp/weather 5.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -87,7 +87,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 6.png"
+              src="/Overview/frontendprojects/weatherapp/weather 6.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -95,7 +95,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 7.png"
+              src="/Overview/frontendprojects/weatherapp/weather 7.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -103,7 +103,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 8.png"
+              src="/Overview/frontendprojects/weatherapp/weather 8.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -111,7 +111,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 9.png"
+              src="/Overview/frontendprojects/weatherapp/weather 9.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -136,7 +136,7 @@ const WeatherApp = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 1.png"
+              src="/Overview/frontendprojects/weatherapp/weather 1.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -144,7 +144,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 2.png"
+              src="/Overview/frontendprojects/weatherapp/weather 2.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -152,7 +152,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 3.png"
+              src="/Overview/frontendprojects/weatherapp/weather 3.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -160,7 +160,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 4.png"
+              src="/Overview/frontendprojects/weatherapp/weather 4.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -168,7 +168,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 5.png"
+              src="/Overview/frontendprojects/weatherapp/weather 5.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -176,7 +176,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 6.png"
+              src="/Overview/frontendprojects/weatherapp/weather 6.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -184,7 +184,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 7.png"
+              src="/Overview/frontendprojects/weatherapp/weather 7.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -192,7 +192,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 8.png"
+              src="/Overview/frontendprojects/weatherapp/weather 8.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -200,7 +200,7 @@ const WeatherApp = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 9.png"
+              src="/Overview/frontendprojects/weatherapp/weather 9.PNG"
               alt="loading.."
               loading="lazy"
               layout="fill"
