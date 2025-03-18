@@ -16,7 +16,10 @@ import Image from "next/image";
 
 const FrontendProjectsShow = () => {
   return (
-    <div className="sub-container bg-slate-800 rounded-lg p-2 my-5 2xl:p-5 2xl:my-10 " id="frontendprojects">
+    <div
+      className="sub-container bg-slate-800 rounded-lg p-2 my-5 2xl:p-5 2xl:my-10 "
+      id="frontendprojects"
+    >
       <div className="mernstack-projects-box">
         <h2 className="text-red-500 font-semibold my-2 text-xl lg:my-5 lg:text-3xl 2xl:mt-5 2xl:text-3xl 2xl:mb-5 ">
           Frontend Projects
@@ -142,6 +145,41 @@ const FrontendProjectsShow = () => {
 
             <SwiperSlide>
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mx-2 mb-2">
+                <Link href="/pages/projectall/overview/weatheroverview">
+                  <Image
+                    src="/ProjectShow/WeatherApp.png"
+                    alt="loading.."
+                    loading="lazy"
+                    width={500}
+                    height={500}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                  />
+
+                  <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
+                    Weather App Using React Js
+                  </p>
+                </Link>
+                <p className="text-black text-sm">
+                  This is a weather application built using React.js for
+                  functionality and Tailwind CSS for styling. The app allows
+                  users to search for weather information for different
+                  locations, providing real-time updates fetched from a weather
+                  API. It includes key features like displaying temperature,
+                  humidity, and wind speed.
+                  <span>
+                    <Link
+                      className="text-blue-700 text-sm"
+                      href={"/pages/projectall/overview/weatheroverview"}
+                    >
+                      See more..
+                    </Link>
+                  </span>
+                </p>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/myntraoverview">
                   <Image
                     src="/ProjectShow/Myntra Clone.png"
@@ -172,40 +210,7 @@ const FrontendProjectsShow = () => {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mx-2 mb-2">
-                <Link href="/pages/projectall/overview/weatheroverview">
-                  <Image
-                    src="/ProjectShow/Weather App.png"
-                    alt="loading.."
-                    loading="lazy"
-                    width={500}
-                    height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
-                  />
 
-                  <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
-                    Weather App Using React Js
-                  </p>
-                </Link>
-                <p className="text-black text-sm">
-                  This is a weather application built using React.js for
-                  functionality and CSS for styling. The app allows users to
-                  search for weather information for different locations,
-                  providing real-time updates fetched from a weather API. It
-                  includes key features like displaying temperature, humidity,
-                  and wind speed.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/weatheroverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
-              </div>
-            </SwiperSlide>
             <SwiperSlide>
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/bmicalculatoroverview">
@@ -362,6 +367,41 @@ const FrontendProjectsShow = () => {
 
             <SwiperSlide>
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
+                <Link href="/pages/projectall/overview/weatheroverview">
+                  <Image
+                    src="/ProjectShow/WeatherApp.png"
+                    alt="loading.."
+                    loading="lazy"
+                    width={500}
+                    height={500}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                  />
+
+                  <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
+                    Weather App Using React Js
+                  </p>
+                </Link>
+                <p className="text-black text-sm">
+                  This is a weather application built using React.js for
+                  functionality and Tailwind CSS for styling. The app allows
+                  users to search for weather information for different
+                  locations, providing real-time updates fetched from a weather
+                  API. It includes key features like displaying temperature,
+                  humidity, and wind speed.
+                  <span>
+                    <Link
+                      className="text-blue-700 text-sm"
+                      href={"/pages/projectall/overview/weatheroverview"}
+                    >
+                      See more..
+                    </Link>
+                  </span>
+                </p>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/myntraoverview">
                   <Image
                     src="/ProjectShow/Myntra Clone.png"
@@ -392,40 +432,7 @@ const FrontendProjectsShow = () => {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
-                <Link href="/pages/projectall/overview/weatheroverview">
-                  <Image
-                    src="/ProjectShow/Weather App.png"
-                    alt="loading.."
-                    loading="lazy"
-                    width={500}
-                    height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
-                  />
 
-                  <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
-                    Weather App Using React Js
-                  </p>
-                </Link>
-                <p className="text-black text-sm">
-                  This is a weather application built using React.js for
-                  functionality and CSS for styling. The app allows users to
-                  search for weather information for different locations,
-                  providing real-time updates fetched from a weather API. It
-                  includes key features like displaying temperature, humidity,
-                  and wind speed.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/weatheroverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
-              </div>
-            </SwiperSlide>
             <SwiperSlide>
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/bmicalculatoroverview">
@@ -475,7 +482,7 @@ const FrontendProjectsShow = () => {
               delay: 4500,
               disableOnInteraction: false,
             }}
-             loop={true}
+            loop={true}
             modules={[FreeMode, Pagination, Autoplay]}
             className={styles.firstSwiper}
           >
@@ -582,6 +589,41 @@ const FrontendProjectsShow = () => {
 
             <SwiperSlide>
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
+                <Link href="/pages/projectall/overview/weatheroverview">
+                  <Image
+                    src="/ProjectShow/WeatherApp.png"
+                    alt="loading.."
+                    loading="lazy"
+                    width={500}
+                    height={500}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                  />
+
+                  <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
+                    Weather App Using React Js
+                  </p>
+                </Link>
+                <p className="text-black text-sm">
+                  This is a weather application built using React.js for
+                  functionality and Tailwind CSS for styling. The app allows
+                  users to search for weather information for different
+                  locations, providing real-time updates fetched from a weather
+                  API. It includes key features like displaying temperature,
+                  humidity, and wind speed.
+                  <span>
+                    <Link
+                      className="text-blue-700 text-sm"
+                      href={"/pages/projectall/overview/weatheroverview"}
+                    >
+                      See more..
+                    </Link>
+                  </span>
+                </p>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/myntraoverview">
                   <Image
                     src="/ProjectShow/Myntra Clone.png"
@@ -612,40 +654,7 @@ const FrontendProjectsShow = () => {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
-                <Link href="/pages/projectall/overview/weatheroverview">
-                  <Image
-                    src="/ProjectShow/Weather App.png"
-                    alt="loading.."
-                    loading="lazy"
-                    width={500}
-                    height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
-                  />
 
-                  <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
-                    Weather App Using React Js
-                  </p>
-                </Link>
-                <p className="text-black text-sm">
-                  This is a weather application built using React.js for
-                  functionality and CSS for styling. The app allows users to
-                  search for weather information for different locations,
-                  providing real-time updates fetched from a weather API. It
-                  includes key features like displaying temperature, humidity,
-                  and wind speed.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/weatheroverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
-              </div>
-            </SwiperSlide>
             <SwiperSlide>
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/bmicalculatoroverview">
