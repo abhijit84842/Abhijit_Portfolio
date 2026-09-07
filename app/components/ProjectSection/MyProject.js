@@ -7,6 +7,7 @@ import Link from "next/link";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import MyFlagshipProject from "./MyFlagshipProject";
 
 const MyProject = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -86,12 +87,19 @@ const MyProject = () => {
         <h1 className="project-top-heading text-[#FB2A2A] flex justify-center  text-2xl font-semibold my-10 2xl:my-20 2xl:text-4xl">
           My Projects
         </h1>
+
         <div className="projects-nav">
           <div className="flex justify-center  gap-5  text-sm ml-8 lg:flex lg:justify-center lg:gap-10 2xl:flex 2xl:justify-center 2xl:gap-20 2xl:text-2xl">
-            <Link href={"/pages/projectall/#frontendprojects"} className="gsap-navlink">
+            <Link
+              href={"/pages/projectall/#frontendprojects"}
+              className="gsap-navlink"
+            >
               Frontend Projects
             </Link>
-            <Link href={"/pages/projectall/#fullstackprojects"} className="gsap-navlink">
+            <Link
+              href={"/pages/projectall/#fullstackprojects"}
+              className="gsap-navlink"
+            >
               Full Stack Projects
             </Link>
             <Link
@@ -102,16 +110,21 @@ const MyProject = () => {
             >
               UI & UX Design
             </Link>
-            <Link href={"/pages/projectall/#othersprojects"} className="gsap-navlink">
+            <Link
+              href={"/pages/projectall/#othersprojects"}
+              className="gsap-navlink"
+            >
               Others Projects
             </Link>
           </div>
 
           <div className="blank-div border border-red-500 mx-20 my-5  2xl:my-10"></div>
         </div>
-        <FrontendProject />
+
+        <MyFlagshipProject />
 
         <MernStackProject />
+        <FrontendProject />
 
         <UiUx />
       </div>

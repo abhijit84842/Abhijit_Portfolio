@@ -323,7 +323,7 @@ const FrontendProject = () => {
                 Animated Travel Agency Website
               </h2>
               <div className="frontend-paragrap-travel mt-5">
-                <p>
+                <p className="text-lg/8 tracking-wide">
                   A visually appealing and user-friendly travel agency website
                   built with React. The project features smooth animations using
                   GSAP and Swiper JS for interactive sliders, providing an
@@ -336,10 +336,10 @@ const FrontendProject = () => {
                   enthusiasts to explore and book trips.
                 </p>
               </div>
-              <div className="mt-10 ml-10 flex gap-2 ">
+              <div className="mt-10 ml-10 flex gap-2 items-center">
                 <FaLink />
                 <Link
-                  className="text-amber-400"
+                  className="text-amber-400 text-lg"
                   href={"/pages/projectall/overview/travelagencyoverview"}
                 >
                   {" "}
@@ -347,14 +347,14 @@ const FrontendProject = () => {
                 </Link>
               </div>
             </div>
-            <div className="gsap-frontend-image-1 right w-[50%]">
+            <div className="gsap-frontend-image-1  border border-2 border-white ">
               <Image
                 src="/Projects/travelagency.png"
                 alt="loading.."
                 loading="lazy"
                 width={500}
                 height={500}
-                className="transition-transform duration-300 ease-in-out hover:scale-110"
+                className="transition-transform duration-300 ease-in-out hover:scale-110 "
               />
             </div>
           </div>
@@ -381,7 +381,7 @@ const FrontendProject = () => {
                 Wear Collection E-com Website
               </h2>
               <div className="frontend-paragrap-wear mt-5">
-                <p>
+                <p className="text-lg/8 tracking-wide">
                   This is a fully functional, responsive clothing e-commerce
                   website developed using React.js, HTML, CSS, and JavaScript.
                   Designed with a focus on smooth user experience, the website
@@ -395,10 +395,10 @@ const FrontendProject = () => {
                   e-commerce design principles.
                 </p>
               </div>
-              <div className="mt-10 ml-10 flex gap-2 ">
+              <div className="mt-10 ml-10 flex gap-2 items-center">
                 <FaLink />
                 <Link
-                  className="text-amber-400"
+                  className="text-amber-400 text-lg"
                   href={"/pages/projectall/overview/wearcollectionoverview"}
                 >
                   {" "}

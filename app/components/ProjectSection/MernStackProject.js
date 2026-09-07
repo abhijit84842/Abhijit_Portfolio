@@ -1,4 +1,5 @@
 "use client";
+import ImageMagnifier from "@/app/util/ImageMagnifier";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -202,6 +203,7 @@ const MernStackProject = () => {
       });
     });
   });
+
   return (
     <div className="frontend-projects  mx-2 my-10 2xl:my-20 2xl:mx-10">
       <h1 className="text-xl text-[#0B44FF] font-semibold my-5 2xl:text-2xl">
@@ -321,16 +323,16 @@ const MernStackProject = () => {
       {/*Responsive for Desktop 2xl breakpoint */}
       <div className="mern-project-box hidden lg:block 2xl:block bg-[#18181B] p-3 rounded-[2rem]">
         <div className="desktop-mern-project-box-1">
-          <h2 className="ml-10 text-lg font-semibold text-[#FB2A2A]">
+          <h2 className="ml-10 text-xl font-semibold text-[#FB2A2A]">
             Project 1
           </h2>
-          <div className="my-5 ml-10 flex justify-end gap-20">
-            <div className="desktop-mern-project-dsc-citysling left w-[80%] h-[20rem]">
-              <h2 className="mern-project-name-citysling text-2xl">
+          <div className="my-5 ml-10 flex justify-between gap-10">
+            <div className="desktop-mern-project-dsc-citysling-left w-[80%] h-[20rem]">
+              <h2 className="mern-project-name-citysling text-2xl font-semibold">
                 CitySling Bag E-Com Website
               </h2>
               <div className="mern-paragrap-citysling mt-5">
-                <p>
+                <p className="text-lg/8 tracking-wide text-white/80">
                   This full-stack e-commerce application is designed for a city
                   sling bag store, built using EJS for templating, Node.js for
                   backend logic, and Tailwind CSS for modern styling. The
@@ -344,10 +346,10 @@ const MernStackProject = () => {
                   clean design.
                 </p>
               </div>
-              <div className="mt-10 ml-10 flex gap-2 ">
+              <div className="mt-10 ml-10 flex gap-2 items-center ">
                 <FaLink />
                 <Link
-                  className="text-amber-400"
+                  className="text-amber-400 text-xl"
                   href={"/pages/projectall/overview/cityslingoverview"}
                 >
                   {" "}
@@ -355,14 +357,11 @@ const MernStackProject = () => {
                 </Link>
               </div>
             </div>
-            <div className="gsap-mern-image-1 right w-[50%]">
-              <Image
-                src="/Projects/citysling.png"
-                alt="loading.."
-                loading="lazy"
-                width={500}
-                height={500}
-                className="transition-transform duration-300 ease-in-out hover:scale-110"
+            <div className="gsap-mern-image-1 right ">
+              <ImageMagnifier
+                src={"/Projects/citysling.png"}
+                zoom={6}
+                lensSize={300}
               />
             </div>
           </div>
@@ -370,31 +369,28 @@ const MernStackProject = () => {
         <div className="border border-red-500 mx-20 my-10"></div>
 
         <div className="desktop-mern-project-box-2">
-          <h2 className="flex justify-end  mr-10 my-10 text-lg font-semibold text-[#FB2A2A]">
+          <h2 className="flex justify-end  mr-10 my-10 text-xl font-semibold text-[#FB2A2A]">
             Project 2
           </h2>
-          <div className="my-5 ml-10 flex justify-end gap-20">
-            <div className="gsap-mern-image-2 right w-[50%]">
-              <Image
-                src="/Projects/foodplaza.png"
-                alt="loading.."
-                loading="lazy"
-                width={500}
-                height={500}
-                className="transition-transform duration-300 ease-in-out hover:scale-110"
+          <div className="my-5 ml-10 flex justify-between gap-10">
+            <div className="gsap-mern-image-2 right ">
+              <ImageMagnifier
+                src={"/Projects/foodplaza.png"}
+                zoom={6}
+                lensSize={300}
               />
             </div>
             <div className="desktop-mern-project-dsc-foodplaza left w-[80%] h-[20rem]">
-              <h2 className="mern-project-name-foodplaza text-2xl">
+              <h2 className="mern-project-name-foodplaza text-2xl font-semibold">
                 Food Plaza Restaurant Website
               </h2>
-              <div className="mern-paragrap-foodplaza mt-5">
-                <p>
+              <div className="mern-paragrap-foodplaza  mt-5">
+                <p className="text-lg/8 tracking-wide text-white/80">
                   This full-stack restaurant application, Food Plaza, showcases
                   a wide variety of meal options, including breakfast, lunch,
                   and dinner, to provide users with a complete dining
                   experience. Developed with the MERN stack (MongoDB, Express,
-                  React, Node.js), the project features secure authentication
+                  Next.js, Node.js), the project features secure authentication
                   using JWT and bcrypt for password encryption. Key
                   functionalities include form validation, a search feature for
                   easy menu navigation, and a loading bar for smooth user
@@ -404,10 +400,10 @@ const MernStackProject = () => {
                   security and performance.
                 </p>
               </div>
-              <div className="mt-10 ml-10 flex gap-2 ">
+              <div className="mt-10 ml-10 flex gap-2 items-center ">
                 <FaLink />
                 <Link
-                  className="text-amber-400"
+                  className="text-amber-400 text-xl"
                   href={"/pages/projectall/overview/foodplazaoverview"}
                 >
                   {" "}
