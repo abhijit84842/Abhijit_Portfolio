@@ -20,7 +20,7 @@ const ContactMe = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = async (data) => {
-    console.log(data)
+    console.log(data);
     const serviceID = "service_6pyy1rx";
     const templateID = "template_v48o69h";
     const publicKey = "7-6v9d4lFnkvMmJi2";
@@ -43,7 +43,7 @@ const ContactMe = () => {
         reset(); // Reset the form after submission
       }
     } catch (error) {
-      toast.error('Soory! Message not sent..', {
+      toast.error("Soory! Message not sent..", {
         position: "top-center",
         autoClose: 3000,
         hideProgressBar: false,
@@ -53,7 +53,7 @@ const ContactMe = () => {
         progress: undefined,
         theme: "dark",
         // transition: Bounce,
-        });
+      });
     }
   };
 
@@ -100,31 +100,38 @@ const ContactMe = () => {
       </h1>
 
       <div className="contact-sub-container bg-[#18181B] rounded-[2rem]  my-10 mx-2  lg:mx-2  lg:flex lg:justify-between lg:gap-10 lg:p-2 2xl:flex 2xl:justify-between 2xl:gap-20 2xl:p-5  2xl:mx-10">
-        <div className="contact-left  flex justify-center p-2 lg:hidden 2xl:hidden">
+        <div className="contact-left   p-2 lg:hidden 2xl:hidden">
+          <div className="w-full h-full ">
+            <Image
+              src="/Contact/Contact.png"
+              alt="loading.."
+              loading="lazy"
+              width={500}
+              height={500}
+              className="object-contain"
+            />
+          </div>
+        </div>
+        <div className="contact-left hidden w-full lg:flex lg:justify-center lg:p-2 2xl:hidden">
           <Image
             src="/Contact/Contact.png"
             alt="loading.."
             loading="lazy"
-            width={300}
-            height={200}
+            width={1000}
+            height={1000}
+            quality={100}
+            className="object-contain"
           />
         </div>
-        <div className="contact-left hidden lg:flex lg:justify-center lg:p-2 2xl:hidden">
+        <div className="contact-left w-full  hidden  p-5 lg:hidden 2xl:flex 2xl:justify-center">
           <Image
             src="/Contact/Contact.png"
             alt="loading.."
             loading="lazy"
-            width={400}
-            height={100}
-          />
-        </div>
-        <div className="contact-left w-[50%] hidden  p-5 lg:hidden 2xl:flex 2xl:justify-center">
-          <Image
-            src="/Contact/Contact.png"
-            alt="loading.."
-            loading="lazy"
-            width={500}
-            height={400}
+            width={1000}
+            height={1000}
+            quality={100}
+            className="object-contain"
           />
         </div>
         <div className="contact-right p-5 mt-5 lg:w-[50%] lg:p-5 2xl:w-[40%] 2xl:p-10 ">
@@ -145,15 +152,15 @@ const ContactMe = () => {
               className="h-[3rem] rounded-md p-2 outline-none text-black"
               type="number"
               {...register("from_phno", {
-                minLength:{
-                  value:10,
-                  message:"minimum 10 digits required.."
+                minLength: {
+                  value: 10,
+                  message: "minimum 10 digits required..",
                 },
-                maxLength:{
-                  value:10,
-                  message:"maximum 10 digits alllowed.."
+                maxLength: {
+                  value: 10,
+                  message: "maximum 10 digits alllowed..",
                 },
-              
+
                 required: "phno is required..",
               })}
               placeholder="Ph no.."

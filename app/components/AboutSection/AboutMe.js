@@ -109,20 +109,20 @@ const AboutMe = () => {
         <div className="top-heading-about-me  flex justify-center">
           <p className="text-[#F61E1E] text-3xl font-semibold">About Me</p>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center w-full h-full">
           <Image
             src="/aboutprofilepic.png"
             alt="loading.."
             loading="lazy"
-            width={250}
-            height={250}
-            className="about-image"
+            width={300}
+            height={400}
+            className="about-image object-contain"
           />
         </div>
 
         <div className=" about-right  w-[90%]  mt-2">
           <div className="paragrap text-zinc-200 w-[100%] ">
-            <p className=" text-base  p-2 leading-6 tracking-wider ml-2">
+            <p className=" text-base/7  p-2  tracking-wide ml-2">
               I am a dedicated full stack developer with a strong passion for
               crafting dynamic and responsive web applications. With hands-on
               experience in front-end technologies like HTML, CSS, JavaScript,
@@ -157,7 +157,7 @@ const AboutMe = () => {
             loading="lazy"
             width={350}
             height={350}
-            className="about-image mt-20 2xl:hidden "
+            className="w-full h-full about-image mt-20 2xl:hidden "
           />
 
           <Image
@@ -175,7 +175,7 @@ const AboutMe = () => {
             <p className="text-[#F61E1E] text-4xl font-semibold">About Me</p>
           </div>
           <div className="paragrap text-white w-[100%] mt-10 ml-5 ">
-            <p className=" text-xl leading-8">
+            <p className=" text-xl/8 tracking-wide text-white/80">
               I am a dedicated full stack developer with a strong passion for
               crafting dynamic and responsive web applications. With hands-on
               experience in front-end technologies like HTML, CSS, JavaScript,

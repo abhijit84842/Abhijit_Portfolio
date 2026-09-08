@@ -118,7 +118,7 @@ const MyProject = () => {
             </Link>
           </div>
 
-          <div className="blank-div border border-red-500 mx-20 my-5  2xl:my-10"></div>
+          <div className="blank-div border border-red-500 mx-5 lg:mx-20 2xl:mx-20 my-5  2xl:my-10"></div>
         </div>
 
         <MyFlagshipProject />

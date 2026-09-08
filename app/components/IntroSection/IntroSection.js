@@ -33,7 +33,7 @@ const IntroSection = () => {
             />
           </div>
         </div>
-        <div className="left-container   text-white mt-2 ml-2">
+        <div className="left-container   text-white mt-7 ml-2">
           <div className="intro-paragrap">
             <div className="intro-animation">
               <p className="text-sm font-semibold">
@@ -53,7 +53,7 @@ const IntroSection = () => {
             </div>
 
             <div className="intro-animation sub-intro w-[80%] ml-2 mt-2">
-              <p className="text-xs">
+              <p className="text-sm/6 tracking-wide text-white/80">
                 I am a passionate and versatile full stack developer with
                 expertise in both frontend and backend technologies. I
                 specialize in building efficient, scalable, and user-friendly
@@ -64,9 +64,12 @@ const IntroSection = () => {
             </div>
           </div>
 
-          <div className="social-links flex gap-10 mt-2">
+          <div className="social-links flex gap-10 mt-5">
             <div className="linkedin">
-            <Link href={"https://www.linkedin.com/in/abhijit-das-1a41a2234"} target="_blank">
+              <Link
+                href={"https://www.linkedin.com/in/abhijit-das-1a41a2234"}
+                target="_blank"
+              >
                 <Image
                   src="/Social Links/linkedin.png"
                   alt="loading.."
@@ -77,7 +80,7 @@ const IntroSection = () => {
               </Link>
             </div>
             <div className="github">
-            <Link href="https://github.com/abhijit84842" target="_blank">
+              <Link href="https://github.com/abhijit84842" target="_blank">
                 <Image
                   src="/Social Links/github.png"
                   alt="loading.."
@@ -88,7 +91,11 @@ const IntroSection = () => {
               </Link>
             </div>
             <div className="whatsapp">
-            <Link href="https://wa.me/+919002527215" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://wa.me/+919002527215"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
                   src="/Social Links/whatsapp.png"
                   alt="loading.."
@@ -113,7 +120,7 @@ const IntroSection = () => {
         </div>
       </div>
 
-{/*Responsive for lg breakpoint */}
+      {/*Responsive for lg breakpoint */}
       <div className="hidden lg:block">
         <div className="intro-container  flex justify-between">
           <div className="lg:left-container w-[50%] text-white mt-20 ml-5 2xl:ml-20">
@@ -136,7 +143,7 @@ const IntroSection = () => {
               </div>
 
               <div className="intro-animation sub-intro w-[100%] ml-5 mt-2">
-                <p>
+                <p className="text-lg/7 tracking-wide text-white/80">
                   I am a passionate and versatile full stack developer with
                   expertise in both frontend and backend technologies. I
                   specialize in building efficient, scalable, and user-friendly
@@ -149,7 +156,10 @@ const IntroSection = () => {
 
             <div className="social-links flex gap-10 mt-5">
               <div className="github">
-                <Link href={"https://www.linkedin.com/in/abhijit-das-1a41a2234"} target="_blank">
+                <Link
+                  href={"https://www.linkedin.com/in/abhijit-das-1a41a2234"}
+                  target="_blank"
+                >
                   <Image
                     src="/Social Links/linkedin.png"
                     alt="loading.."
@@ -171,7 +181,11 @@ const IntroSection = () => {
                 </Link>
               </div>
               <div className="whatsapp">
-                <Link href="https://wa.me/+919002527215" target="_blank" rel="noopener noreferrer">
+                <Link
+                  href="https://wa.me/+919002527215"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Image
                     src="/Social Links/whatsapp.png"
                     alt="loading.."
