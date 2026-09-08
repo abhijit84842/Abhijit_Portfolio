@@ -7,6 +7,7 @@ import { FaLink } from "react-icons/fa";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import ImageMagnifier from "@/app/util/ImageMagnifier";
 
 const FrontendProject = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -200,7 +201,7 @@ const FrontendProject = () => {
   });
   return (
     <div className="frontend-projects  mx-2 2xl:mx-10">
-      <h1 className="text-xl text-[#0B44FF] font-semibold my-5 2xl:text-2xl ">
+      <h1 className="text-xl text-[#0B44FF] font-semibold my-5 lg:text-2xl 2xl:text-2xl ">
         Frontend Projects
       </h1>
 
@@ -212,21 +213,18 @@ const FrontendProject = () => {
           </h2>
           <div className="frontend-project-1 my-5 ml-5 flex justify-center flex-col gap-10">
             <div className="gsap-frontend-image-1 right">
-              <Image
-                src="/Projects/travelagency.png"
-                alt="loading.."
-                loading="lazy"
-                width={300}
-                height={300}
-                className="transition-transform duration-300 ease-in-out hover:scale-110"
+              <ImageMagnifier
+                src={"/Projects/travelagency.png"}
+                zoom={6}
+                lensSize={150}
               />
             </div>
-            <div className="frontend-project-dsc-travel left  h-[20rem]">
+            <div className="frontend-project-dsc-travel left  h-auto">
               <h2 className="frontend-project-name-travel text-2xl font-semibold">
                 Animated Travel Agency Website
               </h2>
               <div className="frontend-paragrap-travel mt-5">
-                <p className="text-sm">
+                <p className="text-sm/7 tracking-wide text-white/80">
                   A visually appealing and user-friendly travel agency website
                   built with React. The project features smooth animations using
                   GSAP and Swiper JS for interactive sliders, providing an
@@ -239,7 +237,7 @@ const FrontendProject = () => {
                   enthusiasts to explore and book trips.
                 </p>
               </div>
-              <div className="mt-5 ml-10 flex gap-2 ">
+              <div className="mt-5 ml-10 flex items-center gap-2 ">
                 <FaLink />
                 <Link
                   className="text-amber-400"
@@ -260,13 +258,10 @@ const FrontendProject = () => {
           </h2>
           <div className="proejct-2 my-5 ml-5 flex justify-center flex-col gap-10">
             <div className="gsap-frontend-image-2 right">
-              <Image
-                src="/Projects/wear.png"
-                alt="loading.."
-                loading="lazy"
-                width={300}
-                height={300}
-                className="transition-transform duration-300 ease-in-out hover:scale-110"
+              <ImageMagnifier
+                src={"/Projects/wearcollection.png"}
+                zoom={6}
+                lensSize={150}
               />
             </div>
             <div className="frontend-project-dsc-wear left flex flex-col">
@@ -274,7 +269,7 @@ const FrontendProject = () => {
                 Wear Collection E-com Website
               </h2>
               <div className="frontend-paragrap-wear mt-5">
-                <p className="text-sm">
+                <p className="text-sm/7 tracking-wide text-white/80">
                   This is a fully functional, responsive clothing e-commerce
                   website developed using React.js, HTML, CSS, and JavaScript.
                   Designed with a focus on smooth user experience, the website
@@ -288,7 +283,7 @@ const FrontendProject = () => {
                   e-commerce design principles.
                 </p>
               </div>
-              <div className="mt-5 ml-10 flex gap-2 ">
+              <div className="mt-5 ml-10 flex items-center gap-2 ">
                 <FaLink />
                 <Link
                   className="text-amber-400"
@@ -301,7 +296,7 @@ const FrontendProject = () => {
             </div>
             <div className="flex justify-center mt-5">
               <Link
-                className="bg-[#1E49F6] p-2  text-xl font-semibold rounded-full"
+                className="bg-[#1E49F6] p-2  text-lg font-semibold rounded-full"
                 href={"/pages/projectall/#frontendprojects"}
               >
                 See More Projects
@@ -314,16 +309,16 @@ const FrontendProject = () => {
       {/* Responsive for Desktop */}
       <div className="hidden lg:block 2xl:block frontend-project-box bg-[#18181B] p-3 rounded-[2rem]">
         <div className="desktop-frontend-project-box-1">
-          <h2 className="ml-10 text-lg font-semibold text-[#FB2A2A]">
+          <h2 className="ml-10 text-xl font-semibold text-[#FB2A2A]">
             Project 1
           </h2>
-          <div className="my-5 ml-10 flex justify-end gap-20">
+          <div className="my-5 ml-10 flex justify-between gap-20">
             <div className="desktop-frontend-project-dsc-travel left w-[80%] h-[20rem]">
-              <h2 className="frontend-project-name-travel text-2xl">
+              <h2 className="frontend-project-name-travel text-2xl font-semibold">
                 Animated Travel Agency Website
               </h2>
               <div className="frontend-paragrap-travel mt-5">
-                <p className="text-lg/8 tracking-wide">
+                <p className="text-lg/8 tracking-wide text-white/80">
                   A visually appealing and user-friendly travel agency website
                   built with React. The project features smooth animations using
                   GSAP and Swiper JS for interactive sliders, providing an
@@ -339,7 +334,7 @@ const FrontendProject = () => {
               <div className="mt-10 ml-10 flex gap-2 items-center">
                 <FaLink />
                 <Link
-                  className="text-amber-400 text-lg"
+                  className="text-amber-400 text-xl"
                   href={"/pages/projectall/overview/travelagencyoverview"}
                 >
                   {" "}
@@ -348,13 +343,10 @@ const FrontendProject = () => {
               </div>
             </div>
             <div className="gsap-frontend-image-1  border border-2 border-white ">
-              <Image
-                src="/Projects/travelagency.png"
-                alt="loading.."
-                loading="lazy"
-                width={500}
-                height={500}
-                className="transition-transform duration-300 ease-in-out hover:scale-110 "
+              <ImageMagnifier
+                src={"/Projects/travelagency.png"}
+                zoom={6}
+                lensSize={300}
               />
             </div>
           </div>
@@ -362,26 +354,23 @@ const FrontendProject = () => {
         <div className="border border-red-500 mx-20 my-10"></div>
 
         <div className="desktop-frontend-project-box-2">
-          <h2 className="flex justify-end  mr-10 my-10 text-lg font-semibold text-[#FB2A2A]">
+          <h2 className="flex justify-end  mr-10 my-10 text-xl font-semibold text-[#FB2A2A]">
             Project 2
           </h2>
-          <div className="my-5 ml-10 flex justify-end gap-20">
-            <div className="gsap-frontend-image-2 right w-[50%]">
-              <Image
-                src="/Projects/wear.png"
-                alt="loading.."
-                loading="lazy"
-                width={500}
-                height={500}
-                className="transition-transform duration-300 ease-in-out hover:scale-110"
+          <div className="my-5 ml-10 flex justify-between gap-20">
+            <div className="gsap-frontend-image-2 border border-2 border-white ">
+              <ImageMagnifier
+                src={"/Projects/wearcollection.png"}
+                zoom={6}
+                lensSize={300}
               />
             </div>
             <div className="desktop-frontend-project-dsc-wear left w-[80%] h-[20rem]">
-              <h2 className="frontend-project-name-wear text-2xl">
+              <h2 className="frontend-project-name-wear text-2xl font-semibold">
                 Wear Collection E-com Website
               </h2>
               <div className="frontend-paragrap-wear mt-5">
-                <p className="text-lg/8 tracking-wide">
+                <p className="text-lg/8 tracking-wide text-white/80">
                   This is a fully functional, responsive clothing e-commerce
                   website developed using React.js, HTML, CSS, and JavaScript.
                   Designed with a focus on smooth user experience, the website
@@ -398,7 +387,7 @@ const FrontendProject = () => {
               <div className="mt-10 ml-10 flex gap-2 items-center">
                 <FaLink />
                 <Link
-                  className="text-amber-400 text-lg"
+                  className="text-amber-400 text-xl"
                   href={"/pages/projectall/overview/wearcollectionoverview"}
                 >
                   {" "}

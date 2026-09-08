@@ -66,7 +66,7 @@ const ImageMagnifier = ({ src, zoom = 5, lensSize = 300 }) => {
       onTouchStart={handleTouch}
       onTouchMove={handleTouch}
       onTouchEnd={handleTouchEnd}
-      className="relative w-[30rem] h-[30rem] overflow-hidden border-2 border-gray-300 "
+      className="relative 2xl::overflow-hidden border-2 border-gray-300 w-full h-[10rem] 2xl:w-[30rem] h-[30rem]  "
       style={{ backgroundImage: `url(${src})`, backgroundSize: "cover" }}
     >
       <Image
@@ -75,7 +75,7 @@ const ImageMagnifier = ({ src, zoom = 5, lensSize = 300 }) => {
         priority={false}
         loading="lazy"
         fill
-        className="w-full h-full object-cover pointer-events-none"
+        className="w-full h-full object-contain 2xl:object-cover pointer-events-none "
       />
       <div
         className="absolute rounded-full border border-black shadow-lg"

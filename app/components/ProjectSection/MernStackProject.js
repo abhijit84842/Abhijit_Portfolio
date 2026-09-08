@@ -205,35 +205,32 @@ const MernStackProject = () => {
   });
 
   return (
-    <div className="frontend-projects  mx-2 my-10 2xl:my-20 2xl:mx-10">
-      <h1 className="text-xl text-[#0B44FF] font-semibold my-5 2xl:text-2xl">
+    <div className="frontend-projects  mx-2 my-10 lg::my-20 2xl:mx-10">
+      <h1 className="text-xl text-[#0B44FF] font-semibold my-5 lg::text-2xl 2xl:text-2xl">
         Full Stack Projects
       </h1>
 
       {/* Responsive for Mobile */}
-      <div className="mern-project-box bg-[#18181B] p-3 rounded-[2rem] lg:hidden 2xl:hidden">
+      <div className="mern-project-box bg-[#18181B] rounded-[2rem]  p-2 lg:p-3  lg:hidden">
         <div className="mern-project-box-1">
           <h2 className="ml-5 my-5 text-lg font-semibold text-[#FB2A2A]">
             Project 1
           </h2>
           <div className="my-5 ml-5 flex justify-center flex-col  gap-10">
             <div className="gsap-mern-image-1 right">
-              <Image
-                src="/Projects/citysling.png"
-                alt="loading.."
-                loading="lazy"
-                width={300}
-                height={300}
-                className="transition-transform duration-300 ease-in-out hover:scale-110"
+              <ImageMagnifier
+                src={"/Projects/citysling.png"}
+                zoom={6}
+                lensSize={150}
               />
             </div>
 
-            <div className="mern-project-dsc-citysling left h-[20rem]">
+            <div className="mern-project-dsc-citysling left h-auto">
               <h2 className="mern-project-name-citysling text-2xl font-semibold">
                 CitySling Bag E-Com Website
               </h2>
               <div className="mern-paragrap-citysling mt-5">
-                <p className="text-sm">
+                <p className="text-sm/7 tracking-wide text-white/80">
                   This full-stack e-commerce application is designed for a city
                   sling bag store, built using EJS for templating, Node.js for
                   backend logic, and Tailwind CSS for modern styling. The
@@ -247,7 +244,7 @@ const MernStackProject = () => {
                   clean design.
                 </p>
               </div>
-              <div className="mt-5 ml-10 flex gap-2 ">
+              <div className="mt-5 ml-10 flex  items-center gap-2 ">
                 <FaLink />
                 <Link
                   className="text-amber-400"
@@ -268,21 +265,18 @@ const MernStackProject = () => {
           </h2>
           <div className="my-5 ml-5 flex justify-center flex-col gap-10">
             <div className="gsap-mern-image-2 right ">
-              <Image
-                src="/Projects/foodplaza.png"
-                alt="loading.."
-                loading="lazy"
-                width={300}
-                height={300}
-                className="transition-transform duration-300 ease-in-out hover:scale-110"
+              <ImageMagnifier
+                src={"/Projects/foodplaza.png"}
+                zoom={6}
+                lensSize={150}
               />
             </div>
-            <div className="mern-project-dsc-foodplaza left h-[20rem]">
+            <div className="mern-project-dsc-foodplaza left h-auto">
               <h2 className="mern-project-name-foodplaza text-2xl font-semibold">
                 Food Plaza Restaurant Website
               </h2>
               <div className="mern-paragrap-foodplaza mt-5">
-                <p className="text-sm">
+                <p className="text-sm/7 tracking-wide text-white/80">
                   This full-stack restaurant application, Food Plaza, showcases
                   a wide variety of meal options, including breakfast, lunch,
                   and dinner, to provide users with a complete dining
@@ -297,7 +291,7 @@ const MernStackProject = () => {
                   security and performance.
                 </p>
               </div>
-              <div className="mt-5 ml-10 flex gap-2 ">
+              <div className="mt-5 ml-10 flex items-center gap-2  ">
                 <FaLink />
                 <Link
                   className="text-amber-400"
@@ -308,9 +302,9 @@ const MernStackProject = () => {
                 </Link>
               </div>
             </div>
-            <div className="flex justify-center mt-20">
+            <div className="flex justify-center mt-10">
               <Link
-                className="bg-[#1E49F6] p-2  text-xl font-semibold rounded-full"
+                className="bg-[#1E49F6] p-2  text-lg font-semibold rounded-full"
                 href={"/pages/projectall/#fullstackprojects"}
               >
                 See More Projects
