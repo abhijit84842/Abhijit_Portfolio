@@ -212,7 +212,7 @@ const FrontendProject = () => {
             Project 1
           </h2>
           <div className="frontend-project-1 my-5 ml-5 flex justify-center flex-col gap-10">
-            <div className="gsap-frontend-image-1 right">
+            <div className="gsap-frontend-image-1 w-full h-full">
               <ImageMagnifier
                 src={"/Projects/travelagency.png"}
                 zoom={6}
@@ -257,7 +257,7 @@ const FrontendProject = () => {
             Project 2
           </h2>
           <div className="proejct-2 my-5 ml-5 flex justify-center flex-col gap-10">
-            <div className="gsap-frontend-image-2 right">
+            <div className="gsap-frontend-image-2 w-full h-full">
               <ImageMagnifier
                 src={"/Projects/wearcollection.png"}
                 zoom={6}
@@ -342,7 +342,7 @@ const FrontendProject = () => {
                 </Link>
               </div>
             </div>
-            <div className="gsap-frontend-image-1  border border-2 border-white ">
+            <div className="gsap-frontend-image-1  border border-2 border-white w-[500px] h-full ">
               <ImageMagnifier
                 src={"/Projects/travelagency.png"}
                 zoom={6}
@@ -358,11 +358,11 @@ const FrontendProject = () => {
             Project 2
           </h2>
           <div className="my-5 ml-10 flex justify-between gap-20">
-            <div className="gsap-frontend-image-2 border border-2 border-white ">
+            <div className="gsap-frontend-image-2 border border-2 border-white w-[500px] h-full">
               <ImageMagnifier
                 src={"/Projects/wearcollection.png"}
                 zoom={6}
-                lensSize={300}
+                lensSize={250}
               />
             </div>
             <div className="desktop-frontend-project-dsc-wear left w-[80%] h-[20rem]">

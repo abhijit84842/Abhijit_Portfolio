@@ -217,7 +217,7 @@ const MernStackProject = () => {
             Project 1
           </h2>
           <div className="my-5 ml-5 flex justify-center flex-col  gap-10">
-            <div className="gsap-mern-image-1 right">
+            <div className="gsap-mern-image-1 w-full h-full">
               <ImageMagnifier
                 src={"/Projects/citysling.png"}
                 zoom={6}
@@ -264,7 +264,7 @@ const MernStackProject = () => {
             Project 2
           </h2>
           <div className="my-5 ml-5 flex justify-center flex-col gap-10">
-            <div className="gsap-mern-image-2 right ">
+            <div className="gsap-mern-image-2 w-full h-full ">
               <ImageMagnifier
                 src={"/Projects/foodplaza.png"}
                 zoom={6}
@@ -351,7 +351,7 @@ const MernStackProject = () => {
                 </Link>
               </div>
             </div>
-            <div className="gsap-mern-image-1 right ">
+            <div className="gsap-mern-image-1 w-[500px] h-full">
               <ImageMagnifier
                 src={"/Projects/citysling.png"}
                 zoom={6}
@@ -367,7 +367,7 @@ const MernStackProject = () => {
             Project 2
           </h2>
           <div className="my-5 ml-10 flex justify-between gap-10">
-            <div className="gsap-mern-image-2 right ">
+            <div className="gsap-mern-image-2 w-[500px] h-full ">
               <ImageMagnifier
                 src={"/Projects/foodplaza.png"}
                 zoom={6}
