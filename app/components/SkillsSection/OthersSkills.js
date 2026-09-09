@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import React from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -56,7 +56,7 @@ const OthersSkills = () => {
       <div className="others-skills  flex justify-start flex-wrap gap-5 mt-5 2xl:hidden">
         <div className="gsap-animation-others-skills figma p-2 flex flex-col items-center gap-5">
           <Image
-            src="/Skills/gitskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933734/gitskills_c1vmnz.png"
             alt="loading.."
             loading="lazy"
             width={45}
@@ -71,7 +71,7 @@ const OthersSkills = () => {
       <div className="others-skills hidden 2xl:flex justify-start gap-20 mt-5">
         <div className="gsap-animation-others-skills figma p-5 flex flex-col items-center gap-2">
           <Image
-            src="/Skills/gitskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933734/gitskills_c1vmnz.png"
             alt="loading.."
             loading="lazy"
             width={70}

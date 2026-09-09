@@ -214,7 +214,9 @@ const FrontendProject = () => {
           <div className="frontend-project-1 my-5 ml-5 flex justify-center flex-col gap-10">
             <div className="gsap-frontend-image-1 w-full h-full">
               <ImageMagnifier
-                src={"/Projects/travelagency.png"}
+                src={
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933260/travelagency_q5biev.png"
+                }
                 zoom={6}
                 lensSize={150}
               />
@@ -259,7 +261,9 @@ const FrontendProject = () => {
           <div className="proejct-2 my-5 ml-5 flex justify-center flex-col gap-10">
             <div className="gsap-frontend-image-2 w-full h-full">
               <ImageMagnifier
-                src={"/Projects/wearcollection.png"}
+                src={
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933259/wearcollection_mnbxlg.png"
+                }
                 zoom={6}
                 lensSize={150}
               />
@@ -344,7 +348,9 @@ const FrontendProject = () => {
             </div>
             <div className="gsap-frontend-image-1  border border-2 border-white w-[500px] h-full ">
               <ImageMagnifier
-                src={"/Projects/travelagency.png"}
+                src={
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933260/travelagency_q5biev.png"
+                }
                 zoom={6}
                 lensSize={300}
               />
@@ -360,7 +366,9 @@ const FrontendProject = () => {
           <div className="my-5 ml-10 flex justify-between gap-20">
             <div className="gsap-frontend-image-2 border border-2 border-white w-[500px] h-full">
               <ImageMagnifier
-                src={"/Projects/wearcollection.png"}
+                src={
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933259/wearcollection_mnbxlg.png"
+                }
                 zoom={6}
                 lensSize={250}
               />

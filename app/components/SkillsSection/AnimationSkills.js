@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useGSAP } from "@gsap/react";
 import Image from "next/image";
 import React from "react";
@@ -57,7 +57,7 @@ const AnimationSkills = () => {
       <div className="animation  flex justify-start flex-wrap gap-5 mt-5 2xl:hidden">
         <div className="gsap-animation-animation   h-[7rem] p-2 flex flex-col items-center gap-5">
           <Image
-            src="/Skills/gsapskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933734/gsapskills_ddpzyh.png"
             alt="loading.."
             loading="lazy"
             width={50}
@@ -68,7 +68,7 @@ const AnimationSkills = () => {
         </div>
         <div className="gsap-animation-animation swiper  h-[7rem] p-2 flex flex-col items-center gap-8">
           <Image
-            src="/Skills/swiperskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933776/swiperskills_eybaus.png"
             alt="loading.."
             loading="lazy"
             width={50}
@@ -79,7 +79,7 @@ const AnimationSkills = () => {
         </div>
         <div className="gsap-animation-animation canva  h-[7rem] p-2 flex flex-col items-center gap-9 ">
           <Image
-            src="/Skills/scrollskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933773/scrollskills_jrspku.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -94,7 +94,7 @@ const AnimationSkills = () => {
       <div className="animation hidden 2xl:flex justify-start gap-20 mt-5">
         <div className="gsap-animation-animation  w-[7rem] min-w-[7rem] h-[11rem] p-5 flex flex-col items-center gap-8">
           <Image
-            src="/Skills/gsapskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933734/gsapskills_ddpzyh.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -105,7 +105,7 @@ const AnimationSkills = () => {
         </div>
         <div className="gsap-animation-animation swiper w-[7rem] min-w-[7rem] h-[11rem] p-5 flex flex-col items-center gap-8">
           <Image
-            src="/Skills/swiperskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933776/swiperskills_eybaus.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -116,7 +116,7 @@ const AnimationSkills = () => {
         </div>
         <div className="gsap-animation-animation canva w-[8rem] min-w-[7rem] h-[11rem] p-5 flex flex-col items-center gap-8 ">
           <Image
-            src="/Skills/scrollskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933773/scrollskills_jrspku.png"
             alt="loading.."
             loading="lazy"
             width={100}

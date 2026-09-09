@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import React from "react";
 import gsap from "gsap";
@@ -58,7 +58,7 @@ const ProfessionalSkills = () => {
       <div className="professional-skills bg-zinc-800 flex justify-start flex-wrap gap-5 my-5 p-2 rounded-lg 2xl:hidden">
         <div className="gsap-animation-professional-skills p-2 flex flex-col items-center gap-5">
           <Image
-            src="/Skills/communicationskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933785/communicationskills_v5zvrr.png"
             alt="loading.."
             loading="lazy"
             width={45}
@@ -71,7 +71,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className="gsap-animation-professional-skills p-2 flex flex-col items-center gap-5">
           <Image
-            src="/Skills/teamworkskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933779/teamworkskills_as7vsm.png"
             alt="loading.."
             loading="lazy"
             width={45}
@@ -82,7 +82,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className="gsap-animation-professional-skills p-2 flex flex-col items-center gap-7 ">
           <Image
-            src="/Skills/problemskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933765/problemskills_y8hvhx.png"
             alt="loading.."
             loading="lazy"
             width={50}
@@ -93,7 +93,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className="gsap-animation-professional-skills p-2 flex flex-col items-center gap-7 ">
           <Image
-            src="/Skills/creativityskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933787/creativityskills_htowti.png"
             alt="loading.."
             loading="lazy"
             width={50}
@@ -108,7 +108,7 @@ const ProfessionalSkills = () => {
       <div className="professional-skills hidden     2xl:flex justify-start gap-20 bg-zinc-800 my-5 p-5 rounded-lg">
         <div className="gsap-animation-professional-skills    p-5 flex flex-col items-center gap-5">
           <Image
-            src="/Skills/communicationskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933785/communicationskills_v5zvrr.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -121,7 +121,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className="gsap-animation-professional-skills p-5 flex flex-col items-center gap-5">
           <Image
-            src="/Skills/teamworkskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933779/teamworkskills_as7vsm.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -132,7 +132,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className="gsap-animation-professional-skills p-5 flex flex-col items-center gap-7 ">
           <Image
-            src="/Skills/problemskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933765/problemskills_y8hvhx.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -143,7 +143,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className="gsap-animation-professional-skills p-5 flex flex-col items-center gap-7 ">
           <Image
-            src="/Skills/creativityskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933787/creativityskills_htowti.png"
             alt="loading.."
             loading="lazy"
             width={70}

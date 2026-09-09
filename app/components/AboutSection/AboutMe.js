@@ -111,7 +111,7 @@ const AboutMe = () => {
         </div>
         <div className="flex justify-center w-full h-full">
           <Image
-            src="/aboutprofilepic.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933232/aboutprofilepic_wqixu4.png"
             alt="loading.."
             loading="lazy"
             width={300}
@@ -152,7 +152,7 @@ const AboutMe = () => {
       >
         <div>
           <Image
-            src="/aboutprofilepic.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933232/aboutprofilepic_wqixu4.png"
             alt="loading.."
             loading="lazy"
             width={350}
@@ -161,7 +161,7 @@ const AboutMe = () => {
           />
 
           <Image
-            src="/aboutprofilepic.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933232/aboutprofilepic_wqixu4.png"
             alt="loading.."
             loading="lazy"
             width={400}

@@ -56,7 +56,7 @@ const FrontendSkills = () => {
       <div className="frontend flex justify-start flex-wrap gap-9 mt-5 2xl:hidden">
         <div className="gsap-animation-frontend html5  p-2  h-[7rem] flex flex-col items-center gap-7">
           <Image
-            src="/Skills/htmlskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933734/htmlskills_sxk30b.png"
             alt="loading.."
             loading="lazy"
             width={35}
@@ -67,7 +67,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend css3  h-[7rem]  p-2 flex flex-col items-center gap-4 ">
           <Image
-            src="/Skills/cssskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933791/cssskills_fmeteo.png"
             alt="loading.."
             loading="lazy"
             width={50}
@@ -78,7 +78,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend javascript  h-[7rem]  p-2 flex flex-col items-center gap-8">
           <Image
-            src="/Skills/javascriptskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933735/javascriptskills_aqnwdt.png"
             alt="loading.."
             loading="lazy"
             width={35}
@@ -89,7 +89,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend reactjs h-[7rem]    p-2 flex flex-col items-center gap-7 ">
           <Image
-            src="/Skills/reactskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933770/reactskills_ch7rvj.png"
             alt="loading.."
             loading="lazy"
             width={50}
@@ -100,7 +100,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend redux-toolkit w-[5rem]  h-[7rem]  p-2 flex flex-col items-center gap-8">
           <Image
-            src="/Skills/reduxskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933762/nextjsskills_cqdimo.png"
             alt="loading.."
             loading="lazy"
             width={45}
@@ -111,7 +111,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend nextjs h-[7rem]  p-2 flex flex-col items-center gap-7 ">
           <Image
-            src="/Skills/nextjsskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933762/nextjsskills_cqdimo.png"
             alt="loading.."
             loading="lazy"
             width={50}
@@ -122,7 +122,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend ejs  h-[7rem]  p-2 flex flex-col items-center gap-7">
           <Image
-            src="/Skills/ejsskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933791/ejsskills_jwvrh7.png"
             alt="loading.."
             loading="lazy"
             width={40}
@@ -133,7 +133,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend tailwindcss  w-[6rem] h-[7rem]  p-2 flex flex-col items-center gap-7">
           <Image
-            src="/Skills/tailwindcssskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933778/tailwindcssskills_yvf2rn.png"
             alt="loading.."
             loading="lazy"
             width={40}
@@ -144,7 +144,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend bootstrap  h-[7rem]  p-2 flex flex-col items-center gap-7">
           <Image
-            src="/Skills/bootstrapskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933782/bootstrapskills_scrvnw.png"
             alt="loading.."
             loading="lazy"
             width={40}
@@ -159,7 +159,7 @@ const FrontendSkills = () => {
       <div className="frontend hidden  2xl:flex justify-start gap-7 mt-5">
         <div className="gsap-animation-frontend html5  w-[7rem] min-w-[7rem] h-[11rem] p-5 flex flex-col items-center gap-7">
           <Image
-            src="/Skills/htmlskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933734/htmlskills_sxk30b.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -170,7 +170,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend css3 w-[7rem] min-w-[7rem]  h-[11rem]  p-5 flex flex-col items-center gap-7">
           <Image
-            src="/Skills/cssskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933791/cssskills_fmeteo.png"
             alt="loading.."
             loading="lazy"
             width={100}
@@ -181,7 +181,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend javascript w-[7rem] min-w-[7rem] h-[11rem]  p-5 flex flex-col items-center gap-8 ">
           <Image
-            src="/Skills/javascriptskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933735/javascriptskills_aqnwdt.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -192,7 +192,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend reactjs w-[7rem] min-w-[7rem] h-[11rem]    p-2 flex flex-col items-center gap-8">
           <Image
-            src="/Skills/reactskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933770/reactskills_ch7rvj.png"
             alt="loading.."
             loading="lazy"
             width={115}
@@ -203,7 +203,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend redux-toolkit w-[7rem] min-w-[7rem]  h-[11rem]  p-5 flex flex-col items-center gap-8">
           <Image
-            src="/Skills/reduxskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933772/reduxskills_rb7ikn.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -214,7 +214,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend nextjs w-[7rem] min-w-[7rem] h-[11rem]  p-5 flex flex-col items-center gap-9">
           <Image
-            src="/Skills/nextjsskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933762/nextjsskills_cqdimo.png"
             alt="loading.."
             loading="lazy"
             width={90}
@@ -225,7 +225,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend ejs w-[7rem] min-w-[7rem] h-[11rem]  p-5 flex flex-col items-center gap-14">
           <Image
-            src="/Skills/ejsskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933791/ejsskills_jwvrh7.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -236,7 +236,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend tailwindcss w-[7rem] min-w-[7rem] h-[11rem]  p-5 flex flex-col items-center gap-12">
           <Image
-            src="/Skills/tailwindcssskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933778/tailwindcssskills_yvf2rn.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -247,7 +247,7 @@ const FrontendSkills = () => {
         </div>
         <div className="gsap-animation-frontend bootstrap w-[7rem] min-w-[7rem] h-[11rem]  p-5 flex flex-col items-center gap-12">
           <Image
-            src="/Skills/bootstrapskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933782/bootstrapskills_scrvnw.png"
             alt="loading.."
             loading="lazy"
             width={70}

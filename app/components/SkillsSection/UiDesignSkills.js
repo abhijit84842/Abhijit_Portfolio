@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useGSAP } from "@gsap/react";
 import Image from "next/image";
 import React from "react";
@@ -57,7 +57,7 @@ const UiDesignSkills = () => {
       <div className="ui-design  flex justify-start flex-wrap gap-5 mt-5 2xl:hidden">
         <div className="gsap-animation-ui figma p-2 flex flex-col items-center gap-6">
           <Image
-            src="/Skills/figmaskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933793/figmaskills_hj6ey9.png"
             alt="loading.."
             loading="lazy"
             width={45}
@@ -68,7 +68,7 @@ const UiDesignSkills = () => {
         </div>
         <div className="gsap-animation-ui canva p-2 flex flex-col items-center gap-7">
           <Image
-            src="/Skills/canvaskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933783/canvaskills_yjlbyn.png"
             alt="loading.."
             loading="lazy"
             width={45}
@@ -83,7 +83,7 @@ const UiDesignSkills = () => {
       <div className="ui-design hidden 2xl:flex justify-start gap-20 mt-5">
         <div className="gsap-animation-ui figma p-5 flex flex-col items-center gap-2">
           <Image
-            src="/Skills/figmaskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933793/figmaskills_hj6ey9.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -94,7 +94,7 @@ const UiDesignSkills = () => {
         </div>
         <div className="gsap-animation-ui canva p-5 flex flex-col items-center gap-3">
           <Image
-            src="/Skills/canvaskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933783/canvaskills_yjlbyn.png"
             alt="loading.."
             loading="lazy"
             width={70}

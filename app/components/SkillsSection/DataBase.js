@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import React from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -56,7 +56,7 @@ const DataBase = () => {
       <div className="database  flex justify-start flex-wrap gap-5 mt-5 2xl:hidden">
         <div className="gsap-animation-database mongoDB p-2 flex flex-col items-center gap-6">
           <Image
-            src="/Skills/mongodbskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933759/mongodbskills_zab7wh.png"
             alt="loading.."
             loading="lazy"
             width={50}
@@ -67,7 +67,7 @@ const DataBase = () => {
         </div>
         <div className="gsap-animation-database mySQL p-2 flex flex-col items-center gap-5">
           <Image
-            src="/Skills/MYSQLskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933759/MYSQLskills_rsmi4s.png"
             alt="loading.."
             loading="lazy"
             width={50}
@@ -82,7 +82,7 @@ const DataBase = () => {
       <div className="database hidden 2xl:flex justify-start gap-20 mt-5">
         <div className="gsap-animation-database mongoDB p-5 flex flex-col items-center gap-6">
           <Image
-            src="/Skills/mongodbskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933759/mongodbskills_zab7wh.png"
             alt="loading.."
             loading="lazy"
             width={70}
@@ -93,7 +93,7 @@ const DataBase = () => {
         </div>
         <div className="gsap-animation-database mySQL p-5 flex flex-col items-center gap-5">
           <Image
-            src="/Skills/MYSQLskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933759/MYSQLskills_rsmi4s.png"
             alt="loading.."
             loading="lazy"
             width={70}

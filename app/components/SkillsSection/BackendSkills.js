@@ -58,7 +58,7 @@ const BackendSkills = () => {
       <div className="backend  flex justify-start flex-wrap gap-5 mt-5 2xl:hidden">
         <div className="gsap-animation-backend python p-2 flex flex-col items-center gap-5">
           <Image
-            src="/Skills/nodejsskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933763/nodejsskills_pn7apd.png"
             alt="loading..."
             loading="lazy"
             width={50}
@@ -69,7 +69,7 @@ const BackendSkills = () => {
         </div>
         <div className="gsap-animation-backend express-js p-2 flex flex-col items-center gap-8">
           <Image
-            src="/Skills/expressskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933793/expressskills_r1byah.png"
             alt="loading..."
             loading="lazy"
             width={50}
@@ -80,7 +80,7 @@ const BackendSkills = () => {
         </div>
         <div className="gsap-animation-backend jwt-auth p-2 flex flex-col items-center gap-7">
           <Image
-            src="/Skills/jwtskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933756/jwtskills_vsnlug.png"
             alt="loading..."
             loading="lazy"
             width={50}
@@ -91,7 +91,7 @@ const BackendSkills = () => {
         </div>
         <div className="gsap-animation-backend socket-io p-2 flex flex-col items-center gap-5">
           <Image
-            src="/Skills/socketskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933775/socketskills_a44ffm.png"
             alt="loading..."
             loading="lazy"
             width={50}
@@ -102,7 +102,7 @@ const BackendSkills = () => {
         </div>
         <div className="gsap-animation-backend mongoDb-aggregation p-2 flex flex-col items-center gap-7 ">
           <Image
-            src="/Skills/aggregationskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933779/aggregationskills_a9gvuc.png"
             alt="loading..."
             loading="lazy"
             width={70}
@@ -119,7 +119,7 @@ const BackendSkills = () => {
       <div className="backend hidden 2xl:flex justify-start gap-20 mt-5">
         <div className="gsap-animation-backend python p-5 flex flex-col items-center gap-5">
           <Image
-            src="/Skills/nodejsskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933763/nodejsskills_pn7apd.png"
             alt="loading..."
             loading="lazy"
             width={70}
@@ -130,7 +130,7 @@ const BackendSkills = () => {
         </div>
         <div className="gsap-animation-backend express-js p-5 flex flex-col items-center gap-8">
           <Image
-            src="/Skills/expressskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933793/expressskills_r1byah.png"
             alt="loading..."
             loading="lazy"
             width={70}
@@ -141,7 +141,7 @@ const BackendSkills = () => {
         </div>
         <div className="gsap-animation-backend jwt-auth p-5 flex flex-col items-center gap-7">
           <Image
-            src="/Skills/jwtskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933756/jwtskills_vsnlug.png"
             alt="loading..."
             loading="lazy"
             width={70}
@@ -152,7 +152,7 @@ const BackendSkills = () => {
         </div>
         <div className="gsap-animation-backend socket-io p-5 flex flex-col items-center gap-7">
           <Image
-            src="/Skills/socketskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933775/socketskills_a44ffm.png"
             alt="loading..."
             loading="lazy"
             width={70}
@@ -163,7 +163,7 @@ const BackendSkills = () => {
         </div>
         <div className="gsap-animation-backend mongoDb-aggregation p-5 flex flex-col items-center gap-9 ">
           <Image
-            src="/Skills/aggregationskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933779/aggregationskills_a9gvuc.png"
             alt="loading..."
             loading="lazy"
             width={100}

@@ -56,7 +56,7 @@ const ProgrammingLanguage = () => {
       <div className="prolang  flex justify-start flex-wrap gap-5 mt-5 2xl:hidden">
         <div className="gsap-animation-prolang javascript p-2 flex flex-col items-center gap-4 ">
           <Image
-            src="/Skills/javascriptskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933735/javascriptskills_aqnwdt.png"
             alt="loading.."
             loading="lazy"
             width={30}
@@ -66,7 +66,7 @@ const ProgrammingLanguage = () => {
         </div>
         <div className="gsap-animation-prolang python p-2 flex flex-col items-center gap-4">
           <Image
-            src="/Skills/pythonskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933769/pythonskills_mhmrce.png"
             alt="loading.."
             loading="lazy"
             width={35}
@@ -77,7 +77,7 @@ const ProgrammingLanguage = () => {
         </div>
         <div className="gsap-animation-prolang java p-2 flex flex-col items-center gap-4">
           <Image
-            src="/Skills/javaskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933755/javaskills_e0l1b5.png"
             alt="loading.."
             loading="lazy"
             width={40}
@@ -92,7 +92,7 @@ const ProgrammingLanguage = () => {
       <div className="prolang hidden 2xl:flex justify-start gap-20 mt-5">
         <div className="gsap-animation-prolang javascript p-5 flex flex-col items-center gap-4">
           <Image
-            src="/Skills/javascriptskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933735/javascriptskills_aqnwdt.png"
             alt="loading.."
             loading="lazy"
             width={50}
@@ -102,7 +102,7 @@ const ProgrammingLanguage = () => {
         </div>
         <div className="gsap-animation-prolang python p-5 flex flex-col items-center gap-4">
           <Image
-            src="/Skills/pythonskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933769/pythonskills_mhmrce.png"
             alt="loading.."
             loading="lazy"
             width={55}
@@ -113,7 +113,7 @@ const ProgrammingLanguage = () => {
         </div>
         <div className="gsap-animation-prolang java p-5 flex flex-col items-center gap-4">
           <Image
-            src="/Skills/javaskills.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933755/javaskills_e0l1b5.png"
             alt="loading.."
             loading="lazy"
             width={70}

@@ -218,7 +218,9 @@ const MernStackProject = () => {
           <div className="my-5 ml-5 flex justify-center flex-col  gap-10">
             <div className="gsap-mern-image-1 w-full h-full">
               <ImageMagnifier
-                src={"/Projects/citysling.png"}
+                src={
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933257/citysling_qiwmpo.png"
+                }
                 zoom={6}
                 lensSize={150}
               />
@@ -265,7 +267,9 @@ const MernStackProject = () => {
           <div className="my-5 ml-5 flex justify-center flex-col gap-10">
             <div className="gsap-mern-image-2 w-full h-full ">
               <ImageMagnifier
-                src={"/Projects/foodplaza.png"}
+                src={
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933258/foodplaza_wb1c6h.png"
+                }
                 zoom={6}
                 lensSize={150}
               />
@@ -352,7 +356,9 @@ const MernStackProject = () => {
             </div>
             <div className="gsap-mern-image-1 w-[500px] h-full">
               <ImageMagnifier
-                src={"/Projects/citysling.png"}
+                src={
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933257/citysling_qiwmpo.png"
+                }
                 zoom={6}
                 lensSize={300}
               />
@@ -368,7 +374,9 @@ const MernStackProject = () => {
           <div className="my-5 ml-10 flex justify-between gap-10">
             <div className="gsap-mern-image-2 w-[500px] h-full ">
               <ImageMagnifier
-                src={"/Projects/foodplaza.png"}
+                src={
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933258/foodplaza_wb1c6h.png"
+                }
                 zoom={6}
                 lensSize={300}
               />

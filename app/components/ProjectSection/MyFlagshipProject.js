@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
@@ -32,7 +32,9 @@ const MyFlagshipProject = () => {
           <div className="show-img-of-project w-full h-full">
             {isMobileMode ? (
               <Image
-                src={"/Projects/foodPlaza Flagship Banner Mobile.png"}
+                src={
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933258/foodPlaza_Flagship_Banner_Mobile_xfj5tx.png"
+                }
                 width={300}
                 height={300}
                 quality={100}
@@ -42,7 +44,9 @@ const MyFlagshipProject = () => {
               />
             ) : (
               <Image
-                src={"/Projects/foodPlaza Flagship Banner Desktop.png"}
+                src={
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933259/foodPlaza_Flagship_Banner_Desktop_x3vzoi.png"
+                }
                 width={1920}
                 height={700}
                 quality={100}

@@ -103,7 +103,7 @@ const ContactMe = () => {
         <div className="contact-left   p-2 lg:hidden 2xl:hidden">
           <div className="w-full h-full ">
             <Image
-              src="/Contact/Contact.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788932718/Contact_l3ywkj.png"
               alt="loading.."
               loading="lazy"
               width={500}
@@ -114,7 +114,7 @@ const ContactMe = () => {
         </div>
         <div className="contact-left hidden w-full lg:flex lg:justify-center lg:p-2 2xl:hidden">
           <Image
-            src="/Contact/Contact.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788932718/Contact_l3ywkj.png"
             alt="loading.."
             loading="lazy"
             width={1000}
@@ -125,7 +125,7 @@ const ContactMe = () => {
         </div>
         <div className="contact-left w-full  hidden  p-5 lg:hidden 2xl:flex 2xl:justify-center">
           <Image
-            src="/Contact/Contact.png"
+            src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788932718/Contact_l3ywkj.png"
             alt="loading.."
             loading="lazy"
             width={1000}

@@ -25,7 +25,7 @@ const IntroSection = () => {
         <div className="right-container  flex justify-center">
           <div className="animation-box-profileimg">
             <Image
-              src="/profilepic.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933218/profilepic_ra5qac.png"
               alt="loading.."
               loading="lazy"
               width={250}
@@ -71,7 +71,7 @@ const IntroSection = () => {
                 target="_blank"
               >
                 <Image
-                  src="/Social Links/linkedin.png"
+                  src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933800/linkedin_kdie1x.png"
                   alt="loading.."
                   loading="lazy"
                   width={30}
@@ -82,7 +82,7 @@ const IntroSection = () => {
             <div className="github">
               <Link href="https://github.com/abhijit84842" target="_blank">
                 <Image
-                  src="/Social Links/github.png"
+                  src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933803/github_vnxpqp.png"
                   alt="loading.."
                   loading="lazy"
                   width={35}
@@ -97,7 +97,7 @@ const IntroSection = () => {
                 rel="noopener noreferrer"
               >
                 <Image
-                  src="/Social Links/whatsapp.png"
+                  src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933800/whatsapp_skvsog.png"
                   alt="loading.."
                   loading="lazy"
                   width={30}
@@ -109,7 +109,7 @@ const IntroSection = () => {
           <div className="CV-download mt-5 ml-5 ">
             <a href="/CV/Resume.pdf">
               <Image
-                src="/cvdownload.png"
+                src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933885/CVdownload_qowvjz.png"
                 alt="loading.."
                 loading="lazy"
                 width={100}
@@ -161,7 +161,7 @@ const IntroSection = () => {
                   target="_blank"
                 >
                   <Image
-                    src="/Social Links/linkedin.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933800/linkedin_kdie1x.png"
                     alt="loading.."
                     loading="lazy"
                     width={55}
@@ -172,7 +172,7 @@ const IntroSection = () => {
               <div className="github">
                 <Link href="https://github.com/abhijit84842" target="_blank">
                   <Image
-                    src="/Social Links/github.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933803/github_vnxpqp.png"
                     alt="loading.."
                     loading="lazy"
                     width={60}
@@ -187,7 +187,7 @@ const IntroSection = () => {
                   rel="noopener noreferrer"
                 >
                   <Image
-                    src="/Social Links/whatsapp.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933800/whatsapp_skvsog.png"
                     alt="loading.."
                     loading="lazy"
                     width={55}
@@ -199,11 +199,11 @@ const IntroSection = () => {
             <div className="CV-download mt-10 ml-5 ">
               <a href="/CV/Resume.pdf">
                 <Image
-                  src="/cvdownload.png"
+                  src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933885/CVdownload_qowvjz.png"
                   alt="loading.."
                   loading="lazy"
-                  width={200}
-                  height={200}
+                  width={230}
+                  height={230}
                 />
               </a>
             </div>
@@ -212,7 +212,7 @@ const IntroSection = () => {
           <div className="right-container  mr-10 mt-14 2xl:hidden">
             <div className="animation-box-profileimg">
               <Image
-                src="/profilepic.png"
+                src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933218/profilepic_ra5qac.png"
                 alt="loading.."
                 loading="lazy"
                 width={400}
@@ -223,7 +223,7 @@ const IntroSection = () => {
           <div className=" hidden right-container  mr-20 mt-14 2xl:block">
             <div className="animation-box-profileimg">
               <Image
-                src="/profilepic.png"
+                src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933218/profilepic_ra5qac.png"
                 alt="loading.."
                 loading="lazy"
                 width={550}
