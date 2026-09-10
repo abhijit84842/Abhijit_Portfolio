@@ -47,12 +47,14 @@ const FullStackProjectsShow = () => {
               <div className="crad  bg-slate-200 w-[20rem] p-3 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/cityslingoverview">
                   <Image
-                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789007849/citySling_cg2xd9.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789010206/citySling_clrtl9.png"
                     alt="loading...."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     CitySling Bag E-com Website
@@ -82,12 +84,14 @@ const FullStackProjectsShow = () => {
               <div className="crad  bg-slate-200 w-[20rem] p-3 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/foodplazaoverview">
                   <Image
-                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789007305/foodPlaza_hxlrtc.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789010920/foodPlaza_v51qg3.png"
                     alt="loading..."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Food Plaza Restaurant Website
@@ -133,12 +137,14 @@ const FullStackProjectsShow = () => {
               <div className="crad  bg-slate-200 w-[20rem] p-4  rounded-lg h-[35rem] mb-2">
                 <Link href="/pages/projectall/overview/cityslingoverview">
                   <Image
-                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789007849/citySling_cg2xd9.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789010206/citySling_clrtl9.png"
                     alt="loading...."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     CitySling Bag E-com Website
@@ -168,12 +174,14 @@ const FullStackProjectsShow = () => {
               <div className="crad  bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] ">
                 <Link href="/pages/projectall/overview/foodplazaoverview">
                   <Image
-                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789007305/foodPlaza_hxlrtc.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789010920/foodPlaza_v51qg3.png"
                     alt="loading..."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Food Plaza Restaurant Website
@@ -220,12 +228,14 @@ const FullStackProjectsShow = () => {
               <div className="crad  bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/cityslingoverview">
                   <Image
-                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789007849/citySling_cg2xd9.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789010206/citySling_clrtl9.png"
                     alt="loading...."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     CitySling Bag E-com Website
@@ -255,11 +265,13 @@ const FullStackProjectsShow = () => {
               <div className="crad  bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] ">
                 <Link href="/pages/projectall/overview/foodplazaoverview">
                   <Image
-                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789007305/foodPlaza_hxlrtc.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789010920/foodPlaza_v51qg3.png"
                     alt="loading..."
                     loading="lazy"
                     width={500}
                     height={500}
+                    priority={false}
+                    quality={100}
                     className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">

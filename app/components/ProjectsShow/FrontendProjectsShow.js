@@ -47,33 +47,35 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/travelagencyoverview">
                   <Image
-                    src="/ProjectShow/TravelAgency.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789019542/TravelAgency_zptwgy.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     View World Travel Agency
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The project features smooth animations using GSAP and Swiper
-                  JS for interactive sliders, providing an engaging user
-                  experience. The website incorporates essential tools like
-                  react-hook-form for form handling and react-router-dom for
-                  navigation.{" "}
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href="/pages/projectall/overview/travelagencyoverview"
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-sm/6 tracking-wide line-clamp-5 text-black/80">
+                    The project features smooth animations using GSAP and Swiper
+                    JS for interactive sliders, providing an engaging user
+                    experience. The website incorporates essential tools like
+                    react-hook-form for form handling and react-router-dom for
+                    navigation.{" "}
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href="/pages/projectall/overview/travelagencyoverview"
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -81,32 +83,35 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/wearcollectionoverview">
                   <Image
-                    src="/ProjectShow/Wear Collections Img.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789020570/wearCollection_s7azxe.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Wear Collections E-com
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  A e-com website developed using React Js,HTML,CSS and
-                  Javascript.Designed with a focus on smooth user experience.
-                  This project highlights my skills in creating interactive,
-                  user-friendly web applications.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/wearcollectionoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-sm/6 text-black/80 tracking-wide line-clamp-5">
+                    {" "}
+                    A e-com website developed using React Js,HTML,CSS and
+                    Javascript.Designed with a focus on smooth user experience.
+                    This project highlights my skills in creating interactive,
+                    user-friendly web applications.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/wearcollectionoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -118,28 +123,29 @@ const FrontendProjectsShow = () => {
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Animated Portfolio Using Next Js
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  This Next.js-based animated portfolio website is designed to
-                  showcase projects, skills, and experience in a visually
-                  engaging way. Built with GSAP animation, it features smooth
-                  transitions, scroll-based effects, and interactive
-                  elements....
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/portfoliooverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-sm/6 tracking-wide line-clamp-5 text-black/80">
+                    This Next.js-based animated portfolio website is designed to
+                    showcase projects, skills, and experience in a visually
+                    engaging way. Built with GSAP animation, it features smooth
+                    transitions, scroll-based effects, and interactive elements
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/portfoliooverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
 
@@ -147,34 +153,37 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/weatheroverview">
                   <Image
-                    src="/ProjectShow/WeatherApp.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789010600/weatherapp_xdmgnu.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Weather App Using React Js
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  This is a weather application built using React.js for
-                  functionality and Tailwind CSS for styling. The app allows
-                  users to search for weather information for different
-                  locations, providing real-time updates fetched from a weather
-                  API. It includes key features like displaying temperature,
-                  humidity, and wind speed.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/weatheroverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-sm/6 tracking-wide line-clamp-5 text-black/80">
+                    {" "}
+                    This is a weather application built using React.js for
+                    functionality and Tailwind CSS for styling. The app allows
+                    users to search for weather information for different
+                    locations, providing real-time updates fetched from a
+                    weather API. It includes key features like displaying
+                    temperature, humidity, and wind speed.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/weatheroverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
 
@@ -182,32 +191,34 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/myntraoverview">
                   <Image
-                    src="/ProjectShow/Myntra Clone.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789020983/myntraClone_rgtdw9.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Myntra Clone
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The Myntra Clone project is a simplified replica of the
-                  popular e-commerce platform, built using React.js, HTML, and
-                  CSS. This application features a dynamic product catalog
-                  powered by dummy JSON data.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/myntraoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-sm/6 tracking-wide line-clamp-5 text-black/80">
+                    The Myntra Clone project is a simplified replica of the
+                    popular e-commerce platform, built using React.js, HTML, and
+                    CSS. This application features a dynamic product catalog
+                    powered by dummy JSON data.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/myntraoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
 
@@ -215,33 +226,36 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/bmicalculatoroverview">
                   <Image
-                    src="/ProjectShow/BmiCalculator.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789022123/BMI_Calculator_rfb5qr.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     BMI Calculator
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  BMI Calculator project is a user-friendly React.js application
-                  designed to help users quickly and accurately calculate their
-                  Body Mass Index (BMI).For styling use Tailwind CSS. The
-                  calculator takes inputs like height and weight, processes the
-                  data, and displays the BMI result instantly.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/bmicalculatoroverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-sm/6 tracking-wide line-clamp-5 text-black/80">
+                    BMI Calculator project is a user-friendly React.js
+                    application designed to help users quickly and accurately
+                    calculate their Body Mass Index (BMI).For styling use
+                    Tailwind CSS. The calculator takes inputs like height and
+                    weight, processes the data, and displays the BMI result
+                    instantly.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/bmicalculatoroverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
           </Swiper>
@@ -269,33 +283,35 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mb-2">
                 <Link href="/pages/projectall/overview/travelagencyoverview">
                   <Image
-                    src="/ProjectShow/TravelAgency.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789019542/TravelAgency_zptwgy.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     View World Travel Agency
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The project features smooth animations using GSAP and Swiper
-                  JS for interactive sliders, providing an engaging user
-                  experience. The website incorporates essential tools like
-                  react-hook-form for form handling and react-router-dom for
-                  navigation.{" "}
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href="/pages/projectall/overview/travelagencyoverview"
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    The project features smooth animations using GSAP and Swiper
+                    JS for interactive sliders, providing an engaging user
+                    experience. The website incorporates essential tools like
+                    react-hook-form for form handling and react-router-dom for
+                    navigation.{" "}
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href="/pages/projectall/overview/travelagencyoverview"
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -303,32 +319,35 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/wearcollectionoverview">
                   <Image
-                    src="/ProjectShow/Wear Collections Img.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789020570/wearCollection_s7azxe.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Wear Collections E-com
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  A e-com website developed using React Js,HTML,CSS and
-                  Javascript.Designed with a focus on smooth user experience.
-                  This project highlights my skills in creating interactive,
-                  user-friendly web applications.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/wearcollectionoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    {" "}
+                    A e-com website developed using React Js,HTML,CSS and
+                    Javascript.Designed with a focus on smooth user experience.
+                    This project highlights my skills in creating interactive,
+                    user-friendly web applications.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/wearcollectionoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -340,28 +359,29 @@ const FrontendProjectsShow = () => {
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Animated Portfolio Using Next Js
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  This Next.js-based animated portfolio website is designed to
-                  showcase projects, skills, and experience in a visually
-                  engaging way. Built with GSAP animation, it features smooth
-                  transitions, scroll-based effects, and interactive
-                  elements....
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/portfoliooverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    This Next.js-based animated portfolio website is designed to
+                    showcase projects, skills, and experience in a visually
+                    engaging way. Built with GSAP animation, it features smooth
+                    transitions, scroll-based effects, and interactive elements
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/portfoliooverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
 
@@ -369,34 +389,36 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/weatheroverview">
                   <Image
-                    src="/ProjectShow/WeatherApp.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789010600/weatherapp_xdmgnu.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Weather App Using React Js
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  This is a weather application built using React.js for
-                  functionality and Tailwind CSS for styling. The app allows
-                  users to search for weather information for different
-                  locations, providing real-time updates fetched from a weather
-                  API. It includes key features like displaying temperature,
-                  humidity, and wind speed.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/weatheroverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide text-black/80 line-clamp-5">
+                    This is a weather application built using React.js for
+                    functionality and Tailwind CSS for styling. The app allows
+                    users to search for weather information for different
+                    locations, providing real-time updates fetched from a
+                    weather API. It includes key features like displaying
+                    temperature, humidity, and wind speed.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/weatheroverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
 
@@ -404,32 +426,34 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/myntraoverview">
                   <Image
-                    src="/ProjectShow/Myntra Clone.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789020983/myntraClone_rgtdw9.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Myntra Clone
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The Myntra Clone project is a simplified replica of the
-                  popular e-commerce platform, built using React.js, HTML, and
-                  CSS. This application features a dynamic product catalog
-                  powered by dummy JSON data.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/myntraoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    The Myntra Clone project is a simplified replica of the
+                    popular e-commerce platform, built using React.js, HTML, and
+                    CSS. This application features a dynamic product catalog
+                    powered by dummy JSON data.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/myntraoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
 
@@ -437,33 +461,36 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/bmicalculatoroverview">
                   <Image
-                    src="/ProjectShow/BmiCalculator.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789022123/BMI_Calculator_rfb5qr.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     BMI Calculator
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  BMI Calculator project is a user-friendly React.js application
-                  designed to help users quickly and accurately calculate their
-                  Body Mass Index (BMI).For styling use Tailwind CSS. The
-                  calculator takes inputs like height and weight, processes the
-                  data, and displays the BMI result instantly.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/bmicalculatoroverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    BMI Calculator project is a user-friendly React.js
+                    application designed to help users quickly and accurately
+                    calculate their Body Mass Index (BMI).For styling use
+                    Tailwind CSS. The calculator takes inputs like height and
+                    weight, processes the data, and displays the BMI result
+                    instantly.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/bmicalculatoroverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
           </Swiper>
@@ -491,33 +518,35 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/travelagencyoverview">
                   <Image
-                    src="/ProjectShow/TravelAgency.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789019542/TravelAgency_zptwgy.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     View World Travel Agency
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The project features smooth animations using GSAP and Swiper
-                  JS for interactive sliders, providing an engaging user
-                  experience. The website incorporates essential tools like
-                  react-hook-form for form handling and react-router-dom for
-                  navigation.{" "}
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href="/pages/projectall/overview/travelagencyoverview"
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    The project features smooth animations using GSAP and Swiper
+                    JS for interactive sliders, providing an engaging user
+                    experience. The website incorporates essential tools like
+                    react-hook-form for form handling and react-router-dom for
+                    navigation{" "}
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href="/pages/projectall/overview/travelagencyoverview"
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -525,32 +554,34 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/wearcollectionoverview">
                   <Image
-                    src="/ProjectShow/Wear Collections Img.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789020570/wearCollection_s7azxe.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Wear Collections E-com
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  A e-com website developed using React Js,HTML,CSS and
-                  Javascript.Designed with a focus on smooth user experience.
-                  This project highlights my skills in creating interactive,
-                  user-friendly web applications.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/wearcollectionoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    A e-com website developed using React Js,HTML,CSS and
+                    Javascript.Designed with a focus on smooth user experience.
+                    This project highlights my skills in creating interactive,
+                    user-friendly web applications.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/wearcollectionoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -562,28 +593,29 @@ const FrontendProjectsShow = () => {
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Animated Portfolio Using Next Js
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  This Next.js-based animated portfolio website is designed to
-                  showcase projects, skills, and experience in a visually
-                  engaging way. Built with GSAP animation, it features smooth
-                  transitions, scroll-based effects, and interactive
-                  elements....
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/portfoliooverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    This Next.js-based animated portfolio website is designed to
+                    showcase projects, skills, and experience in a visually
+                    engaging way. Built with GSAP animation, it features smooth
+                    transitions, scroll-based effects, and interactive elements
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/portfoliooverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
 
@@ -591,34 +623,36 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/weatheroverview">
                   <Image
-                    src="/ProjectShow/WeatherApp.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789010600/weatherapp_xdmgnu.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Weather App Using React Js
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  This is a weather application built using React.js for
-                  functionality and Tailwind CSS for styling. The app allows
-                  users to search for weather information for different
-                  locations, providing real-time updates fetched from a weather
-                  API. It includes key features like displaying temperature,
-                  humidity, and wind speed.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/weatheroverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-black text-base/6 tracking-wide text-black/80 line-clamp-5">
+                    This is a weather application built using React.js for
+                    functionality and Tailwind CSS for styling. The app allows
+                    users to search for weather information for different
+                    locations, providing real-time updates fetched from a
+                    weather API. It includes key features like displaying
+                    temperature, humidity, and wind speed.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/weatheroverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
 
@@ -626,32 +660,34 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/myntraoverview">
                   <Image
-                    src="/ProjectShow/Myntra Clone.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789020983/myntraClone_rgtdw9.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Myntra Clone
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The Myntra Clone project is a simplified replica of the
-                  popular e-commerce platform, built using React.js, HTML, and
-                  CSS. This application features a dynamic product catalog
-                  powered by dummy JSON data.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/myntraoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    The Myntra Clone project is a simplified replica of the
+                    popular e-commerce platform, built using React.js, HTML, and
+                    CSS. This application features a dynamic product catalog
+                    powered by dummy JSON data.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/myntraoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
 
@@ -659,33 +695,36 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/bmicalculatoroverview">
                   <Image
-                    src="/ProjectShow/BmiCalculator.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789022123/BMI_Calculator_rfb5qr.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
 
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     BMI Calculator
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  BMI Calculator project is a user-friendly React.js application
-                  designed to help users quickly and accurately calculate their
-                  Body Mass Index (BMI).For styling use Tailwind CSS. The
-                  calculator takes inputs like height and weight, processes the
-                  data, and displays the BMI result instantly.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/bmicalculatoroverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    BMI Calculator project is a user-friendly React.js
+                    application designed to help users quickly and accurately
+                    calculate their Body Mass Index (BMI).For styling use
+                    Tailwind CSS. The calculator takes inputs like height and
+                    weight, processes the data, and displays the BMI result
+                    instantly.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/bmicalculatoroverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
           </Swiper>

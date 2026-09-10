@@ -16,7 +16,10 @@ import Image from "next/image";
 
 const OthersProjectsShow = () => {
   return (
-    <div className="sub-container bg-slate-800 rounded-lg my-5 p-2 2xl:p-5 2xl:my-10 " id="othersprojects">
+    <div
+      className="sub-container bg-slate-800 rounded-lg my-5 p-2 2xl:p-5 2xl:my-10 "
+      id="othersprojects"
+    >
       <div className="fullstack-projects-box">
         <h2 className=" text-xl text-red-500 font-semibold my-2 lg:my-5 lg:text-3xl 2xl:mt-5 2xl:text-3xl 2xl:mb-5 ">
           Others Projects
@@ -43,33 +46,34 @@ const OthersProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/studentfeedbackoverview">
                   <Image
-                    src="/ProjectShow/feedbackimg.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789024250/studentFeedBackSystem_eyvfq2.png"
                     alt="loading...."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Student Feedback System Using Php
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The Student Feedback System is a web-based platform built with
-                  HTML, CSS, JavaScript, and PHP that allows students to submit
-                  feedback on faculty.This system helps improve academic quality
-                  by collecting and analyzing student opinions efficiently...
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={
-                        "/pages/projectall/overview/studentfeedbackoverview"
-                      }
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-sm/6 tracking-wide line-clamp-5 text-black/80">
+                    The Student Feedback System is a web-based platform built
+                    with HTML, CSS, JavaScript, and PHP that allows students to
+                    submit feedback on faculty.This system helps improve
+                    academic quality by collecting and analyzing student
+                    opinions efficiently
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/studentfeedbackoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -77,32 +81,35 @@ const OthersProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/gymmanagementoverview">
                   <Image
-                    src="/ProjectShow/gymmanagement.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789025161/Gym_Management_kcpnky.png"
                     alt="loading...."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Gym Management System Using PHP
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The Gym Management System is a web-based application built
-                  using PHP that helps gym owners and administrators efficiently
-                  manage their gym operations. The system provides
-                  functionalities such as member registration, membership plans,
-                  trainer management..
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/gymmanagementoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-sm/6 tracking-wide line-clamp-5 text-black/80">
+                    {" "}
+                    The Gym Management System is a web-based application built
+                    using PHP that helps gym owners and administrators
+                    efficiently manage their gym operations. The system provides
+                    functionalities such as member registration, membership
+                    plans, trainer management
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/gymmanagementoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -110,32 +117,34 @@ const OthersProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/timetableoverview">
                   <Image
-                    src="/ProjectShow/timetableimg.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789024823/Automatic_Time_Table_Generator_uwepwv.png"
                     alt="loading...."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Automatic Time Table Generator
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The Automatic Timetable Generator is a web-based system built
-                  using PHP, HTML, and CSS that automates the process of
-                  creating timetables for educational institutions. It
-                  efficiently assigns subjects, faculty, and time slots while
-                  ensuring no conflicts in scheduling...
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/timetableoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-sm/6 tracking-wide line-clamp-5 text-black/80">
+                    The Automatic Timetable Generator is a web-based system
+                    built using PHP, HTML, and CSS that automates the process of
+                    creating timetables for educational institutions. It
+                    efficiently assigns subjects, faculty, and time slots while
+                    ensuring no conflicts in scheduling
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/timetableoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
           </Swiper>
@@ -163,33 +172,35 @@ const OthersProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mb-2">
                 <Link href="/pages/projectall/overview/studentfeedbackoverview">
                   <Image
-                    src="/ProjectShow/feedbackimg.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789024250/studentFeedBackSystem_eyvfq2.png"
                     alt="loading...."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Student Feedback System Using Php
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The Student Feedback System is a web-based platform built with
-                  HTML, CSS, JavaScript, and PHP that allows students to submit
-                  feedback on faculty.This system helps improve academic quality
-                  by collecting and analyzing student opinions efficiently...
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={
-                        "/pages/projectall/overview/studentfeedbackoverview"
-                      }
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    {" "}
+                    The Student Feedback System is a web-based platform built
+                    with HTML, CSS, JavaScript, and PHP that allows students to
+                    submit feedback on faculty.This system helps improve
+                    academic quality by collecting and analyzing student
+                    opinions efficiently
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/studentfeedbackoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -197,32 +208,35 @@ const OthersProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/gymmanagementoverview">
                   <Image
-                    src="/ProjectShow/gymmanagement.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789025161/Gym_Management_kcpnky.png"
                     alt="loading...."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Gym Management System Using PHP
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The Gym Management System is a web-based application built
-                  using PHP that helps gym owners and administrators efficiently
-                  manage their gym operations. The system provides
-                  functionalities such as member registration, membership plans,
-                  trainer management..
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/gymmanagementoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    {" "}
+                    The Gym Management System is a web-based application built
+                    using PHP that helps gym owners and administrators
+                    efficiently manage their gym operations. The system provides
+                    functionalities such as member registration, membership
+                    plans, trainer management
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/gymmanagementoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -230,32 +244,35 @@ const OthersProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/timetableoverview">
                   <Image
-                    src="/ProjectShow/timetableimg.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789024823/Automatic_Time_Table_Generator_uwepwv.png"
                     alt="loading...."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Automatic Time Table Generator
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The Automatic Timetable Generator is a web-based system built
-                  using PHP, HTML, and CSS that automates the process of
-                  creating timetables for educational institutions. It
-                  efficiently assigns subjects, faculty, and time slots while
-                  ensuring no conflicts in scheduling...
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/timetableoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    {" "}
+                    The Automatic Timetable Generator is a web-based system
+                    built using PHP, HTML, and CSS that automates the process of
+                    creating timetables for educational institutions. It
+                    efficiently assigns subjects, faculty, and time slots while
+                    ensuring no conflicts in scheduling
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/timetableoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
           </Swiper>
@@ -283,33 +300,35 @@ const OthersProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/studentfeedbackoverview">
                   <Image
-                    src="/ProjectShow/feedbackimg.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789024250/studentFeedBackSystem_eyvfq2.png"
                     alt="loading...."
                     loading="lazy"
+                    priority={false}
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Student Feedback System Using Php
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The Student Feedback System is a web-based platform built with
-                  HTML, CSS, JavaScript, and PHP that allows students to submit
-                  feedback on faculty.This system helps improve academic quality
-                  by collecting and analyzing student opinions efficiently...
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={
-                        "/pages/projectall/overview/studentfeedbackoverview"
-                      }
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    {" "}
+                    The Student Feedback System is a web-based platform built
+                    with HTML, CSS, JavaScript, and PHP that allows students to
+                    submit feedback on faculty.This system helps improve
+                    academic quality by collecting and analyzing student
+                    opinions efficiently
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/studentfeedbackoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -317,32 +336,35 @@ const OthersProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/gymmanagementoverview">
                   <Image
-                    src="/ProjectShow/gymmanagement.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789025161/Gym_Management_kcpnky.png"
                     alt="loading...."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Gym Management System Using PHP
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The Gym Management System is a web-based application built
-                  using PHP that helps gym owners and administrators efficiently
-                  manage their gym operations. The system provides
-                  functionalities such as member registration, membership plans,
-                  trainer management..
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/gymmanagementoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    {" "}
+                    The Gym Management System is a web-based application built
+                    using PHP that helps gym owners and administrators
+                    efficiently manage their gym operations. The system provides
+                    functionalities such as member registration, membership
+                    plans, trainer management
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/gymmanagementoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -350,32 +372,35 @@ const OthersProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/timetableoverview">
                   <Image
-                    src="/ProjectShow/timetableimg.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789024823/Automatic_Time_Table_Generator_uwepwv.png"
                     alt="loading...."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    priority={false}
+                    quality={100}
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Automatic Time Table Generator
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  The Automatic Timetable Generator is a web-based system built
-                  using PHP, HTML, and CSS that automates the process of
-                  creating timetables for educational institutions. It
-                  efficiently assigns subjects, faculty, and time slots while
-                  ensuring no conflicts in scheduling...
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/timetableoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-base/6 tracking-wide line-clamp-5 text-black/80">
+                    {" "}
+                    The Automatic Timetable Generator is a web-based system
+                    built using PHP, HTML, and CSS that automates the process of
+                    creating timetables for educational institutions. It
+                    efficiently assigns subjects, faculty, and time slots while
+                    ensuring no conflicts in scheduling
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/timetableoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
           </Swiper>
