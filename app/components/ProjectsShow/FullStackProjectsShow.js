@@ -16,7 +16,10 @@ import Image from "next/image";
 
 const FullStackProjectsShow = () => {
   return (
-    <div className="sub-container bg-slate-800 rounded-lg p-2 my-5 lg:my-10 lg:p-3 2xl:p-5 2xl:my-10 " id="fullstackprojects">
+    <div
+      className="sub-container bg-slate-800 rounded-lg p-2 my-5 lg:my-10 lg:p-3 2xl:p-5 2xl:my-10 "
+      id="fullstackprojects"
+    >
       <div className="fullstack-projects-box">
         <h2 className="text-red-500 font-semibold my-2 text-xl lg:text-3xl lg:my-5 2xl:mt-5 2xl:text-3xl 2xl:mb-5">
           Full Stack Projects
@@ -44,7 +47,7 @@ const FullStackProjectsShow = () => {
               <div className="crad  bg-slate-200 w-[20rem] p-3 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/cityslingoverview">
                   <Image
-                    src="/ProjectShow/CitySlingImg.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789007849/citySling_cg2xd9.png"
                     alt="loading...."
                     loading="lazy"
                     width={500}
@@ -55,22 +58,22 @@ const FullStackProjectsShow = () => {
                     CitySling Bag E-com Website
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  Full-stack e-commerce application is designed for a city sling
-                  bag store, built using EJS for templating, Node.js for backend
-                  logic, and Tailwind CSS for modern styling. The application
-                  uses MongoDB Atlas data storage and includes authentication
-                  with JWT and password encryption with bcrypt to protect user
-                  data.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/cityslingoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-black text-sm/6 tracking-wide text-black/80 line-clamp-5">
+                    Full-stack e-commerce application is designed for a city
+                    sling bag store, built using EJS for templating, Node.js for
+                    backend logic, and Tailwind CSS for modern styling. The
+                    application uses MongoDB Atlas data storage and includes
+                    authentication with JWT and password encryption with bcrypt
+                    to protect user data.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/cityslingoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
 
@@ -79,7 +82,7 @@ const FullStackProjectsShow = () => {
               <div className="crad  bg-slate-200 w-[20rem] p-3 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/foodplazaoverview">
                   <Image
-                    src="/ProjectShow/FoodPlaza.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789007305/foodPlaza_hxlrtc.png"
                     alt="loading..."
                     loading="lazy"
                     width={500}
@@ -90,20 +93,20 @@ const FullStackProjectsShow = () => {
                     Food Plaza Restaurant Website
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  Food Plaza, showcases a wide variety of meal options,
-                  including breakfast, lunch, and dinner, to provide users with
-                  a complete dining experience. Developed with the MERN stack
-                  (MongoDB, Express, React, Node.js).
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/foodplazaoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-black text-sm/6 tracking-wide text-black/80 line-clamp-5">
+                    Food Plaza, showcases a wide variety of meal options,
+                    including breakfast, lunch, and dinner, to provide users
+                    with a complete dining experience. Developed with the MERN
+                    stack (MongoDB, Express, React, Node.js).
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/foodplazaoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
           </Swiper>
@@ -130,7 +133,7 @@ const FullStackProjectsShow = () => {
               <div className="crad  bg-slate-200 w-[20rem] p-4  rounded-lg h-[35rem] mb-2">
                 <Link href="/pages/projectall/overview/cityslingoverview">
                   <Image
-                    src="/ProjectShow/CitySlingImg.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789007849/citySling_cg2xd9.png"
                     alt="loading...."
                     loading="lazy"
                     width={500}
@@ -141,22 +144,22 @@ const FullStackProjectsShow = () => {
                     CitySling Bag E-com Website
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  Full-stack e-commerce application is designed for a city sling
-                  bag store, built using EJS for templating, Node.js for backend
-                  logic, and Tailwind CSS for modern styling. The application
-                  uses MongoDB Atlas data storage and includes authentication
-                  with JWT and password encryption with bcrypt to protect user
-                  data.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/cityslingoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-black text-base/6 tracking-wide text-black/80 line-clamp-5">
+                    Full-stack e-commerce application is designed for a city
+                    sling bag store, built using EJS for templating, Node.js for
+                    backend logic, and Tailwind CSS for modern styling. The
+                    application uses MongoDB Atlas data storage and includes
+                    authentication with JWT and password encryption with bcrypt
+                    to protect user data.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/cityslingoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
 
@@ -165,7 +168,7 @@ const FullStackProjectsShow = () => {
               <div className="crad  bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] ">
                 <Link href="/pages/projectall/overview/foodplazaoverview">
                   <Image
-                    src="/ProjectShow/FoodPlaza.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789007305/foodPlaza_hxlrtc.png"
                     alt="loading..."
                     loading="lazy"
                     width={500}
@@ -176,20 +179,20 @@ const FullStackProjectsShow = () => {
                     Food Plaza Restaurant Website
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  Food Plaza, showcases a wide variety of meal options,
-                  including breakfast, lunch, and dinner, to provide users with
-                  a complete dining experience. Developed with the MERN stack
-                  (MongoDB, Express, React, Node.js).
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/foodplazaoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-black text-base/6 tracking-wide text-black/80 line-clamp-5">
+                    Food Plaza, showcases a wide variety of meal options,
+                    including breakfast, lunch, and dinner, to provide users
+                    with a complete dining experience. Developed with the MERN
+                    stack (MongoDB, Express, React, Node.js).
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/foodplazaoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
           </Swiper>
@@ -217,7 +220,7 @@ const FullStackProjectsShow = () => {
               <div className="crad  bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/cityslingoverview">
                   <Image
-                    src="/ProjectShow/CitySlingImg.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789007849/citySling_cg2xd9.png"
                     alt="loading...."
                     loading="lazy"
                     width={500}
@@ -228,22 +231,22 @@ const FullStackProjectsShow = () => {
                     CitySling Bag E-com Website
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  Full-stack e-commerce application is designed for a city sling
-                  bag store, built using EJS for templating, Node.js for backend
-                  logic, and Tailwind CSS for modern styling. The application
-                  uses MongoDB Atlas data storage and includes authentication
-                  with JWT and password encryption with bcrypt to protect user
-                  data.
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/cityslingoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-black text-base/6 tracking-wide text-black/80 line-clamp-5">
+                    Full-stack e-commerce application is designed for a city
+                    sling bag store, built using EJS for templating, Node.js for
+                    backend logic, and Tailwind CSS for modern styling. The
+                    application uses MongoDB Atlas data storage and includes
+                    authentication with JWT and password encryption with bcrypt
+                    to protect user data.
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/cityslingoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
 
@@ -252,31 +255,31 @@ const FullStackProjectsShow = () => {
               <div className="crad  bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] ">
                 <Link href="/pages/projectall/overview/foodplazaoverview">
                   <Image
-                    src="/ProjectShow/FoodPlaza.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789007305/foodPlaza_hxlrtc.png"
                     alt="loading..."
                     loading="lazy"
                     width={500}
                     height={500}
-                    className="transition-transform duration-300 ease-in-out hover:scale-110"
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                   />
                   <p className="text-red-500 text-xl mt-2 font-semibold mb-2 mt-3">
                     Food Plaza Restaurant Website
                   </p>
                 </Link>
-                <p className="text-black text-sm">
-                  Food Plaza, showcases a wide variety of meal options,
-                  including breakfast, lunch, and dinner, to provide users with
-                  a complete dining experience. Developed with the MERN stack
-                  (MongoDB, Express, React, Node.js).
-                  <span>
-                    <Link
-                      className="text-blue-700 text-sm"
-                      href={"/pages/projectall/overview/foodplazaoverview"}
-                    >
-                      See more..
-                    </Link>
-                  </span>
-                </p>
+                <div>
+                  <p className="text-black text-base/6 text-black/80 tracking-wide line-clamp-5">
+                    Food Plaza, showcases a wide variety of meal options,
+                    including breakfast, lunch, and dinner, to provide users
+                    with a complete dining experience. Developed with the MERN
+                    stack (MongoDB, Express, React, Node.js).
+                  </p>
+                  <Link
+                    className="text-blue-700 text-sm"
+                    href={"/pages/projectall/overview/foodplazaoverview"}
+                  >
+                    See more
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
           </Swiper>
