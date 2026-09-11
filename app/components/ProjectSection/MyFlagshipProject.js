@@ -33,25 +33,27 @@ const MyFlagshipProject = () => {
             {isMobileMode ? (
               <Image
                 src={
-                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933258/foodPlaza_Flagship_Banner_Mobile_xfj5tx.png"
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1789107871/FoodPlaza_Flagship_Banner_Mobile_m2n6fz.png"
                 }
                 width={300}
                 height={300}
                 quality={100}
                 alt="loading.."
                 loading="lazy"
+                priority={false}
                 className="w-full h-auto  object-contain rounded-md my-10 "
               />
             ) : (
               <Image
                 src={
-                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933259/foodPlaza_Flagship_Banner_Desktop_x3vzoi.png"
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1789107998/FoodPlaza_Flagship_Banner_Desktop_tcxa86.png"
                 }
                 width={1920}
                 height={700}
                 quality={100}
                 alt="loading.."
                 loading="lazy"
+                priority={false}
                 className="w-full h-auto  object-contain rounded-md my-10 "
               />
             )}

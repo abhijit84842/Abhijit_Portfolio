@@ -219,7 +219,7 @@ const MernStackProject = () => {
             <div className="gsap-mern-image-1 w-full h-full">
               <ImageMagnifier
                 src={
-                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933257/citysling_qiwmpo.png"
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1789106838/citysling_qiwmpo_e5dr87.png"
                 }
                 zoom={6}
                 lensSize={150}
@@ -268,7 +268,7 @@ const MernStackProject = () => {
             <div className="gsap-mern-image-2 w-full h-full ">
               <ImageMagnifier
                 src={
-                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933258/foodplaza_wb1c6h.png"
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1789106839/foodplaza_aryhb4.png"
                 }
                 zoom={6}
                 lensSize={150}
@@ -357,7 +357,7 @@ const MernStackProject = () => {
             <div className="gsap-mern-image-1 w-[500px] h-full">
               <ImageMagnifier
                 src={
-                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933257/citysling_qiwmpo.png"
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1789106838/citysling_qiwmpo_e5dr87.png"
                 }
                 zoom={6}
                 lensSize={300}
@@ -375,7 +375,7 @@ const MernStackProject = () => {
             <div className="gsap-mern-image-2 w-[500px] h-full ">
               <ImageMagnifier
                 src={
-                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933258/foodplaza_wb1c6h.png"
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1789106839/foodplaza_aryhb4.png"
                 }
                 zoom={6}
                 lensSize={300}

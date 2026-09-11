@@ -215,7 +215,7 @@ const FrontendProject = () => {
             <div className="gsap-frontend-image-1 w-full h-full">
               <ImageMagnifier
                 src={
-                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933260/travelagency_q5biev.png"
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1789106849/travelagency_yje2ty.png"
                 }
                 zoom={6}
                 lensSize={150}
@@ -262,7 +262,7 @@ const FrontendProject = () => {
             <div className="gsap-frontend-image-2 w-full h-full">
               <ImageMagnifier
                 src={
-                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933259/wearcollection_mnbxlg.png"
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1789106850/wearcollection_cuid7s.png"
                 }
                 zoom={6}
                 lensSize={150}
@@ -349,7 +349,7 @@ const FrontendProject = () => {
             <div className="gsap-frontend-image-1  border border-2 border-white w-[500px] h-full ">
               <ImageMagnifier
                 src={
-                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933260/travelagency_q5biev.png"
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1789106849/travelagency_yje2ty.png"
                 }
                 zoom={6}
                 lensSize={300}
@@ -367,7 +367,7 @@ const FrontendProject = () => {
             <div className="gsap-frontend-image-2 border border-2 border-white w-[500px] h-full">
               <ImageMagnifier
                 src={
-                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933259/wearcollection_mnbxlg.png"
+                  "https://res.cloudinary.com/drdu5lnsq/image/upload/v1789106850/wearcollection_cuid7s.png"
                 }
                 zoom={6}
                 lensSize={250}

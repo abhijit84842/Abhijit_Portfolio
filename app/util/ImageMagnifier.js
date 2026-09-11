@@ -76,6 +76,7 @@ const ImageMagnifier = ({ src, zoom = 5, lensSize = 300 }) => {
         height={500}
         priority={false}
         loading="lazy"
+        quality={100}
         className=" object-contain  pointer-events-none "
       />
       <div

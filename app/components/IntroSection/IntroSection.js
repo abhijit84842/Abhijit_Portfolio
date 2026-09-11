@@ -25,11 +25,11 @@ const IntroSection = () => {
         <div className="right-container  flex justify-center">
           <div className="animation-box-profileimg">
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933218/profilepic_ra5qac.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789105878/profilepic_ixtjbv.png"
               alt="loading.."
-              loading="lazy"
               width={250}
               height={250}
+              priority={true}
             />
           </div>
         </div>
@@ -212,22 +212,22 @@ const IntroSection = () => {
           <div className="right-container  mr-10 mt-14 2xl:hidden">
             <div className="animation-box-profileimg">
               <Image
-                src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933218/profilepic_ra5qac.png"
+                src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789105878/profilepic_ixtjbv.png"
                 alt="loading.."
-                loading="lazy"
                 width={400}
                 height={400}
+                priority={true}
               />
             </div>
           </div>
           <div className=" hidden right-container  mr-20 mt-14 2xl:block">
             <div className="animation-box-profileimg">
               <Image
-                src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1788933218/profilepic_ra5qac.png"
+                src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789105878/profilepic_ixtjbv.png"
                 alt="loading.."
-                loading="lazy"
                 width={550}
                 height={550}
+                priority={true}
               />
             </div>
           </div>
