@@ -47,74 +47,172 @@ const FoodPlaza = () => {
         >
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789111249/FoodPlaza_1_v5r4jl.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789111797/FoodPlaza_2_z2idzu.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789112179/FoodPlaza_3_obdrmm.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789112732/FoodPlaza_4_ddhwoq.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza5.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789112945/FoodPlaza_5_savcdb.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza6.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789113162/FoodPlaza_6_wczbg3.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza7.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789113516/FoodPlaza_7_qvde1g.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza8.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789119152/FoodPlaza_8_z2403a.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza9.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789119311/FoodPlaza_9_zqgw2z.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789119720/FoodPlaza_10_kdlhxu.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789120079/FoodPlaza_11_kuibqc.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789120709/FoodPlaza_12_jj1kws.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789121184/FoodPlaza_13_evuvkj.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789121326/FoodPlaza_14_ctyg4r.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789122288/FoodPlaza_15_yrytdz.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789122942/FoodPlaza_16_m3braf.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789123527/FoodPlaza_17_a5vhfu.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -136,7 +234,7 @@ const FoodPlaza = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789111249/FoodPlaza_1_v5r4jl.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -144,66 +242,154 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789111797/FoodPlaza_2_z2idzu.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789112179/FoodPlaza_3_obdrmm.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789112732/FoodPlaza_4_ddhwoq.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza5.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789112945/FoodPlaza_5_savcdb.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza6.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789113162/FoodPlaza_6_wczbg3.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza7.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789113516/FoodPlaza_7_qvde1g.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza8.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789119152/FoodPlaza_8_z2403a.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/foodplaza/foodplaza9.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789119311/FoodPlaza_9_zqgw2z.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789119720/FoodPlaza_10_kdlhxu.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789120079/FoodPlaza_11_kuibqc.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789120709/FoodPlaza_12_jj1kws.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789121184/FoodPlaza_13_evuvkj.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789121326/FoodPlaza_14_ctyg4r.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789122288/FoodPlaza_15_yrytdz.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789122942/FoodPlaza_16_m3braf.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789123527/FoodPlaza_17_a5vhfu.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
