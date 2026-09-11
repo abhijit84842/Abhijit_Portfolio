@@ -118,7 +118,7 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem] mx-2 mb-2">
                 <Link href="/pages/projectall/overview/portfoliooverview">
                   <Image
-                    src="/ProjectShow/portfolio img.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789105564/Abhijit_Portfolio_vjv16s.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
@@ -354,7 +354,7 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/portfoliooverview">
                   <Image
-                    src="/ProjectShow/portfolio img.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789105564/Abhijit_Portfolio_vjv16s.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
@@ -588,7 +588,7 @@ const FrontendProjectsShow = () => {
               <div className="crad bg-slate-200 w-[20rem] p-4 rounded-lg h-[35rem]">
                 <Link href="/pages/projectall/overview/portfoliooverview">
                   <Image
-                    src="/ProjectShow/portfolio img.png"
+                    src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789105564/Abhijit_Portfolio_vjv16s.png"
                     alt="loading.."
                     loading="lazy"
                     width={500}
