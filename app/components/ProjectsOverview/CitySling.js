@@ -47,130 +47,82 @@ const CitySling = () => {
         >
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789624120/CitySling_1_b7host.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview9.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789624527/CitySling_2_p2wzp6.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview15.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789624698/CitySling_3_y40hgm.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview12.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789624811/CitySling_4_byfwby.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview17.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789625051/CitySling_5_pspez0.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview14.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789625273/CitySling_6_bqsbwn.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview8.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789625274/CitySling_7_wfievs.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview16.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789625490/CitySling_8_tqs4dc.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview10.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview3.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview4.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview5.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview11.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview7.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview18.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview19.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -192,130 +144,82 @@ const CitySling = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789624120/CitySling_1_b7host.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview9.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789624527/CitySling_2_p2wzp6.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview15.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789624698/CitySling_3_y40hgm.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview12.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789624811/CitySling_4_byfwby.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview17.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789625051/CitySling_5_pspez0.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview14.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789625273/CitySling_6_bqsbwn.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview8.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789625274/CitySling_7_wfievs.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview16.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789625490/CitySling_8_tqs4dc.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview10.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview3.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview4.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview5.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview11.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview7.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview18.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/fullstackprojects/citysling/cityslingoverview19.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
