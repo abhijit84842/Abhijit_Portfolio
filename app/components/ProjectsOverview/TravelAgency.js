@@ -51,42 +51,52 @@ const TravelAgency = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/travelagency/viewworld1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789627984/ViewWorld_1_flvwjv.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/travelagency/viewworld2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789627928/ViewWorld_2_mirwt0.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/travelagency/viewworld3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789628165/ViewWorld_3_ba1ech.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/travelagency/viewworld4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789628351/ViewWorld_4_dzyiaz.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/travelagency/viewworld5.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789628507/ViewWorld_5_yl8jxm.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -108,50 +118,62 @@ const TravelAgency = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/travelagency/viewworld6.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629071/ViewWorld_6_Small_s1liti.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/travelagency/viewworld1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629064/ViewWorld_1_Small_ydcxe3.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/travelagency/viewworld2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629065/ViewWorld_2_Small_pmjgq1.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/travelagency/viewworld3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629065/ViewWorld_3_Small_opyxad.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/travelagency/viewworld4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629068/ViewWorld_4_Small_ahmjas.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/travelagency/viewworld5.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629069/ViewWorld_5_Small_uuxkee.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -172,17 +194,17 @@ const TravelAgency = () => {
               GSAP animations and smooth scroll effects powered by
               ScrollTrigger. The gallery section beautifully displays
               high-quality images of different travel destinations, enhanced
-              with hover scaling effects to add interactivity. The &quot;Book Now&quot;
-              section allows users to easily make travel reservations using a
-              well-validated form built with React Hook Form. The &quot;Reviews&quot;
-              section features animated customer testimonials, creating a
-              dynamic and trustworthy feel. The &quot;Contact Us&quot; section ensures
-              easy communication between the users and the agency, while the
-              footer adds a polished finishing touch with essential links and
-              information. This project is an excellent showcase of modern
-              front-end development techniques, blending animation,
-              interactivity, and responsive design to create a seamless travel
-              booking experience.
+              with hover scaling effects to add interactivity. The &quot;Book
+              Now&quot; section allows users to easily make travel reservations
+              using a well-validated form built with React Hook Form. The
+              &quot;Reviews&quot; section features animated customer
+              testimonials, creating a dynamic and trustworthy feel. The
+              &quot;Contact Us&quot; section ensures easy communication between
+              the users and the agency, while the footer adds a polished
+              finishing touch with essential links and information. This project
+              is an excellent showcase of modern front-end development
+              techniques, blending animation, interactivity, and responsive
+              design to create a seamless travel booking experience.
             </p>
           </div>
         </div>
@@ -279,8 +301,8 @@ const TravelAgency = () => {
               navigation and routing.
             </li>
             <li className="ml-10 text-sm">
-              <span className="text-lg">CSS3 -</span> For clean, modern,
-              and responsive styling.
+              <span className="text-lg">CSS3 -</span> For clean, modern, and
+              responsive styling.
             </li>
             <li className="ml-10 text-sm">
               <span className="text-lg">React Hook Form -</span> For form
