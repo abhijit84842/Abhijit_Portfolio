@@ -234,7 +234,7 @@ const FoodPlaza = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789111249/FoodPlaza_1_v5r4jl.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629825/FoodPlaza_1_Small_rkfios.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -242,16 +242,7 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789111797/FoodPlaza_2_z2idzu.png"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-              priority={false}
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789112179/FoodPlaza_3_obdrmm.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629827/FoodPlaza_2_Small_oyp5me.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -260,7 +251,7 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789112732/FoodPlaza_4_ddhwoq.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629829/FoodPlaza_3_Small_blbtp5.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -269,7 +260,7 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789112945/FoodPlaza_5_savcdb.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629832/FoodPlaza_4_Small_iwifu8.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -278,7 +269,7 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789113162/FoodPlaza_6_wczbg3.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629834/FoodPlaza_5_Small_xnklg9.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -287,7 +278,7 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789113516/FoodPlaza_7_qvde1g.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629837/FoodPlaza_6_Small_dveoqh.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -296,7 +287,7 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789119152/FoodPlaza_8_z2403a.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629839/FoodPlaza_7_Small_laqyub.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -305,7 +296,16 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789119311/FoodPlaza_9_zqgw2z.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629802/FoodPlaza_8_Small_h2ahtm.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629804/FoodPlaza_9_Small_d1ssig.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -314,7 +314,7 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789119720/FoodPlaza_10_kdlhxu.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629805/FoodPlaza_10_Small_umssxi.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -324,7 +324,7 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789120079/FoodPlaza_11_kuibqc.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629808/FoodPlaza_11_Small_ah9oqq.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -334,7 +334,7 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789120709/FoodPlaza_12_jj1kws.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629810/FoodPlaza_12_Small_awjx1x.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -344,7 +344,7 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789121184/FoodPlaza_13_evuvkj.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629812/FoodPlaza_13_Small_dznofl.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -354,7 +354,7 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789121326/FoodPlaza_14_ctyg4r.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629815/FoodPlaza_14_Small_sjwqvn.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -364,7 +364,7 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789122288/FoodPlaza_15_yrytdz.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629817/FoodPlaza_15_Small_wba9qv.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -374,7 +374,7 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789122942/FoodPlaza_16_m3braf.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629820/FoodPlaza_16_Small_lzsnoe.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -384,7 +384,7 @@ const FoodPlaza = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789123527/FoodPlaza_17_a5vhfu.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629822/FoodPlaza_17_Small_supfml.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
