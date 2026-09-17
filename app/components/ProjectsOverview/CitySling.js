@@ -144,7 +144,7 @@ const CitySling = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789624120/CitySling_1_b7host.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629480/CitySling_1_Small_buthsj.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -154,7 +154,7 @@ const CitySling = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789624527/CitySling_2_p2wzp6.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629482/CitySling_2_Small_ewhuwc.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -164,7 +164,7 @@ const CitySling = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789624698/CitySling_3_y40hgm.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629484/CitySling_3_Small_oiawq1.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -174,7 +174,7 @@ const CitySling = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789624811/CitySling_4_byfwby.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629486/CitySling_4_Small_uu9ixc.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -184,7 +184,7 @@ const CitySling = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789625051/CitySling_5_pspez0.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629489/CitySling_5_Small_quez5y.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -194,7 +194,7 @@ const CitySling = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789625273/CitySling_6_bqsbwn.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629491/CitySling_6_Small_adpnjv.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -204,7 +204,7 @@ const CitySling = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789625274/CitySling_7_wfievs.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629493/CitySling_7_Small_kx3xkt.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
@@ -214,7 +214,7 @@ const CitySling = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789625490/CitySling_8_tqs4dc.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789629495/CitySling_8_Small_qltrfa.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
