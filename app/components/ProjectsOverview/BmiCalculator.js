@@ -47,34 +47,42 @@ const BmiCalculator = () => {
         >
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/bmicalculator/bmi3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789799278/BMI_1_ca1cli.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/bmicalculator/bmi1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789799281/BMI_2_r0r6bv.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/bmicalculator/bmi2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789799467/BMI_3_bsy3rn.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/bmicalculator/bmi4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789799469/BMI_4_pq47th.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -96,34 +104,42 @@ const BmiCalculator = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/bmicalculator/bmi3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789799500/BMI_1_Small_f7o8l7.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/bmicalculator/bmi1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789799500/BMI_2_Small_jgmgam.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/bmicalculator/bmi2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789799501/BMI_3_Small_j2eell.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/bmicalculator/bmi4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789799501/BMI_4_Small_ighwbd.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
