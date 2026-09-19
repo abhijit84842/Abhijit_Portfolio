@@ -47,90 +47,82 @@ const WearCollection = () => {
         >
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789796909/WearCollection_1_e2vvpe.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789796910/WearCollection_2_pxd3sb.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789797123/WearCollection_3_ecizx2.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789797509/WearCollection_4_hbpcf6.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection5.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789797730/WearCollection_5_kdoubq.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection6.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789797953/WearCollection_6_dkcul6.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection7.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789798735/WearCollection_7_tol4af.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection8.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789798742/WearCollection_8_uy3iby.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection9.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection10.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection11.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -152,90 +144,82 @@ const WearCollection = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789797854/WearCollection_1_Small_bb2ofr.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789797919/WearCollection_2_Small_mhteee.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789797920/WearCollection_3_Small_zw31sn.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789797923/WearCollection_4_Small_qv9vc6.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection5.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789797851/WearCollection_5_Small_nblqjn.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection6.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789797935/WearCollection_6_Small_dgghgx.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection7.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789798785/WearCollection_7_Small_pczulm.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection8.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789798789/WearCollection_8_Small_kx4fwb.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection9.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection10.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/frontendprojects/wearcollectionimg/wearcollection11.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
