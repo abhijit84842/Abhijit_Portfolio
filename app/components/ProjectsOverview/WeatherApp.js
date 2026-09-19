@@ -47,74 +47,62 @@ const WeatherApp = () => {
         >
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789800865/Weather_app_1_uef5x4.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789800934/Weather_app_2_vzp96b.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789801007/Weather_app_3_r7ldvp.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789801194/Weather_app_4_dplfvf.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 5.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789801330/Weather_app_5_pxfnqo.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 6.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789801441/Weather_app_6_zs20su.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/frontendprojects/weatherapp/weather 7.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/frontendprojects/weatherapp/weather 8.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/frontendprojects/weatherapp/weather 9.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -136,74 +124,62 @@ const WeatherApp = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789801479/Weather_app_1_Small_s4iaue.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789801483/Weather_app_2_Small_rcw4ir.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789801579/Weather_app_3_Small_jrwlpf.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789801482/Weather_app_4_Small_ud9m8t.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 5.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789801484/Weather_app_5_Small_dx660n.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/weatherapp/weather 6.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789801479/Weather_app_6_Small_u6szrf.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/frontendprojects/weatherapp/weather 7.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/frontendprojects/weatherapp/weather 8.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/frontendprojects/weatherapp/weather 9.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
