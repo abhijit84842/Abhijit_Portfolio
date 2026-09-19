@@ -47,26 +47,22 @@ const MyntraClone = () => {
         >
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/myntra/myntra1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789802440/Myntra_1_dolt9q.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/myntra/myntra2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789802567/Myntra_2_lqqxho.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/frontendprojects/myntra/myntra3.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -88,26 +84,22 @@ const MyntraClone = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/myntra/myntra1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789802610/Myntra_1_Small_orwr8v.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/myntra/myntra2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1789802605/Myntra_2_Small_fjf0ov.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/frontendprojects/myntra/myntra3.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
