@@ -47,106 +47,122 @@ const StudentFeedback = () => {
         >
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790143918/feedback_1_ikj5gz.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790143918/feedback_2_thz9fw.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790144097/feedback_3_kkpmpa.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790144180/feedback_4_fbamve.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback5.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790144276/feedback_5_yranfc.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback6.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790144362/feedback_6_cl64nr.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790144456/feedback_7_k9lo9e.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback8.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790144691/feedback_8_h7f8cp.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback9.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790144812/feedback_9_pn9hta.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback10.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146336/feedback_10_wa2pch.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback11.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146418/feedback_11_lhmndp.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback12.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146500/feedback_12_hwszxu.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/othersprojects/studentfeedback/feedback13.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -168,106 +184,122 @@ const StudentFeedback = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146557/feedback_1_Small_czbeka.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146558/feedback_2_Small_noermj.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146560/feedback_3_Small_udfyto.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146562/feedback_4_Small_s2adue.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback5.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146564/feedback_5_Small_tb7knl.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback6.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146564/feedback_6_Small_h75nqr.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146565/feedback_7_Small_ibnvsj.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback8.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146567/feedback_8_Small_xseqhg.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback9.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146568/feedback_9_Small_q1gsvl.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback10.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146570/feedback_10_Small_bipfek.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback11.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146571/feedback_11_Small_vsrnzf.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/studentfeedback/feedback12.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790146572/feedback_12_Small_gljvke.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/othersprojects/studentfeedback/feedback13.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -410,8 +442,11 @@ const StudentFeedback = () => {
           <h2 className="font-semibold text-red-500 my-2 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
             Download PPT :-
           </h2>
-          <Link className="ml-10 text-lime-400" href="/Overview/othersprojects/studentfeedback/studentppt/Student_Feedback_System.pptx">
-           Click here to download ppt..
+          <Link
+            className="ml-10 text-lime-400"
+            href="/Overview/othersprojects/studentfeedback/studentppt/Student_Feedback_System.pptx"
+          >
+            Click here to download ppt..
           </Link>
         </div>
       </div>
