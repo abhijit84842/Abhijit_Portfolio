@@ -37,115 +37,112 @@ const GymManagement = () => {
           spaceBetween={10}
           navigation={true}
           thumbs={{ swiper: thumbsSwiper }}
-            autoplay={{
-              delay: 3000,
-              disableOnInteraction: false,
-            }}
-            loop={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          loop={true}
           modules={[FreeMode, Navigation, Thumbs, Autoplay]}
           className={styles.mySwiper2}
         >
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790148159/gym_1_zcf5hx.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790148160/gym_2_toeqh0.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790148170/gym_3_txgvng.png"
+              alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790148242/gym_4_iqsitf.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym5.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170122/gym_5_kupzgj.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym6.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170122/gym_6_hozzmg.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym7.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170473/gym_7_hln506.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym8.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170123/gym_8_wtly7p.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym9.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170126/gym_9_nkmhta.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym10.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170128/gym_10_smzymu.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/othersprojects/gymmanagement/gym11.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/othersprojects/gymmanagement/gym12.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/Overview/othersprojects/gymmanagement/gym13.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -167,106 +164,102 @@ const GymManagement = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170188/gym_1_Small_bsihd4.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170189/gym_2_Small_hh72n0.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170192/gym_3_Small_aq3owr.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170193/gym_4_Small_l8mngx.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym5.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170195/gym_5_Small_uu9iml.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym6.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170196/gym_6_Small_evnvtd.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym7.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170198/gym_7_Small_xss8zg.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym8.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170199/gym_8_Small_bq1wl1.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym9.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170201/gym_9_Small_khfgzd.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/gymmanagement/gym10.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790170202/gym_10_Small_ta7gko.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/othersprojects/gymmanagement/gym11.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/othersprojects/gymmanagement/gym12.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slides}>
-            <Image
-              src="/Overview/othersprojects/gymmanagement/gym13.PNG"
-              alt="loading.."
-              loading="lazy"
-              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -284,31 +277,30 @@ const GymManagement = () => {
               efficient way for administrators to handle gym-related operations.{" "}
               <b>The MySQL database</b> is used for securely storing all
               records, ensuring smooth data management.
-              <p>
-                The system includes an <b>admin dashboard</b> where only
-                authenticated administrators can log in using a secure{" "}
-                <b>user ID and password.</b>
-                Admins have full control over the management of{" "}
-                <b>trainers, gym workers, and students</b>—they can{" "}
-                <b>add, update, and delete</b> records as needed. The system
-                uses <b>SweetAlert</b> to display user-friendly confirmation
-                messages when adding, updating, or deleting records, enhancing
-                the overall experience.
-              </p>
-              <p>
-                The <b>landing page</b> is visually engaging, featuring a{" "}
-                <b>Bootstrap Carousel Slider</b> to showcase images of the gym
-                and services. Additionally, the landing page includes a{" "}
-                <b>blog section</b> and a packages section to display
-                gym-related articles and available membership plans. The project
-                runs on a local <b>XAMPP server,</b> making it easy to test and
-                deploy.
-              </p>
-              <p>
-                This <b>Gym Management System</b> simplifies gym administration,
-                ensuring efficient record-keeping, data security, and an
-                intuitive interface for managing gym-related activities.
-              </p>
+            </p>
+            <p>
+              The system includes an <b>admin dashboard</b> where only
+              authenticated administrators can log in using a secure{" "}
+              <b>user ID and password.</b>
+              Admins have full control over the management of{" "}
+              <b>trainers, gym workers, and students</b>—they can{" "}
+              <b>add, update, and delete</b> records as needed. The system uses{" "}
+              <b>SweetAlert</b> to display user-friendly confirmation messages
+              when adding, updating, or deleting records, enhancing the overall
+              experience.
+            </p>
+            <p>
+              The <b>landing page</b> is visually engaging, featuring a{" "}
+              <b>Bootstrap Carousel Slider</b> to showcase images of the gym and
+              services. Additionally, the landing page includes a{" "}
+              <b>blog section</b> and a packages section to display gym-related
+              articles and available membership plans. The project runs on a
+              local <b>XAMPP server,</b> making it easy to test and deploy.
+            </p>
+            <p>
+              This <b>Gym Management System</b> simplifies gym administration,
+              ensuring efficient record-keeping, data security, and an intuitive
+              interface for managing gym-related activities.
             </p>
           </div>
         </div>
