@@ -47,90 +47,122 @@ const AutomaticTimeTable = () => {
         >
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/timetable/timetable1.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790171511/timetable_1_ybb9mh.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/timetable/timetable2.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790171512/timetable_2_gbhipu.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/timetable/timetable3.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790171727/timetable_3_dpga8z.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/timetable/timetable4.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790172668/timetable_4_tgjyhb.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/timetable/timetable5.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790172667/timetable_5_qvekrv.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/timetable/timetable6.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173150/timetable_6_rxzvwa.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/timetable/timetable8.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173162/timetable_7_t5o3ic.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/timetable/timetable9.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173165/timetable_8_b23qvq.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/timetable/timetable10.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173392/timetable_9_gu0hlg.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/timetable/timetable11.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173402/timetable_10_utaw4t.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/othersprojects/timetable/timetable12.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173553/timetable_11_ghezhp.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173659/timetable_12_x4qfy3.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -152,90 +184,122 @@ const AutomaticTimeTable = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/timetable/timetable1.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790172464/timetable_1_Small_jqvubn.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/timetable/timetable2.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790172465/timetable_2_Small_zoci3s.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/timetable/timetable3.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790172465/timetable_3_Small_lclugt.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/timetable/timetable4.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173801/timetable_4_Small_q1nhb7.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/timetable/timetable5.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173802/timetable_5_Small_egeajh.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/timetable/timetable6.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173805/timetable_6_Small_val76d.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/timetable/timetable8.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173807/timetable_7_Small_ammuss.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/timetable/timetable9.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173810/timetable_8_Small_fkzhuy.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/timetable/timetable10.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173812/timetable_9_Small_ysn4zv.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/timetable/timetable11.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173815/timetable_10_Small_u7yymn.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/othersprojects/timetable/timetable12.png"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173818/timetable_11_Small_cqiicq.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790173820/timetable_12_Small_vrfwfu.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
