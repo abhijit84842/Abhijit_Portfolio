@@ -47,58 +47,112 @@ const Portfolio = () => {
         >
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/portfolioimg/portfolio1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254639/portfolio_1_p9nibq.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/portfolioimg/portfolio2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254648/portfolio_2_uibohn.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/portfolioimg/portfolio3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254640/portfolio_3_p85gf6.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/portfolioimg/portfolio4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254644/portfolio_4_wzc3bo.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/portfolioimg/portfolio5.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254640/portfolio_5_ljjq9t.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/portfolioimg/portfolio6.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254642/portfolio_6_ojievh.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/Overview/frontendprojects/portfolioimg/portfolio7.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254645/portfolio_7_dybsw7.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254642/portfolio_8_b5ao9i.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254642/portfolio_9_r82ohm.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254642/portfolio_10_sauij3.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254644/portfolio_11_rzobng.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -120,58 +174,112 @@ const Portfolio = () => {
         >
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/portfolioimg/portfolio1.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254681/portfolio_1_Small_tnhmal.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/portfolioimg/portfolio2.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254682/portfolio_2_Small_lu9gbv.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/portfolioimg/portfolio3.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254682/portfolio_3_Small_bt9nef.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/portfolioimg/portfolio4.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254683/portfolio_4_Small_j7akr0.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/portfolioimg/portfolio5.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254683/portfolio_5_Small_xepgvx.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/portfolioimg/portfolio6.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254683/portfolio_6_Small_alpdxe.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
           <SwiperSlide className={styles.slides}>
             <Image
-              src="/Overview/frontendprojects/portfolioimg/portfolio7.PNG"
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254686/portfolio_7_Small_d5kxej.png"
               alt="loading.."
               loading="lazy"
               layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254686/portfolio_8_Small_zwlmbq.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254681/portfolio_9_Small_gyl5wu.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254681/portfolio_10_Small_db4vkj.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slides}>
+            <Image
+              src="https://res.cloudinary.com/drdu5lnsq/image/upload/v1790254681/portfolio_11_Small_ovutx8.png"
+              alt="loading.."
+              loading="lazy"
+              layout="fill"
+              quality={100}
+              priority={false}
             />
           </SwiperSlide>
         </Swiper>
@@ -275,11 +383,10 @@ const Portfolio = () => {
             </li>
           </ul>
           <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">
-              9. SEO-Friendly 
-            </h3>
+            <h3 className="text-lg font-semibold mb-2">9. SEO-Friendly</h3>
             <li className="ml-10">
-            Optimized for search engines to enhance discoverability and ranking.
+              Optimized for search engines to enhance discoverability and
+              ranking.
             </li>
           </ul>
           <ul className="list-disc mt-2 ml-5 2xl:ml-10">
@@ -300,30 +407,36 @@ const Portfolio = () => {
           <ul className="list-disc mt-2 ml-5 2xl:ml-10">
             <h3 className="text-lg font-semibold mb-2">Frontend:</h3>
             <li className="ml-10 text-sm">
-              <span className="text-xl">Next.js - </span> High-performance React framework with SSR and
-              optimization.
+              <span className="text-xl">Next.js - </span> High-performance React
+              framework with SSR and optimization.
             </li>
             <li className="ml-10 text-sm">
-            <span className="text-lg">Swiper JS - </span>Creates interactive carousels and sliders for project
-              showcases.
+              <span className="text-lg">Swiper JS - </span>Creates interactive
+              carousels and sliders for project showcases.
             </li>
             <li className="ml-10 text-sm">
-            <span className="text-lg">Tailwind CSS - </span>Ensures a clean, modern, and responsive design.
+              <span className="text-lg">Tailwind CSS - </span>Ensures a clean,
+              modern, and responsive design.
             </li>
             <li className="ml-10 text-sm">
-            <span className="text-lg">React Hook Form - </span>Handles form validation efficiently.
+              <span className="text-lg">React Hook Form - </span>Handles form
+              validation efficiently.
             </li>
             <li className="ml-10 text-sm">
-            <span className="text-lg">React Player - </span>Embeds and plays videos within the portfolio.
+              <span className="text-lg">React Player - </span>Embeds and plays
+              videos within the portfolio.
             </li>
             <li className="ml-10 text-sm">
-            <span className="text-lg">React Icons - </span>Adds intuitive and visually appealing icons.
+              <span className="text-lg">React Icons - </span>Adds intuitive and
+              visually appealing icons.
             </li>
             <li className="ml-10 text-sm">
-            <span className="text-lg">React DOM - </span>Enhances routing and UI interactions.
+              <span className="text-lg">React DOM - </span>Enhances routing and
+              UI interactions.
             </li>
             <li className="ml-10 text-sm">
-            <span className="text-lg">Vercel Deployment - </span>Ensures fast performance and easy hosting.
+              <span className="text-lg">Vercel Deployment - </span>Ensures fast
+              performance and easy hosting.
             </li>
           </ul>
         </div>
