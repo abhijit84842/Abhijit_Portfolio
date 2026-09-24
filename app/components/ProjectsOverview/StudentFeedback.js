@@ -444,7 +444,7 @@ const StudentFeedback = () => {
           </h2>
           <Link
             className="ml-10 text-lime-400"
-            href="/Overview/othersprojects/studentfeedback/studentppt/Student_Feedback_System.pptx"
+            href="https://res.cloudinary.com/drdu5lnsq/raw/upload/v1790229182/Student_Feedback_System_vivdfp.pptx"
           >
             Click here to download ppt..
           </Link>

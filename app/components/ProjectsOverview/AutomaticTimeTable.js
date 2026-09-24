@@ -437,7 +437,7 @@ const AutomaticTimeTable = () => {
           </h2>
           <Link
             className="ml-10 text-lime-400"
-            href="/Overview/othersprojects/timetable/ppt/timetable.pptx"
+            href="https://res.cloudinary.com/drdu5lnsq/raw/upload/v1790231679/Automated_Timetable_Generator_hewskg.pptx"
           >
             Click here to download ppt..
           </Link>
