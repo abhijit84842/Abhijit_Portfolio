@@ -393,206 +393,466 @@ const FoodPlaza = () => {
             />
           </SwiperSlide>
         </Swiper>
-
-        <div className="project-description mt-5 2xl:mt-10">
-          <h2 className="font-semibold text-red-500 text-xl my-5 ml-2 2xl:text-2xl 2xl:py-2 2xl:pl-5">
-            Project Description :-
-          </h2>
-          <div className="description ml-2 2xl:px-10">
-            <p>
-              Food Plaza is a dynamic and user-friendly restaurant website
-              designed to provide a seamless online food browsing experience.
-              The website allows users to explore a variety of meals, including
-              breakfast, lunch, and dinner, with detailed descriptions and
-              affordable pricing. Built using the MERN stack (MongoDB, Express,
-              React, Node.js), this full-stack project follows the MVC
-              architecture for structured and scalable development. The website
-              features a secure authentication system where only the admin has
-              access to manage food items and update restaurant information.
-              Admin authentication is managed through JWT tokens, ensuring
-              secure login and session handling. Passwords are securely stored
-              using bcrypt encryption to enhance security. For handling images,
-              the website leverages Multer to encode and upload food images.
-              Additionally, messages are implemented to provide real-time alert
-              notifications for user actions like authentication and data
-              modifications. The backend is powered by Node.js and Express.js,
-              with MongoDB Atlas as the database solution for efficient data
-              management.The development process is streamlined with Nodemon,
-              which enables automatic server restarts during code changes.
+        <div className="project-documentaion my-5">
+          <div className="project-description">
+            <h2 className="text-2xl font-semibold text-red-500">
+              What is FoodPlaza ?
+            </h2>
+            <p className="tracking-wide my-2 ml-5 text-lg">
+              **FoodPlaza** is a full-stack restaurant-owned food delivery
+              platform built with **Next.js, Node.js, Express, and MongoDB**. It
+              connects Customers, Admins, and Delivery Boys through dedicated
+              role-based workflows. Customers can browse food, manage carts,
+              place orders using **Razorpay or Cash on Delivery**, track
+              deliveries in real time, and submit reviews. The platform features
+              **Socket.IO real-time updates, live location tracking, 5 km
+              delivery assignment, OTP-based delivery verification, Google
+              authentication, Cloudinary image management, and delivery earnings
+              analytics**. The Admin Panel provides complete restaurant and
+              order management, while the Delivery Boy Panel handles
+              assignments, completed orders, and earnings.
             </p>
           </div>
-        </div>
-        <div className="project-features">
-          <h2 className="font-semibold text-red-500 my-5 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
-            Key Features :-
-          </h2>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">
-              1. View Food Categories
-            </h3>
-            <li className="ml-10">
-              Users can browse through different food categories like breakfast,
-              lunch, and dinner.
-            </li>
-          </ul>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">
-              2. Affordable Pricing
-            </h3>
-            <li className="ml-10">
-              Displays food items with budget-friendly prices
-            </li>
-          </ul>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">
-              3. Admin Authentication
-            </h3>
-            <li className="ml-10">
-              Only admin users can log in and manage the restaurant&apos;s menu.
-            </li>
-            <li className="ml-10">Admin can add food update and delete.</li>
-            <li className="ml-10">Track orders and update order statuses.</li>
-            <li className="ml-10">
-              Monitor website performance and customer activity.
-            </li>
-          </ul>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">
-              4. Image Handling & Storage
-            </h3>
-            <li className="ml-10">
-              Multer for image encoding and secure storage.
-            </li>
-            <li className="ml-10">
-              Efficiently handles large image uploads without performance
-              issues.
-            </li>
-          </ul>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">
-              5. Development & Deployment
-            </h3>
-            <li className="ml-10">
-              Nodemon for development (auto-reloading for better efficiency).
-            </li>
-          </ul>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">
-              6. Password Encryption
-            </h3>
-            <li className="ml-10">
-              User passwords are securely hashed using bcrypt.
-            </li>
-          </ul>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">
-              7. Secure JWT Authentication
-            </h3>
-            <li className="ml-10">
-              Ensures safe and protected access to admin functionalities.
-            </li>
-          </ul>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">
-              8. Email Verification
-            </h3>
-            <li className="ml-10">
-              Ensures that only verified admin can log in and perform actions.
-            </li>
-          </ul>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">9. MVC Architecture</h3>
-            <li className="ml-10">
-              Organizes the project into models, views, and controllers for
-              better code management.
-            </li>
-          </ul>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">
-              9. Middleware Implementation
-            </h3>
-            <li className="ml-10">
-              Enhances security, logging, error handling, and request validation
-              for better backend management.
-            </li>
-          </ul>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">
-              11. MongoDB Atlas Database
-            </h3>
-            <li className="ml-10">
-              Stores all food items, admin credentials, and restaurant details
-              efficiently.
-            </li>
-          </ul>
-        </div>
+          <div className="technology-stack">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Technology Stack :-
+            </h2>
+            <div className="my-2 ml-5 flex flex-col gap-5">
+              <div className="frontend-technology">
+                <h2 className="text-xl font-semibold text-blue-400">
+                  Frontend :-
+                </h2>
+                <ul className="ml-2 my-2 text-lg flex flex-col gap-2">
+                  <li>
+                    <span className="font-semibold">• Next.js - </span>
+                    <span className="font-normal">
+                      Used as the main frontend framework to build the FoodPlaza
+                      web application and its pages.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• React - </span>
+                    <span className="font-normal">
+                      Used to build reusable and interactive UI components for
+                      Customer, Admin, and Delivery Boy panels.
+                    </span>
+                  </li>
 
-        <div className="technology">
-          <h2 className="font-semibold text-red-500 my-5 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
-            Technology Use :-
-          </h2>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">Frontend:</h3>
-            <li className="ml-10">
-              React.js - For building a dynamic and interactive user interface.
-            </li>
-            <li className="ml-10">CSS3 - For styling best design.</li>
-          </ul>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">Backend:</h3>
-            <li className="ml-10">
-              Node.js - For building the backend logic and APIs.
-            </li>
-            <li className="ml-10">
-              Express.js - For handling server-side routes and requests.
-            </li>
-          </ul>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">Database & Storage:</h3>
-            <li className="ml-10">
-              MongoDB Atlas - For storing user data, products, and orders.
-            </li>
-            <li className="ml-10">
-              Mongoose - For efficient data handling and schema validation.
-            </li>
-          </ul>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">
-              Authentication & Security:
-            </h3>
-            <li className="ml-10">
-              JWT (JSON Web Token) - For secure authentication.
-            </li>
-            <li className="ml-10">
-              Bcrypt - For hashing and encrypting passwords.
-            </li>
-            <li className="ml-10">
-              Multer - For secure image upload and encoding.
-            </li>
-          </ul>
-          <ul className="list-disc mt-2 ml-5 2xl:ml-10">
-            <h3 className="text-lg font-semibold mb-2">
-              Development & Monitoring:
-            </h3>
-            <li className="ml-10">
-              Nodemon - For auto-reloading during development.
-            </li>
-            <li className="ml-10">
-              MVC Architecture - Ensuring a structured, maintainable, and
-              scalable codebase.
-            </li>
-          </ul>
-        </div>
-        <div className="github-link">
-          <h2 className="font-semibold text-red-500 my-2 text-xl 2xl:text-2xl  2xl:py-2 2xl:pl-5">
-            GitHub Link :-
-          </h2>
-          <Link
-            className="ml-10 text-blue-500"
-            href="https://github.com/abhijit84842/Web_Development_Projects_2024/tree/master/Frontend%20Project(React%20Js)/Food_Plaza_app_Using%20React"
-          >
-            See Project on gitHub
-          </Link>
+                  <li>
+                    <span className="font-semibold">• Redux Toolkit - </span>
+                    <span className="font-normal">
+                      Used for centralized management of application and
+                      cart-related state.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• Redux Persist - </span>
+                    <span className="font-normal">
+                      Used to persist Redux state across page reloads and
+                      navigation.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• React Hook Form - </span>
+                    <span className="font-normal">
+                      React Hook Form - Used for form handling and validation
+                      across authentication and other forms.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• Socket.IO Client - </span>
+                    <span className="font-normal">
+                      Used on the frontend to receive and send real-time order,
+                      delivery, and shop-status events.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• React Toastify - </span>
+                    <span className="font-normal">
+                      Used to display user-friendly toast notifications and
+                      alerts.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">
+                      • Custom Image Magnifier -{" "}
+                    </span>
+                    <span className="font-normal">
+                      Used to provide a zoomed view of food images, including
+                      mobile lens-size control.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="backend-technology ">
+                <h2 className="text-xl font-semibold text-blue-400">
+                  Backend :-
+                </h2>
+                <ul className="my-2 ml-2 text-lg flex flex-col gap-2">
+                  <li>
+                    <span className="font-semibold">• Node.js - </span>
+                    <span className="font-normal">
+                      Used as the backend runtime environment for FoodPlaza
+                      server-side operations.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• Express.js - </span>
+                    <span className="font-normal">
+                      Used to build backend APIs and handle application requests
+                      and routes.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">
+                      • JWT (JSON Web Token) -{" "}
+                    </span>
+                    <span className="font-normal">
+                      Used as part of the authentication system for securing
+                      authenticated user sessions.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• bcrypt - </span>
+                    <span className="font-normal">
+                      Used to securely encrypt/hash passwords and verify login
+                      credentials.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• Mongoose - </span>
+                    <span className="font-normal">
+                      Used for MongoDB data modeling and database operations.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• Multer - </span>
+                    <span className="font-normal">
+                      Used for handling image/file uploads on the backend.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• Nodemailer - </span>
+                    <span className="font-normal">
+                      Used to send OTP emails, including the delivery
+                      verification OTP.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• Socket.IO - </span>
+                    <span className="font-normal">
+                      Used to provide real-time communication between Customers,
+                      Admins, and Delivery Boys.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• cookie-parser - </span>
+                    <span className="font-normal">
+                      Used for handling authentication-related cookies.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• CORS - </span>
+                    <span className="font-normal">
+                      Used to manage cross-origin requests between the frontend
+                      and backend.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• nanoid - </span>
+                    <span className="font-normal">
+                      Used to generate random IDs for food orders.
+                    </span>
+                  </li>
+
+                  <li>
+                    <span className="font-semibold">• dotenv - </span>
+                    <span className="font-normal">
+                      Used to manage environment variables and sensitive
+                      configuration values.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• Nodemon - </span>
+                    <span className="font-normal">
+                      Used during development to automatically restart the
+                      backend server when code changes.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div className="database">
+                <h2 className="text-xl font-semibold text-blue-400">
+                  Database :-
+                </h2>
+                <ul className="ml-2 my-2 text-lg flex flex-col gap-2">
+                  <li>
+                    <span className="font-semibold">• MongoDB Atlas - </span>
+                    <span className="text-normal">
+                      Used as the cloud database for storing users, foods,
+                      orders, delivery information, and other application data.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div className="stylling">
+                <h2 className="text-xl font-semibold text-blue-400">
+                  Styling :-
+                </h2>
+                <ul className="ml-2 my-2 text-lg flex flex-col gap-2">
+                  <li>
+                    <span className="font-semibold">• Tailwind CSS - </span>
+                    <span className="font-normal">
+                      Used for responsive styling and designing the
+                      application's mobile, desktop, and large-screen
+                      interfaces.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• GSAP - </span>
+                    <span className="font-normal">
+                      Used to create interactive UI animations.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• Swiper.js - </span>
+                    <span className="font-normal">
+                      Used to create carousel and slider-based UI sections.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• Swiper.js - </span>
+                    <span className="font-normal">
+                      Used to create carousel and slider-based UI sections.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div className="External Service">
+                <h2 className="text-xl font-semibold text-blue-400">
+                  External Services :-
+                </h2>
+                <ul className="my-2 ml-2 text-lg flex flex-col gap-2">
+                  <li>
+                    <span className="font-semibold">
+                      • Firebase Authentication -{" "}
+                    </span>
+                    <span className="font-normal">
+                      Used to implement Google authentication for supported
+                      users.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• Cloudinary - </span>
+                    <span className="font-normal">
+                      Used to store food and profile images in cloud storage and
+                      use their URLs in the application.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• Razorpay - </span>
+                    <span className="font-normal">
+                      Used to provide online payment functionality for customer
+                      orders.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• Geoapify - </span>
+                    <span className="font-normal">
+                      Used for obtaining location-related information such as
+                      latitude, longitude, name, state, and pincode.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• Chart.js - </span>
+                    <span className="font-normal">
+                      Used to visualize Delivery Boy daily, weekly, and monthly
+                      earnings.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div className="Maps and Location">
+                <h2 className="text-xl font-semibold text-blue-400">
+                  Maps & Location :-
+                </h2>
+                <ul className="my-2 ml-2 text-lg flex flex-col gap-2">
+                  <li>
+                    <span className="font-semibold">• Leaflet - </span>
+                    <span className="font-normal">
+                      Used to display interactive maps for location and delivery
+                      tracking.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">• React-Leaflet - </span>
+                    <span className="font-normal">
+                      Used to integrate Leaflet maps into the React/Next.js
+                      application.
+                    </span>
+                  </li>
+                  <li>
+                    <span className="font-semibold">
+                      • Browser Geolocation API -{" "}
+                    </span>
+                    <span className="font-normal">
+                      Used with watchPosition() to continuously track the
+                      current location of Users and Delivery Boys.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="Three Powerfull User Roles">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Three Powerful User Roles :-{" "}
+            </h2>
+            <div className="ml-5 my-2 flex flex-col gap-5">
+              <div className="customer">
+                <h2 className="text-xl font-semibold text-blue-400">
+                  Customer
+                </h2>
+                <div className="ml-5">
+                  <h3 className="my-2  text-lg font-semibold text-white/80">
+                    Customers Can :
+                  </h3>
+                  <ul className="list-disc ml-5 text-lg  flex flex-col gap-2 ">
+                    <li>Create an account / Login</li>
+                    <li>Login with Google</li>
+                    <li>Browse restaurant foods</li>
+                    <li>View individual food details</li>
+                    <li>Zoom food images</li>
+                    <li>Add/remove cart items</li>
+                    <li>Wishlited the food items</li>
+                    <li>Change quantities</li>
+                    <li>Save multiple addresses</li>
+                    <li>Select an address from the map</li>
+                    <li>Place orders</li>
+                    <li>Pay using Razorpay</li>
+                    <li>Use Cash on Delivery</li>
+                    <li>View order history</li>
+                    <li>Search orders by food name</li>
+                    <li>Request order cancellation</li>
+                    <li>Track Delivery Boy in real time</li>
+                    <li>Rate food</li>
+                    <li>Submit feedback</li>
+                    <li>User can manage their profile details</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="customer">
+                <h2 className="text-xl font-semibold text-blue-400">
+                  Restaurant Admin
+                </h2>
+                <div className="ml-5">
+                  <h3 className="my-2  text-lg font-semibold text-white/80">
+                    Admin Can :
+                  </h3>
+                  <ul className="list-disc ml-5 text-lg  flex flex-col gap-2 ">
+                    <li>Control restaurant open/closed status</li>
+                    <li>Manage profile</li>
+                    <li>Add food</li>
+                    <li>Edit food</li>
+                    <li>Delete food</li>
+                    <li>Manage orders</li>
+                    <li>Update order status</li>
+                    <li>Approve/reject cancellation requests</li>
+                    <li>View complete order history</li>
+                    <li>Search orders by Order ID/customer name</li>
+                    <li>Place orders</li>
+                    <li>Pay using Razorpay</li>
+                    <li>Use Cash on Delivery</li>
+                    <li>View order history</li>
+                    <li>Search orders by food name</li>
+                    <li>Receive real-time new-order notifications</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="customer">
+                <h2 className="text-xl font-semibold text-blue-400">
+                  Delivery Boy
+                </h2>
+                <div className="ml-5">
+                  <h3 className="my-2  text-lg font-semibold text-white/80">
+                    Delivery Boys Can :
+                  </h3>
+                  <ul className="list-disc ml-5 text-lg  flex flex-col gap-2 ">
+                    <li>View available orders</li>
+                    <li>Accept/decline orders</li>
+                    <li>View completed orders</li>
+                    <li>Track earnings</li>
+                    <li>View Total earnings</li>
+                    <li>View daily earnings</li>
+                    <li>View weekly earnings</li>
+                    <li>View monthly earnings</li>
+                    <li>Update profile details</li>
+                    <li>View complete order history</li>
+                    <li>Receive new delivery assignments in real time</li>
+                    <li>
+                      Can track real time delivery route on map current location
+                      to delivery location
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="Complete Order Journey">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Complete Order Journey
+            </h2>
+            <div className="ml-5">
+              <p className="tracking-wide text-lg my-2">
+                The complete FoodPlaza order workflow integrates cart
+                management, payment processing, real-time Socket.IO
+                communication, location-based delivery assignment, live map
+                tracking, and OTP-based delivery verification. Each role
+                receives real-time updates throughout the order lifecycle.
+              </p>
+              <div className="flex justify-center">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/drdu5lnsq/image/upload/v1790606002/Complete_Order_Journey_h5w8ke.png"
+                  }
+                  alt="loading.."
+                  quality={100}
+                  width={1152}
+                  height={768}
+                  priority={false}
+                  className=" rounded-md shadow-2xl my-5"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="Real-Time Architechture">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Real-Time Architecture
+            </h2>
+            <div className="ml-5">
+              <p className="tracking-wide text-lg my-2">
+                FoodPlaza uses Socket.IO to provide real-time communication
+                between Customers, Admins, and Delivery Boys. Order creation,
+                delivery acceptance, order status, delivery completion, and shop
+                availability updates are synchronized instantly across the
+                platform without requiring page refreshes.
+              </p>
+              <div className="flex justify-center">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/drdu5lnsq/image/upload/v1790606699/Real_Time_Architechture_yg4ymz.png"
+                  }
+                  alt="loading.."
+                  width={1152}
+                  height={768}
+                  quality={100}
+                  priority={false}
+                  className="rounded-md shadow-2xl"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
