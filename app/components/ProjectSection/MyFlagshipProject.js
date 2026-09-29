@@ -75,7 +75,10 @@ const MyFlagshipProject = () => {
 
               <div className="flex gap-2 items-center text-lg lg:text-xl 2xl:text-xl  w-full">
                 <FaLink />
-                <Link href={"#"} className="text-amber-400">
+                <Link
+                  href={"/pages/projectall/overview/foodplazaoverview"}
+                  className="text-amber-400"
+                >
                   Visit Project...
                 </Link>
               </div>

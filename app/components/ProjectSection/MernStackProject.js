@@ -280,18 +280,24 @@ const MernStackProject = () => {
               </h2>
               <div className="mern-paragrap-foodplaza mt-5">
                 <p className="text-sm/7 tracking-wide text-white/80">
-                  This full-stack restaurant application, Food Plaza, showcases
-                  a wide variety of meal options, including breakfast, lunch,
-                  and dinner, to provide users with a complete dining
-                  experience. Developed with the MERN stack (MongoDB, Express,
-                  React, Node.js), the project features secure authentication
-                  using JWT and bcrypt for password encryption. Key
-                  functionalities include form validation, a search feature for
-                  easy menu navigation, and a loading bar for smooth user
-                  interaction. Styled with CSS for a clean, appealing interface,
-                  this project demonstrates my skills in creating interactive,
-                  user-friendly full-stack applications with an emphasis on
-                  security and performance.
+                  <strong>FoodPlaza</strong> is a full-stack restaurant-owned
+                  food delivery platform connecting{" "}
+                  <strong>Customers, Admins, and Delivery Boys.</strong>
+                  Customers can browse food, manage their cart, place orders,
+                  make payments, and track deliveries in real time. Admins can
+                  manage food items, orders, restaurant availability,
+                  cancellation requests, and delivery operations. Delivery Boys
+                  can manage assigned orders, update delivery status, and
+                  monitor their daily, weekly, and monthly earnings. The
+                  platform integrates Socket.IO, live location tracking,
+                  Razorpay, OTP verification, Google Authentication, and
+                  Cloudinary. Built with{" "}
+                  <strong>
+                    Next.js, React, Node.js, Express.js, MongoDB, and Tailwind
+                    CSS,
+                  </strong>{" "}
+                  FoodPlaza provides a complete end-to-end digital restaurant
+                  delivery experience
                 </p>
               </div>
               <div className="mt-5 ml-10 flex items-center gap-2  ">
@@ -387,18 +393,24 @@ const MernStackProject = () => {
               </h2>
               <div className="mern-paragrap-foodplaza  mt-5">
                 <p className="text-lg/8 tracking-wide text-white/80">
-                  This full-stack restaurant application, Food Plaza, showcases
-                  a wide variety of meal options, including breakfast, lunch,
-                  and dinner, to provide users with a complete dining
-                  experience. Developed with the MERN stack (MongoDB, Express,
-                  Next.js, Node.js), the project features secure authentication
-                  using JWT and bcrypt for password encryption. Key
-                  functionalities include form validation, a search feature for
-                  easy menu navigation, and a loading bar for smooth user
-                  interaction. Styled with CSS for a clean, appealing interface,
-                  this project demonstrates my skills in creating interactive,
-                  user-friendly full-stack applications with an emphasis on
-                  security and performance.
+                  <strong>FoodPlaza</strong> is a full-stack restaurant-owned
+                  food delivery platform connecting{" "}
+                  <strong>Customers, Admins, and Delivery Boys.</strong>
+                  Customers can browse food, manage their cart, place orders,
+                  make payments, and track deliveries in real time. Admins can
+                  manage food items, orders, restaurant availability,
+                  cancellation requests, and delivery operations. Delivery Boys
+                  can manage assigned orders, update delivery status, and
+                  monitor their daily, weekly, and monthly earnings. The
+                  platform integrates Socket.IO, live location tracking,
+                  Razorpay, OTP verification, Google Authentication, and
+                  Cloudinary. Built with{" "}
+                  <strong>
+                    Next.js, React, Node.js, Express.js, MongoDB, and Tailwind
+                    CSS,
+                  </strong>{" "}
+                  FoodPlaza provides a complete end-to-end digital restaurant
+                  delivery experience
                 </p>
               </div>
               <div className="mt-10 ml-10 flex gap-2 items-center ">
