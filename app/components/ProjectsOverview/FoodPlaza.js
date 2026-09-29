@@ -853,6 +853,68 @@ const FoodPlaza = () => {
               </div>
             </div>
           </div>
+          <div className="Live Delivery Tracking">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Live Delivery Tracking
+            </h2>
+            <div className="ml-5">
+              <p className="text-lg tracking-wide my-2">
+                FoodPlaza implements a real-time delivery tracking system using
+                the Browser Geolocation API, watchPosition(), MongoDB,
+                Socket.IO, Geoapify, Leaflet, and React-Leaflet. The Delivery
+                Boy's location is continuously updated and synchronized with the
+                backend, allowing customers to view the Delivery Boy's live
+                location and route on an interactive map throughout the delivery
+                process.
+              </p>
+              <div className="flex justify-center">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/drdu5lnsq/image/upload/v1790607194/Live_Tracking_ign8cx.png"
+                  }
+                  alt="loading.."
+                  width={1152}
+                  height={768}
+                  quality={100}
+                  priority={false}
+                  className="rounded-md shadow-2xl"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="Smart Delivery Assignment">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Smart Delivery Assignment
+            </h2>
+            <div className="ml-5">
+              <p className="text-lg tracking-wide my-2">
+                FoodPlaza uses a location-aware delivery assignment system to
+                efficiently identify available Delivery Boys when an order moves
+                to Out for Delivery. The system searches for Delivery Boys
+                within a 5 km range, filters out those currently handling orders
+                using a Set for O(1) membership checks, identifies available
+                riders, creates the delivery assignment, and broadcasts it in
+                real time using Socket.IO. The assignment ID is then stored with
+                the order for tracking and future reference.
+              </p>
+              <div className="flex justify-center">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/drdu5lnsq/image/upload/v1790661052/Smart_Delivery_Assignment_de7gtm.png"
+                  }
+                  alt="loading.."
+                  width={1152}
+                  height={768}
+                  priority={false}
+                  quality={100}
+                  className="rounded-md shadow-2xl"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="">
+
+          </div>
         </div>
       </div>
     </div>
