@@ -393,7 +393,7 @@ const FoodPlaza = () => {
             />
           </SwiperSlide>
         </Swiper>
-        <div className="project-documentaion my-5">
+        <div className="project-documentaion my-5 flex flex-col gap-5">
           <div className="project-description">
             <h2 className="text-2xl font-semibold text-red-500">
               What is FoodPlaza ?
@@ -912,8 +912,127 @@ const FoodPlaza = () => {
               </div>
             </div>
           </div>
-          <div className="">
-
+          <div className="Secure Delivery Verification">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Secure Delivery Verification
+            </h2>
+            <div className="ml-5">
+              <p className="text-lg tracking-wide my-2">
+                FoodPlaza uses an OTP-based delivery verification system to
+                ensure that an order is confirmed only after successful customer
+                verification. When the Delivery Boy marks an order as delivered,
+                a 6-digit OTP is generated, stored with a 5-minute expiry, and
+                sent to the customer via Nodemailer. The customer enters the
+                OTP, and after successful validation, the order is marked as
+                completed. The workflow also includes loading states,
+                validation, disabled actions, and OTP resend functionality.
+              </p>
+              <div className="flex justify-center">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/drdu5lnsq/image/upload/v1790661370/Secure_Delivery_Verfication_dhpche.png"
+                  }
+                  alt="loading.."
+                  width={1152}
+                  height={768}
+                  priority={false}
+                  quality={100}
+                  className="rounded-md shadow-2xl"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="Authentication System">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Authentication System
+            </h2>
+            <div className="ml-5">
+              <p className="text-lg tracking-wide my-2">
+                FoodPlaza implements a role-based authentication system for
+                Admins, Customers, and Delivery Boys. Users can authenticate
+                using email and password with bcrypt verification or through
+                Google Authentication using Firebase. After successful
+                authentication, the user's current location is stored for
+                location-based features. The platform also provides a password
+                recovery workflow where users receive an OTP, verify it, and set
+                a new password.
+              </p>
+              <div className="flex justify-center">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/drdu5lnsq/image/upload/v1790662131/Authentication_System_xwhlgw.png"
+                  }
+                  alt="loading.."
+                  width={1152}
+                  height={768}
+                  priority={false}
+                  quality={100}
+                  className="rounded-md shadow-2xl"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="Food Experience">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Food Experience
+            </h2>
+            <div className="ml-5">
+              <p className="text-lg tracking-wide my-2">
+                FoodPlaza provides a rich food-detail experience where customers
+                can explore food images, detailed descriptions, customer
+                reviews, and related food recommendations. A custom image
+                magnifier allows users to inspect food images closely with
+                responsive lens sizing for mobile devices. The page also
+                includes a convenient side cart for managing selected items,
+                while up to three related foods can be added directly to the
+                cart for a seamless ordering experience.
+              </p>
+              <div className="flex justify-center">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/drdu5lnsq/image/upload/v1790662520/Food_Experience_qiu4xm.png"
+                  }
+                  alt="loading.."
+                  width={1152}
+                  height={768}
+                  priority={false}
+                  quality={100}
+                  className="rounded-md shadow-2xl"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="High Performance Cart Experience">
+            <h2 className="text-2xl font-semibold text-red-500">
+              High Performance Cart Experience
+            </h2>
+            <div className="ml-5">
+              <p className="text-lg tracking-wide my-2">
+                FoodPlaza provides a dynamic cart system where users can add or
+                remove food items, increase or decrease quantities, and{" "}
+                <span className="text-red-400">
+                  see updated prices without a complete page reload
+                </span>
+                . To optimize frequent cart interactions,{" "}
+                <span className="text-red-400">debouncing</span> is used to
+                reduce repeated API calls by processing the final action after a
+                short delay. This keeps cart updates efficient while maintaining
+                a responsive side-cart and pricing experience.
+              </p>
+              <div className="flex justify-center">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/drdu5lnsq/image/upload/v1790662994/High_Performance_Cart_Experience_iqkpdp.png"
+                  }
+                  alt="loading.."
+                  width={1152}
+                  height={768}
+                  priority={false}
+                  quality={100}
+                  className="rounded-md shadow-2xl"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
