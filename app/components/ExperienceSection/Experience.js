@@ -90,7 +90,7 @@ const Experience = () => {
         <ul className="ml-2 p-3 text-white list-disc leading-5    2xl:ml-5 2xl:p-5 2xl:leading-10">
           <li className="my-3 ">
             {" "}
-            <p className="text-sm  2xl:text-xl tracking-wide">
+            <p className="text-sm  2xl:text-xl tracking-wide text-white/90">
               During my internship, I worked on the development of a{" "}
               <strong>Student Feedback System</strong>, gaining hands-on
               experience in building a complete web application from frontend
@@ -98,13 +98,13 @@ const Experience = () => {
             </p>
           </li>
           <li className="my-3">
-            <p className="text-sm text-ellipsis 2xl:text-xl">
+            <p className="text-sm text-ellipsis 2xl:text-xl text-white/90 tracking-wide">
               Directed design, writing and production of page content to fulfill
               project demands and satisfy customer needs and Reviewed.
             </p>{" "}
           </li>
           <li className="my-3">
-            <p className="text-sm 2xl:text-xl">
+            <p className="text-sm 2xl:text-xl text-white/90">
               {" "}
               <span className="text-lg font-semibold 2xl:text-2xl text-blue-500">
                 Technology Used :-{" "}
@@ -116,7 +116,7 @@ const Experience = () => {
             <p className="2xl:text-2xl font-semibold text-lg text-blue-500">
               Key Contributions :-{" "}
             </p>
-            <ul className="ml-5 list-disc text-sm 2xl:text-xl my-2 flex flex-col gap-2">
+            <ul className="ml-5 list-disc text-sm 2xl:text-xl text-white/90 tracking-wide my-2 flex flex-col gap-2">
               <li>
                 Developed the application&apos;s frontend interface using HTML
                 and CSS with a focus on clean and user-friendly inte
@@ -151,17 +151,17 @@ const Experience = () => {
               </p>
               <ul className="list-disc bg-stone-800 ml-0 mt-2 p-5 rounded-md 2xl:ml-20 2xl:p-5 2xl:mt-5">
                 <li className="my-2">
-                  <p className="text-sm 2xl:text-lg">
+                  <p className="text-sm 2xl:text-lg text-white/90">
                     {" "}
-                    <span className="text-lg font-semibold 2xl:text-xl">
+                    <span className="text-lg font-semibold 2xl:text-xl text-white">
                       UI & UX :-{" "}
                     </span>
                     Figma & Canva
                   </p>
                 </li>
                 <li className="my-2">
-                  <p className="text-sm 2xl:text-lg">
-                    <span className="text-lg font-semibold 2xl:text-xl">
+                  <p className="text-sm 2xl:text-lg text-white/90">
+                    <span className="text-lg font-semibold 2xl:text-xl text-white">
                       IDE Use :-{" "}
                     </span>
                     VS Code
