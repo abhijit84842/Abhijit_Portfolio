@@ -799,6 +799,38 @@ const FoodPlaza = () => {
               </div>
             </div>
           </div>
+          <div className="Architecture Section">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Architecture Section
+            </h2>
+            <div className="ml-5">
+              <p className="text-lg tracking-wide my-2">
+                FoodPlaza follows a full-stack architecture connecting
+                Customers, Admins, and Delivery Boys through a Next.js frontend.
+                Redux Toolkit and Redux Persist manage application state, while
+                Node.js and Express.js handle REST APIs and business logic.
+                MongoDB Atlas stores users, foods, orders, Delivery Boys,
+                reviews, and earnings. Socket.IO enables real-time order and
+                delivery communication, while external services such as
+                Razorpay, Firebase, Cloudinary, Geoapify, and Nodemailer provide
+                payments, authentication, image storage, location services, and
+                email notifications.
+              </p>
+              <div className="flex justify-center">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/drdu5lnsq/image/upload/v1790665887/Architecture_System_ckxykn.png"
+                  }
+                  alt="loading.."
+                  width={1152}
+                  height={768}
+                  priority={false}
+                  quality={100}
+                  className="rounded-md shadow-2xl"
+                />
+              </div>
+            </div>
+          </div>
           <div className="Complete Order Journey">
             <h2 className="text-2xl font-semibold text-red-500">
               Complete Order Journey
@@ -1032,6 +1064,133 @@ const FoodPlaza = () => {
                   className="rounded-md shadow-2xl"
                 />
               </div>
+            </div>
+          </div>
+          <div className="Payment System">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Payment System
+            </h2>
+            <div className="ml-5">
+              <p className="text-lg tracking-wide my-2">
+                FoodPlaza supports two payment methods: Cash on Delivery and
+                Razorpay Online Payment. During checkout, customers can select
+                their preferred payment option. COD orders proceed directly to
+                order confirmation and delivery, while Razorpay handles online
+                payment before the order is confirmed. Both workflows ultimately
+                connect to the same order-processing and delivery system.
+              </p>
+              <div className="flex justify-center">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/drdu5lnsq/image/upload/v1790664788/Payment_System_m6suto.png"
+                  }
+                  alt="loading.."
+                  width={1152}
+                  height={768}
+                  priority={false}
+                  quality={100}
+                  className="rounded-md shadow-2xl"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="Restaurant Control System">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Restaurant Control System
+            </h2>
+            <div className="ml-5">
+              <p className="text-lg tracking-wide my-2">
+                FoodPlaza provides an Admin-controlled restaurant availability
+                system that allows the restaurant to switch between Open and
+                Closed states. When open, customers can browse the menu, add
+                items, and place orders normally. When closed, the customer
+                interface displays the Shop Closed state, checkout and order
+                placement are blocked, and customers receive a notification. The
+                restaurant status is stored independently, so it remains
+                controlled by the Admin rather than depending on whether the
+                Admin is currently logged in.
+              </p>
+              <div className="flex justify-center">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/drdu5lnsq/image/upload/v1790665288/Restaurant_Controll_System_onxo27.png"
+                  }
+                  alt="loading.."
+                  width={1152}
+                  height={768}
+                  priority={false}
+                  quality={100}
+                  className="rounded-md shadow-2xl"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="Delievry Boy Analytics">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Delivery Boy Analytics
+            </h2>
+            <div className="ml-5">
+              <p className="text-lg tracking-wide my-2">
+                FoodPlaza provides a dedicated earnings analytics dashboard for
+                Delivery Boys using Chart.js. The dashboard presents Today's
+                Earnings through a bar chart, Weekly Earnings through a
+                seven-day line chart, and Monthly Earnings through a monthly bar
+                chart. It also includes summary cards for Today's Earnings and
+                Total Earnings, giving Delivery Boys a clear view of their
+                earnings and performance across different time periods.
+              </p>
+              <div className="flex justify-center">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/drdu5lnsq/image/upload/v1790665556/DeliveryBoy_Analytics_icqsgf.png"
+                  }
+                  alt="loading.."
+                  width={1152}
+                  height={768}
+                  priority={false}
+                  quality={100}
+                  className="rounded-md shadow-2xl"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="Engineering Highlights">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Engineering Highlights
+            </h2>
+            <div className="ml-5">
+              <p className="text-lg tracking-wide my-2">
+                FoodPlaza goes beyond a traditional frontend implementation by
+                combining secure authentication, real-time communication,
+                location-based services, performance optimization, and business
+                logic into a complete full-stack system. The project implements
+                role-based access control, JWT and bcrypt-based authentication,
+                persistent Redux state, Socket.IO real-time synchronization,
+                live location tracking, and a 5 km delivery assignment mechanism
+                with O(1) availability checks using Set. It also includes
+                debounced cart operations, OTP-based delivery verification with
+                expiry, Razorpay payments, Cloudinary image management,
+                MongoDB/Mongoose data handling, and responsive interfaces across
+                devices.
+              </p>
+              <ul className="list-disc text-lg my-2 ml-5">
+                <li>Role-based authentication & authorization</li>
+                <li>JWT authentication</li>
+                <li>bcrypt password verification</li>
+                <li>Redux state persistence</li>
+                <li>Real-time Socket.IO communication</li>
+                <li>Browser-based live location tracking</li>
+                <li>5 km delivery assignment logic</li>
+                <li>O(1) Delivery Boy availability lookup using Set</li>
+                <li>Debounced cart operations</li>
+                <li>OTP-based delivery verification</li>
+                <li>OTP expiry mechanism</li>
+                <li>Razorpay integration</li>
+                <li>Cloudinary image management</li>
+                <li>MongoDB/Mongoose data management</li>
+                <li>Responsive mobile and desktop UI</li>
+                <li>Real-time UI state synchronization</li>
+              </ul>
             </div>
           </div>
         </div>
