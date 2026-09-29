@@ -77,7 +77,7 @@ const Experience = () => {
         <div className="company-name">
           <p className="text-sm text-white font-semibold 2xl:text-3xl">
             Sikharthy Infotech Pvt.Ltd <span className="text-[#F61E1E]">|</span>{" "}
-            <span className="text-[#0B44FF]">Frontend Developer Intern</span>{" "}
+            <span className="text-[#0B44FF]">Web Development Intern</span>{" "}
           </p>
         </div>
         <div className="date mt-2 2xl:mt-0">
@@ -90,35 +90,65 @@ const Experience = () => {
         <ul className="ml-2 p-3 text-white list-disc leading-5    2xl:ml-5 2xl:p-5 2xl:leading-10">
           <li className="my-3 ">
             {" "}
-            <p className="text-sm  2xl:text-xl">
-              {" "}
-              I gained hands-on experience in front-end development, working on
-              multiple projects that involved creating dynamic, user-friendly
-              interfaces and also SEO friendly. My stack included React, Redux
-              Toolkit, Next.js, and Tailwind CSS, while design aspects were
-              handled using Figma and Canva. Through these projects, I honed my
-              skills in creating high-performance, scalable web applications.
+            <p className="text-sm  2xl:text-xl tracking-wide">
+              During my internship, I worked on the development of a{" "}
+              <strong>Student Feedback System</strong>, gaining hands-on
+              experience in building a complete web application from frontend
+              interface to backend processing and database management.
             </p>
           </li>
           <li className="my-3">
             <p className="text-sm text-ellipsis 2xl:text-xl">
               Directed design, writing and production of page content to fulfill
-              project demands and satisfy customer needs. Reviewed.
+              project demands and satisfy customer needs and Reviewed.
             </p>{" "}
           </li>
           <li className="my-3">
             <p className="text-sm 2xl:text-xl">
               {" "}
-              <span className="text-lg font-semibold 2xl:text-2xl">
+              <span className="text-lg font-semibold 2xl:text-2xl text-blue-500">
                 Technology Used :-{" "}
               </span>{" "}
-              React + Redux Toolkit , Next Js , HTML5, CSS3 , JavaScript,
-              Tailwind Css, BootStrap
+              HTML,CSS,PHP,MYSQL,XAMPP
             </p>
           </li>
+          <div>
+            <p className="2xl:text-2xl font-semibold text-lg text-blue-500">
+              Key Contributions :-{" "}
+            </p>
+            <ul className="ml-5 list-disc text-sm 2xl:text-xl my-2 flex flex-col gap-2">
+              <li>
+                Developed the application&apos;s frontend interface using HTML
+                and CSS with a focus on clean and user-friendly inte
+              </li>
+              <li>
+                Implemented server-side functionality using PHP to process forms
+                and manage application workflows.
+              </li>
+              <li>
+                Designed and integrated MySQL database operations for storing
+                and retrieving feedback data.
+              </li>
+              <li>
+                Built feedback submission and data-management functionality to
+                replace a manual feedback process with a structured digital
+                workflow.
+              </li>
+              <li>
+                Connected frontend forms with backend logic and database
+                operations to create an end-to-end web application.
+              </li>
+              <li>
+                Worked with XAMPP for local PHP and MySQL development, testing,
+                and debugging.
+              </li>
+            </ul>
+          </div>
           <li>
             <div className=" 2xl:flex">
-              <p className="text-lg font-semibold 2xl:text-2xl">Tools :- </p>
+              <p className="text-lg font-semibold 2xl:text-2xl text-blue-500">
+                Tools :-{" "}
+              </p>
               <ul className="list-disc bg-stone-800 ml-0 mt-2 p-5 rounded-md 2xl:ml-20 2xl:p-5 2xl:mt-5">
                 <li className="my-2">
                   <p className="text-sm 2xl:text-lg">
@@ -134,15 +164,7 @@ const Experience = () => {
                     <span className="text-lg font-semibold 2xl:text-xl">
                       IDE Use :-{" "}
                     </span>
-                    VS Code , stackBlitz
-                  </p>
-                </li>
-                <li className="my-2">
-                  <p className="text-sm 2xl:text-lg">
-                    <span className="text-lg font-semibold 2xl:text-xl">
-                      For Debugging :-{" "}
-                    </span>
-                    React Developer Tool , GitHub Copilot etc .
+                    VS Code
                   </p>
                 </li>
               </ul>
