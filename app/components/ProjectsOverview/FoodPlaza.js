@@ -17,6 +17,11 @@ import styles from "./Projectoverview.module.css";
 import { FreeMode, Navigation, Thumbs, Autoplay } from "swiper/modules";
 import Link from "next/link";
 
+// import icons
+import { FaUserTie } from "react-icons/fa6";
+import { RiAdminFill } from "react-icons/ri";
+import { TbTruckDelivery } from "react-icons/tb";
+
 const FoodPlaza = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
@@ -401,21 +406,22 @@ const FoodPlaza = () => {
             <p className="tracking-wide my-2 ml-5 text-lg">
               <strong className="text-red-400">**FoodPlaza**</strong> is a
               full-stack restaurant-owned food delivery platform built with
-              **Next.js, Node.js, Express, and MongoDB**. It connects Customers,
-              Admins, and Delivery Boys through dedicated role-based workflows.
-              Customers can browse food, manage carts, place orders using{" "}
+              <strong>**Next.js, Node.js, Express, and MongoDB**</strong>. It
+              connects <strong>Customers, Admins, and Delivery Boys</strong>{" "}
+              through dedicated role-based workflows. Customers can browse food,
+              manage carts, place orders using{" "}
               <strong className="text-red-400">
                 **Razorpay or Cash on Delivery**
               </strong>
               , track deliveries in real time, and submit reviews. The platform
               features
               <strong className="text-red-400">**Socket.IO</strong> real-time
-              updates, live location tracking, 5 km delivery assignment,
-              OTP-based delivery verification, Google authentication, Cloudinary
-              image management, and delivery earnings analytics**. The Admin
-              Panel provides complete restaurant and order management, while the
-              Delivery Boy Panel handles assignments, completed orders, and
-              earnings.
+              updates, live location tracking,{" "}
+              <strong>5 km delivery assignment</strong>, OTP-based delivery
+              verification, Google authentication, Cloudinary image management,
+              and delivery earnings analytics**. The Admin Panel provides
+              complete restaurant and order management, while the Delivery Boy
+              Panel handles assignments, completed orders, and earnings.
             </p>
           </div>
           <div className="technology-stack">
@@ -716,9 +722,13 @@ const FoodPlaza = () => {
             </h2>
             <div className="ml-5 my-2 flex flex-col gap-5">
               <div className="customer">
-                <h2 className="text-xl font-semibold text-blue-400">
-                  Customer
-                </h2>
+                <div className="flex items-center gap-2">
+                  <FaUserTie size={20} color="yellow" />
+                  <h2 className="text-xl font-semibold text-blue-400">
+                    Customer
+                  </h2>
+                </div>
+
                 <div className="ml-5">
                   <h3 className="my-2  text-lg font-semibold text-white/80">
                     Customers Can :
@@ -748,13 +758,18 @@ const FoodPlaza = () => {
                 </div>
               </div>
               <div className="customer">
-                <h2 className="text-xl font-semibold text-blue-400">
-                  Restaurant Admin
-                </h2>
+                <div className="flex items-center gap-2">
+                  <RiAdminFill size={20} color="red" />
+                  <h2 className="text-xl font-semibold text-blue-400">
+                    Restaurant Admin
+                  </h2>
+                </div>
+
                 <div className="ml-5">
                   <h3 className="my-2  text-lg font-semibold text-white/80">
                     Admin Can :
                   </h3>
+
                   <ul className="list-disc ml-5 text-lg  flex flex-col gap-2 ">
                     <li>Control restaurant open/closed status</li>
                     <li>Manage profile</li>
@@ -776,9 +791,13 @@ const FoodPlaza = () => {
                 </div>
               </div>
               <div className="customer">
-                <h2 className="text-xl font-semibold text-blue-400">
-                  Delivery Boy
-                </h2>
+                <div className="flex items-center gap-2">
+                  <TbTruckDelivery size={20} color="orange" />
+                  <h2 className="text-xl font-semibold text-blue-400">
+                    Delivery Boy
+                  </h2>
+                </div>
+
                 <div className="ml-5">
                   <h3 className="my-2  text-lg font-semibold text-white/80">
                     Delivery Boys Can :
@@ -812,14 +831,16 @@ const FoodPlaza = () => {
               <p className="text-lg tracking-wide my-2">
                 FoodPlaza follows a full-stack architecture connecting
                 Customers, Admins, and Delivery Boys through a Next.js frontend.
-                Redux Toolkit and Redux Persist manage application state, while
-                Node.js and Express.js handle REST APIs and business logic.
-                MongoDB Atlas stores users, foods, orders, Delivery Boys,
-                reviews, and earnings. Socket.IO enables real-time order and
-                delivery communication, while external services such as
-                Razorpay, Firebase, Cloudinary, Geoapify, and Nodemailer provide
-                payments, authentication, image storage, location services, and
-                email notifications.
+                <strong className="text-red-400">
+                  Redux Toolkit and Redux Persist
+                </strong>{" "}
+                manage application state, while Node.js and Express.js handle
+                REST APIs and business logic. MongoDB Atlas stores users, foods,
+                orders, Delivery Boys, reviews, and earnings. Socket.IO enables
+                real-time order and delivery communication, while external
+                services such as Razorpay, Firebase, Cloudinary, Geoapify, and
+                Nodemailer provide payments, authentication, image storage,
+                location services, and email notifications.
               </p>
               <div className="flex justify-center">
                 <Image
@@ -844,9 +865,12 @@ const FoodPlaza = () => {
               <p className="tracking-wide text-lg my-2">
                 The complete FoodPlaza order workflow integrates cart
                 management, payment processing, real-time Socket.IO
-                communication, location-based delivery assignment, live map
-                tracking, and OTP-based delivery verification. Each role
-                receives real-time updates throughout the order lifecycle.
+                communication, location-based delivery assignment,{" "}
+                <strong className="text-red-400">
+                  live map tracking, and OTP-based delivery verification
+                </strong>
+                . Each role receives real-time updates throughout the order
+                lifecycle.
               </p>
               <div className="flex justify-center">
                 <Image
@@ -897,12 +921,13 @@ const FoodPlaza = () => {
             <div className="ml-5">
               <p className="text-lg tracking-wide my-2">
                 FoodPlaza implements a real-time delivery tracking system using
-                the Browser Geolocation API, watchPosition(), MongoDB,
-                Socket.IO, Geoapify, Leaflet, and React-Leaflet. The Delivery
-                Boy&apos;s location is continuously updated and synchronized
-                with the backend, allowing customers to view the Delivery
-                Boy&apos;s live location and route on an interactive map
-                throughout the delivery process.
+                the Browser Geolocation API,{" "}
+                <strong className="text-red-400">watchPosition()</strong>,
+                MongoDB, Socket.IO, Geoapify, Leaflet, and React-Leaflet. The
+                Delivery Boy&apos;s location is continuously updated and
+                synchronized with the backend, allowing customers to view the
+                Delivery Boy&apos;s live location and route on an interactive
+                map throughout the delivery process.
               </p>
               <div className="flex justify-center">
                 <Image
@@ -928,11 +953,13 @@ const FoodPlaza = () => {
                 FoodPlaza uses a location-aware delivery assignment system to
                 efficiently identify available Delivery Boys when an order moves
                 to Out for Delivery. The system searches for Delivery Boys
-                within a 5 km range, filters out those currently handling orders
-                using a Set for O(1) membership checks, identifies available
-                riders, creates the delivery assignment, and broadcasts it in
-                real time using Socket.IO. The assignment ID is then stored with
-                the order for tracking and future reference.
+                within a <strong>5 km range</strong>, filters out those
+                currently handling orders using a{" "}
+                <strong className="text-red-400">Set for O(1)</strong>{" "}
+                membership checks, identifies available riders, creates the
+                delivery assignment, and broadcasts it in real time using
+                Socket.IO. The assignment ID is then stored with the order for
+                tracking and future reference.
               </p>
               <div className="flex justify-center">
                 <Image
@@ -957,8 +984,10 @@ const FoodPlaza = () => {
               <p className="text-lg tracking-wide my-2">
                 FoodPlaza uses an OTP-based delivery verification system to
                 ensure that an order is confirmed only after successful customer
-                verification. When the Delivery Boy marks an order as delivered,
-                a 6-digit OTP is generated, stored with a 5-minute expiry, and
+                verification. When the Delivery Boy{" "}
+                <strong>marks an order as delivered</strong>, a 6-digit OTP is
+                generated, stored with a{" "}
+                <strong className="text-red-400">5-minute expiry</strong>, and
                 sent to the customer via Nodemailer. The customer enters the
                 OTP, and after successful validation, the order is marked as
                 completed. The workflow also includes loading states,
@@ -986,13 +1015,14 @@ const FoodPlaza = () => {
             <div className="ml-5">
               <p className="text-lg tracking-wide my-2">
                 FoodPlaza implements a role-based authentication system for
-                Admins, Customers, and Delivery Boys. Users can authenticate
-                using email and password with bcrypt verification or through
-                Google Authentication using Firebase. After successful
-                authentication, the user&apos;s current location is stored for
-                location-based features. The platform also provides a password
-                recovery workflow where users receive an OTP, verify it, and set
-                a new password.
+                <strong>Admins, Customers, and Delivery Boys</strong>. Users can
+                authenticate using email and password with{" "}
+                <strong>bcrypt</strong> verification or through
+                <strong>Google Authentication using Firebase</strong>. After
+                successful authentication, the user&apos;s current{" "}
+                <strong>location is stored for location-based features</strong>.
+                The platform also provides a password recovery workflow where
+                users receive an OTP, verify it, and set a new password.
               </p>
               <div className="flex justify-center">
                 <Image
@@ -1017,12 +1047,13 @@ const FoodPlaza = () => {
               <p className="text-lg tracking-wide my-2">
                 FoodPlaza provides a rich food-detail experience where customers
                 can explore food images, detailed descriptions, customer
-                reviews, and related food recommendations. A custom image
-                magnifier allows users to inspect food images closely with
-                responsive lens sizing for mobile devices. The page also
-                includes a convenient side cart for managing selected items,
-                while up to three related foods can be added directly to the
-                cart for a seamless ordering experience.
+                reviews, and <strong>related food recommendations</strong>. A
+                custom <strong className="text-red-400">image magnifier</strong>{" "}
+                allows users to inspect food images closely with responsive lens
+                sizing for mobile devices. The page also includes a convenient
+                side cart for managing selected items, while up to three related
+                foods can be added directly to the cart for a seamless ordering
+                experience.
               </p>
               <div className="flex justify-center">
                 <Image
@@ -1047,11 +1078,11 @@ const FoodPlaza = () => {
               <p className="text-lg tracking-wide my-2">
                 FoodPlaza provides a dynamic cart system where users can add or
                 remove food items, increase or decrease quantities, and{" "}
-                <span className="text-red-400">
+                <strong>
                   see updated prices without a complete page reload
-                </span>
+                </strong>
                 . To optimize frequent cart interactions,{" "}
-                <span className="text-red-400">debouncing</span> is used to
+                <strong className="text-red-400">debouncing</strong> is used to
                 reduce repeated API calls by processing the final action after a
                 short delay. This keeps cart updates efficient while maintaining
                 a responsive side-cart and pricing experience.
@@ -1077,12 +1108,13 @@ const FoodPlaza = () => {
             </h2>
             <div className="ml-5">
               <p className="text-lg tracking-wide my-2">
-                FoodPlaza supports two payment methods: Cash on Delivery and
-                Razorpay Online Payment. During checkout, customers can select
-                their preferred payment option. COD orders proceed directly to
-                order confirmation and delivery, while Razorpay handles online
-                payment before the order is confirmed. Both workflows ultimately
-                connect to the same order-processing and delivery system.
+                FoodPlaza supports two payment methods:{" "}
+                <strong>Cash on Delivery and Razorpay Online Payment</strong>.
+                During checkout, customers can select their preferred payment
+                option. COD orders proceed directly to order confirmation and
+                delivery, while Razorpay handles online payment before the order
+                is confirmed. Both workflows ultimately connect to the same
+                order-processing and delivery system.
               </p>
               <div className="flex justify-center">
                 <Image
@@ -1106,14 +1138,15 @@ const FoodPlaza = () => {
             <div className="ml-5">
               <p className="text-lg tracking-wide my-2">
                 FoodPlaza provides an Admin-controlled restaurant availability
-                system that allows the restaurant to switch between Open and
-                Closed states. When open, customers can browse the menu, add
-                items, and place orders normally. When closed, the customer
-                interface displays the Shop Closed state, checkout and order
-                placement are blocked, and customers receive a notification. The
-                restaurant status is stored independently, so it remains
-                controlled by the Admin rather than depending on whether the
-                Admin is currently logged in.
+                system that allows the restaurant to switch between{" "}
+                <strong className="text-red-400">Open and Closed states</strong>
+                . When open, customers can browse the menu, add items, and place
+                orders normally. When closed, the customer interface{" "}
+                <strong>displays the Shop Closed state</strong>, checkout and
+                order placement are <strong>blocked</strong>, and customers
+                receive a notification. The restaurant status is stored
+                independently, so it remains controlled by the Admin rather than
+                depending on whether the Admin is currently logged in.
               </p>
               <div className="flex justify-center">
                 <Image
@@ -1137,13 +1170,15 @@ const FoodPlaza = () => {
             <div className="ml-5">
               <p className="text-lg tracking-wide my-2">
                 FoodPlaza provides a dedicated earnings analytics dashboard for
-                Delivery Boys using Chart.js. The dashboard presents
-                Today&apos;s Earnings through a bar chart, Weekly Earnings
-                through a seven-day line chart, and Monthly Earnings through a
-                monthly bar chart. It also includes summary cards for
-                Today&apos;s Earnings and Total Earnings, giving Delivery Boys a
-                clear view of their earnings and performance across different
-                time periods.
+                Delivery Boys using{" "}
+                <strong className="text-red-400">Chart.js</strong>. The
+                dashboard presents Today&apos;s Earnings through a{" "}
+                <strong>bar chart</strong>, Weekly Earnings through a{" "}
+                <strong>seven-day line chart</strong>, and Monthly Earnings
+                through a monthly <strong>bar chart</strong>. It also includes
+                summary cards for Today&apos;s Earnings and Total Earnings,
+                giving Delivery Boys a clear view of their earnings and
+                performance across different time periods.
               </p>
               <div className="flex justify-center">
                 <Image
