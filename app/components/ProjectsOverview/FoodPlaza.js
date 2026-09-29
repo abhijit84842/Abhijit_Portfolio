@@ -399,18 +399,23 @@ const FoodPlaza = () => {
               What is FoodPlaza ?
             </h2>
             <p className="tracking-wide my-2 ml-5 text-lg">
-              **FoodPlaza** is a full-stack restaurant-owned food delivery
-              platform built with **Next.js, Node.js, Express, and MongoDB**. It
-              connects Customers, Admins, and Delivery Boys through dedicated
-              role-based workflows. Customers can browse food, manage carts,
-              place orders using **Razorpay or Cash on Delivery**, track
-              deliveries in real time, and submit reviews. The platform features
-              **Socket.IO real-time updates, live location tracking, 5 km
-              delivery assignment, OTP-based delivery verification, Google
-              authentication, Cloudinary image management, and delivery earnings
-              analytics**. The Admin Panel provides complete restaurant and
-              order management, while the Delivery Boy Panel handles
-              assignments, completed orders, and earnings.
+              <strong className="text-red-400">**FoodPlaza**</strong> is a
+              full-stack restaurant-owned food delivery platform built with
+              **Next.js, Node.js, Express, and MongoDB**. It connects Customers,
+              Admins, and Delivery Boys through dedicated role-based workflows.
+              Customers can browse food, manage carts, place orders using{" "}
+              <strong className="text-red-400">
+                **Razorpay or Cash on Delivery**
+              </strong>
+              , track deliveries in real time, and submit reviews. The platform
+              features
+              <strong className="text-red-400">**Socket.IO</strong> real-time
+              updates, live location tracking, 5 km delivery assignment,
+              OTP-based delivery verification, Google authentication, Cloudinary
+              image management, and delivery earnings analytics**. The Admin
+              Panel provides complete restaurant and order management, while the
+              Delivery Boy Panel handles assignments, completed orders, and
+              earnings.
             </p>
           </div>
           <div className="technology-stack">
@@ -605,7 +610,7 @@ const FoodPlaza = () => {
                     <span className="font-semibold">• Tailwind CSS - </span>
                     <span className="font-normal">
                       Used for responsive styling and designing the
-                      application's mobile, desktop, and large-screen
+                      application&apos;s mobile, desktop, and large-screen
                       interfaces.
                     </span>
                   </li>
@@ -894,10 +899,10 @@ const FoodPlaza = () => {
                 FoodPlaza implements a real-time delivery tracking system using
                 the Browser Geolocation API, watchPosition(), MongoDB,
                 Socket.IO, Geoapify, Leaflet, and React-Leaflet. The Delivery
-                Boy's location is continuously updated and synchronized with the
-                backend, allowing customers to view the Delivery Boy's live
-                location and route on an interactive map throughout the delivery
-                process.
+                Boy&apos;s location is continuously updated and synchronized
+                with the backend, allowing customers to view the Delivery
+                Boy&apos;s live location and route on an interactive map
+                throughout the delivery process.
               </p>
               <div className="flex justify-center">
                 <Image
@@ -984,7 +989,7 @@ const FoodPlaza = () => {
                 Admins, Customers, and Delivery Boys. Users can authenticate
                 using email and password with bcrypt verification or through
                 Google Authentication using Firebase. After successful
-                authentication, the user's current location is stored for
+                authentication, the user&apos;s current location is stored for
                 location-based features. The platform also provides a password
                 recovery workflow where users receive an OTP, verify it, and set
                 a new password.
@@ -1132,12 +1137,13 @@ const FoodPlaza = () => {
             <div className="ml-5">
               <p className="text-lg tracking-wide my-2">
                 FoodPlaza provides a dedicated earnings analytics dashboard for
-                Delivery Boys using Chart.js. The dashboard presents Today's
-                Earnings through a bar chart, Weekly Earnings through a
-                seven-day line chart, and Monthly Earnings through a monthly bar
-                chart. It also includes summary cards for Today's Earnings and
-                Total Earnings, giving Delivery Boys a clear view of their
-                earnings and performance across different time periods.
+                Delivery Boys using Chart.js. The dashboard presents
+                Today&apos;s Earnings through a bar chart, Weekly Earnings
+                through a seven-day line chart, and Monthly Earnings through a
+                monthly bar chart. It also includes summary cards for
+                Today&apos;s Earnings and Total Earnings, giving Delivery Boys a
+                clear view of their earnings and performance across different
+                time periods.
               </p>
               <div className="flex justify-center">
                 <Image
@@ -1191,6 +1197,34 @@ const FoodPlaza = () => {
                 <li>Responsive mobile and desktop UI</li>
                 <li>Real-time UI state synchronization</li>
               </ul>
+            </div>
+          </div>
+          <div className="Github Link">
+            <h2 className="text-2xl font-semibold text-red-500">Github Link</h2>
+            <div className="ml-5 my-2">
+              <Link
+                href={
+                  "https://github.com/abhijit84842/Web_Development_Projects_2024/tree/master/MERN%20Stack%20Project/foodplaza_using_next_js"
+                }
+                target="_blank"
+                className="text-blue-500"
+              >
+                See Project on GitHub
+              </Link>
+            </div>
+          </div>
+          <div className="Project Documentation">
+            <h2 className="text-2xl font-semibold text-red-500">
+              Project Documentaion
+            </h2>
+            <div className="ml-5 my-2">
+              <Link
+                href={"/Project Documentaion/FoodPlaza/FoodPlaza Doc.pdf"}
+                target="_blank"
+                className="text-blue-500"
+              >
+                See Project Documentation
+              </Link>
             </div>
           </div>
         </div>
